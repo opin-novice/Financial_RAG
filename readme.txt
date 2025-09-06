@@ -29,6 +29,8 @@ pip install datasets
 pip install ragas
 
 ocr data sanitization
+pip install pypdfium2
+pip install pdfplumber bangla-pdf-ocr
 
 install tesseract ocr
  https://github.com/UB-Mannheim/tesseract/wiki
@@ -47,3 +49,14 @@ pip install pymupdf pillow numpy
 
 pip install huggingface_hub
 huggingface-cli login
+
+groq shift
+pip install groq
+pip install langchain-groq
+
+semantic chunking
+
+pip install sentence-transformers nltk scikit-learn
+pip install FlagEmbedding
+
+run setup_nltk.py before docadd.py

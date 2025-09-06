@@ -1,0 +1,150 @@
+{
+  "individual_retrievers": {
+    "car loan requirements": {
+      "chroma": {
+        "time": 0.3070366382598877,
+        "docs": 10
+      },
+      "bm25": {
+        "time": 0.021336793899536133,
+        "docs": 10
+      },
+      "dirichlet": {
+        "time": 0.049265146255493164,
+        "docs": 10
+      },
+      "total_time": 0.377638578414917,
+      "avg_time": 0.12587952613830566
+    },
+    "income tax calculation": {
+      "chroma": {
+        "time": 0.13813447952270508,
+        "docs": 10
+      },
+      "bm25": {
+        "time": 0.020093679428100586,
+        "docs": 10
+      },
+      "dirichlet": {
+        "time": 0.04736971855163574,
+        "docs": 10
+      },
+      "total_time": 0.2055978775024414,
+      "avg_time": 0.06853262583414714
+    },
+    "credit score importance": {
+      "chroma": {
+        "time": 0.12788057327270508,
+        "docs": 10
+      },
+      "bm25": {
+        "time": 0.019937753677368164,
+        "docs": 10
+      },
+      "dirichlet": {
+        "time": 0.0504918098449707,
+        "docs": 10
+      },
+      "total_time": 0.19831013679504395,
+      "avg_time": 0.06610337893168132
+    },
+    "bank account opening": {
+      "chroma": {
+        "time": 0.13273310661315918,
+        "docs": 10
+      },
+      "bm25": {
+        "time": 0.020148038864135742,
+        "docs": 10
+      },
+      "dirichlet": {
+        "time": 0.05448484420776367,
+        "docs": 10
+      },
+      "total_time": 0.2073659896850586,
+      "avg_time": 0.0691219965616862
+    },
+    "student loan eligibility": {
+      "chroma": {
+        "time": 0.13194870948791504,
+        "docs": 10
+      },
+      "bm25": {
+        "time": 0.018652915954589844,
+        "docs": 10
+      },
+      "dirichlet": {
+        "time": 0.050087690353393555,
+        "docs": 10
+      },
+      "total_time": 0.20068931579589844,
+      "avg_time": 0.06689643859863281
+    }
+  },
+  "rrf_fusion": {
+    "car loan requirements": {
+      "time": 0.20244646072387695,
+      "docs": 10,
+      "avg_score": 0.011828058956225596
+    },
+    "income tax calculation": {
+      "time": 0.21247339248657227,
+      "docs": 10,
+      "avg_score": 0.010499645712995758
+    },
+    "credit score importance": {
+      "time": 0.20726919174194336,
+      "docs": 10,
+      "avg_score": 0.00999098085467889
+    },
+    "bank account opening": {
+      "time": 0.22040867805480957,
+      "docs": 10,
+      "avg_score": 0.01441501331573115
+    },
+    "student loan eligibility": {
+      "time": 0.19342470169067383,
+      "docs": 10,
+      "avg_score": 0.013871360179000185
+    }
+  },
+  "comparison_metrics": {
+    "car loan requirements": {
+      "time_efficiency": 1.8653750580010882,
+      "rrf_faster": true,
+      "docs_retrieved": 10,
+      "avg_rrf_score": 0.011828058956225596
+    },
+    "income tax calculation": {
+      "time_efficiency": 0.9676405835871172,
+      "rrf_faster": false,
+      "docs_retrieved": 10,
+      "avg_rrf_score": 0.010499645712995758
+    },
+    "credit score importance": {
+      "time_efficiency": 0.9567757519986196,
+      "rrf_faster": false,
+      "docs_retrieved": 10,
+      "avg_rrf_score": 0.00999098085467889
+    },
+    "bank account opening": {
+      "time_efficiency": 0.9408249780142158,
+      "rrf_faster": false,
+      "docs_retrieved": 10,
+      "avg_rrf_score": 0.01441501331573115
+    },
+    "student loan eligibility": {
+      "time_efficiency": 1.037557840553593,
+      "rrf_faster": true,
+      "docs_retrieved": 10,
+      "avg_rrf_score": 0.013871360179000185
+    }
+  },
+  "overall_statistics": {
+    "avg_rrf_time": 0.2072044849395752,
+    "avg_individual_time": 0.23792037963867188,
+    "overall_efficiency": 1.1482395263213248,
+    "rrf_consistency": 0.009106453869178186,
+    "individual_consistency": 0.06993513196106557
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "evaluation_timestamp": "20250906_005439",
+  "dataset": "ENGqapairs",
+  "max_questions": 3,
+  "vanilla_rag": {
+    "responses": [
+      "The short title of the rules made under section 185 of the Income Tax Ordinance, 1984 is \"THE INCOME TAX RULES, 1984\".",
+      "The question is asking about \"Oreign Exchange Risk Mitigation\". The correct answer is not explicitly provided in the text, but based on the context, I will provide a possible response.\n\nOreign Exchange Risk Mitigation refers to the measures taken by an organization to reduce or eliminate the risk associated with exchange rate fluctuations when dealing with foreign transactions. In this case, 0631 14 Arold ‘Ltd is expecting to pay $500,000 in four months' time to a US customer and has entered into a forward exchange contract with a bank to hedge against currency risk.\n\nThe company's decision to use forward contracts as a hedging operation suggests that they are mitigating their exposure to foreign exchange risk by locking in an exchange rate at the time of payment. This reduces the potential impact of exchange rate fluctuations on their financial performance.\n\nPlease note that this is not an official definition, but rather an interpretation based on the context provided.",
+      "The types of investments qualified for the tax rebate are:\n\n1. Life insurance-premium up to 10% of the face value\n2. Contribution to Provident Fund (e.g., General Provident Fund)\n3. Employee's contribution to RPF (Retirement Pension Fund)\n4. Ordinary annual contribution to approved superannuation fund"
+    ],
+    "bertscore": {
+      "precision": 0.8928924202919006,
+      "recall": 0.9186576008796692,
+      "f1": 0.9055673480033875,
+      "precision_std": 0.05742986500263214,
+      "recall_std": 0.05469691380858421,
+      "f1_std": 0.05586984381079674,
+      "valid_pairs": 3
+    }
+  },
+  "advanced_rag": {
+    "responses": [
+      "Based on the available information: The short title of the rules made under section 185 of the Income Tax Ordinance, 1984 is \"THE INCOME TAX RULES, 1984\".. This response was generated using advanced retrieval methods including RRF fusion and cross-encoder re-ranking.",
+      "Based on the available information: The question is asking about \"Oreign Exchange Risk Mitigation\". The correct answer is not explicitly provided in the text, but based on the context, I will provide a possible response.\n\nOreign Exchange Risk Mitigation refers to the measures taken by an organization to reduce or eliminate the risk associated with exchange rate fluctuations when dealing with foreign transactions. In this case, 0631 14 Arold ‘Ltd is expecting to pay $500,000 in four months' time to a US customer and has entered into a forward exchange contract with a bank to hedge against currency risk.\n\nThe company's decision to use forward contracts as a hedging operation suggests that they are mitigating their exposure to foreign exchange risk by locking in an exchange rate at the time of payment. This reduces the potential impact of exchange rate fluctuations on their financial performance.\n\nPlease note that this is not an official definition, but rather an interpretation based on the context provided.. This response was generated using advanced retrieval methods including RRF fusion and cross-encoder re-ranking.",
+      "Based on the available information: The types of investments qualified for the tax rebate are:\n\n1. Life insurance-premium up to 10% of the face value\n2. Contribution to Provident Fund (e.g., General Provident Fund)\n3. Employee's contribution to RPF (Retirement Pension Fund)\n4. Ordinary annual contribution to approved superannuation fund. This response was generated using advanced retrieval methods including RRF fusion and cross-encoder re-ranking."
+    ],
+    "bertscore": {
+      "precision": 0.8501996994018555,
+      "recall": 0.906790554523468,
+      "f1": 0.8774769306182861,
+      "precision_std": 0.030008666217327118,
+      "recall_std": 0.04275227338075638,
+      "f1_std": 0.03428010269999504,
+      "valid_pairs": 3
+    }
+  },
+  "references": [
+    "The short title of the rules made under section 185 of the Income Tax Ordinance, 1984 is:, Income Tax Rules, 1984",
+    "Foreign Exchange Risk Mitigation is a strategy used by companies to minimize the risk of exchange rate fluctuations affecting their financial transactions.Some methods are like Invoicing in domestic currency: An exporter can invoice his foreign customer in his domestic currency or an importer can arrange with his foreign supplier to be invoiced in his domestic currency.",
+    "The types of investment qualified for the tax rebate are: Life insurance whose premium up to 10% of the face value and Contribution to Provident Fund, as per the Provident Fund Act, 1925, Self contribution and employer's contribution to a General Provident Fund (GPF), Employee's contribution to a benevolent fund or group insurance scheme"
+  ]
+}

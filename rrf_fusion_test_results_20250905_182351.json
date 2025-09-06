@@ -1,0 +1,160 @@
+{
+  "configuration": {
+    "status": "PASSED",
+    "rrf_k": 50,
+    "rrf_weights": {
+      "chroma": 0.45,
+      "bm25": 0.35,
+      "multilingual_e5": 0.0,
+      "dirichlet": 0.2
+    },
+    "total_weight": 1.0,
+    "max_docs": 50
+  },
+  "individual_retrievers": {
+    "chroma": {
+      "status": "PASSED",
+      "results_count": 5,
+      "sample_results": [
+        [
+          7421,
+          0.4049256443977356
+        ],
+        [
+          7422,
+          0.26800060272216797
+        ],
+        [
+          7426,
+          0.2674853205680847
+        ]
+      ]
+    },
+    "bm25": {
+      "status": "PASSED",
+      "results_count": 5,
+      "sample_results": [
+        [
+          14023,
+          10.330099480490071
+        ],
+        [
+          7426,
+          10.047713135577924
+        ],
+        [
+          3222,
+          9.330402785559219
+        ]
+      ]
+    },
+    "dirichlet": {
+      "status": "PASSED",
+      "results_count": 5,
+      "sample_results": [
+        [
+          14023,
+          -21.48327125983908
+        ],
+        [
+          7425,
+          -21.845985245550015
+        ],
+        [
+          15527,
+          -21.965581795422615
+        ]
+      ]
+    },
+    "multilingual_e5": {
+      "status": "SKIPPED",
+      "results_count": 0,
+      "sample_results": []
+    }
+  },
+  "rrf_calculation": {
+    "status": "PASSED",
+    "input_retrievers": [
+      "chroma",
+      "bm25",
+      "dirichlet"
+    ],
+    "output_documents": 4,
+    "top_results": [
+      [
+        1,
+        0.019400452488687783
+      ],
+      [
+        2,
+        0.019290176157545746
+      ],
+      [
+        3,
+        0.01889361614666831
+      ],
+      [
+        4,
+        0.0186408106219427
+      ]
+    ]
+  },
+  "rrf_fusion_search": {
+    "status": "PASSED",
+    "query": "car loan requirements",
+    "documents_found": 10,
+    "search_time": 0.20670056343078613,
+    "top_document_score": 0.018447141720117983,
+    "top_document_source": "carloanrequirements_1.txt"
+  },
+  "end_to_end_rag": {
+    "status": "PASSED",
+    "query": "What are the requirements for car loan?",
+    "response_length": 430,
+    "processing_time": 26.39594078063965,
+    "sources_count": 10,
+    "detected_language": "english",
+    "retrieval_method": "rrf_fusion",
+    "response_preview": "Here is the answer:\n\nTo apply for a car loan, you need to provide the following documents:\n\n**For Salaried Executives:**\n\n\u2022 Salary certificate/Letter of Introduction (LOI)/Pay slip signed by the compe..."
+  },
+  "multiple_queries": {
+    "status": "PASSED",
+    "total_queries": 5,
+    "successful_queries": 5,
+    "success_rate": 1.0,
+    "avg_documents": 50.0,
+    "avg_search_time": 0.3010222911834717,
+    "query_results": {
+      "What are the requirements for car loan?": {
+        "status": "PASSED",
+        "documents_found": 50,
+        "search_time": 0.3492755889892578,
+        "avg_rrf_score": 0.007735188487647128
+      },
+      "How to calculate income tax?": {
+        "status": "PASSED",
+        "documents_found": 50,
+        "search_time": 0.37419748306274414,
+        "avg_rrf_score": 0.00887904343918117
+      },
+      "What is credit score?": {
+        "status": "PASSED",
+        "documents_found": 50,
+        "search_time": 0.24332523345947266,
+        "avg_rrf_score": 0.00808368499622603
+      },
+      "Bank opening guidelines": {
+        "status": "PASSED",
+        "documents_found": 50,
+        "search_time": 0.24806952476501465,
+        "avg_rrf_score": 0.009828591160250965
+      },
+      "Student loan eligibility criteria": {
+        "status": "PASSED",
+        "documents_found": 50,
+        "search_time": 0.29024362564086914,
+        "avg_rrf_score": 0.009134277975926482
+      }
+    }
+  }
+}

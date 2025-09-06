@@ -1,0 +1,521 @@
+id,question,response,detected_language,language_confidence,retrieval_method,documents_found,documents_used,cross_encoder_used,processing_time
+1,"What is the short title of the rules made under section 185 of the Income Tax Ordinance, 1984?","The short title of the rules made under section 185 of the Income Tax Ordinance, 1984 is:
+
+• Income Tax Rules, 1984",english,0.95,rrf_fusion,30,2,True,13.61
+2,What is oreign Exchange Risk Mitigation?,"Foreign Exchange Risk Mitigation is a strategy used by companies to minimize the risk of exchange rate fluctuations affecting their financial transactions. Here are some methods of mitigating foreign exchange risk:
+
+• Invoicing in domestic currency: An exporter can invoice his foreign customer in his domestic currency, or an importer can arrange with his foreign supplier to be invoiced in his domestic currency.",english,0.95,rrf_fusion,30,2,True,1.64
+3,What are the types of investment qualified for the tax rebate?,"The types of investment qualified for the tax rebate are:
+
+• e Life insurance-premium up to 10% of the face value
+• Contribution to Provident Fund, as per the Provident Fund Act, 1925
+• Self contribution and employer's contribution to a General Provident Fund (GPF)
+• Employee's contribution to a benevolent fund or group insurance scheme",english,0.95,rrf_fusion,30,4,True,1.3
+4,What are the standard rate of the VAT ?,"The standard VAT rates mentioned in the context are:
+
+• 1% on turnover up to Taka 5,00,00,000
+• 0.5% on turnover Taka 2,50,00,000
+• 30% on interest income
+• 20% on dividend income
+• 15% on capital gain
+• 27.5% on avail (not fulfilled)
+• 0.60% on alternative minimum tax on gross receipts",english,0.95,rrf_fusion,30,1,True,1.38
+5,What is VAT Assessment?,"VAT Assessment is the process of determining the value of goods and services for Value Added Tax (VAT) purposes. Here are the key aspects of VAT Assessment:
+
+• **Valuation**: Determining the value of goods and services for VAT purposes.
+• **Preparation of value Declaration**: Preparing the value declaration form for major industries, manufacturers, commercial traders, and service renderers.
+• **Use of Fair Market Price**: Using the fair market price for value determination.",english,0.95,rrf_fusion,30,2,True,2.46
+6,Who are the Income Tax Authorities?,"The Income Tax Authorities in Bangladesh are:
+
+• The National Board of Revenue
+• Chief Commissioner of Taxes
+• Directors-General of Inspection (Taxes)
+• Commissioner of Taxes (Appeals)
+• Commissioner of Taxes (Large Taxpayer Unit)
+• Director General (Training)
+• Director General, Central Intelligence Cell
+• Commissioners of Taxes
+• Additional Commissioners of Taxes (Appeal/Inspecting)
+• Joint Commissioners of Taxes (Appeal/Inspecting)
+• Deputy Commissioners of Taxes
+• Tax Recovery Officers",english,0.95,rrf_fusion,30,1,True,1.79
+7,What does financial strategy concern in the strategic planning process?,"Financial strategy in the strategic planning process concerns the financial implications of the business strategy. Here are the key aspects:
+
+• The financial implications of the business strategy
+• How the business will achieve its objectives
+• The long-term direction of the business
+• The financial aspects of setting objectives and dealing with stakeholders
+
+In other words, financial strategy is concerned with the financial aspects of the business strategy, which is part of the overall strategic planning process.",english,0.95,rrf_fusion,30,4,True,1.29
+8,What is income tax return ?,"Income tax return is a mandatory submission of financial information to the income tax authority. The return must include:
+
+• Declaration and authentication
+• Production of accounts and documents
+• Statement of assets and liabilities
+• Income statement
+• Statement of individual regarding particulars of lifestyle
+• Information about income from different heads and net tax liability
+
+The return is essential for assessing tax liability and disclosing relevant information to the income tax authority.",english,0.95,rrf_fusion,30,2,True,1.48
+9,"Under rule 8(4), what auxiliary register must be maintained if a separate nursing or maternity home is maintained by a medical practitioner?","Under Rule 8(4), a medical practitioner who maintains a separate nursing or maternity home must maintain an auxiliary register showing the following particulars:
+
+• Name and address of the patient
+• Nature of the treatment
+• Room (diet and/or lodging) charges
+• Other fees charged from the patient, if any
+
+This auxiliary register must be maintained in the remarks column of the Case Register in Form A(2).",english,0.95,rrf_fusion,30,2,True,1.53
+10,What is the minimum salary required for a personal loan in Bangladesh?,"Based on the provided context, there is no specific minimum salary required for a personal loan in Bangladesh. However, the context provides information on the tax rates and exemptions for different types of individuals and their income.
+
+Here are some general observations:
+
+• The tax rates range from 7.5% to 25% for different income brackets.
+• There is an initial exemption limit for certain individuals, such as women, senior citizens, and physically challenged persons.",english,0.95,rrf_fusion,30,2,True,1.82
+11,"What does the manual state about the inter-relationships between financial decisions, using a retailing company as an example?","According to the manual, the inter-relationships between financial decisions can be seen in the following example:
+
+• A retailing company makes a strategic decision to widen its markets, which requires new assets (e.g. new stores).
+• The new assets trigger a demand for capital, leading to a new-issue of debt.
+• The ongoing implementation of the strategy causes a need for financing decisions, such as managing cash flow and risk.",english,0.95,rrf_fusion,30,2,True,1.71
+12,Is online banking safe in Bangladesh?,"Based on the provided context, online banking in Bangladesh is not entirely safe due to the following reasons:
+
+• Cheque related frauds are the most commonly experienced fraud incidences in Bangladesh, and online banking may be vulnerable to similar types of fraud.
+• Banks are identified as the most vulnerable sector of Money Laundering and Terrorist Financing (ML&TF) in Bangladesh, which increases the risk of financial crimes.",english,0.95,rrf_fusion,30,3,True,1.64
+13,What types of investment qualified for the tax rebate?,"Based on the provided context, the types of investment qualified for the tax rebate are:
+
+• e Life insurance-premium up to 10% of the face value
+• Contribution to Provident Fund, as per the Provident Fund Act, 1925
+• Self-contribution and employer's contribution to a Registered Pension Fund (RPF)",english,0.95,rrf_fusion,30,4,True,1.2
+14,What is the threshold amount for maintaining a bank account under rule 8A?,"The threshold amount for maintaining a bank account under rule 8A is:
+
+• Taka 25,000/- (twenty five thousand) per month
+
+This is the amount above which a person having ownership or possession of a house property must maintain a bank account to deposit rent and any advance received.",english,0.95,rrf_fusion,30,2,True,1.45
+15,Do car owners pay annual taxes in Bangladesh?,"Yes, car owners in Bangladesh pay annual taxes. Here are the details:
+
+• Motor vehicles tax is a type of non-NBR tax.
+• It is one of the nomenclatures of non-NBR tax, which is not subject to withholding tax in Bangladesh.
+• The entity does not have a payroll structure ratio, but this information is not relevant to the question of car owners paying annual taxes.
+
+In summary, car owners in Bangladesh pay motor vehicles tax as part of their annual tax obligations.",english,0.95,rrf_fusion,30,2,True,1.56
+16,What is an example of how financing decisions can impact a firm's existence?,"A firm that heavily borrows money may face financial difficulties if its cash flows fall to a level insufficient to make interest payments on debt. This can lead to bankruptcy. 
+
+• High debt levels can put a firm at risk of financial distress.
+• Insufficient cash flows can make it difficult for a firm to meet its debt obligations.
+• This can ultimately impact a firm's existence.",english,0.95,rrf_fusion,30,2,True,1.3
+17,Which Bangladeshi city hosts the Dhaka Stock Exchange (DSE)?,"The Dhaka Stock Exchange (DSE) is hosted in Dhaka, Bangladesh. Here are the main sources of finance for companies in Bangladesh:
+
+• Equity (ordinary share-capital)
+• Preference shares
+• Loan stocks or debentures
+
+Additionally, companies in Bangladesh can access funds through:
+
+• National stock markets, including:
+‣ Dhaka Stock Exchange (DSE)
+‣ Chittagong Stock Exchange",english,0.95,rrf_fusion,30,2,True,1.79
+18,Are mutual funds available in the Dhaka Stock Exchange?,"Yes, mutual funds are available in the Dhaka Stock Exchange.
+
+• The Dhaka Stock Exchange (DSE) is a primary source of new funds, including through new-share issuances.
+• There is no specific mention of mutual funds in the provided context, but it can be inferred that they are available as part of the DSE's offerings.
+
+Note: The provided context does not explicitly mention mutual funds, but it does mention other investment options such as insurance companies and pension funds, which may include mutual fund-like investments.",english,0.95,rrf_fusion,30,2,True,1.44
+19,"What does the term ""Money Market Instrument"" include according to the definitions?","According to the context, a Money Market Instrument includes:
+
+• Commercial paper
+• Asset-backed securities
+• Money market instruments
+• Other similar instruments traded in the financial markets.",english,0.95,rrf_fusion,30,2,True,0.97
+20,Who is the General Manager of the Editorial Committee for the fifth edition of the guidelines?,"The General Manager of the Editorial Committee for the fifth edition of the guidelines is:
+
+• Md. Nur-un-Nabi",english,0.95,rrf_fusion,30,1,True,1.09
+21,How I can return my income tax?,"To return your income tax, follow these steps:
+
+• For company taxpayers, file your return by July 15th of the following year or by September 30th if the 15th of July falls before the end of the six-month period.
+• For other taxpayers, file your return by September 30th of the following year, unless an extension is granted.
+• If you make any TDS (Tax deduction at source) on payment, file a separate return of withholding tax by October 15th, January 15th, April 15th, or July 15th.",english,0.95,rrf_fusion,30,4,True,2.64
+22,What is the full form of NBR in Bangladesh’s financial system?,"The full form of NBR in Bangladesh's financial system is:
+
+• National Board of Revenue",english,0.95,rrf_fusion,30,2,True,0.89
+23,What are risk management decisions concerned with?,"Risk management decisions are concerned with how a business manages risk in relation to:
+
+• Investment decisions
+• Financing decisions
+• Liquidity
+• Currency and credit decisions
+
+These decisions aim to reduce or hedge against risks and uncertainties, such as currency and interest rate changes, to ensure the firm's financial stability.",english,0.95,rrf_fusion,30,2,True,1.0
+24,"What is the corporate income tax rate for publicly traded companies in Bangladesh, excluding banks, insurance, and specific industries?","The corporate income tax rate for publicly traded companies in Bangladesh, excluding banks, insurance, and specific industries, is 25%.",english,0.95,rrf_fusion,30,6,True,1.05
+25,"What is the tax rate for cigarette, zarda, bidi, gul, or any other tobacco product manufacturing companies?","The tax rate for cigarette, zarda, bidi, gul, or any other tobacco product manufacturing companies is 3% of their gross receipts.",english,0.95,rrf_fusion,30,6,True,1.43
+26,What is the opportunity cost?,"The opportunity cost is the value of the next best alternative that is forgone when a decision is made. In this case, the opportunity cost is the value of the alternative use of Material X.
+
+• The opportunity cost of Material X is the sales proceeds forgone if it is not used in the project.
+• The opportunity cost is the value of the alternative use of Material X, which is:
+ • Selling 500 kg of Material X for 3,000 CU
+ • Purchasing 1,000 kg of Material X for 4,000 CU",english,0.95,rrf_fusion,30,6,True,1.6
+29,Do banks in Bangladesh offer retirement savings schemes?,"Yes, banks in Bangladesh offer retirement savings schemes.
+
+The approved banks in Bangladesh for retirement savings schemes are:
+
+• South East Bank Limited
+• Dhaka Bank Limited
+• Al-Arafah Islami Bank Limited
+• Social Islami Bank Limited
+• Dutch-Bangla Bank Limited
+• Mercantile Bank Limited
+• Standard Bank Limited
+• One Bank Limited
+• Exim Bank Limited",english,0.95,rrf_fusion,30,2,True,1.37
+35,What is the duration of practical work experience required for the CA qualification?,"The duration of practical work experience required for the CA qualification is:
+
+• 3 years
+• 4 years (as an option)",english,0.95,rrf_fusion,30,2,True,1.18
+36,What is the publication date in the Bangladesh Gazette?,"The publication date in the Bangladesh Gazette is not explicitly mentioned in the provided context. However, the context does provide information on the signing date of the France-Bangladesh agreement, which is:
+
+• 09/03/1987
+• 21/89 (presumably a reference to the year 1989)
+• 4/01/1989
+• 01/07/1989",english,0.95,rrf_fusion,30,2,True,1.46
+37,How has the method of submitting SBS returns changed over time?,"The method of submitting SBS returns has undergone changes over time. Here are the key changes:
+
+• Initially, the SBS returns were used for collection of information/data from the banking sector in Bangladesh.
+• Later, the Statistics Department of the Bangladesh Bank published guidelines for the scheduled banks to fill in the returns properly and submit them to the Bangladesh Bank.
+• The guidelines were published in the form of a booklet, which was introduced 8 years ago.",english,0.95,rrf_fusion,30,2,True,2.11
+38,What changes were made to Rule 8A of the Income Tax Rules since its introduction?,"Based on the provided context, there is no information about changes made to Rule 8A of the Income Tax Rules since its introduction. The context only mentions the requirements and formalities for landlords receiving monthly rent more than Tk. 25,000, as per Rule 8A of Income Tax Rules 1984.
+
+However, the context does mention the following changes or additions to the rule:
+
+• The landlord must maintain a bank account and deposit the entire monthly rent directly into it.",english,0.95,rrf_fusion,30,1,True,1.8
+39,When a financial year start,"To: Tax Partner, ABC & Co
+
+Subject: Memorandum on Filing Statement of International Transactions
+
+Dear Sir,
+
+As per Section 233(5), international transactions include:
+
+• Purchase, sale, lease of tangible or intangible property
+• Provision of services
+• Lending money
+• Borrowing of money between associated enterprises
+
+In this case, ABC Limited (subsidiary) received an interest-free loan from XYZ Limited (Parent), which falls under international transactions. Therefore, TP return must be filed as per Section 107EE.
+
+According to Section 15, the income year for ABC Limited is from July 2022 to June 2023, which includes:
+
+• The period beginning with the date of setting up of the business and ending with the 30th day of June following the date of setting up
+• The period beginning with the date on which a source of income newly comes into existence and ending with the 30th day of June following the date on which such new source comes into existence
+
+As the transaction incurred during this year, it must be reported under Part-] Interest Free Loan, Advances and Investments.
+
+Please note that the transaction is subject to tax under any provision of the Act, and the profits and gains of any business carried on by a mutual insurance association must be computed in accordance with paragraph 8 of the Fourth Schedule.
+
+Please file the TP return as per Section 107EE.
+
+Best regards,
+[Your Name]
+Financial Advisor",english,0.95,rrf_fusion,30,5,True,2.99
+40,How did Bangladesh’s VAT system change after the 2012 VAT Act?,"After the 2012 VAT Act, Bangladesh's VAT system underwent significant changes. Some key changes include:
+
+• **Migration from 1991 VAT Act-based account current to new system**: The new system was designed to be more efficient and effective in managing account current balances.
+• **Prepaid vs Postpaid system**: The VAT system now uses a prepaid vs postpaid system, which allows for more accurate tracking of VAT payments.",english,0.95,rrf_fusion,30,2,True,2.03
+41,When was the amendment for rule 10(3) prospectus submission made?,"As a Bangladeshi financial advisor, I have reviewed the ATP study on XYZ Ltd. submitted to the tax authority. My position is as follows:
+
+**Ethical Threats:**
+
+• The use of TNMM method with PLI as profit level indicator may not accurately reflect the arm's length price of controlled transactions.
+• The amendment from the issuing bank confirms that the port of loading is Chattogram, Bangladesh, but the unit price provided is consistent with the current market price available online, which may raise concerns about the accuracy of the transaction.
+
+**Possible Actions:**
+
+• Request additional information from the applicant to verify the accuracy of the transaction, including the market price of the goods and the terms of the import LC.
+• Conduct a thorough review of the ATP study to ensure that it meets the requirements of Rule 70(1) of the IT Rules, 1984.
+• Consider seeking guidance from the tax authority or a professional organization to ensure compliance with the relevant rules and regulations.
+
+**Recommendation:**
+
+• Request a Level 2 review of the transaction to ensure that it meets the requirements of Rule 10(3) prospectus submission and to verify the accuracy of the transaction.
+
+Please note that these actions are based solely on the information provided in the context and may require further investigation to ensure compliance with the relevant rules and regulations.",english,0.95,rrf_fusion,30,2,True,2.75
+42,"When The Income Tax Act, 2023 came into force ?","The Income Tax Act, 2023 came into force on 27th June 2023.",english,0.95,rrf_fusion,30,1,True,0.8
+43,What changes occur in the knowledge of financial management principles as students progress from Certificate Level to Professional and Advanced Levels?,"As students progress from Certificate Level to Professional and Advanced Levels, the knowledge of financial management principles undergoes significant changes. Here are the key changes:
+
+• **Development of knowledge base**: The knowledge base developed at Certificate Level is further developed in the Financial Management module.
+• **Recommendation of financing options**: Students learn to recommend options for financing a business.",english,0.95,rrf_fusion,30,1,True,2.21
+44,How did foreign direct investment (FDI) inflows to Bangladesh change after 2010?,"Foreign Direct Investment (FDI) inflows to Bangladesh have changed over the years. Here are some key points:
+
+• After 2010, FDI inflows to Bangladesh decreased.
+• This decrease is likely due to the depreciation of the Eastern European country's currency, causing a reduction in the value of cash flows remitted back to Bangladesh.
+• The depreciation of the Eastern European currency over a five-year period led to a decrease in the value of the investment project.",english,0.95,rrf_fusion,30,2,True,1.54
+49,"Without considering recovery, what is a ""certificate"" in the rules in Bangladeshi tax return?","In the context of Bangladeshi tax return, a ""certificate"" refers to:
+
+• A tax clearance certificate
+• An exemption certificate
+
+These certificates are issued by the DCT (Directorate of Customs and Taxation) to individuals who are not likely to return to Bangladesh, and to those who have intention of returning.",english,0.95,rrf_fusion,30,2,True,1.55
+50,"Isolated from corporate tax, what entity produced the document in conjunction?","Based on the provided context, here are the answers to the questions:
+
+**Withholding Tax, Corporate Tax Implication, and DTAA Implication for each option:**
+
+• **Option 1 (Agreement between CNPC and MNC):**
+ + Withholding Tax: 10% as per Section 124 of the ITA, 2023
+ + Corporate Tax Implication: Service value will be taxed at 27.5% or 30% on income from business, with a minimum corporate income tax of 0.6% on gross receipts
+ + DTAA Implication: Not mentioned",english,0.95,rrf_fusion,30,2,True,2.81
+51,"Without context of recovery, what is ""defaulter""?","A ""defaulter"" in this context refers to an individual who:
+
+• Has failed to pay their tax arrears
+• Has not responded to a notice of demand for payment
+• Is a tax defaulter for the assessment year(s) mentioned in the document",english,0.95,rrf_fusion,30,2,True,1.2
+52,"Disregarding financial institutions, what is the page number for Corporate Income Tax section?","As a Bangladeshi financial advisor, I'll provide a concise answer based on the context:
+
+**Corporate Income Tax**
+
+• The service value will be considered as income from business for MNC and will be taxed at 27.5% or 30% on income from business after deducting allowable business expenditure.
+• MNC can adjust withholding tax deduction at source with its corporate tax payable at year-end, but only if corporate tax liability is higher than the amount of withholding tax deducted.",english,0.95,rrf_fusion,30,2,True,2.59
+53,"Without linking to residence, what is the basis of taxation for corporations?","The basis of taxation for corporations in Bangladesh is as follows:
+
+• Income tax is levied on income, not on capital receipts.
+• Different tax rates are applicable for different types of assessee and classes of income.
+• The distinction between capital and revenue receipts is difficult to determine.
+• Residential status is not a factor in determining tax for corporations.
+
+In general, corporations in Bangladesh are taxed on their business profits, which must be capable of being attributed to the Permanent Establishment (PE) or residency.",english,0.95,rrf_fusion,30,2,True,1.51
+54,"Disregarding rebates, what is the rate for WASA and similar authorities?","Based on the provided context, the tax rates for WASA and similar authorities are:
+
+• For non-listed financial institutions: 40.0%
+• For merchant banks: 37.5%
+• For cigarette/tobacco manufacturers: 45.0%
+• For mobile operators (non-listed): 45.0%
+
+Note that these rates are applicable for the Assessment year 2023-24.",english,0.95,rrf_fusion,30,2,True,1.31
+55,What is the maximum repayment tenure for a home loan in Bangladesh?,"The maximum repayment tenure for a home loan in Bangladesh is not explicitly mentioned in the provided context. However, the context does provide information on the maximum loan limit for education loans, which is:
+
+• Maximum Tk.5.00 lac for studies in Bangladesh
+• Maximum Tk.20.00 lac for studies abroad
+
+There is no mention of a home loan limit or repayment tenure in the provided context.",english,0.95,rrf_fusion,30,2,True,1.26
+56,In the fiscal year 2023-24 revenue collections from Value Added Tax (VAT) have been estimated at around what?,"The revenue collections from Value Added Tax (VAT) in the fiscal year 2023-24 are estimated to be around Tk. 1,63,837 crore. 
+
+Here's a breakdown of the estimated revenue collections:
+
+• Value Added Tax (VAT): Tk. 1,63,837 crore (38.10% of total tax)
+• Income Tax: Tk. 1,53,260 crore (35.64%)
+• Import & other duty: Not specified
+• Land revenue, non-judicial stamp, motor vehicles tax, registration fees, narcotics and liquor duty: Not specified",english,0.95,rrf_fusion,30,1,True,1.6
+57,What percentage rebate do non-listed companies get upon listing 20% capital through IPO?,"According to the provided context, non-listed companies that list at least 20% of their paid-up capital through IPO will receive a rebate of 10% in the year of listing.",english,0.95,rrf_fusion,30,6,True,1.17
+58,What is the tax rate percentage for knit wear exporters with green certification?,"Based on the provided context, the tax rate percentage for knit wear exporters with green certification is:
+
+• 10% (for income up to Tk 2,000,000)
+• 8% (for income between Tk 2,000,000 and Tk 10,000,000)
+• 0.60% (for export goods except knit wear and local goods)
+
+Note that these rates are applicable to knit wear exporters with green certification, as mentioned in the context.",english,0.95,rrf_fusion,30,3,True,1.64
+59,What is the total number of pages in the document named edu_loan_3?,"Based on the provided context, I can answer the question as follows:
+
+The document ""edu_loan_3"" has 177 pages.",english,0.95,rrf_fusion,30,2,True,1.28
+60,What is the application fee for registering a mutual fund?,"The application fee for registering a mutual fund is Tk. 500/- per year, which needs to be paid and a copy of the receipt attached with the ADR (Alternative Dispute Resolution) application.",english,0.95,rrf_fusion,30,2,True,1.05
+61,What changes have been made to the corporate tax incentives for green industries in Bangladesh?,"Based on the provided context, the following changes have been made to the corporate tax incentives for green industries in Bangladesh:
+
+• The corporate tax holiday for agro-based industries has been extended to ten years for industries engaged in:
+ • Processing locally grown fruits and vegetables
+ • Producing milk and dairy products
+ • Producing baby food entirely from locally grown agricultural products",english,0.95,rrf_fusion,30,2,True,2.18
+62,What is the ratio of government debt to GDP in Bangladesh?,"Unfortunately, the provided context does not mention the ratio of government debt to GDP in Bangladesh. It only discusses the composition of tax revenue and its share in the national budget.",english,0.95,rrf_fusion,30,2,True,0.84
+63,In what percentange Education budget increased by in FY25,"Based on the provided context, I couldn't find any information about the education budget increase in FY25. The context only provides financial data and information about tax rebates for certain industries, but it does not mention the education budget.",english,0.95,rrf_fusion,30,2,True,1.32
+64,What was the Government per capita actual expenditure on primary education averaged?,There is no information provided in the context about the Government per capita actual expenditure on primary education. The context appears to be related to income tax calculations and allowances for an individual.,english,0.95,rrf_fusion,30,1,True,1.21
+65,What percentage of Bangladesh’s foreign aid is allocated to infrastructure?,"Unfortunately, the provided context does not mention the allocation of foreign aid to infrastructure. The context only discusses various incentives and approvals for different types of businesses and organizations in Bangladesh, but it does not provide information on the allocation of foreign aid to infrastructure.",english,0.95,rrf_fusion,30,2,True,1.25
+66,The effective tax for a publicly listed tobacco company decreased by what percentage points in 2024,"Based on the provided context, I can answer the question as follows:
+
+• The effective tax rate for a publicly listed tobacco company decreased by 22.5 percentage points in 2024.
+
+This is because the tax rate for listed companies is 37.5%, and the tax rate for non-listed companies is 40%. Since the tobacco company is listed, the effective tax rate is 37.5%.",english,0.95,rrf_fusion,30,6,True,1.76
+70,What policy provides rebate for non-listed companies listing through IPO?,"According to the provided context, the policy that provides rebate for non-listed companies listing through IPO is:
+
+• Non-listed companies, including branch companies other than banks, insurance companies, merchant banks, jute, textile, garment industries, mobile phone operator companies, and cigarette, Zarda, bidi, gul, or any other tobacco product, are eligible for a rebate of 10% in the year of listing if they list at least 20% of their paid-up capital through IPO.",english,0.95,rrf_fusion,30,5,True,1.46
+71,Who should submit Income Tax Return?,"Based on the provided context, the following individuals should submit Income Tax Return:
+
+• Individuals with a total income exceeding Tk. 2,50,000/- (excluding female taxpayers, senior male taxpayers of 65 years and above, retarded taxpayers, and war-wounded gazetted freedom fighters)
+• Female taxpayers with a total income exceeding Tk. 3,00,000/-
+• Retarded taxpayers with a total income exceeding Tk. 3,75,000/-",english,0.95,rrf_fusion,30,5,True,1.88
+72,What is written in Section 67 of the Bangladesh Tax Income Tax Act 2023?,"According to Section 67 of the Bangladesh Tax Income Tax Act 2023, the following is written:
+
+• The provision of Section 67 shall apply in special cases, computing ""income from other sources"" in accordance with the provisions of Chapter Eight.
+
+In other words, Section 67 provides an exception to the general rule of computing ""income from other sources"" under Chapter Eight, and applies in specific cases.",english,0.95,rrf_fusion,30,1,True,1.43
+73,What is the policy on practical work experience for CA students?,"The policy on practical work experience for CA students is as follows:
+
+• Practical work experience is a part of a training agreement with an ICAB Member.
+• Students need to complete articleship for a period of 3-4 years.
+• The knowledge, skills, and experience gained during this period are invaluable and provide hands-on experience.
+• The articleship agreement is designed to fit with the students' practical experience, allowing them to progress through the qualification.",english,0.95,rrf_fusion,30,1,True,1.47
+74,What types of liabilities are covered under Section 2.1 of the SBS-1 Return?,"The types of liabilities covered under Section 2.1 of the SBS-1 Return are:
+
+• Short-term Foreign Liabilities
+• Bilateral Trade Liabilities (code 17601)
+• Barter and Special Trade Arrangement (STA) transactions
+• Foreign currencies to be reported in Table-B",english,0.95,rrf_fusion,30,2,True,1.06
+75,What policy restricts offsetting foreign sourced losses?,"The policy that restricts offsetting foreign sourced losses is:
+
+• Foreign sourced losses of a Bangladesh entity cannot be offset against the Bangladesh profits of that entity.
+
+This means that losses incurred from foreign sources cannot be used to reduce the profits of the same entity in Bangladesh.",english,0.95,rrf_fusion,30,2,True,1.12
+76,What is the policy for non-medical professionals on reduced fees,"Based on the provided context, the policy for non-medical professionals on reduced fees is as follows:
+
+• For legal practitioners, the fees at a reduced rate are charged or no fees are charged at all due to indigent circumstances of the client or any other cause, which should be recorded in the remarks column of the Case Register in Form A(2).
+• For other professionals such as accountants, auditors, architects, and engineers, the fees at a reduced rate are charged or no fees are charged at all due to indigent circumstances of the client or any other cause, which should be recorded in the remarks column of the Case Register in Form A(2).
+• A separate nursing or maternity home maintained by a medical practitioner should have an auxiliary register showing the particulars of the charges made, including the name and address of the patient, nature of treatment, room, diet, and lodging charges, and other fees charged.
+
+Note that there is no specific policy mentioned for non-medical professionals in the provided context. The policy only applies to medical practitioners.",english,0.95,rrf_fusion,30,2,True,2.29
+77,What rule is there for Collection of tax from importers?,"Based on the provided context, there is no specific rule mentioned for the collection of tax from importers. However, the following rules are related to the collection of tax:
+
+• For the purposes of making a collection of tax under section 53B of the Ordinance, the Director general, Bureau, is responsible.
+• In the case of deductions made under any other section except section 86, a certificate as per Schedule 3 of the Rules for Tax Deducted at Source, 2023 shall be provided.",english,0.95,rrf_fusion,30,2,True,1.96
+78,"What is the maximum penalty for tax evasion under the Income Tax Ordinance, 1984?","The maximum penalty for tax evasion under the Income Tax Ordinance, 1984, is:
+
+• Imprisonment for a term not exceeding 7 years
+• Fine for an amount not exceeding double the amount involved in the crime
+• Either of these penalties alone or in combination",english,0.95,rrf_fusion,30,4,True,1.48
+79,What is contains to give effect to the various proposals in the annual budget covering the areas of direct and indirect taxes.,"The Finance Act, 2023, contains the following:
+
+• Tax rates
+• Amendments to existing laws relating to government tax or non-tax revenue
+• Insertion of new clauses/sub-sections/sections/schedules in existing laws
+• Deletion of old clauses/sub-sections/sections/schedules in existing laws
+• Introduction of new laws relating to government tax or non-tax revenue.",english,0.95,rrf_fusion,30,2,True,1.36
+80,What is the Extending power of NBR officials?,"The extending power of NBR officials is as follows:
+
+• To declare any foreign un-incorporated association as a company for the purposes of the Act.
+• To delegate powers of any income tax authority to another income tax authority.
+• To determine and redetermine the area of income tax authority.
+• To transfer power and jurisdictions of one income tax authority to another income tax authority.",english,0.95,rrf_fusion,30,2,True,1.34
+81,What policy exempts capital gains from sale of shares by investing power generation companies?,"Based on the provided context, I can answer that the policy exempting capital gains from sale of shares is not explicitly mentioned. However, I can provide information on the exemptions available for Power Sector and tax exempted capital gains.
+
+For Power Sector, the policy that exempts income from tax is the private sector power generation policy of Bangladesh, which is applicable if the company signs a contract with the Government within 30 June, 2020 and starts commercial production by 30...",english,0.95,rrf_fusion,30,2,True,2.0
+85,How does the tax rate for publicly traded companies compare to non-listed companies?,"The tax rate for publicly traded companies is lower than that of non-listed companies. Here are the key differences:
+
+• Publicly traded companies: 20% corporate tax rate
+• Non-listed companies: 27.5% corporate tax rate
+
+This means that publicly traded companies will pay a lower tax rate compared to non-listed companies.",english,0.95,rrf_fusion,30,6,True,1.35
+86,How does the rate for mobile operators not listed compare to those converting with 10% shares?,"The rate for mobile operators not listed is 45%, while those converting themselves into a publicly traded company by transferring at least 10% shares through stock exchanges have a rate of 40%.",english,0.95,rrf_fusion,30,5,True,1.15
+87,How does the treatment of share transfers for non-residents compare to capital gains exemption for power companies?,"For non-resident individuals, the treatment of share transfers is different from the capital gains exemption for power companies.
+
+Here are the key differences:
+
+• **Capital Gains Tax**: Non-resident individuals are taxed on capital gains at the usual rate applicable to their total income, including capital gains. The rate is 15% on the amount of capital gains, whichever is lower.
+• **Capital Duty**: There is no mention of capital duty for non-resident individuals.",english,0.95,rrf_fusion,30,2,True,2.38
+88,"How does the definition of ""property"" compare to ""share in a company""?","The definition of ""property"" in the notice is broader than the definition of ""share in a company"". Here are the key differences:
+
+• ""Property"" includes:
+ • Movable property
+ • Immovable property
+ • Shares
+ • Debentures
+ • Interest in any company
+ • Any actionable claim
+
+• A ""share in a company"" is not explicitly mentioned in the definition of ""property"".",english,0.95,rrf_fusion,30,2,True,1.29
+89,How does fixed income term compare to money market.,"As a Bangladeshi financial advisor, I'd be happy to help you compare fixed income term and money market.
+
+**Fixed Income Term vs Money Market:**
+
+• **Fixed Income Term:** A fixed income term is suitable for companies that can afford to repay a loan earlier than they can, resulting in a need to re-borrow at a higher interest rate.
+• **Money Market:** A money market is preferred by companies that only need to borrow when necessary, allowing them to pay for borrowings only when needed.
+
+**Key differences:**
+
+• Fixed income term is suitable for companies with uncertain cash flows.
+• Money market is suitable for companies with predictable cash flows.
+
+In the context of the given question, the company is investing CU 10,000 in a new plant and equipment, expecting to receive CU 5,000 per annum for three years, with an inflation rate of 7% per annum. The money rate of interest is 10%.
+
+To calculate the project's NPV using the money method, we would need to consider the present value of the expected cash flows.",english,0.95,rrf_fusion,30,2,True,2.1
+90,How does the knowledge progression in financial management compare from Certificate Level to Professional Level?,"The knowledge progression in Financial Management from Certificate Level to Professional Level is as follows:
+
+• At Certificate Level, the aim is to enable you to recommend options for financing a business, recognize and manage links, and make appropriate investment decisions.
+• At Professional Level, the knowledge base is developed further to enable you to apply technical knowledge, analytical techniques, and professional skills to resolve compliance and business issues related to corporate reporting and audit services.
+
+In summary, the progression from Certificate to Professional Level in Financial Management involves building on the foundational knowledge of Certificate Level to develop more advanced skills and expertise in financing, investment, and corporate reporting.",english,0.95,rrf_fusion,30,1,True,1.47
+92,Compare S.R.O. for original rules to amendment S.R.O.s.,"Here's a comparison of the original S.R.O. for the Income Tax Rules, 1984, to the amendment S.R.O.s:
+
+**Original S.R.O. (1985)**
+
+• Short title: Income Tax Rules, 1984
+• Issued by: National Board of Revenue
+• Powers conferred by: Section 185 of the Income Tax Ordinance, 1984 (XXXVI of 1984)
+• Sub-section (4) of that section was used to make the rules
+
+**Amendment S.R.O.s**
+
+• Empowers NBR to issue Rules (Section 343 of the Income Tax Act, 2023)",english,0.95,rrf_fusion,30,2,True,2.16
+93,How does treatment charges in Form A(1) compare to fee in Form A(2)?,"Based on the context, here's a comparison between treatment charges in Form A(1) and fee in Form A(2):
+
+• Treatment charges in Form A(1) are related to the ""Nature of Treatment"" (a) Consultation, (b) Surgical treatment, and (c) Injection, etc.
+• Fee in Form A(2) is related to the ""Name, Brief Amount of fee, remuneration, etc."" of the practitioner or professional.
+
+There is no direct comparison between the two, as they are related to different aspects of the medical treatment.",english,0.95,rrf_fusion,30,2,True,1.51
+96,What does NBR represent?,"The National Board of Revenue (NBR) represents the:
+
+• Highest executive tax authority in Bangladesh
+• A statutory body with the power to manage, control, and supervise the income tax department
+• The authority to make necessary rules concerning income tax matters
+• The highest authority to make decisions on tax law, with its decisions forming case laws and precedents.",english,0.95,rrf_fusion,30,2,True,1.25
+97,What is ROI means?,"I'd be happy to help you with the questions.
+
+**Question 1: What is ROI?**
+
+ROI stands for Return on Investment. It is a financial metric that measures the return or profit generated by an investment, compared to its cost.
+
+• ROI is calculated as the gain from an investment divided by its cost.
+• It is often expressed as a percentage.
+
+**Question 2: Compute total income of XYZ Ltd. for Assessment Year 2023-24**
+
+To compute the total income of XYZ Ltd. for Assessment Year 2023-24, we need to consider the following:
+
+• The company has an expected ROI (EBIT basis) of 20%.
+• The dividend trend in the same sector is 15%.
+• The tax rate is 35%.
+
+Assuming the company has a 100% equity structure, we can calculate the total income as follows:
+
+• Expected ROI: 20% of total income
+• Dividend: 15% of total income
+• Tax: 35% of total income (after deducting dividend)
+
+Since the problem doesn't provide specific numbers, we can't calculate the exact total income. However, we can express it as:
+
+Total Income = (Expected ROI + Dividend - Tax) / (1 - Tax Rate)
+
+Please note that this is a simplified calculation and actual numbers would require more information.
+
+**Question 3: Tannery unit transfer**
+
+Regarding the tannery unit transfer, I can provide a comment on the deductions claimed by the company.
+
+• The company claims deductions of Taka 25,00,000 and Taka 5,00,000.
+• However, without more information on the transfer, it's difficult to determine if these deductions are legitimate.
+
+Please provide more context or information on the transfer to determine the eligibility of these deductions.",english,0.95,rrf_fusion,30,2,True,3.17
+98,What is BB means ?,"BB stands for Bangladesh Bank, which is the central bank of Bangladesh.",english,0.95,rrf_fusion,30,2,True,0.79
+99,JICA means what ?,• JICA stands for Japan International Co-operation Agency.,english,0.95,rrf_fusion,30,2,True,0.81
+100,What does SME means ?,"SME stands for Small and Medium Enterprises.
+
+• It is a category of businesses that are typically defined as having a smaller size compared to larger corporations.
+• The exact definition of SMEs may vary depending on the country or region, but in general, they are characterized by their smaller scale of operations and lower number of employees.",english,0.95,rrf_fusion,30,1,True,1.16
+101,What does RDA means?,"As a Bangladeshi financial advisor, I can tell you that RDA stands for:
+
+• Residual Risk
+• Risk Assessment",english,0.95,rrf_fusion,30,2,True,0.94
+102,What act is for co-operative societies?,"According to the context, the act related to co-operative societies is:
+
+• The Companies Act, 1994
+
+This act includes the co-operative society as a type of entity that is registered with the Companies Act.",english,0.95,rrf_fusion,30,2,True,0.95
+103,What productions are listed for progressive taxation?,"Based on the context, the productions listed for progressive taxation are:
+
+• textile:machinery;
+• tyre manufacturing industry;
+• tissue grafting;
+• any other category of industrial undertaking as specified by the Government.
+
+These are the categories mentioned in the context as being eligible for progressive taxation.",english,0.95,rrf_fusion,30,2,True,1.08

@@ -1,0 +1,989 @@
+=== Advanced OCR Text Extraction Result ===
+Original File: KPMG_29.pdf
+Extraction Method: Image-based OCR (pypdfium2 + Tesseract)
+Language: bn+en
+Extracted Characters: 59621
+Processing Date: 2025-08-28 16:01:19
+============================================================
+
+in with the
+ASial Maxaentre
+
+1 Corporate Income Tax. 3
+
+1:2, Determination of Taxable Income and Deductible Expenses: ‘6
+
+1.3, Tax-Compliance: Tv
+
+72. ‘Transfer:Pricing; 23:
+
+3: Indirect Tax 24
+
+‘4. Personal Taxation 25)
+
+‘5 Tax Authority: 28
+©:2018 KPMG International Cooperative (“KPMG International"). KPMG ‘International provides no:client CR তে পের ফা,
+services ৪17019-8-5%095 গাম with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh Tax Frofile:
+
+1:4. General Information’
+
+“Corporate Income Tax’
+
+“The rates of.tax applicable .to companies, banks;:insUrahce aiid other financial:institutions”
+Publicly ‘traded ‘companies |i.e: companies listed/with.any :stock exchange! iné; ‘
+» Bangladesh:other,than banks, insurance, companies, merchant, banks’ and other;; 25% —
+৷ financialrinstitutions and; jute, textile, garment:industries, mobile phione operator: , A
+:Non-listed :companies:including branch companies other;than:banks,‘insurance,;
+: industries, mobile phone operator. companies and.-cigarette, zarda, bidi;:gul or any, 7 '
+? [If non-listed ‘companies other than:banks, insurance companies; merchant banks :
+zsandsother financial: institutions, jute, ‘textile, garment: industries, .mobile: phone. |
+: operator,.companies and. cigarette, Zarda, bidi, gul. or any-other: tobacco: product, .
+: Manufacturing companies list, at least.20% of.their paid:up‘capital through: IPO, : :
+u they shall:receive.a rebate of.10%'in'the year of listing. Pe 3
+\ 50% ‘Of xport incomeé is'exemipt-from tax. Ve :
+; However, rebate.on:income from. export business shall. not apply to-companies._ :
+_who.are enjoying tax exemption: or. paying :tax‘at:the ‘reduced rates. as: mentioned. | A
+Banks; insurance. and: other, financial, institutions (except merchant banks) if‘not.: 40%: ;
+:epublicly listed! রম ৷
+18818, insurance and ‘other. financial! institutions {(except;merchant: banks) চি 375%:
+‘publicly listed and those which‘ got approval-from'the Governmentin.2013.00 Fk ৬১৬০০ ০৬০
+Cigarette, zarda, bidi,:gul or any other, tobacco product:manufacturing ‘companies:; 45%:
+(companies; firms and individuals) irrespective of.listing status: us :
+i : Surcharge in-addition to ‘above ‘tax is ‘applicable’ on: business: INCOME eee yee 2 BY
+: Mobile phone operator.companies if.not'publicly listed.as below. — — 45%:
+: Mobile;phoné ‘operator companies that convert themselves into a publicly tradedj "40%":
+i “company: by; transfer of,at'least 10% shares'through'stock: exchanges; of-which? a
+» maximum;5%'may. be through Pre-Initial:Public: Offering; Placement.” iE :
+| Tif mobile-phoneoperator: companies: list at-least 20% of ,their:paid- up capital’ :
+«-through:IPO;'they shall receive a'rebate.of 10% in the yearoflisting. =
+
+©:2018 KPMG International Cooperative (“KPMG International"). KPMG ‘International provides no:client CR Mok রে রর
+services and isa Swiss-entity with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh Tax Frofile’
+
+Reduced! rates, of, Corporate’ Tax. applicable ‘to ‘certain 00450191 «companies: and. local’
+“(Companies ee. (Rate’s:
+“Textile. industries (time extended ‘upto 30 'June 2019) ec esnmtassanmnanautsamaanniinn IO.)
+1 Jute industriés (time extendéd ‘up to:assessment yean.2019-2020)! ০০০০০৯০০৯০০ OM!
+: -Knit:-wear. and :woven: ( Jarments manufacturer. and‘exp and “ex porter (publicly-traded)... on 290. :
+| Knitwear: and wovensgarments; manufacturerand ‘exporter .with :internationally, -10% ;
+Research tUnstitutes “at national |evel, registered ‘under'the “Trust “Act;"1882 or, 15%") |
+; Societies:Registration Act, 1860
+" Private” Universities, Private “medical “college, Private. .dental .college;. ‘Private’ “15% °/
+"| engineering: ‘college; ‘or’ Private: college’ ‘engaged: sin: ‘imparting: ‘education: ‘on. a
+informationtechnology’ ৷ টা ্৷ফাৎআৌ0]০ৌ০য্্“বরযচ
+‘| Co-operative: society ‘registered Under’.Co-operative’ Society.‘Act’2001 other than: “15% | :
++| Income’ from ag riculturalior cottage'secton = মম মম ৷,
+Production’of:pelleted. poultry feed, Production ‘of pelleted feed-for fish; shrimp.and: =,
+‘| Cattle, Production of séeds marketing of locally produced 56605, cattle farming; dairy, ay
+"farming, horticulture, frog farming; sericulture,; mushroom farming.and floriculturé 1,
+: i Income upto Tk: 1,000,000 - | 8% 1
+= Next-Tk'2;000;000 ৷ 10% +.
+: ৩০ «On:the’balance amount LL
+i, WASA\ (Dhaka,. Chittagong, . Khuina,.and” Rajshahi),. Bangladesh :Civil Aviation, ~~",
+| Authority; RAJUK; RDA;:KDA,:CDA, National:Housing Authority; Chittagong’ Port. i
+| Authority; Mongla !Port; Authority, |Pyra .Port, Authority; ;Bangladesh; Television; ?:
+- Bangladesh’ Betar, BIWTA, BTRC, BPDP, BREB,-BWAPDA,'BEPZA,iBangladesh: #25% ! ;
+7 Bridge: ‘Authority, Borendra; Multipurpose. Development: ‘Authority, (Rajshahi),.. 5
+: Bangladesh’ Hi-Tech Park: Authority, IDRA; ‘Sustainable and Renewable Energy. By
+- Development Authority: : " |
+
+Residence
+A companyiiis: considered resident in Bangladesh’ if, its‘ control, and’management of. the’
+“company is'situated: wholly in. Bangladesh ‘in that year. যা
+
+Basis of Taxation:
+
+Bangladeshi resident and non-resident corporations are’subject to tax on their taxable income.
+“Tax Losses
+: Tax ‘losses: can ‘be:carried forward: for a" maximum : period of six years, ;but:cannot: be ca ried!
+_back: Unabsorbed tax depreciation can be carried forward indefinitely:'F oreign sourced losses;
+.of.a:Bangladesh entity, cannot be offset against the'Bangladesh profits of that entity.
+“Transfer of-Shares.
+
+0 ‘Transfer’ of shares-‘of nonresident company; will ‘pes treated ‘as ‘transfer of Zasset in:
+
+‘Bangladesh; to the’extent it is attributable.to the value of any.assets in Bangladesh.
+« Capital: gains.‘from: the: sale_or,-transfer, of’ shares’ by.-the’ investing ‘power, generation:
+‘companies (other,than:coal:based and ‘coal,based)'shall,be.exempt from:tax: ”
+©:2018 KPMG International Cooperative (“KPMG International"). KPMG ‘International provides no:client 2 OR eR OR লা)
+services and is'a:Swiss-entity with which the independent member firms: of the KPMG network are affiliated. ‘Bangladesh Tax Frofile’
+
+“Capital: gain from; transfer of stocks and'shares of public limited companies. listed with: stock:
+“exchange ‘except listed Govt: securities:
+ও). Forresidentcompanies ৪170 firms’ OMY
+ib)! Capital:gain'tax:of non-resident'shareholders (refer to’section 5:9)" 8! 15%.
++c). For:sponsor:shareholders,and.shareholder. directors. ee ee DIO il
+i 8৩)! Forresident individual-holding at:least'10% of the total: share capital of}, 5%
+“Transfer of Assets
+‘Capital Gains Tax
+In:the case of a’ company, income-from capital:gains.will be Separated from total income and:
+‘Of five: years:from the:date;of acquisition; the:capital’ gains will be taxed’at' the ‘usual irate:
+‘taxed atithe'usual rate:applicable.to:the assessee’s total income including:the capital gains.or”
+atithe rate of 15%-onithe amount of, capital gains whichever of the two is lower
+‘Capital Duty.(non-tax:planning),
+None:
+“CFC Rules
+non-resident individual. (other than.a company). A. company.paying dividend shall-withholditax:
+«digit Tax Payer's Identification Number),or 15%-on dividend payable 10 a:resident. individual::
+:A-branch:company shall-withhold tax.at the rate of 20% while. remitting: profit to Head 'Office-.
+However in:cases.where dividend:is payable to a shareholder resident'in a.country.with:which.
+Bangladesh:has signed 4 tax. treaty; theirate-mentioned inithe tax treaty-willapply subject to:
+‘Certification from National Board, of Revenue (NBR):
+Further, any. distribution from mutual.fund: or alternative investment, fund.would be'subject:to:
+©:2018 KPMG International Cooperative (“KPMG International"). KPMG ‘International provides no:client 2 OR eR OR লা)
+services and isa Swiss-entity with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh Tax Frofile’ 5]
+
+1:2 Determination of: Taxable:Income and.Deductible Expenses:
+
+In:general; tax:base. amount is:net of:totalitaxable income léss total: deductible ‘expense and:
+
+.carriéd forward ‘tax:loss..iThere. are’séven: heads:of:incomes suchas
+
+« .Interest'on securities; :
+
+« !Income from:business.or. profession,
+
+s |Income from: othér:’sources:
+©:2018 KPMG International Cooperative (“KPMG International"). KPMG ‘International provides no:client CR তে পের ফা,
+services ৪17019-8-5%095 গাম with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh Tax Frofile’
+
+kee
+13 ‘Tax'Compliance
+4.3.4: Introduction
+Every company is'required.to obtain.an 6-TIN ahd register with thé VAT.authoritiés to, receive!
+“distinctive numbérs:Companies ‘have to file. their tax.returns within Tax.day*: The ‘filing date’
+.may.be extended up'to two months:and further:-extension-up to ‘another two months by:
+the tax authorities ‘upon ‘application:. The’ return: has::to: be: accompanied : with: audited:
+statement“ of; accounts, ‘computation of. total income: along ‘with supporting schedules, for*
+“example depreciation schedule as, per tax law,'statement of profit/loss on sale of fixed-assets;,.
+র্‌ excess perquisite calculation’ statements;’etc.-An‘assessing officer verifies the'filed:return:and:;
+may, ask: for information; explanation: and "evidences. of Claims: made:where required: Based;
+-on-this,. the ‘officer: may re-compute.the total income‘and ‘tax payable;.and pass an:order of
+.assessment- and ‘communicate: the*order to:aSsessee:. oO .
+Corpariy ‘means ‘a Comipanysincorporated . under “the Comipaiies® Act’ ini Bangladesh;-and;
+includés: রত - টা ~
+TA body corporate’established ‘or constituted ’by.or: under. any. law ‘in force’
+“= ;Any-nationalised,bank:or industrial.or commercial’ organisation: ১
+৭ 1৪950013191 or combination, of persons, if.any. of'such persons are*registered ৪5:8৪:
+‘companys ১ _ লে চা
+= /7-35900180017-01-000%176012018160 by.or,under-any laws 008-০০0170%,০৪(9109. Bangladesh:
+“০ Anyiforeign association or body which the'NBR declares to 8৪ a:company:
+'*Tax day:means in'case of company. the 15!" day.of.the ‘seven month. following the end ‘of the:
+income:year:or: 15th. September: following the: end,of,the income:year:where said 15th day’
+“falls before the’ 5th:September: ~ “ _
+1.3.2. Resident
+In‘general;-a company:which is incorporated in’Bangladesh will be treated!as a:resident for
+*tax purposes.-Any,company, whose control'and:management is situated wholly in.Bangladesh:
+‘will also be treated as a'resident.for tax-purposes: * “ .
+1:3.3, Permanent establishment.
+Detailed, definition of “Permanent Establishment” (PE) has ‘been; inserted: in the:definition;
+PE in relation to income from’ business or profession, means. a place or activity through,which:
+-(i) a:place.of. management, (ii):a branch; (iii) an agency, (iv);an office; (v) a warehouse; (Vi) a:
+-exploitation or: extraction’ of.naturaliresources '(ix) a‘farm:or:plantation; (x)-a: building'site;-a:
+“construction, assembly or. installation project or supervisory activities in:connection therewith;:
+(for:the same or a:connected project) in Bangladesh, and (xii) any associated entity or person:
+‘connection with any: sale:made in: Bangladesh by:the non-resident. person!
+1.3.4 “Taxable income:
+“Tax is imposed on total income from all sources ‘after all allowable ‘deductions. Sales revenue, ;
+‘fees, commissions, realised exchange: gains, rents; dividends: and. interest ireceived::
+‘©:2018 KPMG International Cooperative (“KPMG International”). KPMG International provides no:client CB Mok oe BR a র
+services and isa Swiss.entity with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh Tax Frofile’
+
+Foreign:source [0001196:0100100817169517991091717716881791309911:15 included :in taxable income:
+but credit is-given;for'tax paid outside Bangladesh. ‘Foréign:source income of a non-resident:
+“company, is:not taxed in: Bangladesh‘unless such income is brought into»Bangladesh..
+“Where“a ‘company:not listed witha stock exchange; receives jits:paid up capitaliby issuing:
+-or-bank transfer; shall,be:deemed tobe the income of.the ‘company. from, ‘other:sources:-for
+«that income year.’ However,,capital:contribution through:land transfer;(non-cash: contribution):
+1.3.5. Income deemed to accrue‘or-arise in Bangladesh:
+“The:scope of income has been,widened ‘in our-tax law:’As per. the:new,law; any:income from;
+«the below. sources will:be:captured::
+(a) ‘any permanent.establishment in,Bangladesh;) _ me tees a
+(b) jany, property; ‘asset, :right:or: other: source “of. income, including: intangible:.property, in:
+___ Bangladesh; _ ck
+(c) ‘the transfer-of any assets situated in;Bangladesh;; : . না
+(0) \the:sale of any. goods or services, by any 9190001110:176879:00.01008991/5:7:89701909910;
+__ jand
+(9) ‘any.intangible property:used in Bangladesh:
+Below is the:explanation'for,this. section:
+(a) *the.shares’ of: any.company. which‘is’a.resident in Bangladesh:shall be:deemed. to-be:
+__ sproperty:in:Bangladesh; a cc eb epee be
+(b) .intangible property shall be:deemed:to-be property in: Bangladesh if it is'(i) registered in:
+.Bangladesh; or ,(ii)'owned by.a person: that‘is not:a resident-of Bangladesh but;has:a:
+-permanent establishment:-iniBangladesh:to which the intangible:property is:attributed;
+.Bangladesh.to the extent it is:attributable to the value:of-any-assets in Bangladesh:
+1:3.6 — Income-year:
+Deputy Commissioner of ‘Taxes:(DCT).may, allow-a:different financial year for-an entity:which:
+incorporated outside Bangladesh if such entity. is required to follow a-different accounting year:
+137 Deductions of the Income Tax Ordinance.1984
+Provision: for bad, debts ‘is not allowed.
+~deductions: ‘Prepaidexpensescan be carried forward and‘allowed:asa deductionzin’ the:
+relevant accounting year:
+Liabilities for, expenses which remain unpaid ‘are added to income: in.:thefourthsyear:but:
+-allowed as.a‘deduction:in the year when the:payments are:made: “
+‘©:2018 KPMG International Cooperative (“KPMG International”). KPMG International provides: no:client CB Mok oe BR a র
+services and is’a‘Swiss.entity with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh: Tax Frofile’
+
+1.3:8. 18061608001:
+There will be'no limit for allowing tax depreciation of a bus or minibus transporting the students:
+-and teachers in‘ case’of,educational.institute‘or, employees of.the: business or:profession.,
+-Amortisationsof licence fee is now allowed as an admissibleyexpenses for’ any company’
+engaged in providing, specialised! services;..if such licence is integral.to. the‘operation:of the:
+.company..Previously it was only allowed for cellular.mobile. phone, operator. Depreciation rates:
+“forsome of important.assets:, যে ” গা
+Class of assets Rate
+Plant and machinery “20% ৫
+_Computer-and computer equipment "30%! ১১১১
+-Accelerated depreciation in Third:Schedule:
+-Alternative.to: the tax. holiday’facility mentioned - forthe’ ind ustrial! lindertakings ‘urider Section’
+-46B‘above; accelerated. depreciation ‘allowance is ‘reinstated! on: machinery.and pla nt for-new:
+industrial‘entrepreneurs:between.1 July 2014;and 30' June 2019 85 stated:below:
+Year... (Rate
+Accelerated depreciation is not allowed for physical infrastructure facility, under-section 46C..,
+Initial depreciation allowance
+“Where’any building has been‘newly constructed orany.machinery or-plant has been installed,
+in, Bangladesh after, the ‘thirtieth: day of June, 2002,- an amount by, way. of initial depreciation:
+-allowance:.in:respect: of. the:year“of construction ‘or,installation or:the* year in which’ such;
+building, machinery, or: plant:is used: by: the assessee for: the first.time:for the;purpose of his’
+business ‘or. profession or;the’ year.in'which'commercial: production is commenced!-whichever:
+is the'later, ‘shall:be allowed‘at the following:rates; namely:
+_Class of assets) Rate
+Buildings) 10%
+_Plantand machinery 25% দলা
+1:3.9, , Allowableiperquisites.
+Perquisite has been defined.as follows:
+Perquisite means:~
+(0): Any:payment made to an.employee:by'an employeriin the form of ‘cash‘or:in:any other’
+encashment-or leave fare assistance and‘overtime, and)
+(ii) Any benefit;called by whatever name, provided to an employee by an.employer; whether’
+convertible into money or not;-other, than: Contribution:to, a recognised provident fund, ,
+©:2018 KPMG International Cooperative (“KPMG International"). KPMG ‘International provides no:client 2 OR ROR লা,
+services and isa: Swiss-entity with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh Tax Frofile’
+
+‘the official‘Gazette.to implement'the:recommendation‘of:a:Wage Board Constituted by, the
+Limit:of, allowable’ perquisites‘thas been fixed ‘at Tk. 550!000;per:employee., The: value of’
+perquisites :paid/provided to an:employee:in:.excess‘of Tk 550,000:in’an’ assessment: year:
+shall be:disallowed in:company's assessment: °
+
+1.3:10 Deductions:not:admissible in-certain circumstances (u/s 30):
+(i): ‘Paymentiof salaries if tax:is‘not deducted;
+
+(ii), ‘Salary. payment made to’any’emiployee' who. does ‘fot Have TIN: number (if itis required’
+
+~ by-law); : :
+
+(iii); ‘Salary, payment after Tax Day to‘an:employee if the employee is required to file the return;
+"* <of.income: but fails to. file the same‘on or. before the Tax Day. or obtain time extension..
+(iv), ‘Salary payment to:an employee: for whom the statement-under. section 108A,.was ‘not,
+
+‘provided;
+
+“(v) ‘Head: office expenses or.intra-group expense debited,in:excess' of, the: 10%of, net profit’
+_ ‘disclosed:in:the’statement of accounts;! .
+
+(vi), . Payments of royalty, technical:know-how. fee and. technical. assistance fee in:excess of:
+10% ‘for first: three: years.and 8%.for subsequent-years 96791, profit:disclosed: inthe:
+
+-(vii) Any payment by.way of salary or.remuneration'made otherwise than by: crossed. cheque:
+~~ forbank. transfer-by.a’person:to.an, employee having! monthly gross salary: of Tk'15,000°
+
+-(vili)-Any-expenditure by. way of incentive bonus exceéding 10% in-aggregate of the net profit;
+
+‘disclosed in:the statement of accounts;:
+(ix): -Any “expenditure “by: way’ Of “overseas travelling ‘excééding? 1.25% of the disclosed:
+(x) ‘Provisions for. deduction,notiadmissible in certain:circumstances ‘have. been ‘introducedi
+‘by. a:company:,
+(6) ‘any payment by.a person exceeding Tk’50;000 or.more; otherwise than by.a’cheque;
+‘or, bank: transfer, excluding:
+2 ‘payment for the, purchase of raw materials:
+- .salary of remuneration made to‘any employee without prejudice to. an ‘obligation:
+‘referred to in clause (i);:and; “oN i ~
+= any paymént for government obligation i-e..municipal.tax; payment for electricity,
+-WASA and gas: .
+Provisions‘of:Section*30:shall apply for. insurance business:as well in-allowing ‘management’
+expenses .or any other expenses under Fourth Schedule of tax:ordinance..
+1.3.11 Donations:
+Any:sums ‘paidiiby-an: assessee ‘as ‘donation: to |philanthropicor educational: institutions:
+©:2018 KPMG International Cooperative (“KPMG International"). KPMG ‘International provides no:client CB Mok om BR a র
+services and isa Swiss.entity with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh Tax Frofile:
+
+KPMG
+Research & Development! (R&D) ;of agriculture, science. technology: ‘and. industrial!
+.development, are. exempt” from .tax., Such institutions: have to. apply’to: National Board of:
+Revenue for, obtaining approval. a
+4.3.12 Minimum'tax-'Section 82C:
+Minimum tax would be ‘higher of::
+s Minimum tax*calculated! on the basis ‘of overall’ gross 'receipts_regardless:of- sources. of
+income
+1.3.43 Minimum’tax based_.on withholding tax‘of certain.sources
+-As_ per new: 82Cminimum’-tax;, sources; of, income: have! been’ ‘divided. into, three’ broad!
+categories for tax'computation purpose considering the concept of: minimum'tax:
+.a): “Tax deducted:or‘collected'as source would be minimum ‘tax for'24. (twenty, four) sources:
+~ ‘of income’‘as follows:? ° oS
+St Section | Details “~~ “ern “| Withheing tax'rate
+4 Supply'of goods/execution of,contract.
+2° 152A: | Royalty fee, franchise, technical know-how, etc: 10% or-12% |
+3. 52AAA Commission from C&F Agent. OM
+4: 528. 08958187090 90 000
+: industry: ” “ok
+10 .53AA, Shipping business'ofa'resident; = SH. O38%
+Ad 53B2 0" Manpower exports পলপপণবাালনননা সততার
+মাল রা cmt oe cmon ota cast ste nest ot nt tt cin conf wiJULE GOONS oe ane oee
+13 '53BBB Collection of.tax.from.member of stock, 0.05%: :
+14... 53BBBB | Export of any. other:goods 0:70%: ;
+15.2 53C2" i Auction’purchases ee vars cen OOO ১১১১১১
+fee ই বাই neonates see gen piesa wang ar, nna, ee ects cu তে ent sna eeen
+1149 53FF | Realestate /landdevelopment’business) = iand'3% or 5%: i
+BM eco cae cue bine over sue-tone ym te neve wencon nan nen eat iasitncnececnecicnpee wren ef 6911 .১০১০০১২ ১১১, ২০১১০০]
+-211 5300: Payment to'surveyor-of insurance company. 15% 7 ১১১2১২১১১
+‘©:2018 KPMG International Cooperative (“KPMG International”). KPMG International provides no:client দা আত গড দ পেই তর | দর
+services ৪7019 -8-5%095 গাম with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh: Tax Frofile’ fe
+
+ঢা
+Sir [Section [Details rrr holding tax rate |
+‘no.: | রম |
+23 : SN i. TiangiGt Of Share of shareholder Of Slog ভা *
+Income from above’ sources will firstly be ‘computed on, regular: basis:as per provision of.
+‘higher. than, the withholding. tax:deducted from these sources of.income, the regular:tax.
+Jiability-would be payable:after adjusting. withholding. tax deducted at source.
+tax.on; those sources,:such withholding: tax.on those sources:would be. considered as:
+final and.minimum tax for, those sources of'income..In:such case; if,those sources’ of.
+of income’and vice-versa;
+Also note that tax deducted/collected from the following sources shall not be the minimum:
+1): “tax collected under séction 52 from: the following: persons:
+‘a, a-Contractor. of ‘an: oil company or’ a-subcontractor- to ‘the contractor: of an‘oil
+b: an oil marketing. company and.its dealer or agent excluding petrol pump station;.
+০ any company engagedin oil'refinery;and
+ji): tax deducted ‘under, section 53 from jimport-of, goods'by:an industrial undertakings:
+iil) tax deducted: under Sections 53F(1)(a) and:(b)
+,considered:as final tax liability considering the.rate of withholding, tax.would be:
+‘Sly (Section: ; Source ofincome S| 'Rateoftax
+1. 1820. ; Compensation against 12%:3000%
+1: ০ : A
+ডে: দা রে ee {
+121 52D. “| Interest.on’savings instrument, ; 5% - 7
+ine ‘53DDD; 7 ; Export ‘cash:subsidy ~ ~~ e 3%: eee
+& 2009. 77091991017 savings deposits নন
+। fANd-2\""""anidfixed'deposits
+° - [3H | Franster of property i | Depending:on location: ;
+ol ee ctu an, |and Square théter
+b. ‘For any-other. Sources. of.income except:those.mentioned in:(a).and (b) above;;,
+‘income:would be-determined following the: provisions. of 1ITQ:1984- —
+©:2018 KPMG International Cooperative (“KPMG International"). KPMG ‘International provides no:client 2 OR eR OR লা)
+services and isa Swiss-entity with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh Tax Frofile’ ka
+
+1.3.14" Minimum‘tax'based on: overall:gross receipts:
+Every, companies and:every firms (having gross receipts, of'more than: Tk: 5 million)'shall-be
+liable to. pay, minimum tax based on.gross receipts as mentioned. below: °
+| 7 a Manufacturer. “of “Icigarette; 8101). ‘chewing ৭০০০ ':90:00076:807095479091653 __ ;
+‘|| smokeless tobacco or any other. tobacco:products: রা মানানো!
+| 3! | Industrial :undertaking: engaged in ‘manufacturing' of; Os 0%:ofithé gross'receipts |
+Ifan asséssee.has income from any source that-is exempt of tax-or is‘Subject;to. reduced tax.
+i): Minimum ‘tax based;on gross ‘receipts from: regular, sources by: applying.the:rate as:
+-mentioned.in'the.above table:
+‘tax rate by applying the:ratejin the above table ‘as reduced in:proportion to the exemption:
+of.tax:or the reduction, of rate of.tax::
+Foreign sourced losses of a Bangladesh entity cannot be offset against the Bangladesh profits:
+of that: entity Moreover, any. losses of anyihead of:income:cannot be set. off'against any:
+capital losses can only be carried forward:for up to six years:;
+1:3.16 .Advance tax-payment
+,Advance:tax payments required by:an assesseé onthe basis. of the last assessed income or’
+provisionally. assessed income :if:his totaliincome exceeds Tk:'400,000:' New. assessees -will
+share of a.company, listed witha stockiexchange: .
+«Advance tax:is to be paid in:four equal instalments 0715 September, 15 December;15 Marchi
+and‘15.June of the'financial. year-for which.the:tax is, payable:
+I GaSe of fallig tO’ pay Savance tax; simple iriterest-@ 10% par anu stall bé ০18০৭ oF)
+1.3.17, Penalty for'non-compliance
+iThe Deputy: Commissioner of Taxes:may.impose’ penalty, for.the failure’ to file tax.return®
+by:an‘assesseé ‘within: the ‘dué.date as shown. below:
+Higher. of 10% of tax imposed on'last assessed :income or, Tk'1,000 and a further penalty:
+of Tk 50 for.every.day-during which.the default continues.»
+‘©:2018 KPMG International Cooperative (“KPMG International”). KPMG International provides: no:client CB Mok oe BR a র
+services and is’a:‘Swiss-entity with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh: Tax Frofile: be
+
+[গম
+
+= Delay interest for-not filling:return:on;or before the Tax Day’
+
+Anvassesse is liable to, pay:a delay interest at the rate 2%. per month'but-not exceeding:
+:one year, if the assesse fails to file the income tax.return'on or before the tax day. However,
+‘such delay interest will be applicable‘on the difference between the tax assessed on total!
+‘income. for.the:assessment year andthe tax paid in:advance (including tax deduction),.for:
+information as required by the ‘concerned tax official, .the Deputy Director. General, Central]
+‘Intelligence Cell or the Deputy.Commissioner, of axes may.impose a penalty of:.Tk 25,000;
+‘and;in,case of a:continuing default:a further. penalty of Tk:500.for each:day of-default.,
+‘However, discretionary power:has'been; given ‘to Deputy: Commissioner: of Taxes:not to:
+‘impose; penalty. inappropriate cases:
+
+" ‘Tk 500.and a further. penalty of Tk 250 for.every month, during which.default continues in;
+issuing‘ certificate of deduction. of tax in: prescribed’ form to:persons.from: whom: tax:has:
+ibeen‘collected/deducted as required’ under,section 58 of.the'Income Tax Ordinance or.in}
+‘filing of, particulars of salary payments as provided in:section:108 or information regarding:
+‘payment of interest as’ provided .in*section 109.:or- information“regarding; payment of;
+‘dividend as provided in section 110.in'Income:Tax:Ordinance 1984.
+
+« ‘Penalty for using fake Taxpayer's Identification’ Number’
+where TIN is required’ under: this: Ordinance; the, Deputy: Commissioner, of ‘Taxes: may:
+‘impose.a.penalty-not exceeding.Tk'20,000'on-that person.,
+
+" ‘Punishment‘for improper.use of-Taxpayer's Identification:Number.
+
+‘A person's guilty of an-offence punishable with imprisonment for-a term which may extend,
+
+* ‘Penalty for-failure:to verify:Taxpayer's Identification Number:
+
+‘Penalty for-failure:to pay tax on. the basis of return
+‘A person, who fails to,pay:balance tax ‘under section 74'may result in a'penalty at the'rate:
+
+# ‘Punishment for, obstructing an income tax authority:
+
+‘A person, who obstructs'an income tax:authority, in-discharge of function, shall commit an,
+
+* ‘Punishment for,incorrect or false audit:report:-by chartered accountant
+‘A:penalty..of Tk;50,000. to Tk-200;000 shall’ be:imposed ‘on such:chartered accountant,
+‘when.DCT, CT. (Appeals) or Appellate:Tribunal, is satisfied beyond,reasonable doubt that,
+
+‘©:2018 KPMG International Cooperative (“KPMG International”). KPMG International provides: no:client CB Mok om BR a র
+services and is’a:‘Swiss.entity with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh Tax Frofile’ 4
+
+kale
+= ‘Punishment:for furnishing fake audit report:
+‘Imprisonment between 3:months and ’3 years or/a‘fine up to Tk.100,000 or both shall:be
+‘imposed ona person furnishing fake‘audit.report:
+« Punishment for unauthorised‘employment
+‘Imprisonment between 3-months,and 3 years:or.a.fine:up.to’ Tk.500,000. or. both: shall be:
+iapproval.from:BIDA or-competent authority of.the: Government:
+« ‘Penalty for. concealment‘of income:
+:Axpenalty:of 15% of tax of: which; would: have been avoided':shall.;be: imposed for
+‘concealment of income by.any:means:
+1.3.18 Advance tax payment‘on.certain income:
+Manufacturer of cigarette:shaill pay advance tax at the:rate 3% on net sales,price every:month:
+in‘addition:with quarterly. advance‘tax payment. Although, such tax shall be adjustable:against;
+However,:net sales shall be A:B,.
+“Where;.A'= Gross'sales and B ='\VAT:and'SD (if, any) on:such gross sales.,
+1.3.19 .Annual.tax return filing and tax payment
+for, any“organisation: who has: obtained:a jTaxpayers: Identification Number’(TIN): Itis: also;
+NGOs,-universities.and educational. institutions run commercially -to file‘ tax: returns-and' pay:
+“taxes within due dates: For the list:of tax return filing,:please see section 2.9:
+Submission’of computation sheet along-with:audited’ statement of accounts has been.made:
+1:3.20 Return of-withholding tax.
+Every person shall file return of withholding tax collected or deducted half-yearly accompanied,
+by-withholding.statement along-with copy of treasury challans‘or,payment orders:
+i, First return: by 31 ‘January of:the year. for the periods from, July-to December, and.
+“The time’ forsubmission: of such, return, may’ bé:extended’by DCT! upon application for:
+maximum ‘15. days.,'Eor, failure:of filing:such return, .penalty-u/s 124 will be imposed..“The:
+Deputy Commissioner. of Taxes,. with the approval. of, the ‘Board ,:shall Select the:number of.
+returns of withholding tax within four years.from the end-of the year:in which.the return is filed.
+DCT, after:examining:the withholding tax.return:may imposé-penalty: under. sections '57,’57A:
+‘and.124 for any.non-compliance regarding deduction of,withholding tax appropriately:
+‘©:2018 KPMG International Cooperative (“KPMG International”). KPMG International provides: no:client CR Mok রে রর
+services and isa Swiss-entity with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh Tax Frofile’ be
+
+KPMG!
+1.3:21 Annual:Information:Return
+»Government may, require: any person or: group‘iof. persons‘;responsible for.registering: or:
+maintaining ‘books’ of accounts or ‘other:documents :containing, a ‘record of. any specified:
+: financial. transaction to furnish;an:Annual:Information return.in'a prescribed:form..
+1:4: “Tax:incentives’
+1:4.11 Special Economic Zones and:Developing Unit:
+industries.in. Special Economic Zones (SEZ) and in Developing Economic: Zones. These are:
+“a)’ Tax benefits for. investment in:Special' Economic Zones (SEZ):
+‘The business income:is ‘exempted from Income’ tax: for-next 10 years'from.the date of
+‘commercial’operation in: the following:manner:' ~
+A yea 80%
+eo year OM ১১১১১
+21 ae, I) চম্্
+পল মম সম্মান
+QU CAL ono ene! nee pe tense 0% Keepers =
+iEurthermore,, “capital gains”-arising from ‘transfer of share capital, royalty,"technical:know:"
+:how.and_technical!‘assistance fee paid by such: company-and declared: dividend‘are:
+‘exémpted from income; tax for:next 10:years from:the date’of.commercial.operation:;
+৮): ‘Tax'bénefits for Developing Unit in’SEZ:
+scommercial operation: in.the following.manner::
+1stodd year 100% ১১১১৬
+STAM টম
+‘years from the'date of appointment subject to:such ‘company does:not cross'5.years from:
+' the date‘of commercial.operation’i.ethe company who:has crossed:5 years from:the date:
+‘of commeércial: production, their foreign technicians can‘ not avail this‘benefit:
+‘Both the above, exemptions are Subject'to the following condition being met by the Project:
+-Company/foreign'technicians:
+(i) Obtain:12 Digit Taxpayer's Identification, Number; and!
+(ii); Submit income tax return.as:per, section: 75..
+1:4.:2: Hi-Tech’Park Zone’
+“ThE government has introduced."Bangladésh Hi-Tech Park ‘Authority, Act?2010” (BHTPA).for’
+©:2018 KPMG International Cooperative (“KPMG International"). KPMG ‘International provides no:client CB Mok om BR a র
+services and isa ‘Swiss.entity with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh: Tax Frofile: bg
+
+high-tech:park ‘act has specified: the:meaning-of.high'tech industry: As‘per-section 2(12):of
+Bangladesh:Hi-T ech. Park Authority:Act,'201 02: ” 7 OO
+“Hi-tech Industry;means knowledge and capital based éco-friendly and information technology’
+(IT), software ‘technology, bio-technology renewable energy, ‘green technology, hardware;
+information. Technology. Enabled: Services; (ITES) and.‘Research and:Development (R&D):
+telatediindustry.” ” - mS
+a): ‘Tax'benefits‘for Investingiu nit‘of Hi-Tech Park Zone’
+“The: business: income:is: exempted’from Income tax. for ;next:10-years from the date of
+-commercial operation in the following manner:
+CAS 270 and. Be eae OOM ee eel
+BO VCE a oe ne acca cennee ap BO WO nore scepescasne
+| 6th-year: an 60%: i
+নন ae
+or yea ts 0
+1 90:098100১৬১১০০০০৭৬১১১২০০০০১০০০৩০১০১, cima
+MOY 238০১০০০০০০ 2000১ ০০
+Moreover, Capital ‘gains ‘arising from transfer.of share-capital, royalty,. 16011681 Know-how:
+‘exempted from Income tax for next.10. years from the date of commercial operation:
+‘The’ foreign technicians appointed. in:investing:unit will, get: 50%.tax ‘exemption for next 3;
+‘yearsfrom the date ‘of appointment subject to:such company. does ‘not cross 5:years from:
+“the date ‘of-commercial.opération:i: 6: the company who has:crosséd ‘5‘years from’the date!
+of. commercial production, their foreign technicians 'can not avail this benefit.
+.Boththe above exemptions are subject to the following condition: being:met by.the Project;
+‘Company./ foreign:technicians::
+Ai): ‘Obtain12:Digit Taxpayer's. |dentification,Number; and
+“(ily Submit:income tax return’as’ per. section’75:,
+b). শন ax benefits:for Developing ‘unit-in-Hi-Tech:Park'Zone:
+“The business. income: is ‘exempted from Income ‘tax for'next'12,years from the date of:
+“commercial operation in the following manner:
+[ASE O OM YEAR Ease oer AOO% a cee se
+PAM YOR ee ০ ১৬০১১০০০০০০ (0১০১১০১০০০০
+pel Myear a BOW ie on ce nen
+Moreover, -declared'dividend is ‘exempted from income tax for next 10.years from‘the date:
+“of, commercial operation:- ~ ~
+Please note that, -the above exemptions are subject:to the following condition being met by.
+“the project company:
+(i) Obtain'12 Digit,Taxpayer's,Identification'Number; and বৃ
+‘(ii); Maintain accounts:as per-section.35 (Method’of:Accounting):and 90010100079 tax
+"" return-as per'section: 75: , ~
+©:2018 KPMG International Cooperative (“KPMG International"). KPMG ‘International provides no:client CB Mok om BR a র =
+services and isa ‘Swiss.entity with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh Tax Frofile: uu
+
+KPMG
+
+1.4.3. Partial tax:exemption'for-newly established undertaking
+Qualifying industrial:undertaking set:up’between‘1July;2011 and '30"June:2019,and:going;
+into ‘commercial production/operation:within:those dates will be*entitled:to apply for, granting:
+«tax exemption.’However, the exemption;structure-has been revised:as follows: .
+Industrial‘ undertaking
+: fo Of income: |
+i ‘Dhaka,:Mymensingh and:Chittagong Divisions: ome stand 2" year! "100%!"
+: excluding-Dhaka, Narayanganj,-Gazipur; V8 year 60%):
+| _Khagrachari-Districts: সে 20%: :
+| Rajshahi, Khuina, Sylhet, Barisal and Rangpur "| 1%" and.2"4 year" ~~ "100%.
+| divisions.(excluding City:Corporation‘area)'and!, 3tyear 70%
+| ‘Rangamati,,Bandarban:and Khagrachari:Districts = 4thyear (55%:
+র্‌ ! রত 1৩০5100831০ anon sens 40% ০
+es ‘ 6thiyear 3590
+© rte a অঅ মম cin, (to AOM year.) 20%)
+“;Bio-fertilizer’ andi “petro-chemical” production. industry. shall be. entitled? to: partial ‘tax:
+sexemption for, 10. years. even if it is’Set up: in the districts of Dhaka, Gazipur, Narayanganj or
+
+Chittagong.
+
+Brick.made of ‘automatic hybridikiln technology. will, be treated ‘as industrial undertakings. for’
+
+Industrial. undertaking does:not ‘include expansion:of an:existing undertaking for the purpose:
+
+undertakings, and facilities only-will qualify, for:tax’exemption:,
+
+3): “lindustrial undertaking! means:,
+
+“An. industry engaged :in the production ‘of. active pharmaceuticals ingredient industry and:
+itadio pharmaceuticals, industry,,automobile manufacturing industry, barrier-contraceptive:
+‘and rubber latex, basic chemicals.or dyes and chemicals, baSic)ingredients of electronic.
+‘of, automatic :Hybrid Hoffmann: kiln technology-.or \tunneli kiln;; compressors, computer’
+‘Official Gazette specify;:
+
+b): ‘Only:those profits and‘gains of the-said: industry: shall qualify for:tax.exemption’ which is:
+-within the. purview of section:28,:Income. from business or profession, of the Inco me‘Tax:
+‘Ordinance, :1984:- BN
+
+-0) “The newly:established undertaking is ‘required to’ensure that'their paid:up capital is:not:
+‘less.than two: million and ‘thirty, per. Centof the income éxempted | is‘invésted in the said:
+.undertaking‘or in:any;new industrial undertakings during the’ périod oftexémption-or.within®
+‘one year frorithe end of the périod 'to:which:the.exemption under. that sub-sectionirelates'
+:and.in addition another 110% of the:incomeé exempted.is. invested: in each :year before the:
+‘expiry.of:threé*months from the’end ‘of the income ‘year in.the purchase of‘shares of:a:
+:company listed..with any: stock. exchanges in Bangladésh,jfailing’ which ‘thé incomé:so:
+‘exem pted ‘Shall; notwithstanding the provisions of this Ordinance; .be:su bject ‘to taxcin: the:
+‘assessment year in which’ the:undertakirig failed ‘to: comply. with: the ‘provision’ 8170 817
+individualinot being‘a Bangladeshi.citizen’is employed or-allowed ‘to'work’ without‘prior’
+‘approval of BIDA.or any.competent:Government authority.
+
+‘©:2018 KPMG International Cooperative (“KPMG International”). KPMG International provides: no:client CB Mok রে a
+services and isa: Swiss.entity with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh Tax Frofile: bg
+
+KPMG!
+Provided that the quantum of:investment referred to’in this clause’shall'be reduced by the:
+‘amount: ‘of; ‘dividend, if: any; declared by “the: ‘company® enjoying’ -tax: exemption:
+‘under this: section. . “ soa
+.d); The undertaking has to-apply.in:prescribed form: for-approval-within:six months from the:
+“fend: of the: month.of:commencement of-commercial, production’ and be approved by, the:
+-Board for ‘this purpose: ~ '
+"e): ‘The undertaking: need: to. ‘obtain? a iclearance ;certificate :from the; Directorate: of
+‘Environment and ‘the undertaking}has:to_ maintain’ books of: account:on:a regular: basis:
+“Tax exemption will be’ allowed for. biotechndlogy.and petrochemical.industries ‘even if situated!
+in Dhaka,.Gazipur, Narayangonj and:Chittagong districts.
+1.4.4 Partial tax.exemption:for newly established physical Infrastructure facility’
+Qualifying: physical: Infrastructure set,up' between 1 July:2011 ‘and30: June 2019 and going:
+into-commercial:production/operation within:those’ dates’ will be‘entitled to apply. for:granting:
+‘tax.exemption.: Tax exemption: of different: proportions 'will:now:be granted ‘for 10-years if:the:
+‘said physical'undertakings are set-up in.any.area‘of Bangladesh...” °
+1 এ 681 ১১১ ০%) A
+ESM year 00% ০
+১6680... ১১১১১১5০% ১১১১
+eT year AO ১১১১০
+FO YOM ca nmunnatnd amsnanmnaninss SOT? sosonssatisnen
+“Physical Infrastructure facility”: means:
+processing zone, flyover, gas pipe line, hi-tech park, information technology. village or software:
+-Or-river port, toll,road-or bridge, undergroundirail,:waste treatment plan or any other category:
+২৪): ‘Only:those profits:and. gains of the’ saidindustry shall, qualify-for, tax exemption: whichis:
+‘Tax Ordinance, 1984.
+‘up capital is-not less than; Tk:2:million:and 30% of-the income-exempted' is. invested:in:
+or-within-one year, from.the end _of.the: period*to which: the exemption under, that:sub=:
+Section relates: and inaddition another. 10% of.the income exempted:) is investediin each:
+year before ithe expiry of three:months fromi the end of the:income.year-in the purchase:
+‘of, shares of a. company listed: with any, stock exchanges. in Bangladesh, failing which the:
+income.so exempted. shall, notwithstanding’ the provisions:ofithis-Ordinance,«be: subject:
+:or.an.individualinot'being a:Bangladeshi citizen is.employed:or:allowed to work, without:
+prior approval of: BIDA or any competent-Government authority;
+©:2018 KPMG International Cooperative (“KPMG International"). KPMG ‘International provides no:client CB Mok oe BR a র
+services and isa: Swiss.entity with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh Tax Frofile’
+
+২৪৪০১171309 garments’ are allowed to,invest 40%:in’the said undertaking: 01713107067
+
+‘industrial ‘undertakings: : °
+"c) Provided that the-quantum ofinvestment referred to’in.this clause’shall'be reduced by the,
+~ damount.of dividend, ‘if any,:declared. by-the:company;enjoying.taxiexemption under this:
+-d); The undertaking has to‘apply.in:prescribed form: for‘approval:within'six months from. the:
+“fend: of the:month.of:commencement of-commercial! production’ and be approved by:the:
+
+-Board for-this.purpose: ~ .
+'9): The undertaking: need! to; ‘obtain? a ‘clearance ‘certificate from the: Directorate: of-
+‘Environment and the undertaking!has to. maintain’ books’ of:account-on.a regular: basis:
+
+1.45. “Tax exemption for Public Private Partnership (PPP) Project
+
+“forPublic Private Partnership (PPP) work by Project Companies involved in the following PPP-
+
+projects:
+
+“1. National Highways’or, Expressways’and related Service’Roads.
+3. Elevated and'At-Grade Expressways,
+4. — River Bridges’ ° .
+‘6: River port;
+
+7, Sea‘port
+
+8. AirPort
+
+“40: Monorail
+
+41k» Railway’
+
+42, Bus terminals
+
+"13. Busdepots
+
+14. Elderly care home
+
+a): ‘Income Tax:exemption of the business income.of PPP Project‘Company::
+‘The-business income’is"100%" exempted from‘incomie: tax for next’10 years from ‘the date’
+‘Of. conimeércial Operation: * "
+
+‘PPP: Project:Company,'Royalty,' Technical: Know-how. and Technical assistance fee:
+-Paid by’ such company:
+
+‘Technicalassistance fee:paid by such’company are:100% exempted from. Income tax,for’
+‘next 10. years from thé date of corvimercial operation., “
+
+c): ‘Income Tax exemption for foreign technicians employed in PPP Project: Company:.
+‘The foreign technicians.appointed in'PPE Project Company-will get 50% tax exemption for’
+snext 3 years from:the date of appointment subject to such company-does.not cross 5 years:
+ftom the: date’ of commercial’ operation i.e: the.company.who'has’ crossed 5.years from:the:
+‘date:of commercial ‘production; their.foreign technicians can.not'avail this benefit.
+
+Please “note ‘that,;the above: eXerriptions aré subject'to the ifollowing. condition being ‘inet by:
+“the' project coripany: ~ °
+(i). ‘Obtain 12 Digit Taxpayer's Identification Number: and:
+
+‘©.2018 KPMG International Cooperative (“KPMG International”). KPMG International provides: no:client CB Mok oe BR a র
+services and is’a:‘Swiss.entity with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh: Tax Frofile’ ea
+
+(0). !Maintain:accounts.as per section, 35,(Method:of Accounting) and:submit income tax;
+“* sreturnias'per’section:75-: “ wee
+1.4:6 Income from exports’
+50% of income’ derived'by any: taxpayer from. export’shall bé éxenipt from tax, except fora”
+.compainy not incorporated in Bangladesh and Company paying tax-at a reducéd'rate’.
+1.4.7 — Export Processing Zones’
+-At'present the following'exemptions.are available.on;tax payable:
+:2 For'a’périod of.5 years if the industry is ‘set up in’ Export-Processing:Zones (622) 01818:
+-and.Chittagong divisions excluding: Rangamati, Bandarbon:and'Khagrachari districts; and!
+“+ IFora period of 7 years if the said EPZ are’ set-up in:Rajshahi,'Khulna, Sylhet and: Barisal)
+divisions and'Rangamati,. Bandarbon-and Khagrachari districts:
+| Dhaka,Mymensingh:and:Chittagong! 1 1Shand 27g yea ৮০০০1 00% cs.
+» Khagrachari 9150108৬১০০ tt Yea 25%
+“To attain above’exemption of EPZ industries proper.books'of accounts have to be!maintained!
+‘and!must'submit.incomeé tax return’as per section 75:of:ITO'1984-.;
+1.4.8. _ Income from the business of software development or. Nationwide Telecommunication:
+“Transmission;Network:(NTTN) and information technology enabled services:(ITES):;
+Income derived from the business of software ‘development or. Nationwide Telecommunication:
+Transmission:Network?(NT-TN yand information. technology. enabled. services: (ITES) is\to_be:
+‘tax-exemptiup: to 30; June -2024.. However: those ‘enjoying theexemption:must file: tax ‘return;
+-annually. disclosing the income:along:with income from.other sources, : if;any.:
+Information Technology: Enabled Services (ITES) defin ition has been widened ‘as below::
+». .Software‘or application customization: ne
+=. Nationwide Telecommunication Transmission;Network (NTTN);:
+=. Digital animation'development;’ ° .
+=. ‘Web: site’services;
+=. ‘Webllisting; _ রা
+. IT, process outsourcing;
+=. Digital graphics ‘design; .
+= _Digital,data entry-and;processing;’
+« Digital:data‘analytics;” ১
+= [T,support and software maintenance ‘service;
+* /Software'test lab'services;
+« “Overseas medical-transcription;;
+= -Search’engine’optimization services; i,
+#: “Document conversion,:imaging.and. digital-archiving;
+«: "Robotics process outsourcing;,and ~~ °
+ai “Cyber:security:services.. ~
+©-2018 KPMG International Cooperative (“KPMG International"). KPMG ‘International provides no:client 2 OR eR OR লা)
+services and is’a:‘Swiss-entity with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh Tax Frofile’ a
+
+1.4.9. International_Taxation
+Double‘Taxation.Avoidan ce.Ag reement:
+“There are‘agreements ‘on avoidance of double taxation: between Bangladesh and 33 countries:
+‘which are: ~~ “
+“7. !Romania 24) (Norway’ i
+10. Malaysia | 27 Switzerland .. র্‌
+£12 <India: ৷: 29) Mauritius রা য়
+1 14 ‘The'Nethérlands | 31-Myanniar | র্‌
+1.4.10 06061618:0২6161
+“the: lower ofthe foreign'tax'paid:or the Bangladesh tax:otherwise, payable:,
+©:2018 KPMG International Cooperative (“KPMG International"). KPMG ‘International provides no:client 2 OR eR OR লা)
+services and isa Swiss-entity with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh Tax Frofile’ ea
+
+Effective'period. of transfer. pricing
+“Transfer. pricing. regulation. is effective: from: 1) July. 2014. (S-R.O. 161/Law/Income’
+(ii). “There.aré.extensive proposals: in the Act:regarding responsibility and; determination: of’
+(iii) If'such, a: transaction: is:not found to be at arms-length; DCT ‘may: determine via the:
+_ “Transfer Pricing Officer the arms-length price of.the transaction.
+(iv); :Every:person-who. has. enterediinto-an international. transaction shall:furnish; along ‘with:
+(v) “The'tax payer has to furnishia.transfer: pricing report, ‘on’such transaction if those’exceed:
+~ “Tk! 30 ‘million: in-aggrégate’ in ‘a given’ year, by ‘a Chartered ‘Accountant/Cost: and:
+‘ Management:Accountant, is only:required:to. be 'submitted.to:the:DCT if instructed inthe:
+00667 ~ রে
+“may. resultini a.pena Ity,ofimaximum:2%:on:the value of: international transactions:
+Failure to furnishisuch ‘repo rtimay: lead ‘tova‘pe nalty.up to-Tk-300, 000::
+Report/certificate ifrom ‘Chartered: Accountants authentifying“certain..documents' related: to:
+“transfer.pricing-as‘ per notice’ by the tax ‘authority. once:transfer: pricing assessment/auditihas :
+béen initiated’ by: tax authority.: : -
+©:2018 KPMG International Cooperative (“KPMG International"). KPMG ‘International provides no:client CR Mok রে রর
+services and isa Swiss-entity with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh Tax Frofile’
+
+[পর
+
+“Value Added Tax= VAT,”
+
+_Standard.Rate:
+
+‘The standard:rate of VAT.is15'percent.,
+
+‘Exports are zero-rated.and.certainitems‘are, VAT-exempt.,
+
+‘In Bangladesh standard VAT rate is-15%: ‘There is'also truncated rate (short value addition: VAT system).
+vapplicable for:many-services: In general,:input rebate’ is, applicable for: companies providing *services:
+cunder-full rate of.15% as,per VAT-Act 1991. , “
+
+“For more detailed indirect tax information, ‘refer: to::
+
+‘National Board Revenue
+
+‘©:2018 KPMG International Cooperative (“KPMG International”). KPMG International provides: no:client CR Mok রে রর
+services and isa Swiss-entity with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh Tax Frofile’ py
+
+In 9793111880791809817719910975, are taxed’ oni their ‘worldwide income. Non-residents: 816
+'taxed:on income earned in ‘Bangladesh irrespective. of-where the payment is. made. :
+‘There. is:no:provision: for: married: couples, to file joint returns: Returns are to-be filed:by’30
+required to:pay.advance tax as. either, 100% of last assessed tax or. 75% of current estimated’
+income tax:and pay..the outStanding:-tax (if any) at the:time:of filing the return: \Tax-on ani
+‘4.2 Resident.
+An individuals treated as’a resident of Bangladesh if thatiperson’stays:in. Ban gladesh for:182:
+‘days or,more'in-any.income year; ‘or: 90°days‘or more,in.an income‘year?if‘that person:has’
+previously resided in Bangladesh for. a period‘of more than:365:days during the four preceding:
+“years. ;Residence 191 determined. in .Bangladesh: ‘purely’ on the? period! of’ presence’ in;
+Bangladesh ‘irrespective of. residency in ‘other’ countries./Short-term visitors’ and'dependents’
+‘of foreign nationals not earning any:income:in Bangladesh'are not taxed:in:-Bangladesh and;
+-are.not.required'to'file'tax return... ~ = TM
+4.3 ‘Taxable income:
+‘Taxable jincome is the total income, earned: from. all, sources, excluding exempt income:,
+Foreign, source income of a'resident is;includedsin his/her taxable :income:withithe exception:
+‘of the foreign source. income of.foreign nationals who are'residentin Bangladesh.
+No:tax'is payable by tax residents: on income: not'exceeding Tk 250,000:. The following rates:
+‘are: applicable’to-resident individual,Hindu undivided family, partnership. firm; non-resident:
+Bangladeshi, and ‘association of persons:
+/Next:Tk.500,0007 7 15%
+Next. Tk 600.000 ==" "DOH
+i Next:Tk'3;000;000) 0 25%
+1 Onithe balance: ee senate BOM ০.১
+“Initial'exemption limit for women and senior citizens aged 65, years or over. is.Tk-300,000,;for:
+physically challenged persons, jit is Tk’ 400,000 and for-gazetted_ war-wounded freedom;
+‘fighters, it is Tk 425,000:
+In Case ‘of parent/legal.guardian of a:physically challenged person, he/she: will.get'a:further’
+initial exemption of) Tk'50,000 in‘addition'to-above limit,
+‘©:2018 KPMG International Cooperative (“KPMG International”). KPMG International provides: no:client CB Mok om BR a র
+services and isa ‘Swiss.entity with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh Tax Frofile’ eS
+
+Non-residents other,than’ Bangladeshi, non-residents’ shall’ pay: tax'on the: total income:at the:
+rate of 30%. : °
+‘Charge of surcharge:
+
+“Surcharge is:payable by:an, individual‘assessee* on’ total tax payable if. the totalinet worth:
+exceeds Tk:22.5 million'as stated below:: i
+
+' Total net worth ee ee Rate
+
+a) Over Tk 22:6 million to.Tk 50 million or owner of more than’ 1 motor | 40%
+
+i_b)'Over-Tk°50 million toTk-100 million 5%
+
+“¢) Over Tk 100 million to Tk 150 million... 0%
+
+#d) Over. Tk-A50:million to TK: 200 MiliON 2. eee cose nse, eases smsnanntmnes| 2D!
+
+FO) OVER TK 200 মা াহটোতেদোদটোদেইদকে npe | BOYD se
+However, ‘minimum: surcharge. will not'be less than:Tk 3,000 for option (a) above ‘and not.less:
+‘than Tk:5,000:if net. worthsexceeds Tk 100 million:
+
+‘4:4. — Requirement of twelve‘digit Taxpayer's ‘Identification Number :(e-TIN)
+Ita’: been! made icompulsory to*Submit/é:TIN Certificate ‘or, acknowledgement receipt ০6
+income tax rétiirn or'the tax:certificaté issued: by Deputy’ Conimissioner of Taxes.at the time:
+% Opshing alettér of créait:for the purpose of import;
+
+« —_ -submitting:an:application for.the purpose:of obtaining an import registration certificate;
+# renewal of tradélicence:
+
+* ‘submitting an application for. méribership ofa club régistéréd'under thé’ Companies Act’
+994°
+
+« ‘issuance or renewal of license or enlistment of.a'surveyor. of general insurance;
+
+« — 'fegistfation for purchase of land, buildirig or apartment situated within any, city corporation”
+‘deed Vallié.of which exceéds"Tk 100,000.*This' provision will'not apply in’cases of riont:
+'fésidént Bangladéshis: i
+
+« _‘registration;: change ‘of.ownership,or:renewal of.fitness of a’car, jeep ora microbus;
+
+« — 'Fégistration, reriewal of fitness or cHarige:of ownership ‘of a bus, trick; prime mover, lorry:
+‘etc. plying fon hires ~ ” sos mS
+
+* ‘sanction of'loanexceeding Tk'500,000:to’a person by.a ‘commercial bank:or.a,leasing:
+‘company;: ~ . ° /
+
+* issue’ of practicing license’to“a doctor: a’ lawyer; a‘chartered accountant;a cost and.
+imanagement accountant;or.an:income tax:practitioner;:
+
+# ‘all sponsor directors ‘at thé timé:of registration: of a. company (other :thaninon-resident:
+foreign directors/sponsors),
+
+" applying for or:renewal’ of. membership of any:trade body;
+RAJUK;.CDA,;KDA’and.RDA; ) a
+
+« Issuance of drug' license;
+® ‘applying for Connéstionsof gas'for:commercial Use within a city corporation, pourashava:
+
+Orcantonmentiboard; রন রা a
+
+* ‘applying -for: connection: of -electricity, forcommercial ‘use: within a: city“corporation;,
+‘pourashava‘or.cantonment board; ~ a
+
+* ‘issuance or renewal of survey Certificate of a water vessel!includifig launch, steameér;:
+2 — :fegistration’or-renewal of certificate as agent of an insurance.company;
+
+©.2018 KPMG International Cooperative (“KPMG International”). KPMG International provides no.client খেয়ে ROR ea
+
+services and is’a:‘Swiss.entity with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh Tax Frofile’
+
+“parents of-the'students of English medium school following international.curriculum‘within:
+City, Corporation or-in:any, pourashava:of a district headquarter:
+
+a ‘Técéiving the’ Salaries! by an employee sof the*government of.an authority. corporation, ;
+‘Body of units of thé governinient who draws a salary at'a Scale” of Grade 10 or above:
+
+" —_receiving:any amount from: the government under,Monthly: Payment Order (MPO) ifthe’
+‘amount of payment exceeds Tk 16,000:per:month;: oe so”
+
+#* — fecéiving any payment which is anvincoméiof the ipayée classifiable ‘under the headi of”
+‘supervisory. position in the'production function,
+
+* obtaining or. maintaining, the agency: or the ‘distributorship of a company;
+
+* receiving any-payment by aresident from a company against any advisory,or consultancy:
+service,-catering; service, event management 'service, (supply of, manpower: or:providing:
+
+# submitting & bill of entry. for.import into or export from: Bangladésti; and’
+
+2 ‘participates in a ride-sharing arrangement. by providing:motor, vehicle:
+
+» Twelve’ digit ‘Taxpayer's-'Identification: Number’,(e-FIN) ‘may; be issued ‘without: any:
+‘application: where.any: income’ tax: authority, has found ‘a:person having taxable income:
+during the:year. and ‘has failed:to ‘apply for:TIN : . ~
+
+= ‘Board’ may direct’any person:having.a:T.INito furnish’ such ‘information or:documents.for:
+the ‘purpose ‘of. re-registration::and thereafter, issue: a: new, twelve: digit ‘Taxpayer's!
+Identification; Number: রা রা
+
+“Temporary: Registration Number (TRN) may be given to.a person-who has:been found having!
+‘under-section'184B?
+©:2018 KPMG International Cooperative (“KPMG International"). KPMG ‘International provides no:client CO ১ তে শি তেন ডের চাও, =
+services and isa Swiss-entity with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh Tax Frofile’
+
+“Tax,Authority:
+iNational'Board of. Revenue:(NBR)
+Link to ‘National Board Revenue
+“Appeals
+“An.assessee who feels aggrieved may file an:appeal-against the order, to the’ Commissioner: of Taxes:
+(Appeal) and against the order of the Commissioner, of Taxes (Appeal) to. the Taxes Appellate Tribunal.
+:An-assessee Can file appeal.against the order of.the’ Taxes Appellate Tribunal only on, the point of. law:
+‘to. the: Supreme, Court High: Court Division. An. appeal:can further be filed,to, the Appellate division if
+‘High Court Division allows for such appeal!
+‘The first appeal before the Commissioner of Taxes (Appeal) shall: have to:file within 45 days of.the date:
+‘of first appealforder. The first and.second appeal:shall be disposed of by-the appellate’ authority:within,
+150 days’and,180.days respectively from’ the’end of the month at which: the appeal:was ‘filed.
+ithe: section 15304), unless the assessee has..paid, 10% of :the,.tax:as:determined. by the: Deputy’
+“An assessee can file appeal against the order of the Taxes Appellate: Tribunal only. in the area of law.to:
+‘the High Court Division:of Supreme Court-within 90:days from the date of receiving tribunalorder. Ifthe:
+140 appeal:shall be filed:to the: Appellate ;Tribunal. unless. the asséssee has paid 10%-of the amount)
+representing the ‘difference between the tax as determined. on the basis of. the order-of the Appellate:
+“Joint: Commissioner. or Commissioner, of Taxes (Appeals) and the:tax payable under section:74..
+, However, Appellate ‘Joint Commissioner/Commissioner:of Taxes: (Appeals) may allow the. appéal for.
+ihearing if'assessee pay the tax:on the basis of return:before filing of appeal:to-Joint Commissioner. or-
+“Commissioner: of-Taxes (Appeals).
+‘Provided that the Commissioner of-Taxes (Appéals) may reduce the requirement of such payment upon:
+application by the assessee.if the grounds of such application appears reasonable to him.
+\No reference shall lie to the High Court Division against an order of the Taxes Appellate Tribunal unless:
+‘the assessee. has paid the following tax at-the rate. of-:
+.a) “15% of the:difference:between the tax determined by.the Appellate Tribunal andthe tax.payable:
+‘u/s 74 where tax demanded does not‘exceed:i[k 1 million.
+‘b) (25% of. the:difference:between the tax determined by.the Appellate Tribunal andthe tax.payable:
+u/s 74 where tax demanded exceeds Tk 1 million:
+‘©:2018 KPMG International Cooperative (“KPMG International”). KPMG International provides: no:client CR Mok রে রর
+services and isa Swiss-entity with which the independent member firms:of the KPMG network are affiliated, ‘Bangladesh Tax Frofile’ bg
+
+ISPRAKS Rahman Rahman Huq’
+Chartered-Accountants ~
+
+“Adeeb H..Khani Ali. Ashfag ‘M: MeHibai Hasan
+
+“T::+880,2'988 6450 —'2 Te#880:2.988:6490'".2 "T +880 2.988 6450 = 2:
+
+‘E;adeebkhan@kpmg.com —-Ex.allashfea@kpmg.com: iE: mehedihasan@kpmg.comi
+
+7৮:11) Ape rae ৯৫০২৭
+iin Efi SS) -
+
+"© 2018-Rahman Rahman’ Hug, a partnership. firm registered in Bangladesh anda member:
+-firm:of the KPMG .network-of independent: member firms:affiliated.with :KPMG International:
+‘Cooperative ("KPMG International”),’a Swiss’ entity. Allright: reserved:
+‘The KPMG name and logo.aré:registered trademarks or. trademarks'of KPMG International.,
+©:2018 KPMG International Cooperative (“KPMG International"). KPMG ‘International provides no:client 2 OR ROR লা,
+services and is'a:Swiss.entity with which the independent member firms: of the KPMG network are affiliated. ‘Bangladesh Tax Frofile’

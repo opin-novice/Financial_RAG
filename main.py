@@ -1,11 +1,9 @@
 import os
-import re
-import logging
 import time
 from typing import Dict, List
-from langchain_community.vectorstores import FAISS
+from langchain_community.vectorstores import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain_ollama import OllamaLLM
+from langchain_ollama import ChatOllama
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains import create_retrieval_chain
 from langchain.prompts import PromptTemplate
@@ -13,150 +11,150 @@ from langchain.schema import Document
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-# --- Logging ---
-logging.basicConfig(
-    filename='logs/telegram_financial_bot.log',
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
-)
-logger = logging.getLogger(__name__)
-
 # --- Config ---
-FAISS_INDEX_PATH = "faiss_index"
-EMBEDDING_MODEL = "sentence-transformers/all-mpnet-base-v2"
-OLLAMA_MODEL = "llama3.2:3b"
-CACHE_TTL = 86400  # 24 hours
+CHROMA_DB_PATH = "chroma_db_bge_m3"
+EMBEDDING_MODEL = "BAAI/bge-m3"
 
-# Retrieval Settings
-MAX_DOCS_FOR_RETRIEVAL = 12
-MAX_DOCS_FOR_CONTEXT = 5
-CONTEXT_CHUNK_SIZE = 1500
+# Ollama Configuration
+MAIN_MODEL = "llama3.2:3b"
+OLLAMA_BASE_URL = "http://localhost:11434"
 
-# --- Prompt (Bangladesh Context) ---
-PROMPT_TEMPLATE = """
-You are a financial assistant specialized in Bangladesh's financial system.
-Always answer in the context of Bangladesh, using Bangladeshi Taka (৳/Tk) as the currency.
+# Add Telegram Bot Token (replace with your actual token)
+TELEGRAM_BOT_TOKEN = "7587801174:AAGevbvmtbU2p0zqZrkWs57E7zNGNP9Buwo"  # Add your token here
 
-Use the following context to answer clearly. 
-If the answer is not in the context, say "I don't know".
+# RAG Settings
+MAX_DOCS_FOR_RETRIEVAL = 5
+MAX_DOCS_FOR_CONTEXT = 3
+CONTEXT_CHUNK_SIZE = 1000
 
-Context:
-{context}
+# =============================================================================
+# 🏦 VANILLA RAG SYSTEM
+# =============================================================================
 
-Question:
-{input}
-
-Provide a helpful, fact-based financial answer:
-"""
-QA_PROMPT = PromptTemplate(input_variables=["context", "input"], template=PROMPT_TEMPLATE)
-
-# --- Cache ---
-class ResponseCache:
-    def __init__(self, ttl=CACHE_TTL):
-        self.ttl = ttl
-        self.cache = {}
-
-    def get(self, query):
-        entry = self.cache.get(query)
-        if entry and time.time() - entry["time"] < self.ttl:
-            return entry["response"]
-        return None
-
-    def set(self, query, response):
-        self.cache[query] = {"response": response, "time": time.time()}
-
-# --- Query Categorizer ---
-class QueryProcessor:
-    def process(self, query: str) -> str:
-        q = query.lower()
-        if "tax" in q: return "taxation"
-        if "loan" in q: return "loans"
-        if "investment" in q: return "investment"
-        if "bank" in q: return "banking"
-        return "general"
-
-# --- Financial Advisor Bot ---
-class FinancialAdvisorTelegramBot:
+class VanillaRAGSystem:
+    """Simple vanilla RAG system with basic retrieval and generation"""
+    
     def __init__(self):
-        self.cache = ResponseCache()
-        self.processor = QueryProcessor()
         self._init_rag()
 
     def _init_rag(self):
-        print("[INFO] Initializing FAISS and LLM...")
-        logger.info("Initializing FAISS + LLM...")
+        print("[INFO] 🚀 Initializing Vanilla RAG system...")
 
-        embeddings = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL, model_kwargs={"device": "cpu"})
-        print(f"[INFO] Loading FAISS index from: {FAISS_INDEX_PATH}")
-        self.vectorstore = FAISS.load_local(FAISS_INDEX_PATH, embeddings, allow_dangerous_deserialization=True)
-        print("[INFO] ✅ FAISS index loaded successfully.")
-
-        self.llm = OllamaLLM(
-            model=OLLAMA_MODEL,
-            temperature=0.5,
-            max_tokens=1200,
-            top_p=0.9,
-            repeat_penalty=1.1
+        # Initialize embeddings
+        self.embeddings = HuggingFaceEmbeddings(
+            model_name=EMBEDDING_MODEL, 
+            model_kwargs={
+                "device": "cpu",
+                "trust_remote_code": True
+            },
+            encode_kwargs={
+                "normalize_embeddings": True
+            }
         )
+        print(f"[INFO] Loading ChromaDB from: {CHROMA_DB_PATH}")
+        self.vectorstore = Chroma(
+            persist_directory=CHROMA_DB_PATH,
+            embedding_function=self.embeddings,
+            collection_name="text_chunks"  # Use the correct collection name
+        )
+        print("[INFO] ✅ ChromaDB loaded successfully.")
+        
+        # Check if documents are available
+        try:
+            doc_count = self.vectorstore._collection.count()
+            print(f"[INFO] 📊 ChromaDB contains {doc_count:,} documents")
+        except Exception as e:
+            print(f"[WARNING] Could not get document count: {e}")
 
-        self.doc_chain = create_stuff_documents_chain(self.llm, QA_PROMPT)
-        retriever = self.vectorstore.as_retriever(search_kwargs={"k": MAX_DOCS_FOR_RETRIEVAL})
-        self.qa_chain = create_retrieval_chain(retriever, self.doc_chain)
+        # Initialize LLM
+        self.llm = ChatOllama(
+            model=MAIN_MODEL,
+            base_url=OLLAMA_BASE_URL
+        )
+        print(f"[INFO] ✅ LLM initialized: {MAIN_MODEL}")
 
-    def _rank_and_filter(self, docs: List[Document], query: str) -> List[Document]:
-        terms = set(query.lower().split())
-        scored = [(doc, sum(1 for t in terms if t in doc.page_content.lower())) for doc in docs]
-        return [d for d, s in sorted(scored, key=lambda x: x[1], reverse=True) if s > 0]
+        # Create retriever
+        self.retriever = self.vectorstore.as_retriever(
+            search_type="similarity",  # Use basic similarity instead of MMR
+            search_kwargs={"k": MAX_DOCS_FOR_RETRIEVAL}
+        )
+        
+        # Create simple prompt template
+        self.prompt_template = PromptTemplate(
+            template="""Answer this question: {input}
 
-    def _prepare_docs(self, docs: List[Document]) -> List[Document]:
-        processed = []
-        for d in docs[:MAX_DOCS_FOR_CONTEXT]:
-            content = d.page_content[:CONTEXT_CHUNK_SIZE] + ("...[truncated]" if len(d.page_content) > CONTEXT_CHUNK_SIZE else "")
-            processed.append(Document(page_content=content, metadata=d.metadata))
-        return processed
+            Context: {context}
+
+            Answer:""",
+            input_variables=["context", "input"]
+        )
+        
+        # Create RAG chain
+        self.doc_chain = create_stuff_documents_chain(self.llm, self.prompt_template)
+        self.qa_chain = create_retrieval_chain(self.retriever, self.doc_chain)
+        
+        print("[INFO] 🎉 Vanilla RAG system ready!")
 
     def process_query(self, query: str) -> Dict:
-        category = self.processor.process(query)
-        logger.info(f"Processing query (category={category}): {query}")
-        print(f"[INFO] 🔍 Received query: {query}")
-
-        cached = self.cache.get(query)
-        if cached:
-            print("[INFO] ✅ Cache hit - returning stored response.")
-            return cached
+        """
+        Simple vanilla RAG pipeline: Retrieve → Generate
+        """
+        print(f"[INFO] 🚀 Processing query: {query}")
+        start_time = time.time()
 
         try:
-            retrieved = self.vectorstore.similarity_search(query, k=MAX_DOCS_FOR_RETRIEVAL)
-            filtered = self._rank_and_filter(retrieved, query)
-            if not filtered:
-                print("[INFO] ❌ No relevant documents found.")
-                return {"response": "I could not find relevant information in my database.", "sources": [], "contexts": []}
-
-            docs = self._prepare_docs(filtered)
-
-            print("[INFO] ✅ Running LLM to generate answer...")
+            # First, try to retrieve documents directly to debug
+            print(f"[INFO] 🔍 Retrieving documents...")
+            docs = self.retriever.get_relevant_documents(query)
+            print(f"[INFO] 📄 Retrieved {len(docs)} documents")
+            
+            if not docs:
+                print("[WARNING] No documents retrieved!")
+                return {
+                    "response": "I couldn't find relevant information in my database for this question.",
+                    "sources": [], 
+                    "contexts": [],
+                    "original_query": query,
+                    "num_docs": 0,
+                    "processing_time": round(time.time() - start_time, 2)
+                }
+            
+            # Use the RAG chain directly
             result = self.qa_chain.invoke({"input": query})
-
             answer = result.get("answer") or result.get("result") or result.get("output_text") or str(result)
-            print("[INFO] ✅ Answer generated successfully.")
-
-            context_texts = [d.page_content for d in docs]
+            
+            # Get source documents
+            source_docs = result.get("source_documents", [])
+            context_texts = [d.page_content for d in source_docs[:MAX_DOCS_FOR_CONTEXT]]
+            processing_time = time.time() - start_time
 
             response = {
                 "response": answer,
-                "sources": [{"file": d.metadata.get("source", "Unknown")} for d in docs],
-                "contexts": context_texts
+                "sources": [{"file": d.metadata.get("source", "Unknown")} for d in source_docs[:MAX_DOCS_FOR_CONTEXT]],
+                "contexts": context_texts,
+                "original_query": query,
+                "num_docs": len(source_docs),
+                "processing_time": round(processing_time, 2)
             }
-            self.cache.set(query, response)
+            
+            print(f"[INFO] ✅ RAG completed in {processing_time:.2f}s")
             return response
 
         except Exception as e:
-            logger.error(f"Error processing query: {e}")
             print(f"[ERROR] {e}")
-            return {"response": f"Error: {e}", "sources": [], "contexts": []}
+            import traceback
+            traceback.print_exc()
+            return {
+                "response": f"I apologize, but I encountered an error: {e}",
+                "sources": [], 
+                "contexts": [],
+                "original_query": query,
+                "num_docs": 0,
+                "processing_time": 0
+            }
 
-# --- Telegram Handlers ---
-bot_instance = FinancialAdvisorTelegramBot()
+# --- Telegram Bot ---
+bot_instance = VanillaRAGSystem()
 
 async def send_in_chunks(update: Update, text: str):
     MAX_LEN = 4000
@@ -164,47 +162,113 @@ async def send_in_chunks(update: Update, text: str):
         await update.message.reply_text(text[i:i+MAX_LEN])
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("Hi! Ask me any financial question.")
+    welcome_msg = """
+🏦 **Financial Advisor Bot**
+
+I'm a simple AI financial advisor that can help you with:
+
+💰 **Banking & Loans**
+- How to get loans
+- Bank account information
+- Financial requirements
+
+📊 **Investments**  
+- Investment options
+- Mutual funds guidance
+
+🏛️ **Tax Services**
+- Tax filing information
+- Tax calculation help
+
+🛡️ **Insurance**
+- Insurance information
+
+Just ask me any financial question and I'll help you!
+"""
+    await update.message.reply_text(welcome_msg, parse_mode='Markdown')
 
 async def handle_query(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_query = update.message.text.strip()
+    user_id = update.effective_user.id
+    username = update.effective_user.username or "Unknown"
+    
     if not user_query:
-        await update.message.reply_text("Please enter a valid question.")
+        await update.message.reply_text("Please ask a financial question!")
         return
 
-    print(f"[INFO] 👤 User asked: {user_query}")
-    await update.message.reply_text("Processing your question...")
-    response = bot_instance.process_query(user_query)
+    print(f"[INFO] 👤 User {username} asked: {user_query}")
+    
+    # Show processing message
+    processing_msg = await update.message.reply_text("🤔 Thinking...")
+    
+    try:
+        # Process query
+        result = bot_instance.process_query(user_query)
+        
+        # Prepare response
+        response_text = result["response"]
+        
+        # Add sources if available
+        if result["sources"]:
+            sources_text = "\n\n📚 Sources:\n"
+            for i, source in enumerate(result["sources"][:3], 1):
+                source_name = os.path.basename(source["file"]) if source["file"] != "Unknown" else "Unknown"
+                sources_text += f"{i}. {source_name}\n"
+            response_text += sources_text
+        
+        # Send response
+        await processing_msg.delete()
+        await send_in_chunks(update, response_text)
+        
+    except Exception as e:
+        print(f"[ERROR] Failed to process query: {e}")
+        await processing_msg.edit_text("❌ Sorry, I encountered an error processing your question. Please try again.")
 
-    # ✅ Send the final answer
-    answer = response.get("response") if isinstance(response, dict) else str(response)
-    await send_in_chunks(update, answer)
+async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    help_text = """
+🤖 **Financial Advisor Bot Help**
 
-    # ✅ Organize chunks by source file
-    if isinstance(response, dict) and response.get("sources") and response.get("contexts"):
-        grouped = {}
-        for i, src in enumerate(response["sources"]):
-            filename = src["file"]
-            grouped.setdefault(filename, []).append(response["contexts"][i])
+**Commands:**
+/start - Start the bot
+/help - Show this help message
 
-        # ✅ Build organized output
-        organized_output = "📄 Retrieved Documents:\n"
-        for file, chunks in grouped.items():
-            organized_output += f"\n📂 **{file}**\n"
-            for idx, chunk in enumerate(chunks, 1):
-                organized_output += f"\n🔹 Chunk {idx}:\n{chunk}\n"
+**How to use:**
+Simply ask me any financial question and I'll provide an answer based on my knowledge base.
 
-        await send_in_chunks(update, organized_output)
+**Example questions:**
+• "What documents do I need for a bank account?"
+• "How to apply for a car loan?"
+• "What are the tax filing requirements?"
+• "Tell me about investment options"
 
-    print("[INFO] ✅ Response sent to user.")
+I'm here to help with your financial questions! 💰
+"""
+    await update.message.reply_text(help_text, parse_mode='Markdown')
 
-# --- Run Bot ---
+def main():
+    """Initialize and run the Telegram bot"""
+    print("🚀 Starting Vanilla RAG Financial Advisor Bot...")
+    
+    # Get bot token from config or environment
+    bot_token = TELEGRAM_BOT_TOKEN or os.getenv('TELEGRAM_BOT_TOKEN')
+    if not bot_token:
+        print("❌ Error: TELEGRAM_BOT_TOKEN not configured!")
+        print("Please set TELEGRAM_BOT_TOKEN in the config section or as environment variable")
+        return
+    
+    # Create application
+    application = ApplicationBuilder().token(bot_token).build()
+    
+    # Add handlers
+    application.add_handler(CommandHandler("start", start))
+    application.add_handler(CommandHandler("help", help_command))
+    application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_query))
+    
+    print("✅ Bot handlers registered")
+    print("🤖 Starting bot...")
+    
+    # Start the bot
+    application.run_polling()
+
 if __name__ == "__main__":
-    token = os.getenv("TELEGRAM_TOKEN", "7596897324:AAG3TsT18amwRF2nRBcr1JS6NdGs96Ie-D0")
-    print("[INFO] 🚀 Starting Telegram Financial Advisor Bot...")
-    app = ApplicationBuilder().token(token).build()
-    logger.info("Bot started successfully.")
-    print("[INFO] ✅ Telegram Bot is now polling for messages...")
-    app.add_handler(CommandHandler("start", start))
-    app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_query))
-    app.run_polling()
+    main()

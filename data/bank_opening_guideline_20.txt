@@ -1,0 +1,722 @@
+=== Advanced OCR Text Extraction Result ===
+Original File: bank_opening_guideline_20.pdf
+Extraction Method: Image-based OCR (pypdfium2 + Tesseract)
+Language: bn+en
+Extracted Characters: 27092
+Processing Date: 2025-08-28 15:36:12
+============================================================
+
+GUIDELINES TO ESTABLISH A
+BANKING COMPANY IN BANGLADESH
+
+GUIDELINES TO ESTABLISH A. BANKING COMPANY IN BANGLADESH
+According to Section.31 of the Banking Companies Act;.1991, no company shall
+carry out banking’ business in Bangladesh without obtaining a license from
+Bangladesh Bank., Bangladesh Bank will decide to grant licenses after
+considering the need and overall strategy congenial to effective monetary and
+financial sector policy for the country. Bangladesh Bank must be satisfied that.
+the following: terms and conditions: for the establishment of a new banking’
+‘company in Bangladesh have been met:
+
+1. Status of the new commercial bank:
+1:1 Must bea public limited company incorporated in Bangladesh.
+2. Paid.up capital.requirement for a bank to be established:
+
+241 The paid up capital of new commercial bank shall not be less than Taka
+400.00 Crore as required under Bank: Company Act 1991. The share
+capital will be formed with ordinary shares only.
+
+3. Mode.of payment:
+
+3.1. For a banking company incorporated in Bangladesh, the capital
+contribution made: by the sponsors and subscribers of the proposed
+bank shall be in a liquid, unencumbered form (such as cash or approved
+securities), held ina bank account that-has been verified. by Bangladesh
+Bank, and under’a Bangladesh Bank lien.
+
+4. Sponsors.and share capital contribution:
+Initial minimum capital. Taka 400.00. crore shall be provided by sponsors. of the
+proposed bank..
+
+4.1. The bank shall issue public shares within three (3) years from the date of
+commencement of ‘the banking business. Public issues shall be at: least.
+equal to sponsors’ share: amount.
+
+42 The minimum shareholding stake of each sponsor ‘shall be Taka 1:00
+crore and the maximum. shall be 10%-of the proposed bank’s total share
+capital. This ceiling of 10% applies to an individual, company or family:
+member, either personally, jointly or both. “Family” is defined herewith
+to. include. spouse, father, mother, son, daughter, brother, sister of the
+individual or anyone dependent on. that individual.
+
+4.3. The ceiling of 10% may be relaxed in the case of a bank set. ৮0 35 a joint.
+venture with a foreign.financial institution or banking company.
+
+Page |‘1
+
+44 Sponsors holding 5% or more shares shall have to sign a capital
+maintenance agreement (CMA) stating that they would, jointly and
+severally inject additional capital if the bank ever fell below any’
+minimum capital ‘requirement: In. case of failure to inject such capital
+within the stipulated time, the responsibility would fall on individuals
+within the sponsors group to bear the entire burden of the required
+injection.
+
+4.5 The sponsors’ shares shall not be transferred. within a period of three (3)
+years fromthe commencement of the business, without permission from
+Bangladesh Bank.
+
+4.6 Sponsors’ contribution tothe equity capital of the proposed bank will be
+required to be out of net worth declared to the Tax authorities in form
+IT10B; contribution out: of borrowings from bank or non-bank financial
+institution shall not be acceptable.
+
+4.7 If an individual or any: member. of his/her family is: or had been a loan
+defaulter with a bank/financial. institution at any time during the past.
+five years shall not be eligible to apply as a sponsor of the proposed
+bank.
+
+48 An individual awaiting verdict of any undisposed lawsuit in any
+court/tribunal against his/her loan default status shall not be eligible to
+apply as a'sponsor of the/proposed bank.
+
+4.9 A tax assessee shall not be eligible to be a. sponsor if he/she has any
+unpaid undisputed arrear of income tax assessed ‘for the current:year ‘or
+any past year.
+
+4.10 A ‘tax assessee penalized or awaiting court/tribunal verdict on any. suit:
+for offence under Chapter XXI of Income Tax Ordinance, 1984 shall not:
+be eligible to apply as.a sponsor of the proposed bank.
+
+4.11 A tax assessee who has‘not:submitted overdue tax-return for the current.
+year or who has undisposed, tax prosecution reopened under section 93
+of Income Tax Ordinance, 1984 shall not be eligible'to apply as a sponsor
+of the proposed bank.
+
+4.12 Any, asséssee having unpaid liability for any undisputed. customs duty,
+VAT, supplementary duty, excise duty or is awaiting verdict on any
+prosecution under Customs. Act,1969; VAT Act,1991; Excise & Salt Act,
+1944 in any court/tribunal shall not be. eligible to be.a sponsor of the
+proposed bank.
+
+5. Fit and Proper Test:for Sponsors/Directors:
+
+5.1 Competence, integrity and. qualifications of the Sponsors of the proposed
+
+bank becoming the first Directors shall. be evaluated. The evaluation
+Page | ‘2
+
+process shall include background checks on whether previous activities,
+including regulatory or judicial. judgments, profession, raise. doubts
+concerning‘their competence, sound judgment, or integrity.
+
+5.2 The Sponsors/Directors shall qualify the Fit and Proper Test criteria (see
+Annexure-V) applicable.for the Bank Directors‘in Bangladesh.
+
+5.3. His/ her inclusion in the Board of Directors shall not-contravene any law
+for the time being in force in Bangladesh and. in the country of his/her
+present permanent domicile. He/she has not evaded any legal
+proceedings of any country for any’ criminal offences or crime against
+humanity except for offences of minor traffic violations etc.
+
+5.4 Bangladesh Bank shall evaluate proposed sponsors as to expertise and
+integrity (fit.and proper test), and any potential for conflicts -of interest.
+The fit:and proper criteria include: (i) skills and experience. in relevant:
+financial operations commensurate with the intended activities of the
+bank; and (ii) no record of criminal activities or adverse regulatory
+judgments that make person unfit to uphold important position in a
+bank.
+
+6. Management of the proposed bank
+
+6.1. A Director or Advisor to any banking company’ other than the proposed
+bank shall not be a Director'of the proposed bank.
+
+6.2 The Member of Board of Directors shall be:restricted to 13 (Thirteen).
+
+6.3. Maximum. number of directors from a family shall be restricted. to two
+incase of the total ‘shareholding of that family exceeds 5% and one
+diréctor ifthe total shareholding is‘up to 5%.
+
+6:4 The Chief Executive Officer (CEO) of the proposed bank’ shall have at:
+least 15 (fifteen) years of experience in the banking profession.
+
+7. Operation of the proposed. bank.
+
+7.1. The ratio of urban and rural bank branch has to be 1:1 or as per
+instruction issued. by Bangladesh Bank from time'to time.
+
+7.2 New Bank has to ensure finance at least 5% of its total lending into
+agricultural sector or as'per instruction issued by Bangladesh Bank from
+time‘to time.
+
+7.3 Proposed bank should take part in Corporate Social Responsibility (CSR)
+activity. The new bank should spent 10% or more of its previous year's
+net.income to CSR.
+
+Page |°3
+
+8. Required documents/ irformation/ analysis to be submitted to
+
+Bangladesh Bank.
+
+The application for approval to establish a new banking company shall be
+
+submitted to Bangladesh, Bank with all ‘the accompanying documents and
+
+information required, in the formats given in Annex I to.Annex IV. Bangladesh
+
+Bank’shall only consider applications that include the following:
+
+8:1. A bank draft:in:‘the amount of Taka 10 (Ten) lakh in favour of Bangladesh
+Bank, attached to the Letter of Application, that serves as a
+nonrefundable application processing fee;
+
+8:2. Name and address of the Applicant;
+
+8:3. Name, address, telephone number of the contact:person;
+
+8.4 Feasibility Report, on, the proposed banking company (see Annex 11),
+including an analysis of Bangladesh's macroeconomic environment,
+financial system, as well as a business plan for the proposed bank,
+financial projections and sensitivity analyses;
+
+8:5 Biographical Reports (see Annexes: III and. IV) arid. proof of citizenship
+for each promoter/director, CEO/MD and Heads: of Operation, Credit,
+Finance, Risk Management ,Internal Control and IT of the proposed
+bank;
+
+8.6 Proposed compensation package:and other terms of contract of the CEO;
+
+8:7 Minutes of the shareholders (sponsors) meeting;
+
+8:8 Written agreement by the shareholders to organize the banking
+company;
+
+8:9 Sponsors have to:submit a business plan where management strategy of
+following sector should be elaborately defined;
+
+8:9.1 Risk factors relating:to assets of proposed bank.
+
+8:9.2 Strategy :for reaching unbanked area specially. disadvantaged
+locality/ group.
+
+8:9.3 A strategy to provide financial services to enhance Bangladesh's
+competitiveness by:reducing trade related banking fees/charges.
+
+8.9.4 A strategy to provide banking services which could promote
+export. diversification as well as to provide financial services for
+non-traditional export sectors.and small & medium entrepreneurs.
+
+Page | 4
+
+8:9.5 New bank should bring new/modern technology (e.g. mobile
+banking, internet banking) for providing better service to
+customers.
+
+8:10 Draft.:Memorandum and Articles of Association;
+
+8.11 For a corporate promoter; Board Resolution, Articles, of Incorporation
+and. By-laws, list. of directors and officers, list of shareholdings, audited
+financial ‘statements for ‘the latest two years, certified. copies of the
+Memorandum and. Articles of Association;
+
+8.12 Joint Venture agreement, in casé.of foreign equity participation.
+
+8.13 In.addition, the:sponsors:shall:
+
+(a) having received a Letter of Intent from, Bangladesh Bank, the
+company shall apply to Bangladesh Bank:for’a formal: license for
+commencement of banking business ‘under Section 31° of the
+Bank Company Act, 1991, and fora license to open a place of
+business. under Section 32 of said Act in the :manner prescribed
+thére under;
+
+(b) register the proposed company with the Registrar of Joint Stock
+Companies ‘under the Companies Act, 1994,.as ‘a public limited
+Company,.and;
+
+(c) obtain a Certificate of Incorporation. subject to the approval by
+Bangladesh. Bank of the draft Memorandum and Articles of
+Association;
+
+(d) after obtaining the license from Bangladesh, Bank, the company
+shall applyto Bangladesh Bank for its scheduling*under Article
+37 of the Bangladesh Bank Order, 1972.
+
+Page |'5
+
+ANNEX 1
+
+LETTER OF APPLICATION
+Date:
+General Manager
+‘Banking Regulation and Policy Department
+Bangladesh Bank
+Head Office
+Dhaka
+Subject: Application to-establish a Banking Company in Bangladesh.
+Dear Sir:
+
+In accordance with Section 31 of the Bank Company Act, 1991, we would
+like to apply to establish a Banking Company in. the style of <Name of the
+proposed, bank> in Bangladesh. As required, the documents requested by
+Bangladesh Bank are enclosed herewith.
+
+We look forward to receiving your approval for the establishment of the
+proposed, institution at:your earliest: convenience.
+
+Sincerely yours,
+
+Signature:
+
+Name:
+
+Proposed designation:
+
+Address:
+Telephone number:
+email:
+Encl: documents/information pertaining:to the application
+Page | 6
+
+ANNEX II
+Letter of Application shall accompany the.A Feasibility Report:
+and shall include the following:.
+1. Macroeconomic. Background/Environment.in Bangladesh.
+(i) GDP - Growth-and Structure
+(ii) Saving & Investment - Situation
+(iii) Industrial Situation
+(iv). Fiscal Situation.
+(v) Foreign Trade Situation
+(vi) Financial and Monetary Development:
+2. Financial System and.Structure.
+(i). | Banking and. Financial Institutions
+(ii) | Composition of Deposits, Credit & Investment and their growth
+(iii) Credit/Deposit Ratio (at the National Level and the proposed area of
+operation)
+(iv) Investment/Deposit Ratio (at the: National Level and the proposed
+area of operation)
+(v) Interest Rate Structure and:Spreads
+(ছা) Volume of Off-Balance Sheet Activities
+(vii) Available-Financial Instruments and’the Need for Financial Innovation
+(viii) Profitability Analysis
+(ix) Shortcomings of the:present system and scope for improvement
+(x) Justification ‘for establishing‘a new bank:
+3. Business Plan of the Applicant. Bank’supported by study..
+0) Fundamental strategy ofthe proposed new bank'to survive and grow
+(0) Schemes related to new financial instruments (if any) proposed
+Page | 7
+
+(iii) | Branch Expansion Policy’
+
+(iv) Organization Structure, Management:Skills &.MIS
+
+(v) | Technology Transfer
+
+(vi) Areas of Operations
+
+4. Business Projection, Economic Justification:and Financial Analysis.
+
+(i) Capital Structure.
+
+(ii) Details of Fixed. Asset Expenditures
+
+(iii) Details of Operating Expenses,
+
+(iv) Details of Staff Expenses
+
+(v) Details of Preliminary Expenses:
+
+(vi) Market Share of Deposits, Credit & Investment
+
+(vii) Basis of Interest Income, Other Income, Income from Off-Balance
+Sheet Activities, Interest Expenses.& Loan.Loss Provisioning
+
+(viii) Strategy of foreign exchange (i.e., treasury). business transactions and
+the projected income
+
+(ix) Projected. Annual Balance Sheet, Profit & Loss Account.and Cash Flow
+Statement-for at-least 3. years
+
+(x) Statement of capital growth plan and ‘fulfillment of Capital Adequacy:
+Requirement
+
+(xi) Strategy for dealing with risks encountered (6.8. credit risk, market
+risk, operational risk 6007
+
+5. SWOT. (Strengths/Weaknesses/Opportunities/Threats) Analysis’ of the
+Applicant
+
+6. Strategy for survival and growth.in the long run.
+
+7. Sensitivity. Analysis with interpretation:
+
+(i). Financial position if the Market Share of deposits & credits of the
+proposed bank is reduced by 10 percent at the national level, district:
+level or proposed area of operation.
+
+(ii) Financial position if the Growth Rate of deposits & credits of the
+proposed bank is reduced by 10 percent at the national level, district
+level or proposed area of operation.
+
+Page | 8
+
+(iii) Financial position if the Interest Rate Spread. (weighted or un-
+weighted) of:the proposed bank is limited to: 5 percent;
+
+4 percent;
+
+3 percent;
+
+2. percent;
+
+‘1 percent.
+8. Full particulars of the person(s)/firms who/which ‘prepared the Feasibility
+
+‘Report shall have'to be furnished.
+
+Page | 9
+
+ANNEX III
+BIOGRAPHICAL REPORT ON SPONSORS/ DIRECTORS
+1. Full Name:
+2. Date of Birth: 3. Place-of Birth:
+4. Citizenship:
+Passport Number:
+Date and Place.of Issue:
+5. Full Address:
+(a) Permanent: Telephone Number::
+(b) Present, if different-from the Permanent: Telephone Number:
+6: Marital Status:
+If married; Spouse's Name: Occupation:
+Spouse's Passport;Number:
+Date and. Place of Issue:
+Near Relations (parents, children, brother, sister) and. Dependents:
+Name (First, Middle, Last
+Education Name & Dates of Major Area Degree
+Address of. Attendance of Study Awarded.&
+Institution Date
+HighSchool | | | ।আম্
+[Undergraduate| |
+[Graduate ||
+Professional or
+Technical
+‘Seminar
+Page | 10
+
+8. Présent Occupation:
+Organization Name:
+Business Address:
+Nature of Business:
+Job Title:
+Telephone Number:
+9. Business Record (pertaining to the preceding 10 years)
+Use additional sheets, ifnecessary.
+Name & Address:of Dates of Position Held | Responsibilities
+Organization Engagement
+10. Describe each. enterprise, including. the name, address, type of enterprise
+[public (listed or not), private] your percentage of ownership and the. type
+of’ business of each enterprise or other entity which you own or control.
+(Control means ownership. of 10% or more of the stock or ability to
+effectively control the management of the enterprise or other entity).
+List names, addresses and percentage of control and/or ownership of other
+incorporators, partners and directors of the entity or enterprise referred to
+above.
+11.
+Do you ‘perform any services for or have any| Yes No
+business connections with any institution which is| ( ) ( )
+subject: to ‘the supervision of Bangladesh Bank, or
+any other authority of the government of
+Bangladesh?
+If "Yes," indicate the name of the institution, address
+and nature of your work.
+12.
+Have you had, or do. you now have, any financial} Yes No.
+interest, direct or indirect, in any institution/bank| ( ) ( ).
+under the supervision.of any Government authority?
+If "Yes," give the name of the institution, address and
+nature of the.financial interest.
+Page [11
+
+13.
+Being a sponsor of a proposed bank, how and from | _
+what sources will 'you:pay for:your proposed amount | Yes No
+of share capital?
+(a) Othersources _ ( } C )
+If" Yes," give details
+14. Tax Identification Number (TIN):
+(Attach. most recent returns and/or Tax Clearance Certificates, and certified
+IT10B Fornis).
+15. Are you disqualified from election or nomination or‘from occupying the office
+of Bank Director owing to the following. circumstances?
+(1) You have-less than 10-years of professional experience,
+(2) You are:insane or mentally unsound,
+(3) You are‘insolvent and adjudicated bankrupt;
+(4) You have:been convicted by a court in any criminal offense or have been
+involved in any fraud/forgery, financial crime or other illegal activities,
+(5) You are a Director of any other banking company,
+(6) You are a partner in any contract with a banking company’ in the
+capacity of legal advisor, advisor, consultant, etc.
+16. Answer 'to any of the questions below if they apply 00 you as an individual,
+ora partner, director 017 00061 0131) enterprise.
+Except for: minor traffic violations:
+(a) Are any arrests; indictments, criminal information or other Yes ‘No
+Criminal proceedings now pending against you? C ) ( )
+(b) Were you ever convicted for any‘violation of the law? ( ) ( )
+(c) Have you or has.any partnership of which:you werea
+Principal officer.or major stockholder ever been judged ( ) ( )
+Bankrupt?
+Page | 12
+
+(0) Has any business in which you. were a director, officer,
+partner or major shareholder (5% or more of the. voting |
+shares) defaulted on its ‘servicing obligations (principal | ( ) ( )
+and/or interest): on outstanding debt or beén involved. in
+unacceptable. foreign exchange.transactions?
+
+(e) Has any enterprise in which you were a partner, director, or |
+officer been the subject of criminal indictment or other ( ) ( )
+criminal proceedings?
+
+17. Asa sponsor of this proposed bank, I agree to hold at least Taka 1:00 crore
+(or its equivalent) or an amount not exceeding 10% share of the equity
+capital'to be issued. by the proposed. bank.
+
+The undersigned affirms that the statements made and answers: given
+herein are accurate and complete and hereby-authorizes the Bangladesh, Bank to
+make any inquiry it deems appropriate in connection with. processing ‘this
+questionnaire. False statements in this questionnaire ‘will be sufficient cause: for’
+denial of:a license to establish banking operations in Bangladesh.
+
+Signature of Sponsor/ Director:
+Name:
+Date:
+Place:
+Witnesses:
+Signature
+Name:
+Address:
+Signature
+Name:
+Address:
+Page [13
+
+ANNEX:IV
+BIOGRAPHICAL REPORT ON CEO/PRINCIPAL OFFICERS
+1. Full Name:
+2. Date of Birth: 3. Place:of Birth:
+4. Citizenship:
+Passport Number:
+Date and Place.of Issue:
+Right-to-work.in Bangladesh Yes'( ) No()
+Visa Type:
+Expiration Date:
+5. Full Address:
+(a) Permanent: Telephone Number:
+(b) Present, if different:from. the Permanent: Telephone Number:
+6. Marital :Status:
+Ifmarried, Spouse's Name: Occupation:
+Education Name.& Address Dates of | Major Area | Degree Awarded
+of Institution Attendance of Study & Date
+HighSchool | |
+[Undergraduate] | |]
+[Graduate | |] |
+Professional or’
+Technical
+Training
+Seminar
+8. Present.Occupation:
+Organization Name:
+Business Address:
+Nature of Business:
+Job Title:
+Telephone Number:
+Page | 14
+
+9. Service Record (pertaining to the 15 years' experience in. the banking
+profession). Please enclose supporting documents. Use additional sheets, 16
+necessary, and account for all gaps in-employment.
+Name &.Address'of Dates of Position Held | Responsibilities
+Organization Engagement
+10.
+Do you perform any services for or have any business | Yes No
+‘connections with any institution which is subject. to the - .
+supervision of Bangladesh Bank, or any other authority of | ( ) ( )
+the government of Bangladesh?
+If "Yes," indicate the name. of the institution, address and.
+{ nature of your work.
+11.
+Have-you had, or do you now have, any financial interest, Yes No
+direct or indirect; in any institution/bank tnder the:
+supervision of any Government.authority? ( ) ( )
+If "Yes," give the name of the institution, address and
+nature-of the financial interest.
+12. Tax Identification Number (TIN) :
+(Attach most. recent returns and/or Tax Clearance. Certificates, and. certified
+IT10B Forms).
+13. Are you disqualified for the post of CEO owing to the following
+circumstances?
+(1) You have less'than 15 years of‘professional experience:
+(2) You-are insane or mentally unsound,
+(3)You are insolvent.and adjudicated bankrupt,
+(4) You have been convicted by:a court in any criminal offense or have been
+involved in.any. fraud/forgery, financial crime or other illegal activities.
+(5) You are a Director of any banking company:
+(6) You are a partner in any contract with a banking company in the
+capacity of legal.advisor, advisor, consultant, ete.
+Page | 15
+
+14. Answer to 3117-01016 questions below if they apply to you as an individual, or
+a partner, director or officer ofan enterprise.
+Except for minor traffic’violations:
+(1)Are any arrests, indictments, criminal ‘information or | Yes No.
+other
+Criminal proceedings now pending against you? ( ) ( )
+(2) Were you ever convicted for any violation.of the law? ) () |
+The undersigned affirms that the statements made and. answers given
+herein are accurate and complete and hereby authorizes the Bangladesh, Bank to
+make any inquiry it deems appropriate in connection with. processing. this
+questionnaire. False statements in this questionnaire will be sufficient cause for
+denial 07311061156 to:establish banking operations in Bangladesh.
+Signature of the. CEO/Principal Officer
+Name:
+Date:
+Place:
+Witnesses:
+‘Signature
+Name:
+Address:
+Signature
+Name:
+Address:
+Page | 16
+
+ANNEX V
+CONSTITUTION OF THE BOARD OF DIRECTORS AND FIT AND PROPER
+TEST FOR APPOINTMENT OF BANK DIRECTORS
+
+Responsibilities of running the affairs of a bank-company, like other
+companies, are entrusted to its board of directors.. The responsibilities of the
+board. of directors of a bank-company are more important. than, those of other
+companies; because in case of a bank-company it is essential to: earn and
+maintain confidence of the depositors: as. its business is mainly run. with, the
+depositors' money. The board of directors shall also have to strive to
+proteéct‘interests of its depositors as well as.of the shareholders. It is imperative
+to. constitute the board of directors with competent and professionally skilled
+persons and limit the number of directors with a view to formulating policy-
+guidelines and supervising business activities: of the bank efficiently as well .as
+ensuring good,and corporate governance in the bank.management.
+
+Bangladesh Bank deems it necessary to issue directives for compliance of
+the bank-company regarding constitution of the board of directors and fit and
+proper test for appointment of directors in the interest of depositors and for
+securing proper management of the bank-companies. Therefore, in exercise of
+the powers. conferred. by section 45(1) of the BankCompaniesAct,1991, the
+following restrictions have been imposed ‘regarding constitution. of the board of
+directors and fit and proper‘test criteria for consideration and compliance of the
+appointing authority (viz.-general meeting, board of directors etc.) of the
+private banks regarding ‘appointment: or reappointment and filling up of casual
+vacancy of the-offices of bank directors:
+
+1. Constitution-of the Board of Directors:-
+a) The board of directors of the bank-companies shall be constituted of
+- maximum 13 (thirteen) directors. However, the directors of the banks,
+where the number of directors.
+
+b) This restriction shall. apply to appointment/reappointment of the
+directors. against: retirement or filling’ casual. vacancy subject: ‘to
+section 15 Ka Ka of the Bank Company: Act, 1991. Maximum number
+of directors from 3. family shall be restricted to. two incase of. the. total
+shareholding of that family exceeds 5% and. one director if ‘the total
+shareholding is up to 5%. For this purpose family members shall
+include spouse, parents, children, brothers and sisters of the director
+and other persons dependent on him/her.
+
+2. Fit and-Proper Test:-
+
+3) The concerned person must have management/business or professional
+
+experience for at least 10 (ten) years;
+
+b) (S)he has-not been convicted in any‘criminal offence or:involved in.any.
+
+Page | 17
+
+fraud/forgery, financial crime or other‘ illegal activities;
+
+c) (S)he has not been subject to any adverse findings in any legal
+proceedings,
+
+d) (S)he has not been convicted in regard to contravention of ‘rules,
+
+~ regulations: or disciplines of the regulatory-authorities relating'to financial
+sector;
+
+e) (S)he has not been involved with.a company/firm whose registration /
+license has been revoked.or cancelled.or which has gone into_liquidation;
+
+f) Loans taken by him/her or allied. concern ‘from any bank or financial
+institution. have not become defaulted;
+
+g) (S)he has not been adjudicated a bankrupt by a court;
+
+h) (S)he must be loyal to the decisions of the board of directors. However, in
+case of note of dissent, (s)he may record. it.in the minutes of the board
+meeting.and/or bring it to the notice of Bangladesh Bank considering. its
+merit.
+
+3. A person, proposed as a candidate for the office of director, shall furnish
+along with the ‘consent letter for the purpose of section 93 of the
+Companies Act, 1994 a declaration.as per the attached format that (s)he
+is not disqualified to. become a bank director in accordance with the
+above mentioned fit'and ‘proper'test.
+
+এ. The declaration shall have to be, signed by the concerned person
+(candidate) and if elected it:shall have to be forwarded to Bangladesh Bank,
+by the Chairman of the board of directors.
+
+5. The above-mentioned. restrictions for qualifications of bank directors shall
+be in addition to.any related laws/regulations for the time being in force.
+
+Page [18
+
+Annexure-A
+Declaration
+I do hereby declare ‘that ‘I am eligible to become a director of bank-
+
+‘company as per the fit and proper test criteria mentioned. in the Guidelines to
+
+Establisha Banking Company in Bangladesh. I further declare that-
+
+a) I have not been convicted ‘in any criminal offence or involved in. any’
+fraud/forgery, financial.crime or other illegal activities;,
+
+b) There is no adverse opinion/findings regarding me in. any legal
+proceedings,
+
+০) I have not been convicted in regard to contravention of rules,
+regulations and disciplines of the regulatory authorities relating to
+financial sector;
+
+d) Lhave.not been involved with a company/firm whose registration/license
+has been revoked.or cancelled or which.has:gone into liquidation;
+
+6) There are: no loans taken. by me or my allied concern from any bank or’
+financial institution that have become defaulted;
+
+fy I] have‘not been adjudicated a bankrupt.by.a court;
+
+8g) My spouse, parents, children, brothers: and sisters or any other person
+dependent:on me is‘not:a.director of this bank.
+
+Dated: Signature:
+
+( )
+
+‘Countersigned:
+
+( )
+Chairman, Board of Directors
+১০১- ১১১১১ ১ ক BANK, Ltd.
+Page | 19

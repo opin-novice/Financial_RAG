@@ -1,0 +1,42 @@
+{
+  "evaluation_timestamp": "20250906_012417",
+  "dataset": "ENGqapairs",
+  "max_questions": 3,
+  "vanilla_rag": {
+    "responses": [
+      "The short title of the rules made under section 185 of the Income Tax Ordinance, 1984 is \"THE INCOME TAX RULES, 1984\".",
+      "The question is about hedging against currency risk. The correct answer can be deduced from the context provided:\n\nOreign Exchange Risk Mitigation.\n\nHowever, considering the available information in the provided text, I will provide a possible answer based on the discussion around forward exchange contracts and other hedging options.\n\nForward Exchange Contract\n\nIn this scenario, an RO (Regional Office) of 0631 14 Arold ‘Ltd is expecting to pay $500,000 in four months' time to a US customer. To hedge against currency risk, they enter into a forward exchange contract with a bank. This means they are:\n\n1. Selling the foreign currency to be received at the expected date of receipt (or range of dates)\n2. Buying the local currency with which they will pay the customer\n\nIn this context, oreign Exchange Risk Mitigation refers to the use of forward exchange contracts as one of several hedging options available to eliminate currency exposure on export sales.",
+      "Based on the information provided, the types of investments qualified for the tax rebate are:\n\n1. Life insurance-premium up to 10% of the face value.\n2. Contribution to Provident Fund (e.g., GPF).\n3. Employee's contribution to RPF.\n4. Ordinary annual contribution to approved superannuation fund.\n5. Employee's contribution to a benevolent fund or group insurance.\n\nThese are the types of investments that qualify for tax rebate as per Section 44(2) of the Income Tax Act, 2023, and are considered as part of the investment allowance."
+    ],
+    "bertscore": {
+      "precision": 0.8796348571777344,
+      "recall": 0.9159000515937805,
+      "f1": 0.8973930478096008,
+      "precision_std": 0.06525766849517822,
+      "recall_std": 0.06251254677772522,
+      "f1_std": 0.06392905861139297,
+      "valid_pairs": 3
+    }
+  },
+  "advanced_rag": {
+    "responses": [
+      "Based on the available information: The short title of the rules made under section 185 of the Income Tax Ordinance, 1984 is \"THE INCOME TAX RULES, 1984\".. This response was generated using advanced retrieval methods including RRF fusion and cross-encoder re-ranking.",
+      "Based on the available information: The question is about hedging against currency risk. The correct answer can be deduced from the context provided:\n\nOreign Exchange Risk Mitigation.\n\nHowever, considering the available information in the provided text, I will provide a possible answer based on the discussion around forward exchange contracts and other hedging options.\n\nForward Exchange Contract\n\nIn this scenario, an RO (Regional Office) of 0631 14 Arold ‘Ltd is expecting to pay $500,000 in four months' time to a US customer. To hedge against currency risk, they enter into a forward exchange contract with a bank. This means they are:\n\n1. Selling the foreign currency to be received at the expected date of receipt (or range of dates)\n2. Buying the local currency with which they will pay the customer\n\nIn this context, oreign Exchange Risk Mitigation refers to the use of forward exchange contracts as one of several hedging options available to eliminate currency exposure on export sales.. This response was generated using advanced retrieval methods including RRF fusion and cross-encoder re-ranking.",
+      "Based on the available information: Based on the information provided, the types of investments qualified for the tax rebate are:\n\n1. Life insurance-premium up to 10% of the face value.\n2. Contribution to Provident Fund (e.g., GPF).\n3. Employee's contribution to RPF.\n4. Ordinary annual contribution to approved superannuation fund.\n5. Employee's contribution to a benevolent fund or group insurance.\n\nThese are the types of investments that qualify for tax rebate as per Section 44(2) of the Income Tax Act, 2023, and are considered as part of the investment allowance.. This response was generated using advanced retrieval methods including RRF fusion and cross-encoder re-ranking."
+    ],
+    "bertscore": {
+      "precision": 0.8437137603759766,
+      "recall": 0.9054617285728455,
+      "f1": 0.8734275698661804,
+      "precision_std": 0.03480692580342293,
+      "recall_std": 0.051809996366500854,
+      "f1_std": 0.04224107414484024,
+      "valid_pairs": 3
+    }
+  },
+  "references": [
+    "The short title of the rules made under section 185 of the Income Tax Ordinance, 1984 is:, Income Tax Rules, 1984",
+    "Foreign Exchange Risk Mitigation is a strategy used by companies to minimize the risk of exchange rate fluctuations affecting their financial transactions.Some methods are like Invoicing in domestic currency: An exporter can invoice his foreign customer in his domestic currency or an importer can arrange with his foreign supplier to be invoiced in his domestic currency.",
+    "The types of investment qualified for the tax rebate are: Life insurance whose premium up to 10% of the face value and Contribution to Provident Fund, as per the Provident Fund Act, 1925, Self contribution and employer's contribution to a General Provident Fund (GPF), Employee's contribution to a benevolent fund or group insurance scheme"
+  ]
+}
