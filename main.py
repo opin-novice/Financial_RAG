@@ -16,7 +16,7 @@ CHROMA_DB_PATH = "chroma_db_bge_m3"
 EMBEDDING_MODEL = "BAAI/bge-m3"
 
 # Ollama Configuration
-MAIN_MODEL = "llama3.2:3b"
+MAIN_MODEL = "gemma:7b"
 OLLAMA_BASE_URL = "http://localhost:11434"
 
 # Add Telegram Bot Token (replace with your actual token)

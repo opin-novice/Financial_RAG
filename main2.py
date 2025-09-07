@@ -31,7 +31,7 @@ Version: 2.1 - Telegram Bot Edition
 TELEGRAM_BOT_TOKEN = "7596897324:AAG3TsT18amwRF2nRBcr1JS6NdGs96Ie-D0"  # ⚠️ REPLACE WITH YOUR ACTUAL TOKEN!
 
 # Ollama Configuration
-OLLAMA_MODEL = "llama3.2:3b"
+OLLAMA_MODEL = "gemma:7b"
 OLLAMA_BASE_URL = "http://localhost:11434"
 OLLAMA_TEMPERATURE = 0.1      # Controls randomness (0.0 = deterministic, 1.0 = very creative)
 OLLAMA_TOP_P = 0.9             # Nucleus sampling (0.1 = focused, 1.0 = diverse)
@@ -55,10 +55,10 @@ CROSS_ENCODER_BATCH_SIZE = 32
 # RRF Configuration
 RRF_K = 50  # RRF constant, typically between 10-100
 RRF_WEIGHTS = {
-    "chroma": 0.5,      # Boost semantic search (increased for diversity)
-    "bm25": 0.3,        # Boost keyword search (maintained)
-    "multilingual_e5": 0.1,   # Enable multilingual support
-    "dirichlet": 0.1    # Reduce due to flat scoring issues
+    "chroma": 0.45,     # Boost semantic search (increased from 0.35)
+    "bm25": 0.35,      # Boost keyword search (increased from 0.25)
+    "multilingual_e5": 0.0,   # Disabled due to resource constraints
+    "dirichlet": 0.2  # Language model weight
 }
 
 # Multilingual E5 Configuration  
@@ -66,7 +66,7 @@ MULTILINGUAL_E5_MODEL = "intfloat/multilingual-e5-large"  # Multilingual embeddi
 MULTILINGUAL_E5_INDEX_NAME = "financial_docs_multilingual_e5"
 
 # Dirichlet QLM Configuration
-DIRICHLET_MU = 1000  # Reduced smoothing parameter to fix flat scoring
+DIRICHLET_MU = 2000  # Smoothing parameter for Dirichlet prior
 
 # =============================================================================
 # 📚 IMPORTS
@@ -423,38 +423,13 @@ class RRFFusionRetriever:
             self.bm25 = None
     
     def _init_multilingual_e5(self):
-        """Initialize multilingual-e5 model for dense retrieval"""
+        """Initialize multilingual-e5 model for dense retrieval (disabled due to resource constraints)"""
         try:
-            logger.info("Loading multilingual-e5 model for enhanced retrieval...")
-            
-            # Initialize multilingual E5 model
-            self.multilingual_e5_model = SentenceTransformer(
-                config.MULTILINGUAL_E5_MODEL,
-                device="cpu",
-                trust_remote_code=True
-            )
-            
-            # Prepare documents for multilingual E5
-            if self.metadata_mapping is None:
-                logger.warning("No metadata mapping for multilingual E5 initialization")
-                self.multilingual_e5_model = None
-                return
-            
+            logger.info("Multilingual E5 model disabled due to resource constraints")
+            logger.info("Using ChromaDB + BM25 + Dirichlet QLM for retrieval (excellent performance)")
+            self.multilingual_e5_model = None
             self.multilingual_e5_documents = []
             self.multilingual_e5_doc_ids = []
-            
-            for doc_id, metadata in self.metadata_mapping.items():
-                if isinstance(metadata, dict):
-                    content = metadata.get('content', '')
-                    if content and content.strip():
-                        self.multilingual_e5_documents.append(content)
-                        self.multilingual_e5_doc_ids.append(doc_id)
-            
-            if self.multilingual_e5_documents:
-                logger.info(f"✅ Multilingual E5 initialized with {len(self.multilingual_e5_documents)} documents")
-            else:
-                logger.warning("No documents found for multilingual E5")
-                self.multilingual_e5_model = None
                 
         except Exception as e:
             logger.warning(f"Multilingual E5 initialization failed: {e}")
@@ -502,54 +477,20 @@ class RRFFusionRetriever:
             self.document_stats = None
             self.collection_stats = None
     
-    def _normalize_scores(self, ranked_list: List[Tuple[int, float]]) -> List[Tuple[int, float]]:
-        """Normalize scores to [0, 1] range to fix scale mismatch issues"""
-        if not ranked_list:
-            return ranked_list
-        
-        scores = [score for _, score in ranked_list]
-        min_score, max_score = min(scores), max(scores)
-        score_range = max_score - min_score
-        
-        if score_range == 0:
-            # All scores are the same, return as is
-            return ranked_list
-        
-        # Normalize to [0, 1] range
-        normalized_scores = [(score - min_score) / score_range for score in scores]
-        
-        # Return normalized results
-        return [(doc_id, norm_score) for (doc_id, _), norm_score in zip(ranked_list, normalized_scores)]
-    
     def _calculate_rrf_scores(self, ranked_lists: Dict[str, List[Tuple[int, float]]]) -> List[Tuple[int, float]]:
-        """Calculate RRF scores from multiple ranked lists with score normalization"""
+        """Calculate RRF scores from multiple ranked lists"""
         rrf_scores = defaultdict(float)
         
-        # Normalize scores for each retriever to fix scale mismatch
-        normalized_lists = {}
         for retriever_name, ranked_list in ranked_lists.items():
-            if ranked_list:
-                normalized_lists[retriever_name] = self._normalize_scores(ranked_list)
-                logger.debug(f"Normalized {retriever_name}: {len(ranked_list)} scores")
-        
-        # Calculate RRF scores using normalized rankings
-        for retriever_name, ranked_list in normalized_lists.items():
             weight = config.RRF_WEIGHTS.get(retriever_name, 1.0)
             
             for rank, (doc_id, score) in enumerate(ranked_list, 1):
                 # RRF formula: weight / (k + rank)
                 rrf_score = weight / (config.RRF_K + rank)
                 rrf_scores[doc_id] += rrf_score
-                
-                logger.debug(f"RRF contribution: {retriever_name} doc {doc_id} rank {rank} -> {rrf_score:.6f}")
         
         # Sort by RRF score
         sorted_results = sorted(rrf_scores.items(), key=lambda x: x[1], reverse=True)
-        
-        logger.info(f"RRF fusion completed: {len(sorted_results)} documents scored")
-        if sorted_results:
-            logger.info(f"Top RRF score: {sorted_results[0][1]:.6f} (doc {sorted_results[0][0]})")
-        
         return sorted_results
     
     def _chroma_search(self, query: str, top_k: int = 10) -> List[Tuple[int, float]]:
@@ -713,68 +654,37 @@ class RRFFusionRetriever:
     def _rrf_fusion_search(self, query: str, top_k: int = 10) -> List[Document]:
         """Perform RRF fusion search combining multiple retrievers"""
         logger.info("🔍 Performing RRF fusion search (ChromaDB + BM25 + Multilingual E5 + Dirichlet)...")
-        logger.info(f"RRF Configuration: K={config.RRF_K}, Weights={config.RRF_WEIGHTS}")
         
         # Get results from all retrievers
         ranked_lists = {}
-        retriever_stats = {}
         
         # ChromaDB semantic search
         chroma_results = self._chroma_search(query, top_k=top_k * 2)
         if chroma_results:
             ranked_lists['chroma'] = chroma_results
-            scores = [score for _, score in chroma_results]
-            retriever_stats['chroma'] = {
-                'count': len(chroma_results),
-                'score_range': f"{min(scores):.3f} to {max(scores):.3f}",
-                'mean_score': np.mean(scores)
-            }
-            logger.info(f"ChromaDB: {len(chroma_results)} results, score range: {min(scores):.3f} to {max(scores):.3f}")
+            logger.info(f"ChromaDB: {len(chroma_results)} results")
         
         # BM25 keyword search
         bm25_results = self._bm25_search(query, top_k=top_k * 2)
         if bm25_results:
             ranked_lists['bm25'] = bm25_results
-            scores = [score for _, score in bm25_results]
-            retriever_stats['bm25'] = {
-                'count': len(bm25_results),
-                'score_range': f"{min(scores):.3f} to {max(scores):.3f}",
-                'mean_score': np.mean(scores)
-            }
-            logger.info(f"BM25: {len(bm25_results)} results, score range: {min(scores):.3f} to {max(scores):.3f}")
+            logger.info(f"BM25: {len(bm25_results)} results")
         
         # Multilingual E5 dense retrieval
         multilingual_e5_results = self._multilingual_e5_search(query, top_k=top_k * 2)
         if multilingual_e5_results:
             ranked_lists['multilingual_e5'] = multilingual_e5_results
-            scores = [score for _, score in multilingual_e5_results]
-            retriever_stats['multilingual_e5'] = {
-                'count': len(multilingual_e5_results),
-                'score_range': f"{min(scores):.3f} to {max(scores):.3f}",
-                'mean_score': np.mean(scores)
-            }
-            logger.info(f"Multilingual E5: {len(multilingual_e5_results)} results, score range: {min(scores):.3f} to {max(scores):.3f}")
+            logger.info(f"Multilingual E5: {len(multilingual_e5_results)} results")
         
         # Dirichlet QLM search
         dirichlet_results = self._dirichlet_search(query, top_k=top_k * 2)
         if dirichlet_results:
             ranked_lists['dirichlet'] = dirichlet_results
-            scores = [score for _, score in dirichlet_results]
-            retriever_stats['dirichlet'] = {
-                'count': len(dirichlet_results),
-                'score_range': f"{min(scores):.3f} to {max(scores):.3f}",
-                'mean_score': np.mean(scores)
-            }
-            logger.info(f"Dirichlet QLM: {len(dirichlet_results)} results, score range: {min(scores):.3f} to {max(scores):.3f}")
+            logger.info(f"Dirichlet QLM: {len(dirichlet_results)} results")
         
         if not ranked_lists:
             logger.warning("No results from any retriever")
             return []
-        
-        # Log retriever statistics
-        logger.info("📊 Retriever Statistics:")
-        for retriever, stats in retriever_stats.items():
-            logger.info(f"  {retriever.upper()}: {stats['count']} docs, range: {stats['score_range']}, mean: {stats['mean_score']:.3f}")
         
         # Apply RRF fusion
         rrf_results = self._calculate_rrf_scores(ranked_lists)
@@ -803,20 +713,7 @@ class RRFFusionRetriever:
                     )
                     docs.append(doc)
         
-        # Enhanced logging for RRF results
         logger.info(f"✅ RRF fusion completed - {len(docs)} documents retrieved")
-        if docs:
-            rrf_scores = [doc.metadata.get('rrf_score', 0) for doc in docs]
-            logger.info(f"📊 RRF Score Statistics:")
-            logger.info(f"  Range: {min(rrf_scores):.6f} to {max(rrf_scores):.6f}")
-            logger.info(f"  Mean: {np.mean(rrf_scores):.6f}")
-            logger.info(f"  Std: {np.std(rrf_scores):.6f}")
-            logger.info(f"  Top 3 documents:")
-            for i, doc in enumerate(docs[:3]):
-                source = doc.metadata.get('source', 'Unknown')
-                score = doc.metadata.get('rrf_score', 0)
-                logger.info(f"    {i+1}. Doc {doc.metadata.get('chunk_id', 'N/A')} from {source}: {score:.6f}")
-        
         return docs
     
     def get_relevant_documents(self, query: str) -> List[Document]:
