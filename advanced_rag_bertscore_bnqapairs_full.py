@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Fixed Vanilla RAG BERTscore Evaluation for BNqapairs
-====================================================
-Handles dictionary responses from RAG system
+GPU-Accelerated Advanced RAG BERTscore Evaluation for BNqapairs (Full Dataset)
+================================================================================
+Uses GPU acceleration and processes all 48 Bengali questions
 """
 
 import os
@@ -45,14 +45,15 @@ def extract_text_from_response(response):
     else:
         return str(response)
 
-def get_vanilla_rag_responses(questions, max_questions=None):
-    """Get responses from Vanilla RAG system"""
+def get_advanced_rag_responses_gpu(questions, max_questions=None):
+    """Get responses from Advanced RAG system with GPU optimization"""
     try:
-        from main import VanillaRAGSystem
-        print("✅ Vanilla RAG system imported successfully")
+        from main2 import CoreRAGSystem as AdvancedRAGSystem
+        print("✅ Advanced RAG system imported successfully")
         
-        rag_system = VanillaRAGSystem()
-        print("✅ Vanilla RAG system initialized successfully")
+        # Initialize Advanced RAG
+        rag_system = AdvancedRAGSystem()
+        print("✅ Advanced RAG system initialized successfully")
         
         device = "cuda" if torch.cuda.is_available() else "cpu"
         print(f"🖥️  Using device: {device}")
@@ -79,147 +80,122 @@ def get_vanilla_rag_responses(questions, max_questions=None):
                 responses.append({
                     'question': question_text,
                     'answer': qa_pair['answer'],  # Store the ground truth answer
-                    'raw_response': raw_response,
                     'response': response_text,
-                    'processing_time': processing_time,
-                    'device_used': device
+                    'processing_time': processing_time
                 })
                 
-                print(f"✅ Question {i+1} completed in {processing_time:.2f}s on {device.upper()}")
+                print(f"   ✅ Response generated in {processing_time:.2f}s")
                 print(f"   Response preview: {response_text[:100]}...")
                 
             except Exception as e:
-                print(f"❌ Error processing question {i+1}: {e}")
+                print(f"   ❌ Error processing question {i+1}: {str(e)}")
                 responses.append({
                     'question': question_text,
                     'answer': qa_pair['answer'],
-                    'raw_response': f"Error: {e}",
-                    'response': f"Error: {e}",
-                    'processing_time': 0,
-                    'device_used': device
+                    'response': f"Error: {str(e)}",
+                    'processing_time': 0
                 })
         
         print(f"✅ Successfully processed {len(responses)} questions")
         return responses
         
-    except ImportError as e:
-        print(f"❌ Failed to import Vanilla RAG system: {e}")
-        return []
     except Exception as e:
-        print(f"❌ Failed to initialize Vanilla RAG system: {e}")
+        print(f"❌ Error initializing Advanced RAG system: {str(e)}")
         return []
 
-def run_bertscore_evaluation(responses, ground_truth_answers):
-    """Run BERTscore evaluation"""
-    print("\n🔄 Running BERTscore evaluation...")
-    
-    # Extract predictions and references
-    predictions = [resp['response'] for resp in responses]
-    references = ground_truth_answers[:len(predictions)]
-    
-    # Ensure all predictions are strings
-    predictions = [str(pred) for pred in predictions]
-    references = [str(ref) for ref in references]
-    
-    print(f"Evaluating {len(predictions)} prediction-reference pairs...")
-    print(f"Sample prediction: {predictions[0][:100]}...")
-    print(f"Sample reference: {references[0][:100]}...")
+def calculate_bertscore(predictions, references, device="cuda"):
+    """Calculate BERTScore with GPU acceleration"""
+    print(f"🔍 Calculating BERTScore on {device.upper()}...")
     
     try:
-        device = "cuda" if torch.cuda.is_available() else "cpu"
-        print(f"🖥️  BERTscore using device: {device}")
+        # Calculate BERTScore
+        P, R, F1 = score(predictions, references, 
+                        model_type="bert-base-uncased",
+                        device=device,
+                        verbose=True)
         
-        # Run BERTscore
-        P, R, F1 = score(
-            predictions, 
-            references, 
-            lang="bn", 
-            verbose=True,
-            device=device
-        )
+        # Convert to lists for easier handling
+        precision_scores = P.tolist()
+        recall_scores = R.tolist()
+        f1_scores = F1.tolist()
         
-        # Calculate statistics
-        precision = P.mean().item()
-        recall = R.mean().item()
-        f1_score = F1.mean().item()
+        # Calculate statistics - FIX: Use original tensors for mean calculation
+        avg_precision = P.mean().item()
+        avg_recall = R.mean().item()
+        avg_f1 = F1.mean().item()
         
-        precision_std = P.std().item()
-        recall_std = R.std().item()
-        f1_std = F1.std().item()
+        print(f"✅ BERTScore calculation completed")
+        print(f"   Average Precision: {avg_precision:.4f}")
+        print(f"   Average Recall: {avg_recall:.4f}")
+        print(f"   Average F1: {avg_f1:.4f}")
         
-        results = {
-            'precision': precision,
-            'recall': recall,
-            'f1_score': f1_score,
-            'precision_std': precision_std,
-            'recall_std': recall_std,
-            'f1_std': f1_std,
-            'precision_scores': P.tolist(),
-            'recall_scores': R.tolist(),
-            'f1_scores': F1.tolist(),
-            'device_used': device
+        return {
+            'precision_scores': precision_scores,
+            'recall_scores': recall_scores,
+            'f1_scores': f1_scores,
+            'avg_precision': avg_precision,
+            'avg_recall': avg_recall,
+            'avg_f1': avg_f1
         }
         
-        print(f"✅ BERTscore evaluation completed")
-        print(f"   Precision: {precision:.4f} ± {precision_std:.4f}")
-        print(f"   Recall: {recall:.4f} ± {recall_std:.4f}")
-        print(f"   F1 Score: {f1_score:.4f} ± {f1_std:.4f}")
-        
-        return results
-        
     except Exception as e:
-        print(f"❌ BERTscore evaluation failed: {e}")
+        print(f"❌ Error calculating BERTScore: {str(e)}")
         return None
 
 def main():
-    """Main function"""
-    print(" Starting Vanilla RAG BERTscore Evaluation for BNqapairs")
-    print("=" * 60)
+    """Main function with GPU optimization for full dataset"""
+    print("🚀 Starting GPU-Accelerated Advanced RAG BERTscore Evaluation for BNqapairs (Full Dataset)")
+    print("=" * 80)
     
     # Check GPU availability
     gpu_available = check_gpu_availability()
+    device = "cuda" if gpu_available else "cpu"
     
     # Load data
-    print("\n📂 Loading BNqapairs dataset...")
+    print("\n Loading BNqapairs dataset...")
     questions = load_bnqapairs()
     print(f"✅ Loaded {len(questions)} questions")
     
-    # Get Vanilla RAG responses
-    print(f"\n🤖 Getting Vanilla RAG responses for all {len(questions)} questions...")
-    responses = get_vanilla_rag_responses(questions, max_questions=None)
+    # Get Advanced RAG responses (all questions)
+    print(f"\n Getting Advanced RAG responses for all {len(questions)} questions...")
+    responses = get_advanced_rag_responses_gpu(questions, max_questions=None)
     
     if not responses:
         print("❌ No responses generated. Exiting.")
         return
     
-    # Extract ground truth answers
-    ground_truth_answers = [qa['answer'] for qa in questions[:len(responses)]]
+    # Prepare data for BERTScore
+    print("\n Preparing data for BERTScore evaluation...")
+    predictions = [r['response'] for r in responses]
+    references = [r['answer'] for r in responses]  # Use stored answers from responses
     
-    # Run BERTscore evaluation
-    bertscore_results = run_bertscore_evaluation(responses, ground_truth_answers)
+    print(f"📝 Predictions: {len(predictions)}")
+    print(f"📝 References: {len(references)}")
+    print(f"Sample prediction: {predictions[0][:100]}...")
+    print(f"Sample reference: {references[0][:100]}...")
+    
+    # Calculate BERTScore
+    bertscore_results = calculate_bertscore(predictions, references, device)
     
     if bertscore_results is None:
-        print("❌ BERTscore evaluation failed. Exiting.")
+        print("❌ BERTScore calculation failed. Exiting.")
         return
     
-    # Prepare final results
+    # Prepare results
     results = {
         'evaluation_info': {
             'timestamp': datetime.now().isoformat(),
-            'model': 'Vanilla RAG (VanillaRAGSystem)',
+            'model': 'Advanced RAG (CoreRAGSystem)',
             'dataset': 'BNqapairs (Full Dataset)',
             'total_questions': len(questions),
             'successful_responses': len(responses),
-            'device_used': bertscore_results['device_used'],
+            'device_used': device,
             'gpu_available': gpu_available
         },
         'bertscore_metrics': {
-            'avg_precision': bertscore_results['precision'],
-            'avg_recall': bertscore_results['recall'],
-            'avg_f1': bertscore_results['f1_score'],
-            'precision_std': bertscore_results['precision_std'],
-            'recall_std': bertscore_results['recall_std'],
-            'f1_std': bertscore_results['f1_std'],
+            'avg_precision': bertscore_results['avg_precision'],
+            'avg_recall': bertscore_results['avg_recall'],
+            'avg_f1': bertscore_results['avg_f1'],
             'precision_scores': bertscore_results['precision_scores'],
             'recall_scores': bertscore_results['recall_scores'],
             'f1_scores': bertscore_results['f1_scores']
@@ -242,7 +218,7 @@ def main():
     
     # Save results
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_file = f"vanilla_rag_bertscore_bnqapairs_full_{timestamp}.json"
+    output_file = f"advanced_rag_bertscore_bnqapairs_full_{timestamp}.json"
     
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
@@ -251,9 +227,9 @@ def main():
     print(f"Dataset: BNqapairs (Full Dataset)")
     print(f"Total Questions: {len(questions)}")
     print(f"Successful Responses: {len(responses)}")
-    print(f"Average Precision: {bertscore_results['precision']:.4f}")
-    print(f"Average Recall: {bertscore_results['recall']:.4f}")
-    print(f"Average F1: {bertscore_results['f1_score']:.4f}")
+    print(f"Average Precision: {bertscore_results['avg_precision']:.4f}")
+    print(f"Average Recall: {bertscore_results['avg_recall']:.4f}")
+    print(f"Average F1: {bertscore_results['avg_f1']:.4f}")
 
 if __name__ == "__main__":
     main()

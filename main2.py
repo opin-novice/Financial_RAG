@@ -31,7 +31,7 @@ Version: 2.1 - Telegram Bot Edition
 TELEGRAM_BOT_TOKEN = "7596897324:AAG3TsT18amwRF2nRBcr1JS6NdGs96Ie-D0"  # ⚠️ REPLACE WITH YOUR ACTUAL TOKEN!
 
 # Ollama Configuration
-OLLAMA_MODEL = "gemma:7b"
+OLLAMA_MODEL = "mixtral:8x7b"
 OLLAMA_BASE_URL = "http://localhost:11434"
 OLLAMA_TEMPERATURE = 0.1      # Controls randomness (0.0 = deterministic, 1.0 = very creative)
 OLLAMA_TOP_P = 0.9             # Nucleus sampling (0.1 = focused, 1.0 = diverse)
@@ -103,6 +103,9 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 from telegram.constants import ParseMode
 
 # No environment file needed - configuration is at the top of this file
+
+# Add this import with the other imports around line 84
+import torch
 
 # =============================================================================
 # 📊 CONFIGURATION & LOGGING
@@ -318,7 +321,7 @@ class RRFFusionRetriever:
             self.embedding_model = HuggingFaceEmbeddings(
                 model_name="BAAI/bge-m3",
                 model_kwargs={
-                    "device": "cpu",
+                    "device": "cuda" if torch.cuda.is_available() else "cpu",
                     "trust_remote_code": True
                 },
                 encode_kwargs={

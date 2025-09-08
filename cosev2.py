@@ -62,10 +62,15 @@ class CosineSimilarityEvaluator:
         logger.info("✅ Cosine Similarity Evaluator initialized successfully")
     
     def _init_embedding_model(self):
-        """Initialize the embedding model"""
+        """Initialize the embedding model with GPU if available"""
         try:
-            logger.info(f"Loading embedding model: {EMBEDDING_MODEL}")
-            self.embedding_model = SentenceTransformer(EMBEDDING_MODEL, device='cpu')
+            import torch
+            device = 'cuda' if torch.cuda.is_available() else 'cpu'
+            logger.info(f"Loading embedding model: {EMBEDDING_MODEL} on {device}")
+            if device == 'cuda':
+                logger.info(f"GPU: {torch.cuda.get_device_name(0)}")
+                logger.info(f"GPU Memory: {torch.cuda.get_device_properties(0).total_memory / 1024**3:.1f} GB")
+            self.embedding_model = SentenceTransformer(EMBEDDING_MODEL, device=device)
             logger.info("✅ Embedding model loaded successfully")
         except Exception as e:
             logger.error(f"Failed to load embedding model: {e}")
