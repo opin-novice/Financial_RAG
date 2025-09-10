@@ -1,0 +1,196 @@
+{
+  "evaluation_info": {
+    "timestamp": "2025-09-10T18:16:41.013666",
+    "model": "Vanilla RAG (VanillaRAGSystem)",
+    "domain": "Policy_Related",
+    "domain_file": "Policy_Related.json",
+    "total_questions": 19,
+    "successful_responses": 19,
+    "device_used": "cuda",
+    "gpu_available": true,
+    "evaluation_type": "cosine_similarity"
+  },
+  "cosine_similarity_metrics": {
+    "mean_similarity": 0.6710026028909182,
+    "median_similarity": 0.666146457195282,
+    "std_similarity": 0.1873294792471828,
+    "min_similarity": 0.33344173431396484,
+    "max_similarity": 0.9094246029853821,
+    "total_questions": 19,
+    "similarities": [
+      0.7539753913879395,
+      0.8711528778076172,
+      0.7587171792984009,
+      0.8364827036857605,
+      0.5996266603469849,
+      0.9094246029853821,
+      0.8996800780296326,
+      0.666146457195282,
+      0.859351634979248,
+      0.5487388372421265,
+      0.8713860511779785,
+      0.46479809284210205,
+      0.6404020190238953,
+      0.5109086632728577,
+      0.33344173431396484,
+      0.5533273220062256,
+      0.8186332583427429,
+      0.36943623423576355,
+      0.48341965675354004
+    ]
+  },
+  "detailed_results": [
+    {
+      "question_id": 0,
+      "question": "What policy provides rebate for non-listed companies listing through IPO?",
+      "ground_truth": "Rebate for listed companies listing through IPO is: non listed companies, including branch companies other than banks, insurance companies, merchant banks, jute, textile, garment industries, mobile phone operator companies and cigarette, Zarda, bidi, gul, or any other tobacco product. This are eligible for a rebate of 10% in the year of listing if they list at least 20% of their paid, up capital through IPO.",
+      "prediction": "If any non-publicly traded company transfers minimum of 20% shares of its paid-up capital through IPO (Initial Public Offering) it would get 10% rebate-on total tax:in the year of transfer.",
+      "cosine_similarity": 0.7539753913879395,
+      "processing_time": 3.2765562534332275
+    },
+    {
+      "question_id": 1,
+      "question": "Who should submit Income Tax Return?",
+      "ground_truth": "To submit Income Tax Return a individuals with a total income exceeding Tk. 2,50,000/, (excluding female taxpayers, senior male taxpayers of 65 years and above, retarded taxpayers, and war, wounded gazetted freedom fighters). For female taxpayers with a total income exceeding Tk. 3,00,000/, Retarded taxpayers with a total income exceeding Tk. 3,75,000/,",
+      "prediction": "Any individual whose total income exceeds Tk. 2,50,000/- in an income year should submit Income Tax Return.",
+      "cosine_similarity": 0.8711528778076172,
+      "processing_time": 0.7118403911590576
+    },
+    {
+      "question_id": 2,
+      "question": "What is written in Section 67 of the Bangladesh Tax Income Tax Act 2023?",
+      "ground_truth": "According to Section 67 of the Bangladesh Tax Income Tax Act 2023 is the provision of Section 67 shall apply in special cases like computing \"income from other sources\" in accordance with the provisions of Chapter Eight.",
+      "prediction": "However, I must point out that there is no information provided about Section 67 of the Bangladesh Tax Income Tax Act 2023.\n\nThe relevant information provided includes details from Sections 81 (Tax holiday scheme) and 78 (Tax rebate on certain investment) of the Income Tax Act, 2023. But as for Section 67, there is no mention or description given in the context.\n\nTherefore, I am unable to provide an answer based on the information provided. If you have any further questions or need clarification, please feel free to ask!",
+      "cosine_similarity": 0.7587171792984009,
+      "processing_time": 1.38539457321167
+    },
+    {
+      "question_id": 3,
+      "question": "What is the policy on practical work experience for CA students?",
+      "ground_truth": "The policy on practical work experience for CA students is as follows- practical work experience is a part of a training agreement with an ICAB Member. Students need to complete articleship for a period of 3, 4 years. The knowledge, skills, and experience gained during this period are invaluable and provide hands, on experience. Also the articleship agreement is designed to fit with the students practical experience, allowing them to progress through the qualification.",
+      "prediction": "Practical work experience is done as part of a training agreement with an ICAB Member in practice authorized to train students, which typically lasts 3-4 years.",
+      "cosine_similarity": 0.8364827036857605,
+      "processing_time": 0.7056505680084229
+    },
+    {
+      "question_id": 4,
+      "question": "What types of liabilities are covered under Section 2.1 of the SBS-1 Return?",
+      "ground_truth": "The types of liabilities covered under Section 2.1 of the SBS, 1. All the return are:Short, term Foreign Liabilities, Bilateral Trade Liabilities (code 17601), Barter and Special Trade Arrangement (STA) transactions, Foreign currencies to be reported in Table B",
+      "prediction": "Other liabilities excluding deposits, money payable at call and REPO.",
+      "cosine_similarity": 0.5996266603469849,
+      "processing_time": 0.5560836791992188
+    },
+    {
+      "question_id": 5,
+      "question": "What policy restricts offsetting foreign sourced losses?",
+      "ground_truth": "The policy that restricts offsetting foreign sourced losses is:, Foreign sourced losses of a Bangladesh entity cannot be offset against the Bangladesh profits of that entity. This means that losses incurred from foreign sources cannot be used to reduce the profits of the same entity in Bangladesh.",
+      "prediction": "The policy that restricts offsetting foreign-sourced losses is the one related to Controlled Foreign Company (CFC) rules. According to this rule, foreign-sourced losses of a Bangladesh entity cannot be offset against its Bangladesh profits.",
+      "cosine_similarity": 0.9094246029853821,
+      "processing_time": 0.8016111850738525
+    },
+    {
+      "question_id": 6,
+      "question": "What is the policy for non-medical professionals on reduced fees",
+      "ground_truth": "The policy for non medical professionals on reduced fees is as follows: for legal practitioners the fees at a reduced rate are charged or no fees are charged at all due to indigent circumstances of the client or any other cause, which should be recorded in the remarks column of the Case Register in Form A(2).",
+      "prediction": "The policy for non-medical professionals on reduced fees is that they are not allowed to charge reduced fees or no fees at all due to indigent circumstances of the patient or his guardian. They must maintain a case register and record particulars in Form A(1) (3). However, this rule does not apply to companies who enjoy tax exemption or pay taxes at reduced rates.",
+      "cosine_similarity": 0.8996800780296326,
+      "processing_time": 1.0677425861358643
+    },
+    {
+      "question_id": 7,
+      "question": "What rule is there for Collection of tax from importers?",
+      "ground_truth": " The purposes of making a collection of tax under section 53B of the Ordinance the Director general Bureau is responsible. In the case of deductions made under any other section except section 86 a certificate as per schedule 3 of the Rules for Tax Deducted at Source, 2023 shall be provided.",
+      "prediction": "17A Collection of tax from importers - For the purpose 01 making collection of tax under section 53 of the Ordinance, the Commissioner of Customs or any appropriate officer shall collect tax in the: case of any import of goods at the following rate: (a) five per cent on the value of the imported goods in case of import of goods excluding the goods mentioned in clause (b) and clause (c); (b) two",
+      "cosine_similarity": 0.666146457195282,
+      "processing_time": 1.5340824127197266
+    },
+    {
+      "question_id": 8,
+      "question": "What is the maximum penalty for tax evasion under the Income Tax Ordinance, 1984?",
+      "ground_truth": "The maximum penalty for tax evasion under the Income Tax Ordinance, 1984, is:, Imprisonment for a term not exceeding 7 years, Fine for an amount not exceeding double the amount involved in the crime, Either of these penalties alone or in combination",
+      "prediction": "The maximum penalty for tax evasion under the Income Tax Ordinance, 1984 is Tk. 20,000.",
+      "cosine_similarity": 0.859351634979248,
+      "processing_time": 0.7559523582458496
+    },
+    {
+      "question_id": 9,
+      "question": "What is contains to give effect to the various proposals in the annual budget covering the areas of direct and indirect taxes.",
+      "ground_truth": "The Finance Act, 2023, contains the following: Tax rates, Amendments to existing laws relating to government tax or non tax revenue. And insertion of new clauses/sub, sections/sections/schedules in existing laws. Deletion of old clauses/sub, sections/sections/schedules in existing laws.",
+      "prediction": "The Ill Finance Act.",
+      "cosine_similarity": 0.5487388372421265,
+      "processing_time": 0.510329008102417
+    },
+    {
+      "question_id": 10,
+      "question": "What is the Extending power of NBR officials?",
+      "ground_truth": "The extending power of NBR officials is as follows:, To declare any foreign un, incorporated association as a company for the purposes of the Act., To delegate powers of any income tax authority to another income tax authority., To determine and redetermine the area of income tax authority.To transfer power and jurisdictions of one income tax authority to another income tax authority.",
+      "prediction": "The Extending power of NBR officials is their authority to make or amend rules relating to income tax matters, as well as appointing required employees subject to organizational structure.",
+      "cosine_similarity": 0.8713860511779785,
+      "processing_time": 0.6947762966156006
+    },
+    {
+      "question_id": 11,
+      "question": "What policy exempts capital gains from sale of shares by investing power generation companies?",
+      "ground_truth": "For Power Sector, the policy that exempts income from tax is the private sector power generation policy of Bangladesh, which is applicable if the company signs a contract with the Government within 30 June, 2020.",
+      "prediction": "(b) Transfer of capital asset of a firm to a new company: section 61(3) When capital gains arise from the-transfer of capital asset of 'a firm to a new’company registered under the Companies Act, 1994 and the whole amount of capital gain is invested in the Equity of the said company by the partners of the firm, then the capital gain shall not be charged to tax in the year of transfer.",
+      "cosine_similarity": 0.46479809284210205,
+      "processing_time": 1.1490051746368408
+    },
+    {
+      "question_id": 12,
+      "question": "রপ্তানি বৃদ্ধির জন্য কী ধরনের নীতিগত সহায়তা দেওয়া হয়?",
+      "ground_truth": "রপ্তানি বৃদ্ধির জন্য নীতিগত সহায়তা হিসেবে আমদানি ও রপ্তানি প্রচারণা, রপ্তানি বাণিজ্য উন্নয়ন এবং রপ্তানি প্রতিষ্ঠানগুলোর জন্য সহায়তা প্রদান করা হয়।\n",
+      "prediction": "রপ্তানি বৃদ্ধির জন্য একটি সহায়তা হিসেবে রোগ রাশি বঞ্চনাপ্রাপ্ত ইউনিটগুলির জন্য কঠোর পরিমাণ ছাড়ের নীতি, ৭০% এবং ৩ মাসের জন্য রাশি বঞ্চনাপ্রাপ্ত ইউনিট থেকে অর্থায়ন।",
+      "cosine_similarity": 0.6404020190238953,
+      "processing_time": 2.021531581878662
+    },
+    {
+      "question_id": 13,
+      "question": "বাজেটে মূল্যস্ফীতি নিয়ন্ত্রণের জন্য কী নীতি গ্রহণ করা হয়েছে?",
+      "ground_truth": "উপকর কমিশনার তাহার নিকট প্রাপ্য তথ্য বা দলিলাদি অনুসারে বাজেটে মূল্যস্ফীতি নিয়ন্ত্রণের জন্য উপ, ধারা (১) এ উল্লিখিত সর্বাপেক্ষ নীতি গ্রহণ করা হয়েছে।",
+      "prediction": "মূল্যস্ফীতি নিয়ন্ত্রণের জন্য বাজেটে কোন নীতি গ্রহণ করা হয়নি।",
+      "cosine_similarity": 0.5109086632728577,
+      "processing_time": 1.8382515907287598
+    },
+    {
+      "question_id": 14,
+      "question": "আয়কর অধ্যাদেশে করদাতার পলিসি কী?",
+      "ground_truth": "করদাতার পলিসি হলো কর পরিশোধের সময় ও পদ্ধতি নির্বাচন করার প্রক্রিয়া, যা করদাতার স্বার্থ ও প্রয়োজনের উপর নির্ভর করে।",
+      "prediction": "২০২৩-২০২৪",
+      "cosine_similarity": 0.33344173431396484,
+      "processing_time": 1.4312989711761475
+    },
+    {
+      "question_id": 15,
+      "question": "বাংলাদেশি কোম্পানি কি? ",
+      "ground_truth": "এর অর্থ কম্পানি আইন, ১৯৯৪ (১৯৯৪ সালের ১৮ নং আইন) এর অধীন গঠিত ও নিবন্ধিত কোন কম্পানি, যার বাংলাদেশে প্রধান কার্যালয় অবস্থিত।",
+      "prediction": "বাংলাদেশি কোম্পানিতে যে সব শর্ত থাকা আবশ্যক:\n\n১. এর নিজস্বই সংগঠন, উদ্ভাবন ও ব্যবসার বিরাট অংশে বাংলাদেশ এর মানুষকে প্রতিফলিত করা।\n\n২. জনগণের আর্থিক ও সামাজিক চাহিদা শোধ করতে সাহায্য করে।",
+      "cosine_similarity": 0.5533273220062256,
+      "processing_time": 2.1726057529449463
+    },
+    {
+      "question_id": 16,
+      "question": "\"বিল অব এক্সপোর্ট\" দাখিলের নীতি কী?",
+      "ground_truth": "বিল অব এক্সপোর্ট দাখিলের নীতি হলো বিনিয়োগকারী বিনিয়োগের প্রসঙ্গ এবং সুযোগ সম্পর্কে সঠিক ও স্পষ্ট তথ্য প্রদান করবে।",
+      "prediction": "\"বিল অফ এক্সপোর্ট\" দাখিলের নীতি হলো:\n\nযে প্রত্যেক নিবন্ধনযোগ্য ব্যক্তির এক্সপোর্টের জন্য অর্থ প্রদান হলে উহা 'বিল' আকারে প্রদান করতে হইবে।",
+      "cosine_similarity": 0.8186332583427429,
+      "processing_time": 2.2268402576446533
+    },
+    {
+      "question_id": 17,
+      "question": "আয়কর নীতিতে কর রিবেট কাদের জন্য প্রযোজ্য?",
+      "ground_truth": "আয়কর নীতিতে কর রিবেট প্রযোজ্য সেই ব্যক্তি বা প্রতিষ্ঠানের জন্য, যারা তাদের হিসাব, দলিলাদি, ইলেক্ট্রনিক রেকর্ড এবং অন্যান্য প্রয়োজনীয় তথ্য পূর্ণাঙ্গভাবে প্রদান ও রেকর্ডে প্রবেশ করাতে সক্ষম।",
+      "prediction": "১.",
+      "cosine_similarity": 0.36943623423576355,
+      "processing_time": 1.3431377410888672
+    },
+    {
+      "question_id": 18,
+      "question": "বাজেটে নির্বাচন ব্যবস্থার সংস্কারের জন্য কী কমিশন গঠন করা হয়েছে?",
+      "ground_truth": "বাজেটে নির্বাচন ব্যবস্থার সংস্কারের জন্য কোম্পানি আইন সংশোধন কমিশন গঠন করা হয়েছে।",
+      "prediction": "The correct answer is:\n\n(c) Review the legally accepted measures for preventing corruption and submit recommendations to the President regarding their effective implementation.\n\nExplanation: The National Commission on Corruption Prevention is responsible for reviewing existing legal measures aimed at preventing corruption and submitting recommendations to the President for their effective implementation.",
+      "cosine_similarity": 0.48341965675354004,
+      "processing_time": 1.7698943614959717
+    }
+  ]
+}

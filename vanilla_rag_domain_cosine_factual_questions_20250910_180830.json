@@ -1,0 +1,439 @@
+{
+  "evaluation_info": {
+    "timestamp": "2025-09-10T18:08:30.754605",
+    "model": "Vanilla RAG (VanillaRAGSystem)",
+    "domain": "factual_questions",
+    "domain_file": "factual_questions.json",
+    "total_questions": 46,
+    "successful_responses": 46,
+    "device_used": "cuda",
+    "gpu_available": true,
+    "evaluation_type": "cosine_similarity"
+  },
+  "cosine_similarity_metrics": {
+    "mean_similarity": 0.6929130625465642,
+    "median_similarity": 0.7704904079437256,
+    "std_similarity": 0.21685366290264887,
+    "min_similarity": 0.2997223138809204,
+    "max_similarity": 0.9995728731155396,
+    "total_questions": 46,
+    "similarities": [
+      0.7738947868347168,
+      0.6857041120529175,
+      0.8869911432266235,
+      0.4926953911781311,
+      0.8693681955337524,
+      0.8050843477249146,
+      0.924598217010498,
+      0.7744641900062561,
+      0.529853343963623,
+      0.5585180521011353,
+      0.8050987124443054,
+      0.841078519821167,
+      0.9238356351852417,
+      0.9792752861976624,
+      0.8699196577072144,
+      0.8188085556030273,
+      0.6507465839385986,
+      0.893085241317749,
+      0.8325003385543823,
+      0.927699089050293,
+      0.7670518159866333,
+      0.9825335741043091,
+      0.9433666467666626,
+      0.9995728731155396,
+      0.9373638033866882,
+      0.6413387656211853,
+      0.8057862520217896,
+      0.45041289925575256,
+      0.43691399693489075,
+      0.5340100526809692,
+      0.5868592262268066,
+      0.8324674963951111,
+      0.3059196472167969,
+      0.2997223138809204,
+      0.7232422232627869,
+      0.8290345072746277,
+      0.43101680278778076,
+      0.32572996616363525,
+      0.3481295108795166,
+      0.4139520227909088,
+      0.34746450185775757,
+      0.7670860290527344,
+      0.42057478427886963,
+      0.6021676063537598,
+      0.4117879867553711,
+      0.8872761726379395
+    ]
+  },
+  "detailed_results": [
+    {
+      "question_id": 0,
+      "question": "What is the short title of the rules made under section 185 of the Income Tax Ordinance, 1984?",
+      "ground_truth": "The short title of the rules made under section 185 of the Income Tax Ordinance, 1984 is:, Income Tax Rules, 1984",
+      "prediction": "The short title is \"THE INCOME TAX RULES, 1984\"",
+      "cosine_similarity": 0.7738947868347168,
+      "processing_time": 4.335111141204834
+    },
+    {
+      "question_id": 1,
+      "question": "What is oreign Exchange Risk Mitigation?",
+      "ground_truth": "Foreign Exchange Risk Mitigation is a strategy used by companies to minimize the risk of exchange rate fluctuations affecting their financial transactions.Some methods are like Invoicing in domestic currency: An exporter can invoice his foreign customer in his domestic currency or an importer can arrange with his foreign supplier to be invoiced in his domestic currency.",
+      "prediction": "The correct answer is:\n\n**Currency exposure on export-sales can be eliminated by various \"hedging\" operations**\n\nExplanation:\n\nArold 'Ltd is expecting to pay $500,000 in four months' time to a US customer. To mitigate this currency risk, the company enters into a forward exchange contract with a bank to buy $500,000 in four months' time. This type of operation is called \"hedging\" because it reduces the risk associated with fluctuations in exchange rates.\n\nHedging involves using financial instruments such as forward contracts or currency futures to manage exposure to foreign currencies and reduce the potential loss due to exchange rate fluctuations.\n\nBy entering into a forward contract, Arold 'Ltd can lock in an exchange rate of $1.9015 (given in the problem) and ensure that it will receive $500,000 in four months' time at this fixed rate, regardless of any changes in market exchange rates.",
+      "cosine_similarity": 0.6857041120529175,
+      "processing_time": 1.9697096347808838
+    },
+    {
+      "question_id": 2,
+      "question": "What are the types of investment qualified for the tax rebate?",
+      "ground_truth": "The types of investment qualified for the tax rebate are: Life insurance whose premium up to 10% of the face value and Contribution to Provident Fund, as per the Provident Fund Act, 1925, Self contribution and employer's contribution to a General Provident Fund (GPF), Employee's contribution to a benevolent fund or group insurance scheme",
+      "prediction": "According to the given context, the types of investments qualified for the tax rebate are:\n\n1. Life insurance premium up to 10% of the face value.\n2. Contribution to Provident Fund to which Provident.\n\nThese are as per the regulations of Part 3 of Sixth Schedule of the Income Tax Act, 2023.",
+      "cosine_similarity": 0.8869911432266235,
+      "processing_time": 0.9856243133544922
+    },
+    {
+      "question_id": 3,
+      "question": "What are the standard rate of the VAT ?",
+      "ground_truth": "The standard VAT rates are 1% on turnover up to Taka 5,00,00,000, 0.5% on turnover Taka 2,50,00,000, 30% on interest income, 20% on dividend income, 15% on capital gain, 27.5% on avail (not fulfilled), 0.60% on alternative minimum tax on gross receipts",
+      "prediction": "15%.",
+      "cosine_similarity": 0.4926953911781311,
+      "processing_time": 0.48293328285217285
+    },
+    {
+      "question_id": 4,
+      "question": "What is VAT Assessment?",
+      "ground_truth": "VAT Assessment is the process of determining the value of goods and services for Value Added Tax (VAT) purposes. Few VAT Assessment are aaluation : Determining the value of goods and services for VAT purposes. Preparation of value Declaration : Preparing the value declaration form for major industries, manufacturers, commercial traders, and service renderers. Use of Fair Market Price: Using the fair market price for value determination.",
+      "prediction": "C) VAT Assessment: Valuation:; Preparation of value Declaration for major industries; Use of Fair market price for value determination, Valuation for services; Value declaration form preparation for manufacturer, commercial trader and service renderer",
+      "cosine_similarity": 0.8693681955337524,
+      "processing_time": 0.7834115028381348
+    },
+    {
+      "question_id": 5,
+      "question": "Who are the Income Tax Authorities?",
+      "ground_truth": "The Income Tax Authorities in Bangladesh are: The National Board of Revenue, Chief Commissioner of Taxes, Directors, General of Inspection (Taxes), Commissioner of Taxes (Appeals), Commissioner of Taxes (Large Taxpayer Unit), Director General (Training), Director General, Central Intelligence Cell, Commissioners of Taxes, Additional Commissioners of Taxes (Appeal/Inspecting), Joint Commissioners of Taxes (Appeal/Inspecting), Deputy Commissioners of Taxes, Tax Recovery Officers",
+      "prediction": "Income tax authorities are defined in Section 3 of the \"THE INCOME TAX ORDINANCE, 1984 (XXXVIOF 1984) and INCOME TAX RULES, 1984\" as follows:\n\n1. The National Board of Revenue\n2. Chief Commissioner of Taxes\n3. Directors-General of Inspection (Taxes)\n4. Commissioner of Taxes (Appeals)\n5. Commissioner of Taxes (Large Taxpayer Unit)\n6. Director General (Training)\n7. Director General, Central Intelligence Cell\n8. Commissioners of Taxes\n9. Additional Commissioners of Taxes (Appeal/Inspecting)\n10. Joint Commissioners of Taxes (Appeal/Inspecting)\n11. Deputy Commissioners of Taxes\n12. Tax Recovery Officers\n13. Assistant Commissioners of Taxes\n14. Extra Assistant Commissioners of Taxes\n15. Inspectors of Taxes\n\nThese income tax authorities are responsible for the administration and enforcement of tax laws, including verification of documents, revision of orders, and other administrative functions.",
+      "cosine_similarity": 0.8050843477249146,
+      "processing_time": 2.1367838382720947
+    },
+    {
+      "question_id": 6,
+      "question": "What does financial strategy concern in the strategic planning process?",
+      "ground_truth": "Financial strategy in the strategic planning process concerns the financial implications of the business strategy. The financial implications of the business strategy, How the business will achieve its objectives, The long, term direction of the business, The financial aspects of setting objectives and dealing with stakeholders In other words, financial strategy is concerned with the financial aspects of the business strategy, which is part of the overall strategic planning process.",
+      "prediction": "Financial strategy concerns the financial aspects of the strategic planning process. It involves making detailed supporting financial decisions over the medium to long term, having decided on the overall direction and objectives of a firm.",
+      "cosine_similarity": 0.924598217010498,
+      "processing_time": 0.6849229335784912
+    },
+    {
+      "question_id": 7,
+      "question": "What is income tax return ?",
+      "ground_truth": "Income tax return is a mandatory submission of financial information to the income tax authority. The return must include:  Declaration and authentication, Production of accounts and documents, Statement of assets and liabilities, Income statement, Statement of individual regarding particulars of lifestyle. And also information about income from different heads and net tax liability The return is essential for assessing tax liability and disclosing relevant information to the income tax authority.",
+      "prediction": "A tax return is a document submitted to the government by an individual or organisation that has obtained a Taxpayer Identification Number (TIN), which outlines their income and tax paid. It includes information about income earned, deductions, and taxes owed, and is used to determine the amount of tax payable. In the context provided, it seems to be related to the submission of a return of income for taxation purposes in Bangladesh.",
+      "cosine_similarity": 0.7744641900062561,
+      "processing_time": 1.0864520072937012
+    },
+    {
+      "question_id": 8,
+      "question": "Under rule 8(4), what auxiliary register must be maintained if a separate nursing or maternity home is maintained by a medical practitioner?",
+      "ground_truth": "Under Rule 8(4), a medical practitioner who maintains a separate nursing or maternity home must maintain an auxiliary register showing the following particulars: Name and address of the patient, Nature of the treatment, Room (diet and/or lodging) charges. Other fees charged from the patient, if any This auxiliary register must be maintained in the remarks column of the Case Register in Form A(2).",
+      "prediction": "Case Register",
+      "cosine_similarity": 0.529853343963623,
+      "processing_time": 0.5377206802368164
+    },
+    {
+      "question_id": 9,
+      "question": "What is the minimum salary required for a personal loan in Bangladesh?",
+      "ground_truth": "The tax rates range from 7.5% to 25% for different income brackets. There is an initial exemption limit for certain individuals, such as women, senior citizens, and physically challenged persons.",
+      "prediction": "The question doesn't ask about a personal loan. The given text is about different types of loans and the maximum limit for those loans in Bangladesh.\n\nSo, there is no answer to this question. However, according to the Bangladesh Bank's SME & Special Programs Department Circular, the maximum limit for a personal loan (Non-SME, Others) is Tk 5:00 lac.",
+      "cosine_similarity": 0.5585180521011353,
+      "processing_time": 1.031064748764038
+    },
+    {
+      "question_id": 10,
+      "question": "What does the manual state about the inter-relationships between financial decisions, using a retailing company as an example?",
+      "ground_truth": "Relationships between financial decisions can be seen in the following example, a retailing company makes a strategic decision to widen its markets, which requires new assets (e.g. new stores). The new assets trigger a demand for capital, leading to a new, issue of debt. The ongoing implementation of the strategy causes a need for financing decisions, such as managing cash flow and risk.",
+      "prediction": "The manual states that there are inter-relationships between financial decisions. To illustrate this, it uses an example of a retailing company making strategic decisions regarding its business strategy, which determines the necessary investment decisions to put into effect those strategies. The manual also highlights inter-relationships between other aspects such as credit decisions and risk reduction or hedging strategies.",
+      "cosine_similarity": 0.8050987124443054,
+      "processing_time": 1.0317986011505127
+    },
+    {
+      "question_id": 11,
+      "question": "Is online banking safe in Bangladesh?",
+      "ground_truth": "Online banking in Bangladesh is not entirely safe due to the sone reasons: cheque related frauds are the most commonly experienced fraud incidences in Bangladesh and online banking may be vulnerable to similar types of fraud. Banks are identified as the most vulnerable sector of Money Laundering and Terrorist Financing (ML&TF) in Bangladesh which increases the risk of financial crimes.",
+      "prediction": "Online banking is considered safe in Bangladesh. The country's second National Risk Assessment (NRA) has identified banks as the most vulnerable sector for money laundering and terrorist financing. However, the Bangladesh Bank (BB), the central bank of Bangladesh, has implemented various measures to ensure the safety and security of online banking transactions. These measures include proper information sharing with regulators, enhanced due diligence, and financial literacy guidelines to educate people about digital financial services.\n\nAccording to a research paper published by the Bangladesh Bank, the context letter of credit mode of trade is considered safe in Bangladesh compared to other modes such as Open Account and Cash in Advance. Additionally, the Bangladesh Bank has implemented various measures to prevent terrorist financing (TF) and money laundering (ML), including enhanced due diligence on transactions and provision of proper information to regulators before winding up suspicious companies.\n\nThe Bangladesh Bank has also issued financial literacy guidelines to educate people about digital financial services and online mode of transaction procedures. This can help increase trust in online banking among citizens and promote the use of digital financial services.\n\nOverall, while there are risks associated with online banking in Bangladesh, the country's regulatory authorities have taken various measures to ensure its safety and security.",
+      "cosine_similarity": 0.841078519821167,
+      "processing_time": 2.3369643688201904
+    },
+    {
+      "question_id": 12,
+      "question": "What types of investment qualified for the tax rebate?",
+      "ground_truth": "The Types of investment qualified for the tax rebate are: Life insurance, premium up to 10% of the face value and Contribution to Provident Fund, as per the Provident Fund Act, 1925, Self, contribution and employer's contribution to a Registered Pension Fund (RPF)",
+      "prediction": "The types of investments qualified for the tax rebate are:\n\n1. Life insurance premium up to 10% of the face value\n2. Contribution to Provident Fund\n3. Deferred annuity or provision for wife or children (up to one-fifth of salary)\n4. Employee's contribution to General Provident Fund (GPF)\n5. Employer's and employee's contribution to RPF\n6. Ordinary annual contribution to approved superannuation fund\n7. Employee's contribution to a benevolent fund or group insurance zakat fund",
+      "cosine_similarity": 0.9238356351852417,
+      "processing_time": 1.3179607391357422
+    },
+    {
+      "question_id": 13,
+      "question": "What is the threshold amount for maintaining a bank account under rule 8A?",
+      "ground_truth": "The threshold amount for maintaining a bank account under rule 8A is:, Taka 25,000/, (twenty five thousand) per month This is the amount above which a person having ownership or possession of a house property must maintain a bank account to deposit rent and any advance received.",
+      "prediction": "The threshold amount for maintaining a bank account under rule 8A is Taka 25,000/- (Twenty Five Thousand). According to the rule, where any person having ownership or possession of any property receives any sum or aggregate of sums exceeding taka 25,000/- per month in respect of rent of such house property or its unit, they shall maintain a bank account in any scheduled bank for depositing rent.",
+      "cosine_similarity": 0.9792752861976624,
+      "processing_time": 1.1850383281707764
+    },
+    {
+      "question_id": 14,
+      "question": "Do car owners pay annual taxes in Bangladesh?",
+      "ground_truth": "Car owners in Bangladesh pay annual taxes. Motor vehicles tax is a type of non, NBR tax. It is one of the nomenclatures of non, NBR tax, which is not subject to withholding tax in Bangladesh. The entity does not have a payroll structure ratio, but this information is not relevant to the question of car owners paying annual taxes.",
+      "prediction": "No. In Bangladesh, car owners pay a 'motor vehicle tax', which is an indirect tax, as part of the overall tax structure, but there is no mention of an annual tax on owning a car. However, motor vehicles are subject to customs duty and excise duty at the time of import or purchase.",
+      "cosine_similarity": 0.8699196577072144,
+      "processing_time": 0.9414706230163574
+    },
+    {
+      "question_id": 15,
+      "question": "What is an example of how financing decisions can impact a firm's existence?",
+      "ground_truth": "A firm that heavily borrows money may face financial difficulties if its cash flows fall to a level insufficient to make interest payments on debt. This can lead to bankruptcy. High debt levels can put a firm at risk of financial distress.  Insufficient cash flows can make it difficult for a firm to meet its debt obligations., This can ultimately impact a firm's existence.",
+      "prediction": "A firm's decision to finance itself through debt rather than equity can impact its existence if cash flows are insufficient to make interest payments on debt during times of recession. This is because debt requires regular interest payments, and if these payments cannot be made, the firm may go bankrupt. As a result, a greater proportion of equity finance (ownership by shareholders) could help mitigate this risk.",
+      "cosine_similarity": 0.8188085556030273,
+      "processing_time": 1.0829176902770996
+    },
+    {
+      "question_id": 16,
+      "question": "Which Bangladeshi city hosts the Dhaka Stock Exchange (DSE)?",
+      "ground_truth": "The Dhaka Stock Exchange (DSE) is hosted in Dhaka, Bangladesh.",
+      "prediction": "Dhaka.",
+      "cosine_similarity": 0.6507465839385986,
+      "processing_time": 0.49704742431640625
+    },
+    {
+      "question_id": 17,
+      "question": "Are mutual funds available in the Dhaka Stock Exchange?",
+      "ground_truth": "Mutual funds are available in the Dhaka Stock Exchange. The Dhaka Stock Exchange (DSE) is a primary source of new funds, including through new, share issuances., There is no specific mention of mutual funds in the provided context, but it can be inferred that they are available as part of the DSE's offerings.",
+      "prediction": "Yes, mutual funds are available in the Dhaka Stock Exchange. The text states that firms can access funds through various channels, including National stock markets in Bangladesh, which includes the Dhaka Stock Exchange (DSE). Additionally, a footnote references 'mutual fund' as an option under 'Investment Corporation of Bangladesh (ICB)'.",
+      "cosine_similarity": 0.893085241317749,
+      "processing_time": 0.9882917404174805
+    },
+    {
+      "question_id": 18,
+      "question": "What does the term \"Money Market Instrument\" include according to the definitions?",
+      "ground_truth": "Money Market Instrument includes- commercial paper, asset, backed securities, money market instruments. Other similar instruments traded in the financial markets.",
+      "prediction": "The term \"Money Market Instrument\" includes:\n\n1. Treasury Bills (T-Bills)\n2. Bonds\n3. Debentures\n4. Notes\n5. Negotiable Certificates of Deposit (CDs)\n6. Commercial Paper\n7. Asset-backed securities\n8. Money market instruments (such as repurchase agreements and reverse repo)\n9. Other similar instruments traded in the financial markets.\n\nThese are debt securities that give the holder an unconditional right to fixed or contractually determined variable payments.",
+      "cosine_similarity": 0.8325003385543823,
+      "processing_time": 1.2374217510223389
+    },
+    {
+      "question_id": 19,
+      "question": "Who is the General Manager of the Editorial Committee for the fifth edition of the guidelines?",
+      "ground_truth": "The General Manager of the Editorial Committee for the fifth edition of the guidelines is: Md. Nur, un, Nabi",
+      "prediction": "Md. Nur-un-Nabi is the General Manager of the Editorial Committee for the fifth edition of the guidelines.",
+      "cosine_similarity": 0.927699089050293,
+      "processing_time": 0.6628520488739014
+    },
+    {
+      "question_id": 20,
+      "question": "How I can return my income tax?",
+      "ground_truth": "To return income tax one need tofollow these steps. For company taxpayers, file return by July 15th of the following year or by September 30th if the 15th of July falls before the end of the six month period. For other taxpayers, file your return by September 30th of the following year unless an extension is granted. If one make any TDS (Tax deduction at source) on payment. He need to submit file a separate return of withholding tax by October 15th, January 15th, April 15th, or July 15th.",
+      "prediction": "To return your income tax, you need to follow these steps:\n\n1.  Determine if you are eligible for a refund: You can claim a refund if the amount of tax paid exceeds the properly chargeable tax or if income of one person is included in the income of another person.\n2.  Fill out Form IT-11GHA: This form is used to file the return of income under the Income Tax Ordinance, 1984. You can download this form from the Bangladesh Tax Authority's website or obtain it from their office.\n3.  Attach supporting documents: You will need to attach the following documents with your application:\n    a. IT-10B and IT-1 OBB (for individual assessees)\n    b. Certificate of registration (for companies)\n4.  Sign and verify the form: Your return must be signed and verified in the manner indicated on the form.\n5.  Submit the application within Tax Day: The deadline for submitting your tax return is known as Tax Day, which may vary depending on whether you are an individual or a company.\n6.  Wait for processing: Once your application has been submitted, it will be processed by the Bangladesh Tax Authority.\n\nIn case of refund, if there is any delay in payment, interest will be payable.\n\nPlease note that the forms and procedures mentioned above might have changed since the last update, so it's always a good idea to check with the relevant authorities for the most up-to-date information.",
+      "cosine_similarity": 0.7670518159866333,
+      "processing_time": 2.9857842922210693
+    },
+    {
+      "question_id": 21,
+      "question": "What is the full form of NBR in Bangladesh financial system?",
+      "ground_truth": "The full form of NBR in Bangladesh's financial system is National Board of Revenue",
+      "prediction": "The full form of NBR in Bangladesh's financial system is National Board of Revenue.",
+      "cosine_similarity": 0.9825335741043091,
+      "processing_time": 0.555708646774292
+    },
+    {
+      "question_id": 22,
+      "question": "What are risk management decisions concerned with?",
+      "ground_truth": "Risk management decisions are concerned with how a business manages risk in relation to- investment decisions, financing decisions, liquidity, currency and credit decisions. These decisions aim to reduce or hedge against risks and uncertainties. Such as currency and interest rate changes to ensure the firm's financial stability.",
+      "prediction": "Risk management decisions are concerned with how a business manages risk in relation to investment decisions, financing decisions, liquidity, currency and credit decisions.",
+      "cosine_similarity": 0.9433666467666626,
+      "processing_time": 0.6677277088165283
+    },
+    {
+      "question_id": 23,
+      "question": "What is the corporate income tax rate for publicly traded companies in Bangladesh, excluding banks, insurance, and specific industries?",
+      "ground_truth": "The corporate income tax rate for publicly traded companies in Bangladesh, excluding banks, insurance, and specific industries, is 25%.",
+      "prediction": "The corporate income tax rate for publicly traded companies in Bangladesh, excluding banks, insurance, and specific industries is 25%.",
+      "cosine_similarity": 0.9995728731155396,
+      "processing_time": 0.7037630081176758
+    },
+    {
+      "question_id": 24,
+      "question": "What is the tax rate for cigarette, zarda, bidi, gul, or any other tobacco product manufacturing companies?",
+      "ground_truth": "The tax rate for cigarette, zarda, bidi, gul, or any other tobacco product manufacturing companies is 3% of their gross receipts.",
+      "prediction": "5%. The tax rate for cigarette, zarda, bidi, gul or any other tobacco product manufacturing companies is 5% on their business income.",
+      "cosine_similarity": 0.9373638033866882,
+      "processing_time": 0.7429103851318359
+    },
+    {
+      "question_id": 25,
+      "question": "What is the opportunity cost?",
+      "ground_truth": "The opportunity cost is the value of the next best alternative that is forgone when a decision is made. In this case, the opportunity cost is the value of the alternative use of Material X., The opportunity cost of Material X is the sales proceeds forgone if it is not used in the project., The opportunity cost is the value of the alternative use of Material X, which is:, Selling 500 kg of Material X for 3,000 CU, Purchasing 1,000 kg of Material X for 4,000 CU",
+      "prediction": "The opportunity cost is CU13,600.",
+      "cosine_similarity": 0.6413387656211853,
+      "processing_time": 0.5053207874298096
+    },
+    {
+      "question_id": 26,
+      "question": "Do banks in Bangladesh offer retirement savings schemes?",
+      "ground_truth": "Banks in Bangladesh offer retirement savings schemes. The approved banks in Bangladesh for retirement savings schemes are many. Like South East Bank Limited, Dhaka Bank Limited, Al, Arafah Islami Bank Limited, Social Islami Bank Limited, Dutch, Bangla Bank Limited, Mercantile Bank Limited, Standard Bank Limited, One Bank Limited, Exim Bank Limited",
+      "prediction": "Yes, banks in Bangladesh offer retirement savings schemes. The context mentions \"Deposit Pension Scheme (DPS)\" which indicates that some banks in Bangladesh provide a pension scheme for their depositors as an incentive to save more, allowing them to build a nest egg for their retirement needs.",
+      "cosine_similarity": 0.8057862520217896,
+      "processing_time": 0.8737914562225342
+    },
+    {
+      "question_id": 27,
+      "question": "আয়কর কি?",
+      "ground_truth": "আয়কর হলো নির্দিষ্ট আইনের অধীন আরোপযোগ্য যেকোনো উৎস থেকে উদ্ভূত আয় বা পরিমানের উপর কর আরোপ করা",
+      "prediction": "যে একটি স্পষ্ট এবং ধারাবাহিক প্রশ্ন।",
+      "cosine_similarity": 0.45041289925575256,
+      "processing_time": 1.6231279373168945
+    },
+    {
+      "question_id": 28,
+      "question": "ভ্যালু অ্যাডেড ট্যাক্স এবং সম্পূরক শুল্ক বিধিমালা, ২০১৬-এর সংক্ষিপ্ত নাম কী?",
+      "ground_truth": "ভ্যালু অ্যাডেড ট্যাক্স এবং সম্পূরক শুল্ক বিধিমালা, ২০১৬, এর সংক্ষিপ্ত নাম হল 'মূল্য সংযোজন কর ও সম্পূরক শুল্ক বিধিমালা'",
+      "prediction": "১, ৫৭৩,০০০/-\n\n২.    বাংলাদেশ গেজেট (রাজস্ব) অধিনিয়ম, ২০১৭।",
+      "cosine_similarity": 0.43691399693489075,
+      "processing_time": 1.9812397956848145
+    },
+    {
+      "question_id": 29,
+      "question": "\"করারোপিত লভ্যাংশ\" কি?",
+      "ground_truth": "করারোপিত লভ্যাংশ হলো কর আরোপযোগ্য হওয়ার সময় লভ্যাংশের উপর কর পরিশোধ করা হয়।",
+      "prediction": "এটি অর্থ আইন ২০১৮ অনুযায়ী শেয়ার হস্তান্তরের ক্ষেত্রে বিভিন্ন প্রকার কর (প. ৩৩)",
+      "cosine_similarity": 0.5340100526809692,
+      "processing_time": 2.118813991546631
+    },
+    {
+      "question_id": 30,
+      "question": "বাংলাদেশে আয়কর রিটার্ন কী?",
+      "ground_truth": "বাংলাদেশে আয়কর রিটার্ন হলো করদাতার নির্দিষ্ট আয়ের হিসাব ও প্রাপ্য করের পরিমাণ উল্লেখ করে নির্ধারিত সময়ে দাখিল করা একটি বাধ্যতামূলক নথি।",
+      "prediction": "এই অনুচ্ছেদের আওতায় আসা রিটার্নগুলোর জন্য বাংলাদেশ রিভিউ অথবা কোনো অন্য পরীক্ষামূলক সত্তা আইনি পরীক্ষা (লেগেল রিভিউ) না বাধ্য হয়ে নিজ খাত ও পরিমাণকে নির্দিষ্ট সংখ্যক তথ্য এবং দলিলে (অ্যাফিডাভিট) উপস্থাপন করা হবে",
+      "cosine_similarity": 0.5868592262268066,
+      "processing_time": 3.5424275398254395
+    },
+    {
+      "question_id": 31,
+      "question": "“আয়কর কর্মকর্তা” বলতে কী বোঝায়?",
+      "ground_truth": "আয়কর কর্মকর্তা হলেন কর আপিল ট্রাইব্যুনালের একজন কর্মকর্তা, যিনি কর আপিলের সমাধানে জড়িত থাকেন।",
+      "prediction": "“আয়কর কর্মকর্তা” বলতে একজন সরকারি কর্মচারীকে বোঝায় যিনি আয়করের প্রশাসনের অংশ।",
+      "cosine_similarity": 0.8324674963951111,
+      "processing_time": 1.2531428337097168
+    },
+    {
+      "question_id": 32,
+      "question": "\"পরিবার সম্পর্কিত ব্যক্তি\" বলতে কোন শতাংশ শেয়ারের মালিকানা বোঝানো হয়?",
+      "ground_truth": "পরিবার সম্পর্কিত ব্যক্তি বলতে প্রথম প্রজন্মের সদস্য বা পরিবারের সদস্যকে বোঝায়।",
+      "prediction": "৫%",
+      "cosine_similarity": 0.3059196472167969,
+      "processing_time": 0.48836708068847656
+    },
+    {
+      "question_id": 33,
+      "question": "মিউচুয়াল ফান্ড কী?",
+      "ground_truth": "মিউচুয়াল ফান্ড হলো এক ধরনের বিনিয়োগ ফান্ড যার লক্ষ্য হলো স্বল্পমেয়াদী বিনিয়োগের জন্য অর্থ সংগ্রহ করা এবং সেই অর্থগুলো বিভিন্ন বিনিয়োগে বিনিয়োগ করা।",
+      "prediction": "১.",
+      "cosine_similarity": 0.2997223138809204,
+      "processing_time": 1.321556568145752
+    },
+    {
+      "question_id": 34,
+      "question": "“আয়বর্ষ” এর সংজ্ঞা কী?",
+      "ground_truth": "আয়বর্ষ হলো সেই সময়কাল, যার মধ্যে কোনো ব্যবসায়িক বা আর্থিক কার্যক্রম সম্পাদিত হয় এবং সেই বছরের আর্থিক ফলাফল নির্ধারণ করা হয়।",
+      "prediction": "“আয়বর্ষ” এর সংজ্ঞা হল: “ইনকাম পারিয়ের” অর্থ ১. মূল্য-নিঃশোভিত-বা সরাসরি-উদ্ভাবিত।",
+      "cosine_similarity": 0.7232422232627869,
+      "processing_time": 1.4739782810211182
+    },
+    {
+      "question_id": 35,
+      "question": "বাংলাদেশ ব্যাংকের প্রধান কাজ কী?",
+      "ground_truth": "বাংলাদেশ ব্যাংকের প্রধান কাজ হলো দেশের অর্থনীতিতে স্থিতিশীলতা ও উন্নয়ন বজায় রাখা। এটি দেশের একমাত্র কেন্দ্রিয় ব্যাংক হিসেবে গুরুত্বপূর্ণ ভূমিকা পালন করে।",
+      "prediction": "বাংলাদেশ ব্যাংকের প্রধান কাজ হচ্ছে অর্থনীতি, আর্থিক স্থিতিশীলতা ও বাণিজ্য-বাণিজ্যিক প্রবৃদ্ধি অনুসন্ধানের মাধ্যমে এ ভূখণ্ডের বাণিজ্য-বাণিজ্যিক, আর্থিক ও অর্থনৈতিক সচ্ছলতা নির্ধারণ।",
+      "cosine_similarity": 0.8290345072746277,
+      "processing_time": 2.109466552734375
+    },
+    {
+      "question_id": 36,
+      "question": "“আয়কর অ্যাপিলেট কমিশনার” বলতে কী বোঝায়?",
+      "ground_truth": "আয়কর অ্যাপিলেট কমিশনার হল আয়কর কমিশনারের একটি পদ, যা আয়কর অ্যাপিলেট কমিশনার হিসেবে দায়িত্ব পালন করে।",
+      "prediction": "(২) উপ-বিধি (১) এর অধীন আরেদনের সময়' আবেদনকারী 'বিধি ১০১ এর অধীন প্রস্তুত",
+      "cosine_similarity": 0.43101680278778076,
+      "processing_time": 2.129141092300415
+    },
+    {
+      "question_id": 37,
+      "question": "“করযোগ্য আয়” বলতে কী বোঝায়?",
+      "ground_truth": "করযোগ্য আয় বলতে সেই আয় বোঝায় যা বৈদেশিক কর ক্রেডিটের অধীনে সমন্বয় অনুমোদনের সময় গণনা করা হয়। এতে চুক্তির অধীনে প্রাপ্ত লভ্যাংশের ক্ষেত্রে বাংলাদেশে করের বিপরীতে কোনো রেয়াত অনুমোদিত হলে বা প্রদেয় রেয়াতের পরিমাণ নির্ধারিত হলে, উপ-ধারা (১) অনুযায়ী সেই আয় বৃদ্ধিপ্রাপ্ত আয় হিসেবে বিবেচিত হয়।",
+      "prediction": "Section 241",
+      "cosine_similarity": 0.32572996616363525,
+      "processing_time": 1.291503667831421
+    },
+    {
+      "question_id": 38,
+      "question": "পোর্ট-ট্যাক্স রেবেট বা কর অব্যাহতি কত?",
+      "ground_truth": "পোর্ট-ট্যাক্স রেবেট বা কর অব্যাহতির পরিমাণ নির্দিষ্ট নীতি, আইন বা চুক্তির ওপর নির্ভর করে।",
+      "prediction": "উপ-দফা (২)",
+      "cosine_similarity": 0.3481295108795166,
+      "processing_time": 1.4165823459625244
+    },
+    {
+      "question_id": 39,
+      "question": "\"বন্ডেড ওয়্যারহাউস\" এবং \"স্পেশাল বন্ডেড ওয়্যারহাউস\" কোন অধ্যায়ে উল্লেখিত?",
+      "ground_truth": "বন্ডেড ওয়্যারহাউস এবং স্পেশাল বন্ডেড ওয়্যারহাউস কর আইন বা কাস্টমস অধ্যায়ে উল্লেখিত।",
+      "prediction": "\"সম্পত্তি\" এবং \"ভাড়া\"",
+      "cosine_similarity": 0.4139520227909088,
+      "processing_time": 1.0800721645355225
+    },
+    {
+      "question_id": 40,
+      "question": "\"বোর্ড\" বলতে কোন অর্ডারের অধীনে গঠিত বোর্ডকে বোঝানো হয়?",
+      "ground_truth": "বোর্ড বলতে 1972 সালের প্রেসিডেন্ট অর্ডার 76 অনুযায়ী গঠিত জাতীয় রাজস্ব বোর্ডকে বোঝানো হয়।",
+      "prediction": "বাংলাদেশ গেজেট, অতিরিক্ত, নভেম্বর ৩, ২০১৬",
+      "cosine_similarity": 0.34746450185775757,
+      "processing_time": 1.7850749492645264
+    },
+    {
+      "question_id": 41,
+      "question": "আয়কর আইন, ২০২৩ দ্বারা কর হার নির্ধারণ কেমন?",
+      "ground_truth": "আয়কর আইন, ২০২৩ দ্বারা কর হার নির্ধারণ কর কর্তৃপক্ষ দ্বারা নির্ধারণ করা হয়।",
+      "prediction": "এই আয়কর আইন,২০২৩ দ্বারা তাহলে কর হার নির্ধারিত হল ২২.৫%",
+      "cosine_similarity": 0.7670860290527344,
+      "processing_time": 1.7980890274047852
+    },
+    {
+      "question_id": 42,
+      "question": "\"মুসক আইন\" বলতে কোন আইনকে বোঝানো হয়?",
+      "ground_truth": "মুসক আইন বলতে ধারা ১৩৭-এর অধীন রহিত মূল্য সংযোজন কর আইন, ১৯৯১-কে বোঝানো হয়।",
+      "prediction": "উপ-বিধি (৫) অনুসারে মূসক এজেন্টের চূড়ান্ত নাম হল \"আমি\"।",
+      "cosine_similarity": 0.42057478427886963,
+      "processing_time": 1.915574073791504
+    },
+    {
+      "question_id": 43,
+      "question": "Without considering recovery, what is a \"certificate\" in the rules in Bangladeshi tax return?",
+      "ground_truth": " \"certificate\" refers to:, A tax clearance certificate. An exemption certificate These certificates are issued by the DCT (Directorate of Customs and Taxation) to individuals. ",
+      "prediction": "A document required by an income tax authority that states whether a person has any outstanding tax liability.",
+      "cosine_similarity": 0.6021676063537598,
+      "processing_time": 0.706291675567627
+    },
+    {
+      "question_id": 44,
+      "question": "Isolated from corporate tax, what entity produced the document in conjunction?",
+      "ground_truth": "Withholding Tax, Corporate Tax Implication, and DTAA Implication for each option. ",
+      "prediction": "The entity that produced the document in conjunction with another entity is \"Fantastic Limited\", a multinational company owned by a China-based company and Sarkar family in Bangladesh.",
+      "cosine_similarity": 0.4117879867553711,
+      "processing_time": 0.7372050285339355
+    },
+    {
+      "question_id": 45,
+      "question": "Without context of recovery, what is \"defaulter\"?",
+      "ground_truth": "A \"defaulter\" in this context refers to an individual who has failed to pay their tax arrears. Has not responded to a notice of demand for payment.",
+      "prediction": "The term \"defaulter\" refers to an assessee who has failed to pay their taxes, and a certificate has been issued for the recovery of the arrears. In other words, a defaulter is someone who owes money in the form of unpaid taxes or dues, and the government has taken steps to recover this amount through legal means.",
+      "cosine_similarity": 0.8872761726379395,
+      "processing_time": 1.0061862468719482
+    }
+  ]
+}

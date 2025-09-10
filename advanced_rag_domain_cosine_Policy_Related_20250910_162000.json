@@ -1,0 +1,196 @@
+{
+  "evaluation_info": {
+    "timestamp": "2025-09-10T16:20:00.642123",
+    "model": "Advanced RAG (CoreRAGSystem)",
+    "domain": "Policy_Related",
+    "domain_file": "Policy_Related.json",
+    "total_questions": 19,
+    "successful_responses": 19,
+    "device_used": "cuda",
+    "gpu_available": true,
+    "evaluation_type": "cosine_similarity"
+  },
+  "cosine_similarity_metrics": {
+    "mean_similarity": 0.7478905508392736,
+    "median_similarity": 0.7539879083633423,
+    "std_similarity": 0.09883871050925731,
+    "min_similarity": 0.6049718260765076,
+    "max_similarity": 0.985796332359314,
+    "total_questions": 19,
+    "similarities": [
+      0.7706637382507324,
+      0.7603806853294373,
+      0.8551245331764221,
+      0.7003733515739441,
+      0.756932258605957,
+      0.985796332359314,
+      0.8831547498703003,
+      0.6180765628814697,
+      0.8377686738967896,
+      0.8135350942611694,
+      0.6986052989959717,
+      0.7347572445869446,
+      0.778623640537262,
+      0.6553733348846436,
+      0.6100490093231201,
+      0.6049718260765076,
+      0.706250786781311,
+      0.7539879083633423,
+      0.6854954361915588
+    ]
+  },
+  "detailed_results": [
+    {
+      "question_id": 0,
+      "question": "What policy provides rebate for non-listed companies listing through IPO?",
+      "ground_truth": "Rebate for listed companies listing through IPO is: non listed companies, including branch companies other than banks, insurance companies, merchant banks, jute, textile, garment industries, mobile phone operator companies and cigarette, Zarda, bidi, gul, or any other tobacco product. This are eligible for a rebate of 10% in the year of listing if they list at least 20% of their paid, up capital through IPO.",
+      "prediction": "• If a non-publicly traded company transfers minimum of 20% shares of its paid-up capital through IPO (Initial Public Offering), it would get 10% rebate-on total tax:in the year of transfer.\n• Mobile phone operator companies that convert themselves into a publicly traded company by transfer of at least 10% shares through stock exchanges, of which maximum 5% may be through Pre-Initial Public Offering Placement [If mobile phone operator companies list at least 20% of their paid up capital through IPO, they shall receive a rebate of 10% in the year of listing].",
+      "cosine_similarity": 0.7706637382507324,
+      "processing_time": 35.49535846710205
+    },
+    {
+      "question_id": 1,
+      "question": "Who should submit Income Tax Return?",
+      "ground_truth": "To submit Income Tax Return a individuals with a total income exceeding Tk. 2,50,000/, (excluding female taxpayers, senior male taxpayers of 65 years and above, retarded taxpayers, and war, wounded gazetted freedom fighters). For female taxpayers with a total income exceeding Tk. 3,00,000/, Retarded taxpayers with a total income exceeding Tk. 3,75,000/,",
+      "prediction": "• Individuals with a total income exceeding Tk: 2,50,000 during the income year.\n• Female taxpayers, senior male taxpayers of 65 years and above, retarded taxpayers, and war wounded gazetted freedom fighter with a total income exceeding the threshold specified in Section 75(1) of the Ordinance.\n• Candidates for Paurashava, City Corporation, Upazilla or Parliament elections.\n• Companies registered under the Company Act, 1913 or 1994.",
+      "cosine_similarity": 0.7603806853294373,
+      "processing_time": 60.21242618560791
+    },
+    {
+      "question_id": 2,
+      "question": "What is written in Section 67 of the Bangladesh Tax Income Tax Act 2023?",
+      "ground_truth": "According to Section 67 of the Bangladesh Tax Income Tax Act 2023 is the provision of Section 67 shall apply in special cases like computing \"income from other sources\" in accordance with the provisions of Chapter Eight.",
+      "prediction": "• Section 67 of the Bangladesh Income Tax Act, 2023 discusses the computation of \"income from other sources.\"\n• It includes certain types of income in this category, such as royalty, license fees, technical know-how fees, and income from granting the right to use intangible assets.\n• Cash incentives paid by the government are also included.\n• Any income that is not classified under other sections may be considered income from other sources.",
+      "cosine_similarity": 0.8551245331764221,
+      "processing_time": 51.240827560424805
+    },
+    {
+      "question_id": 3,
+      "question": "What is the policy on practical work experience for CA students?",
+      "ground_truth": "The policy on practical work experience for CA students is as follows- practical work experience is a part of a training agreement with an ICAB Member. Students need to complete articleship for a period of 3, 4 years. The knowledge, skills, and experience gained during this period are invaluable and provide hands, on experience. Also the articleship agreement is designed to fit with the students practical experience, allowing them to progress through the qualification.",
+      "prediction": "• Practical work experience is a requirement for CA students in Bangladesh.\n• It is done as part of a training agreement.\n• The training is provided by an ICAB (Institute of Chartered Accountants of Bangladesh) Member in practice.\n• This member must be authorized to train students.",
+      "cosine_similarity": 0.7003733515739441,
+      "processing_time": 15.698539972305298
+    },
+    {
+      "question_id": 4,
+      "question": "What types of liabilities are covered under Section 2.1 of the SBS-1 Return?",
+      "ground_truth": "The types of liabilities covered under Section 2.1 of the SBS, 1. All the return are:Short, term Foreign Liabilities, Bilateral Trade Liabilities (code 17601), Barter and Special Trade Arrangement (STA) transactions, Foreign currencies to be reported in Table B",
+      "prediction": "• Contingent liabilities as per contra, such as bills, bank guarantees, and outstanding letters of credit (except those exported under deposit liabilities)\n• Short-term foreign liabilities, including bilateral trade liabilities arising out of agreements initiated by the government or government organizations\n• Other borrowings from insurance companies, pension funds, and other financial intermediaries in the form of repurchase agreement (REPO)",
+      "cosine_similarity": 0.756932258605957,
+      "processing_time": 29.181583404541016
+    },
+    {
+      "question_id": 5,
+      "question": "What policy restricts offsetting foreign sourced losses?",
+      "ground_truth": "The policy that restricts offsetting foreign sourced losses is:, Foreign sourced losses of a Bangladesh entity cannot be offset against the Bangladesh profits of that entity. This means that losses incurred from foreign sources cannot be used to reduce the profits of the same entity in Bangladesh.",
+      "prediction": "• The policy that restricts offsetting foreign sourced losses is as follows:\n• Foreign sourced losses of a Bangladesh entity cannot be offset against the Bangladesh profits of that entity.\n• This means that losses from sources outside of Bangladesh for a Bangladeshi entity cannot be used to reduce their taxable profits within Bangladesh.",
+      "cosine_similarity": 0.985796332359314,
+      "processing_time": 16.208455562591553
+    },
+    {
+      "question_id": 6,
+      "question": "What is the policy for non-medical professionals on reduced fees",
+      "ground_truth": "The policy for non medical professionals on reduced fees is as follows: for legal practitioners the fees at a reduced rate are charged or no fees are charged at all due to indigent circumstances of the client or any other cause, which should be recorded in the remarks column of the Case Register in Form A(2).",
+      "prediction": "• Non-medical professionals, such as legal practitioners, accountants, auditors, architects, or engineers, can charge reduced fees or no fees at all in certain situations.\n• The circumstances justifying reduced or waived fees include the indigent status of the client or any other cause.\n• These details must be recorded in the remarks column of the Case Register in Form A(1) (3).",
+      "cosine_similarity": 0.8831547498703003,
+      "processing_time": 20.654917001724243
+    },
+    {
+      "question_id": 7,
+      "question": "What rule is there for Collection of tax from importers?",
+      "ground_truth": " The purposes of making a collection of tax under section 53B of the Ordinance the Director general Bureau is responsible. In the case of deductions made under any other section except section 86 a certificate as per schedule 3 of the Rules for Tax Deducted at Source, 2023 shall be provided.",
+      "prediction": "• For making collection of tax under section 5",
+      "cosine_similarity": 0.6180765628814697,
+      "processing_time": 6.799576759338379
+    },
+    {
+      "question_id": 8,
+      "question": "What is the maximum penalty for tax evasion under the Income Tax Ordinance, 1984?",
+      "ground_truth": "The maximum penalty for tax evasion under the Income Tax Ordinance, 1984, is:, Imprisonment for a term not exceeding 7 years, Fine for an amount not exceeding double the amount involved in the crime, Either of these penalties alone or in combination",
+      "prediction": "• The maximum penalty for tax evasion under the Income Tax Ordinance, 1984 is:\n - Tk 20,000 for using a fake Taxpayer's Identification Number (TIN)\n - 50% of last assessed tax or Tk 10,000 (whichever is higher) for failure to verify TIN\n - A penalty not exceeding Tk 5,000 for failing to pay tax on the basis of return or obstructing an income tax authority\n - One and a half times the amount of tax payable (with a maximum of Tk 5,000) for not maintaining accounts in the prescribed manner.",
+      "cosine_similarity": 0.8377686738967896,
+      "processing_time": 38.93438482284546
+    },
+    {
+      "question_id": 9,
+      "question": "What is contains to give effect to the various proposals in the annual budget covering the areas of direct and indirect taxes.",
+      "ground_truth": "The Finance Act, 2023, contains the following: Tax rates, Amendments to existing laws relating to government tax or non tax revenue. And insertion of new clauses/sub, sections/sections/schedules in existing laws. Deletion of old clauses/sub, sections/sections/schedules in existing laws.",
+      "prediction": "✔ The Ill Finance Act contains provisions to implement proposals in the annual budget related to direct and indirect taxes.\n\n✔ It includes:\n • Tax rates\n • Amendments of clauses, sub-sections, sections, or schedules in laws relating to government tax or non-tax revenue\n • Insertion of new clauses, sub-sections, sections, or schedules in the existing laws relating to government tax or non-tax revenue",
+      "cosine_similarity": 0.8135350942611694,
+      "processing_time": 44.700790882110596
+    },
+    {
+      "question_id": 10,
+      "question": "What is the Extending power of NBR officials?",
+      "ground_truth": "The extending power of NBR officials is as follows:, To declare any foreign un, incorporated association as a company for the purposes of the Act., To delegate powers of any income tax authority to another income tax authority., To determine and redetermine the area of income tax authority.To transfer power and jurisdictions of one income tax authority to another income tax authority.",
+      "prediction": "• The National Board of Revenue (NBR) is a statutory body with the highest executive authority for income tax matters in Bangladesh.\n• NBR has the power to make necessary rules concerning income tax matters, including Rules for Tax Deducted at Source, 2023 and Rules for Income Tax Preparer, 2023.\n• The NBR can amend or change any rules through notification in the official gazette.\n• NBR officials are appointed by the Government to manage, control, and supervise the whole income tax department.",
+      "cosine_similarity": 0.6986052989959717,
+      "processing_time": 95.00079917907715
+    },
+    {
+      "question_id": 11,
+      "question": "What policy exempts capital gains from sale of shares by investing power generation companies?",
+      "ground_truth": "For Power Sector, the policy that exempts income from tax is the private sector power generation policy of Bangladesh, which is applicable if the company signs a contract with the Government within 30 June, 2020.",
+      "prediction": "• Capital gains from the sale or transfer of shares by investing power generation companies (other than coal-based and coal-based) are exempt from tax.\n• This exemption is provided under the policy of Bangladesh's private sector power generation, as per the statement made in 2018 by KPMG International Cooperative.\n• The exemption applies to gains from shares of any company, not just coal-based or coal-based power generation companies.",
+      "cosine_similarity": 0.7347572445869446,
+      "processing_time": 29.867482900619507
+    },
+    {
+      "question_id": 12,
+      "question": "রপ্তানি বৃদ্ধির জন্য কী ধরনের নীতিগত সহায়তা দেওয়া হয়?",
+      "ground_truth": "রপ্তানি বৃদ্ধির জন্য নীতিগত সহায়তা হিসেবে আমদানি ও রপ্তানি প্রচারণা, রপ্তানি বাণিজ্য উন্নয়ন এবং রপ্তানি প্রতিষ্ঠানগুলোর জন্য সহায়তা প্রদান করা হয়।\n",
+      "prediction": "রপ্তানি বৃদ্ধি জন্য নীতিগত সহায়তা দেয়া হয় durch কিছু নিম্নলিখিত উপায়:\n\n• বাংলাদেশ ব্যাংক এবং সম্পদ ব্যবস্থাপনা বোর্ড (BPBD) দ্বারা বিভিন্ন ধরনের credits ও লোন প্রদান।\n• ক্ষুদ্র ও মধ্যম ব্যবসায়ী উন্নয়ন Porgramme (SMEFP) বিভিন্ন প্রকারের লোন, গ্রাহক সেবা এবং অন্যান্য সমর্থন প্রদান।\n• বাংলাদেশ কারিগরী ও কৃষি কোম্পানী (BSCIC) দ্বারা কারিগরী ও কৃষি ব্যবসায়ের জন্য নিবন্ধন, তan, এবং শিল্প সহায়তা।\n• বাংলাদেশ শিল্প ব্যবস্থাপনা বোর্ড (BPDB) এবং বাংলাদেশ পানী বোর্ড (BWDB) দ্বারা বিভিন্ন ধরনের শক্তি ও জল সম্পদ সহায়তা।",
+      "cosine_similarity": 0.778623640537262,
+      "processing_time": 260.6831133365631
+    },
+    {
+      "question_id": 13,
+      "question": "বাজেটে মূল্যস্ফীতি নিয়ন্ত্রণের জন্য কী নীতি গ্রহণ করা হয়েছে?",
+      "ground_truth": "উপকর কমিশনার তাহার নিকট প্রাপ্য তথ্য বা দলিলাদি অনুসারে বাজেটে মূল্যস্ফীতি নিয়ন্ত্রণের জন্য উপ, ধারা (১) এ উল্লিখিত সর্বাপেক্ষ নীতি গ্রহণ করা হয়েছে।",
+      "prediction": "বাজেটে মূল্যস্ফীতি নিয়ন্ত্রণের জন্য অনুচ্ছেদ 52 এ উল্লেखিত নীতি গ্রহণ করা হয়েছে:\n\n• আগামী 15 পেনের দিনের মধ্যে কার্যাবলীর একটি সময়ের মধ্যে জবাব প্রেরণ করা বাধ্যতা وৃদ্ধি করা হয়েছে।\n• আনীত অভিযোগ স্বীকার করলে মূল্য সংযোজন কর্ম ও শুল্ক বিধিমালা, 2016 অনুযায়ী পরবর্তী ব্যবস্থা গৃহীত হবে।\n• অভিযোগ সম্পূর্ণ স্বীকার করলে ছকে (খু) অনুচ্ছেদ 02 এ বর্ণিত নিবন্ধন করা হবে।\n• আংশিক স্বীকারে স্বীকারোক্তিমূলক জবানবন্দি প্রদান করা হবে।\n\n(অনুচ্ছেদ 52, Income Tax Act, Bangladesh)",
+      "cosine_similarity": 0.6553733348846436,
+      "processing_time": 137.19656038284302
+    },
+    {
+      "question_id": 14,
+      "question": "আয়কর অধ্যাদেশে করদাতার পলিসি কী?",
+      "ground_truth": "করদাতার পলিসি হলো কর পরিশোধের সময় ও পদ্ধতি নির্বাচন করার প্রক্রিয়া, যা করদাতার স্বার্থ ও প্রয়োজনের উপর নির্ভর করে।",
+      "prediction": "আয়কর অধ্যাদেশে করদাতার পলিসি হল, করদাতা বিনিময়ে ওঠা উহাতে কোন ক্ষতি বা অনুপযোগী তথ্য উল্লেখ করবে না। আমদানী ঘোষণা সময়ে করদাতা অধিকাংশ তথ্য প্রদান করতে হবে, অন্যথায় তাঁর আমদানী বাতিল হতে পারে। করদাতা সর্বোচ্চ ২৫,000 টাকা মানে হবে, যদি তাঁর আমদানী ১,00,000 টাকা এর বেশি হয়। করদাতা অধিকাংশ তথ্য প্রদানের জন্য ২১ সেপ্টেম্বর, ২০২৩ Tigress Kanha National Park পর্যন্ত সময় থাকবে।",
+      "cosine_similarity": 0.6100490093231201,
+      "processing_time": 109.64399743080139
+    },
+    {
+      "question_id": 15,
+      "question": "বাংলাদেশি কোম্পানি কি? ",
+      "ground_truth": "এর অর্থ কম্পানি আইন, ১৯৯৪ (১৯৯৪ সালের ১৮ নং আইন) এর অধীন গঠিত ও নিবন্ধিত কোন কম্পানি, যার বাংলাদেশে প্রধান কার্যালয় অবস্থিত।",
+      "prediction": "বাংলাদেশী কোম্পানি হল বাংলাদেশে istration এবং অপেক্ষক কমিটি (Registrar of Joint Stock Companies and Firms) द্বाরা রেজিস্টر করা গণতন্ত্রীয় বা ব্যাপক ব্যাপক ব্যবসায়িক entities जो বাংলাদেশে বসবাস করে। এই entities কোম্পানি, সংস্থা, বা شরীকত হতে পারে। একটি বাংলাদেশী কোম্পানি আমাদের প্রসঙ্গের estoichiometry, Begs, UAT ফেরত, ডিমার্জার, ATU, amalgamation, এবং অন্যান্য শব্দের utilization হলে সেই entities কে বাংলাদেশী কোম্পানি বলা হয়।",
+      "cosine_similarity": 0.6049718260765076,
+      "processing_time": 83.11986351013184
+    },
+    {
+      "question_id": 16,
+      "question": "\"বিল অব এক্সপোর্ট\" দাখিলের নীতি কী?",
+      "ground_truth": "বিল অব এক্সপোর্ট দাখিলের নীতি হলো বিনিয়োগকারী বিনিয়োগের প্রসঙ্গ এবং সুযোগ সম্পর্কে সঠিক ও স্পষ্ট তথ্য প্রদান করবে।",
+      "prediction": "• \"বিল অব এক্সপোর্ট\" দাখিলের নীতি হলঃ Customs Act, 1969 (IV of 1969) Section 131 এর অধীনে দাখিল করা হয়।\n• এটি বেশিরভাগ সম্পর্কিত বাংলাদেশ বেরোধ আইন এবং কাস্টম নীতিমালা নিয়ে বিষ্টঃ।\n• বিল অব এক্সপোর্ট দাখিলের জন্য আবশ্যক নয়, কোম্পানী বা ফার্ম কর্তৃক কোনো পণ্য বা সেবা সরবরাহ করার আগে বিল অব এন্ট্রি দাখিল করা হয়।\n• ভবন নির্মাণের নকশা দাখিলের সময় অনুমোদন প্রাপ্ত করা হয়।\n• কোনো নির্দিষ্ট ব্যক্তি কর্তৃক সিটি কর্পোরেশন এলাকায় বাড়ি ভাড়া বা লিজ দেওয়া হয়, অথবা কোনো নির্দিষ্ট ব্যক্তি কর্তৃক পণ্য বা সেবা সরবরাহ করা হয় সময় সময়।",
+      "cosine_similarity": 0.706250786781311,
+      "processing_time": 170.6098918914795
+    },
+    {
+      "question_id": 17,
+      "question": "আয়কর নীতিতে কর রিবেট কাদের জন্য প্রযোজ্য?",
+      "ground_truth": "আয়কর নীতিতে কর রিবেট প্রযোজ্য সেই ব্যক্তি বা প্রতিষ্ঠানের জন্য, যারা তাদের হিসাব, দলিলাদি, ইলেক্ট্রনিক রেকর্ড এবং অন্যান্য প্রয়োজনীয় তথ্য পূর্ণাঙ্গভাবে প্রদান ও রেকর্ডে প্রবেশ করাতে সক্ষম।",
+      "prediction": "কর রিবেট আয়কর নীতিতে বাংলাদেশে জনগণ বা নিবandhani karta (taxpayer) জন্য প্রযোজ্য । সেইসে, কর রিবেট হল একটি কর নীতিতে ব্যবহৃত একটি প্রকার কর সংশোধন পদ্ধতি, যা কর ফরম (tax form) ফিল up করতে বা কর প্রদেয় করতে ব্যবহৃত হয়।\n\nএই ক্ষেত্রে, বাংলাদেশ সরকারের নির্দেশে বাণিজ্যীয় ব্যক্তি বা প্রতিষ্ঠান কর রিবেট ব্যবহার করে কর ফরম ফিল up করতে পারে। সেইসে, কর রিবেট ব্যবহার করে নিবandhani karta আপনার বাণিজ্যিক বা ব্যক্তিগত আয় সংকলন করা সহজ হয়।\n\nএকটু আর বেশী তথ্য পাবার Jakson আমাদের ব্লগ পোস্ট দেখুন: <https://www.jakson.co.in/blog/tax-rebate-bangladesh/>",
+      "cosine_similarity": 0.7539879083633423,
+      "processing_time": 134.04010915756226
+    },
+    {
+      "question_id": 18,
+      "question": "বাজেটে নির্বাচন ব্যবস্থার সংস্কারের জন্য কী কমিশন গঠন করা হয়েছে?",
+      "ground_truth": "বাজেটে নির্বাচন ব্যবস্থার সংস্কারের জন্য কোম্পানি আইন সংশোধন কমিশন গঠন করা হয়েছে।",
+      "prediction": "বাজেটে নির্বাচন ব্যবস্থার সংস্কারের জন্য একটি কমিশন গঠন করা হয়েছে, যা বাংলাদেশ গেজেট, অতিরিক্ত, জনন 22, 2023 এবং ৮২২৫ (4) উপ-ধারা (1) এর অধীন অডিটের উদ্দেশ্যে রিটার্ন নির্বাচন এবং অডিট নিশ্চিত করার জন্য আবশ্যক বিবেচনা করবে। এই কমিশনের উপযুক্ত সদস্যদের মধ্যে রেটার্ন দাখিলের পর চার বছর uttirg (৪) হবে। এই কমিশনের গঠন বিধানানুযায়ী করা হয়েছে, এবং তার অধীন কোনো 'করবর্ষের আয়' ফার্মের অংশীদারদের মধ্যে আয় বিভাজন করা হবে।",
+      "cosine_similarity": 0.6854954361915588,
+      "processing_time": 124.48073530197144
+    }
+  ]
+}

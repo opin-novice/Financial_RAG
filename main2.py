@@ -35,7 +35,7 @@ OLLAMA_MODEL = "mixtral:8x7b"
 OLLAMA_BASE_URL = "http://localhost:11434"
 OLLAMA_TEMPERATURE = 0.1      # Controls randomness (0.0 = deterministic, 1.0 = very creative)
 OLLAMA_TOP_P = 0.9             # Nucleus sampling (0.1 = focused, 1.0 = diverse)
-OLLAMA_NUM_PREDICT = 1024      # Maximum tokens to generate (reduced for very concise answers)
+OLLAMA_NUM_PREDICT = 1024    # Maximum tokens to generate (reduced for very concise answers)
 OLLAMA_REPEAT_PENALTY = 1.1  # Penalize repetition (1.0 = no penalty, >1.0 = less repetition)
 
 # ChromaDB Database Path
@@ -673,11 +673,12 @@ class RRFFusionRetriever:
             ranked_lists['bm25'] = bm25_results
             logger.info(f"BM25: {len(bm25_results)} results")
         
-        # Multilingual E5 dense retrieval
-        multilingual_e5_results = self._multilingual_e5_search(query, top_k=top_k * 2)
-        if multilingual_e5_results:
-            ranked_lists['multilingual_e5'] = multilingual_e5_results
-            logger.info(f"Multilingual E5: {len(multilingual_e5_results)} results")
+        # Multilingual E5 dense retrieval (skip if disabled)
+        if self.multilingual_e5_model is not None:
+            multilingual_e5_results = self._multilingual_e5_search(query, top_k=top_k * 2)
+            if multilingual_e5_results:
+                ranked_lists['multilingual_e5'] = multilingual_e5_results
+                logger.info(f"Multilingual E5: {len(multilingual_e5_results)} results")
         
         # Dirichlet QLM search
         dirichlet_results = self._dirichlet_search(query, top_k=top_k * 2)

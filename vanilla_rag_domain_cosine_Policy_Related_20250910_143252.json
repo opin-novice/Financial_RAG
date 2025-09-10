@@ -1,0 +1,196 @@
+{
+  "evaluation_info": {
+    "timestamp": "2025-09-10T14:32:52.186134",
+    "model": "Vanilla RAG (VanillaRAGSystem)",
+    "domain": "Policy_Related",
+    "domain_file": "Policy_Related.json",
+    "total_questions": 19,
+    "successful_responses": 19,
+    "device_used": "cuda",
+    "gpu_available": true,
+    "evaluation_type": "cosine_similarity"
+  },
+  "cosine_similarity_metrics": {
+    "mean_similarity": 0.6715582687603799,
+    "median_similarity": 0.6767080426216125,
+    "std_similarity": 0.20778860858358883,
+    "min_similarity": 0.3267761766910553,
+    "max_similarity": 0.934364914894104,
+    "total_questions": 19,
+    "similarities": [
+      0.3645936846733093,
+      0.934364914894104,
+      0.7534545660018921,
+      0.9128896594047546,
+      0.8178836107254028,
+      0.9150830507278442,
+      0.8908692598342896,
+      0.5904605388641357,
+      0.859351634979248,
+      0.5487388372421265,
+      0.8938989043235779,
+      0.4599851965904236,
+      0.7354622483253479,
+      0.6337993144989014,
+      0.3267761766910553,
+      0.6767080426216125,
+      0.6316930055618286,
+      0.36943623423576355,
+      0.4441582262516022
+    ]
+  },
+  "detailed_results": [
+    {
+      "question_id": 0,
+      "question": "What policy provides rebate for non-listed companies listing through IPO?",
+      "ground_truth": "Rebate for listed companies listing through IPO is: non listed companies, including branch companies other than banks, insurance companies, merchant banks, jute, textile, garment industries, mobile phone operator companies and cigarette, Zarda, bidi, gul, or any other tobacco product. This are eligible for a rebate of 10% in the year of listing if they list at least 20% of their paid, up capital through IPO.",
+      "prediction": "Taxation (Temporary) Act, 2021",
+      "cosine_similarity": 0.3645936846733093,
+      "processing_time": 2.9677624702453613
+    },
+    {
+      "question_id": 1,
+      "question": "Who should submit Income Tax Return?",
+      "ground_truth": "To submit Income Tax Return a individuals with a total income exceeding Tk. 2,50,000/, (excluding female taxpayers, senior male taxpayers of 65 years and above, retarded taxpayers, and war, wounded gazetted freedom fighters). For female taxpayers with a total income exceeding Tk. 3,00,000/, Retarded taxpayers with a total income exceeding Tk. 3,75,000/,",
+      "prediction": "According to the provided text, anyone with a total income exceeding Tk 2,50,000/- should submit an Income Tax Return. This includes:\n\n* Individual assessees other than female taxpayers, senior male taxpayers of 65 years and above, retarded taxpayers, and war wounded gazetted freedom fighters.\n* Female taxpayers\n* Senior male taxpayers of 65 years and above\n\nThis requirement is mentioned in Section 166 (1) of the Income Tax Ordinance.",
+      "cosine_similarity": 0.934364914894104,
+      "processing_time": 1.2175798416137695
+    },
+    {
+      "question_id": 2,
+      "question": "What is written in Section 67 of the Bangladesh Tax Income Tax Act 2023?",
+      "ground_truth": "According to Section 67 of the Bangladesh Tax Income Tax Act 2023 is the provision of Section 67 shall apply in special cases like computing \"income from other sources\" in accordance with the provisions of Chapter Eight.",
+      "prediction": "Section 67 of the Bangladesh Tax Income Tax Act 2023 is not mentioned in the provided text. The text only mentions other sections such as Section 81 (tax holiday scheme), Section 78 (tax rebate on certain investment), and Part 1 of Schedule Six (exemption from income tax).",
+      "cosine_similarity": 0.7534545660018921,
+      "processing_time": 0.9617311954498291
+    },
+    {
+      "question_id": 3,
+      "question": "What is the policy on practical work experience for CA students?",
+      "ground_truth": "The policy on practical work experience for CA students is as follows- practical work experience is a part of a training agreement with an ICAB Member. Students need to complete articleship for a period of 3, 4 years. The knowledge, skills, and experience gained during this period are invaluable and provide hands, on experience. Also the articleship agreement is designed to fit with the students practical experience, allowing them to progress through the qualification.",
+      "prediction": "The policy on practical work experience for CA students is that it is done as part of a training agreement with an ICAB Member in practice authorized to train students, and typically lasts for 3-4 years. During this period, students gain valuable knowledge, skills, and experience by putting their learning into practice.",
+      "cosine_similarity": 0.9128896594047546,
+      "processing_time": 0.9333117008209229
+    },
+    {
+      "question_id": 4,
+      "question": "What types of liabilities are covered under Section 2.1 of the SBS-1 Return?",
+      "ground_truth": "The types of liabilities covered under Section 2.1 of the SBS, 1. All the return are:Short, term Foreign Liabilities, Bilateral Trade Liabilities (code 17601), Barter and Special Trade Arrangement (STA) transactions, Foreign currencies to be reported in Table B",
+      "prediction": "The types of liabilities covered under Section 2.1 of the SBS-1 Return are:\n\na) Contingent liabilities as per contra 19000\nb) Other liabilities except deposits, money payable at call and REPO.\n\nThese liabilities include contingent liabilities such as bills, bank guarantees, and liabilities concerning outstanding letters of credit, but do not include deposits, money payable at call, or REPO.",
+      "cosine_similarity": 0.8178836107254028,
+      "processing_time": 1.1227853298187256
+    },
+    {
+      "question_id": 5,
+      "question": "What policy restricts offsetting foreign sourced losses?",
+      "ground_truth": "The policy that restricts offsetting foreign sourced losses is:, Foreign sourced losses of a Bangladesh entity cannot be offset against the Bangladesh profits of that entity. This means that losses incurred from foreign sources cannot be used to reduce the profits of the same entity in Bangladesh.",
+      "prediction": "The policy that restricts offsetting foreign sourced losses is the Foreign Sourced Loss Rule. According to this rule, foreign-sourced losses of a Bangladesh entity cannot be offset against its Bangladesh profits or other types of income. Additionally, any loss in one head of income cannot be set off against capital losses, which can only be carried forward for up to six years.",
+      "cosine_similarity": 0.9150830507278442,
+      "processing_time": 0.9703245162963867
+    },
+    {
+      "question_id": 6,
+      "question": "What is the policy for non-medical professionals on reduced fees",
+      "ground_truth": "The policy for non medical professionals on reduced fees is as follows: for legal practitioners the fees at a reduced rate are charged or no fees are charged at all due to indigent circumstances of the client or any other cause, which should be recorded in the remarks column of the Case Register in Form A(2).",
+      "prediction": "The policy for non-medical professionals on reduced fees is that they should record in the Case Register, the particulars of cases where fees at a reduced rate are charged or no fees are charged due to indigent circumstances of the patient or his guardian. This rule does not apply to companies who are enjoying tax exemption or paying tax at reduced rates, such as banks and insurance companies.",
+      "cosine_similarity": 0.8908692598342896,
+      "processing_time": 1.0497229099273682
+    },
+    {
+      "question_id": 7,
+      "question": "What rule is there for Collection of tax from importers?",
+      "ground_truth": " The purposes of making a collection of tax under section 53B of the Ordinance the Director general Bureau is responsible. In the case of deductions made under any other section except section 86 a certificate as per schedule 3 of the Rules for Tax Deducted at Source, 2023 shall be provided.",
+      "prediction": "For Collection of tax from importers Rule 17A has been mentioned which states that the Commissioner of Customs or any appropriate officer shall collect tax in the case of any import of goods at the following rate: (a) five per cent on the value of the imported goods in case of import of goods excluding the goods mentioned in clause (b) and clause (c); (b) two per cent",
+      "cosine_similarity": 0.5904605388641357,
+      "processing_time": 1.4512202739715576
+    },
+    {
+      "question_id": 8,
+      "question": "What is the maximum penalty for tax evasion under the Income Tax Ordinance, 1984?",
+      "ground_truth": "The maximum penalty for tax evasion under the Income Tax Ordinance, 1984, is:, Imprisonment for a term not exceeding 7 years, Fine for an amount not exceeding double the amount involved in the crime, Either of these penalties alone or in combination",
+      "prediction": "The maximum penalty for tax evasion under the Income Tax Ordinance, 1984 is Tk. 20,000.",
+      "cosine_similarity": 0.859351634979248,
+      "processing_time": 0.7144262790679932
+    },
+    {
+      "question_id": 9,
+      "question": "What is contains to give effect to the various proposals in the annual budget covering the areas of direct and indirect taxes.",
+      "ground_truth": "The Finance Act, 2023, contains the following: Tax rates, Amendments to existing laws relating to government tax or non tax revenue. And insertion of new clauses/sub, sections/sections/schedules in existing laws. Deletion of old clauses/sub, sections/sections/schedules in existing laws.",
+      "prediction": "The Ill Finance Act.",
+      "cosine_similarity": 0.5487388372421265,
+      "processing_time": 0.5026299953460693
+    },
+    {
+      "question_id": 10,
+      "question": "What is the Extending power of NBR officials?",
+      "ground_truth": "The extending power of NBR officials is as follows:, To declare any foreign un, incorporated association as a company for the purposes of the Act., To delegate powers of any income tax authority to another income tax authority., To determine and redetermine the area of income tax authority.To transfer power and jurisdictions of one income tax authority to another income tax authority.",
+      "prediction": "The Extending power of NBR officials includes making or amending rules concerning income tax matters, appointing required employees subject to an organizational structure, exercising executive authority, giving effect to proposals in the annual budget covering direct and indirect taxes, declaring foreign un-incorporated associations as companies for Act purposes, and publishing necessary forms, notifications, brochures, guidelines through its websites and other means of communication.",
+      "cosine_similarity": 0.8938989043235779,
+      "processing_time": 1.0842978954315186
+    },
+    {
+      "question_id": 11,
+      "question": "What policy exempts capital gains from sale of shares by investing power generation companies?",
+      "ground_truth": "For Power Sector, the policy that exempts income from tax is the private sector power generation policy of Bangladesh, which is applicable if the company signs a contract with the Government within 30 June, 2020.",
+      "prediction": "Transfer of capital asset of a firm to a new company: section 61(3) When capital gains arise from the-transfer of capital asset of 'a firm to a new’company registered under the Companies Act, 1994 and the whole amount of capital gain is invested in the Equity of the said company by the partners of the firm, then the capital gain shall not be charged to tax in the year of transfer.",
+      "cosine_similarity": 0.4599851965904236,
+      "processing_time": 1.1107978820800781
+    },
+    {
+      "question_id": 12,
+      "question": "রপ্তানি বৃদ্ধির জন্য কী ধরনের নীতিগত সহায়তা দেওয়া হয়?",
+      "ground_truth": "রপ্তানি বৃদ্ধির জন্য নীতিগত সহায়তা হিসেবে আমদানি ও রপ্তানি প্রচারণা, রপ্তানি বাণিজ্য উন্নয়ন এবং রপ্তানি প্রতিষ্ঠানগুলোর জন্য সহায়তা প্রদান করা হয়।\n",
+      "prediction": "রপ্তানি বৃদ্ধির জন্য গঠিত নীতিগত সহায়তা হল:\n\n1. বিদেশী বিল পরিশোধ এবং ক্রেডিট আইনি\n2. নগদ অগ্রাধিকার (রিমিট) সুবিধা\n3. উৎপাদন শূন্যের ভিত্তিতে এইচএসআর (HSR) নির্মূল\n4. বিদেশী সহযোগী (পার্টনার) তাদের প্রাথমিক আইনি নোট বা সাধারণ অ্যাকাউন্ট খুলতে\n5. জড়িত বাংলাদেশি পরিচিত এজেন্সি (Agent) নিষ্ক্রিয় করা হয়\n6. আমদানি-অর্ডার বা উৎপাদন-কাঠামো সংখ্যা (জিওএস) ছাড়\n7. বেশিরভাগ পণ্যের জন্য রেফিনারি কমিশন, ইলেক্ট্রিসিটি চার্জ এবং অদলবদল\n8. বিপুল খরচ যোগ না করে উৎপাদন সৌতর্ণ-ট্যার্ম (এসআইসি)\n9. অর্ডার শিফট, বিনিময় হার পদ্ধতি, কনভেনশন গুণজন্য স্থানীয় কর ছাড়\n10. স্বল্প-অনুষ্ঠিত মার্চেন্ট এন্ট্রি (এসআইএফ)",
+      "cosine_similarity": 0.7354622483253479,
+      "processing_time": 6.117542505264282
+    },
+    {
+      "question_id": 13,
+      "question": "বাজেটে মূল্যস্ফীতি নিয়ন্ত্রণের জন্য কী নীতি গ্রহণ করা হয়েছে?",
+      "ground_truth": "উপকর কমিশনার তাহার নিকট প্রাপ্য তথ্য বা দলিলাদি অনুসারে বাজেটে মূল্যস্ফীতি নিয়ন্ত্রণের জন্য উপ, ধারা (১) এ উল্লিখিত সর্বাপেক্ষ নীতি গ্রহণ করা হয়েছে।",
+      "prediction": "বাজেটে মূল্যস্ফীতি নিয়ন্ত্রণের জন্য RFA কোম্পানী 'এক্স 9' পৃষ্ঠা অনুসারে নিশ্চিত করে থাকে বাজেটে মূল্যস্ফীতি নিয়ন্ত্রণ।",
+      "cosine_similarity": 0.6337993144989014,
+      "processing_time": 2.389770984649658
+    },
+    {
+      "question_id": 14,
+      "question": "আয়কর অধ্যাদেশে করদাতার পলিসি কী?",
+      "ground_truth": "করদাতার পলিসি হলো কর পরিশোধের সময় ও পদ্ধতি নির্বাচন করার প্রক্রিয়া, যা করদাতার স্বার্থ ও প্রয়োজনের উপর নির্ভর করে।",
+      "prediction": "১.",
+      "cosine_similarity": 0.3267761766910553,
+      "processing_time": 1.2945342063903809
+    },
+    {
+      "question_id": 15,
+      "question": "বাংলাদেশি কোম্পানি কি? ",
+      "ground_truth": "এর অর্থ কম্পানি আইন, ১৯৯৪ (১৯৯৪ সালের ১৮ নং আইন) এর অধীন গঠিত ও নিবন্ধিত কোন কম্পানি, যার বাংলাদেশে প্রধান কার্যালয় অবস্থিত।",
+      "prediction": "a Bangladeshi company that is formed and registered under the Companies Act 1994.",
+      "cosine_similarity": 0.6767080426216125,
+      "processing_time": 0.6238448619842529
+    },
+    {
+      "question_id": 16,
+      "question": "\"বিল অব এক্সপোর্ট\" দাখিলের নীতি কী?",
+      "ground_truth": "বিল অব এক্সপোর্ট দাখিলের নীতি হলো বিনিয়োগকারী বিনিয়োগের প্রসঙ্গ এবং সুযোগ সম্পর্কে সঠিক ও স্পষ্ট তথ্য প্রদান করবে।",
+      "prediction": "\"বিল অব এক্সপোর্ট\" দাখিলের নীতি হলো বাণিজ্যমন্ত্রণালয় (MOFA) ও চট্টগ্রাম অঞ্চলসংক্রান্ত পরিষেবা দফতর (CSEPA) ২০১৭-২০১৮ আর্থিক বছরের জন্য প্রকাশিত হিসেবের উপবিল অব এক্সপোর্ট-এ।\n\nগণপ্রজাতন্ত্রী বাংলাদেশ সরকার, ২০১৭-২০১৮ আর্থিক বছরের জন্য উপবিল অব এক্সপোর্ট (Export Bill) দাখিলের নীতির ভিত্তিতে আন্তর্জাতিক মুদ্রা বিনিময় এবং ফোরেন এক্সচেঞ্জ (Bangladesh Bank) ১ ডিসেম্বর, ২০১৭ থেকে ৩০ নভেম্বর, ২০১৮ পর্যন্ত বাণিজ্য মন্ত্রণালয় (MOFA) ও চট্টগ্রাম অঞ্চলসংক্রান্ত পরিষেবা দফতর (CSEPA) ২০১৭-২০১৮ আর্থিক বছরের জন্য উপবিল অব এক্সপোর্ট তারিখের সীমা নির্ধারণ করেছে।",
+      "cosine_similarity": 0.6316930055618286,
+      "processing_time": 6.233868598937988
+    },
+    {
+      "question_id": 17,
+      "question": "আয়কর নীতিতে কর রিবেট কাদের জন্য প্রযোজ্য?",
+      "ground_truth": "আয়কর নীতিতে কর রিবেট প্রযোজ্য সেই ব্যক্তি বা প্রতিষ্ঠানের জন্য, যারা তাদের হিসাব, দলিলাদি, ইলেক্ট্রনিক রেকর্ড এবং অন্যান্য প্রয়োজনীয় তথ্য পূর্ণাঙ্গভাবে প্রদান ও রেকর্ডে প্রবেশ করাতে সক্ষম।",
+      "prediction": "১.",
+      "cosine_similarity": 0.36943623423576355,
+      "processing_time": 1.3363268375396729
+    },
+    {
+      "question_id": 18,
+      "question": "বাজেটে নির্বাচন ব্যবস্থার সংস্কারের জন্য কী কমিশন গঠন করা হয়েছে?",
+      "ground_truth": "বাজেটে নির্বাচন ব্যবস্থার সংস্কারের জন্য কোম্পানি আইন সংশোধন কমিশন গঠন করা হয়েছে।",
+      "prediction": "প্রেসিডেন্ট আরও উল্লেখ করেন যে, নীতি দাবি করে যে মিউচুয়াল ফান্ড সংশ্লেষণ, পরিচালনা, রক্ষণাবেক্ষণ এবং ট্রাস্টি এবং/অথবা মুখ্যমন্ত্রীর নিয়োগ, ছেদ করা, বরখাস্ত ও পদোন্নতি, সর্বোচ্চ মেয়াদী বেতন ভাতা এবং/অথবা আর্থিক প্রভাব ও টেকসই ফি নির্ধারণ, মুখ্যমন্ত্রী এবং/অথবা ট্রাস্টিদের পদোন্নতি, শেষপত্র, ফাইনাল অ্যাকাউন্ট এবং/অথবা পরিসমাপ্তি, ট্রাস্টির দোষে মুখ্যমন্ত্রীকে পদোন্নতি বা ছেদ হিসাবে বিচার ও বরখাস্ত, ট্রাস্টির/মুখ্যমন্ত্রীকে উপজোগফল হিসাবে দৃষ্টিভঙ্গি, আইনসংশ্লেষণমূলক, টেকসই এবং/অথবা জরীমানা হিসাবে প্রয়োগ ও আনুষ্ঠানিকভাবে আইনত দাবি এবং ট্রাস্টির/মুখ্যমন্ত্রী অধিকারের ওপর নীতিগত ব্যাখ্যা, উচ্চতর আদালত, সর্বোচ্চ নির্ভুলতার সাথে প্রেমিকটি নয়।",
+      "cosine_similarity": 0.4441582262516022,
+      "processing_time": 8.211217880249023
+    }
+  ]
+}

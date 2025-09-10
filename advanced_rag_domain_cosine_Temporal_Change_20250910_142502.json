@@ -1,0 +1,313 @@
+{
+  "evaluation_info": {
+    "timestamp": "2025-09-10T14:25:02.495437",
+    "model": "Advanced RAG (CoreRAGSystem)",
+    "domain": "Temporal_Change",
+    "domain_file": "Temporal_Change.json",
+    "total_questions": 32,
+    "successful_responses": 32,
+    "device_used": "cuda",
+    "gpu_available": true,
+    "evaluation_type": "cosine_similarity"
+  },
+  "cosine_similarity_metrics": {
+    "mean_similarity": 0.7776334388181567,
+    "median_similarity": 0.8319567143917084,
+    "std_similarity": 0.16850732141152708,
+    "min_similarity": 0.36303412914276123,
+    "max_similarity": 0.9740785360336304,
+    "total_questions": 32,
+    "similarities": [
+      0.9275530576705933,
+      0.8607134819030762,
+      0.8218269348144531,
+      0.898218035697937,
+      0.6590384244918823,
+      0.9531913995742798,
+      0.7131827473640442,
+      0.913925290107727,
+      0.8311028480529785,
+      0.4573322534561157,
+      0.8739031553268433,
+      0.6940703392028809,
+      0.9432775974273682,
+      0.8328105807304382,
+      0.9313572645187378,
+      0.84583580493927,
+      0.8902626037597656,
+      0.7765616178512573,
+      0.5619621276855469,
+      0.9740785360336304,
+      0.9445123076438904,
+      0.7778822183609009,
+      0.36303412914276123,
+      0.4321154057979584,
+      0.610456645488739,
+      0.9151028394699097,
+      0.7100347280502319,
+      0.4665946364402771,
+      0.849997341632843,
+      0.9036036729812622,
+      0.782107949256897,
+      0.7686240673065186
+    ]
+  },
+  "detailed_results": [
+    {
+      "question_id": 0,
+      "question": "How does the tax rate for publicly traded companies compare to non-listed companies?",
+      "ground_truth": "The tax rate for publicly traded companies is lower than that of non listed companies. Publicly traded companies: 20% corporate tax rate and for non listed companies: 27.5% corporate tax rate.",
+      "prediction": "For publicly traded companies, the tax rate is 20%. \n\nHere are the tax rates for non-listed companies:\n\n• Non-publicly traded company: 27.5%\n• One person company (OPC): 22.5%\n• Financial institutions (non-listed): 40%",
+      "cosine_similarity": 0.9275530576705933,
+      "processing_time": 3.322199821472168
+    },
+    {
+      "question_id": 1,
+      "question": "How does the rate for mobile operators not listed compare to those converting with 10% shares?",
+      "ground_truth": "The rate for mobile operators not listed is 45% while those converting themselves into a publicly traded company by transferring at least 10% shares through stock exchanges have a rate of 40%.",
+      "prediction": "The tax rate for mobile operators not listed is 40%, while those converting with at least 10% shares through stock exchanges have a maximum of 5% surcharge in addition to the above tax. This means that if they list at least 20% of their paid-up capital through IPO, they will receive a rebate of 10% in the year of listing.\n\n• Tax rate for mobile operators not listed: 40%\n• Maximum surcharge for those converting with at least 10% shares: 5%",
+      "cosine_similarity": 0.8607134819030762,
+      "processing_time": 1.5486688613891602
+    },
+    {
+      "question_id": 2,
+      "question": "How does the treatment of share transfers for non-residents compare to capital gains exemption for power companies?",
+      "ground_truth": "For non resident individuals the treatment of share transfers is different from the capital gains exemption for power companies. For example Capital Gains Tax : Non, resident individuals are taxed on capital gains at the usual rate applicable to their total income, including capital gains. The rate is 15% on the amount of capital gains.  Also forCapital Dut : There is no mention of capital duty for non, resident individuals.",
+      "prediction": "As a Bangladeshi financial advisor, I can provide you with the following comparison between the treatment of share transfers for non-residents and capital gains exemption for power companies:\n\n**Similarities:**\n\n• Both are exempt from tax under certain conditions.\n• Non-resident individuals are also exempt from capital gain tax on gain from sale of stocks and shares of listed companies, provided they enjoy the same benefit in their home country.\n\n**Differences:**",
+      "cosine_similarity": 0.8218269348144531,
+      "processing_time": 1.773749589920044
+    },
+    {
+      "question_id": 3,
+      "question": "How does the definition of \"property\" compare to \"share in a company\"?",
+      "ground_truth": "The definition of \"property\" in the notice is broader than the definition of \"share in a company\". Main differences \"Property\" includes- Movable property, Immovable property, Shares, Debentures, Interest in any company.",
+      "prediction": "The definition of \"property\" and \"share in a company\" are related but distinct concepts.\n\nHere's how they compare:\n\n• \"Property\" is defined broadly to include:\n • Movable or immovable property\n • Shares, debentures, or interest in any company\n • Actionable claims\n\n• A \"share in a company\", on the other hand, specifically includes:\n • Stock\n • Debenture stock\n • Debentures\n • Bonds",
+      "cosine_similarity": 0.898218035697937,
+      "processing_time": 1.2491950988769531
+    },
+    {
+      "question_id": 4,
+      "question": "How does fixed income term compare to money market.",
+      "ground_truth": "Fixed Income Term: A fixed income term is suitable for companies that can afford to repay a loan earlier than they can, resulting in a need to re, borrow at a higher interest rate.Money Market:, A money market is preferred by companies that only need to borrow when necessary, allowing them to pay for borrowings only when needed. Main differences are fixed income term is suitable for companies with uncertain cash flows. Money market is suitable for companies with predictable cash flows.",
+      "prediction": "Based on the context, here's a concise answer:\n\nThe money market hedge (MMH) and forward contract produce similar results in terms of fixed outcome. However, MMH is considered a better option due to its very marginal advantage.\n\nKey differences between MMH and forward contract:\n\n• Both give a fixed outcome\n• MMH has a slight edge over forward contract",
+      "cosine_similarity": 0.6590384244918823,
+      "processing_time": 1.1267342567443848
+    },
+    {
+      "question_id": 5,
+      "question": "How does the knowledge progression in financial management compare from Certificate Level to Professional Level?",
+      "ground_truth": "The knowledge progression in Financial Management from Certificate Level to Professional Level is as follows- At Certificate Level, the aim is to enable you to recommend options for financing a business, recognize and manage links and make appropriate investment decisions.Also the knowledge base is developed further to enable you to apply technical knowledge, analytical techniques and professional skills to resolve compliance and business issues related to corporate reporting and audit services.",
+      "prediction": "The knowledge progression in financial management from Certificate Level to Professional Level is as follows:\n\n• At Certificate Level, the aim is to enable you to recommend options for financing a business, recognize and manage links, and make appropriate investment decisions.\n• The knowledge base developed at this level is further built upon in the Financial Management module, focusing on techniques such as discounted cash flow (DCF) methods.\n\nIn contrast, at Professional Level:",
+      "cosine_similarity": 0.9531913995742798,
+      "processing_time": 1.6686673164367676
+    },
+    {
+      "question_id": 6,
+      "question": "Compare S.R.O. for original rules to amendment S.R.O.s.",
+      "ground_truth": "The original S.R.O. for the Income Tax Rules, 1984, to the amendment S.R.O.s:, Original S.R.O. (1985) also short title is Income Tax Rules, 1984. It is Issued byNational Board of Revenue. It's Powers conferred by: Section 185 of the Income Tax Ordinance, 1984 (XXXVI of 1984), Sub, section (4).",
+      "prediction": "When comparing SROs for original rules to amendment SROs, here are key differences:\n\n• **Purpose**: Original SROs establish new rules, while amendment SROs modify or update existing rules.\n• **Authority**: Both types of SROs are issued by the National Board of Revenue (NBR) under Section 343 of the Income Tax Act, 2023.\n• **Notification Method**: Original SROs are notified via government gazette to exempt tax for a person or class of persons (Section 76(1) of the Income Tax Act, 2023), while amendment SROs also follow this method but primarily aim to update existing rules.",
+      "cosine_similarity": 0.7131827473640442,
+      "processing_time": 1.1623079776763916
+    },
+    {
+      "question_id": 7,
+      "question": "How does treatment charges in Form A(1) compare to fee in Form A(2)?",
+      "ground_truth": "Comparison between treatment charges in Form A(1) and fee in Form A(2) is treatment charges in Form A(1) are related to the \"Nature of Treatment\" (a) Consultation, (b) Surgical treatment, and (c) Injection, etc and fee in Form A(2) is related to the \"Name, Brief Amount of fee, remuneration, etc.\" of the practitioner or professional. There is no direct comparison between the two because they are related to different aspects of the medical treatment.",
+      "prediction": "Based on the context, here's how treatment charges in Form A(1) compare to fees in Form A(2):\n\n• Treatment charges in Form A(1) include:\n • Consultation\n • Surgical treatment\n • Injection\n\n• Fees in Form A(2) are related to:\n • Nursing or maternity home charges (if applicable)\n • Room, diet, and lodging charges\n • Other fees charged from the patient",
+      "cosine_similarity": 0.913925290107727,
+      "processing_time": 0.9955742359161377
+    },
+    {
+      "question_id": 8,
+      "question": "করদাতা এবং করদায়ক এর মধ্যে পার্থক্য কী?",
+      "ground_truth": "করদাতা হল সেই ব্যক্তি যার উপর কর আরোপিত হয়েছে বা যিনি কর প্রদান করেছেন, আর করদায়ক হল সেই ব্যক্তি যার উপর কর আরোপিত হয়নি বা যিনি কর প্রদান করেননি।",
+      "prediction": "• করদাতা: একজন ব্যক্তি যিনি আয় পেয়েছেন এবং সেই আয় থেকে কর দিচ্ছেন\n• করদায়ক: একজন ব্যক্তি যিনি কর প্রদান করছেন",
+      "cosine_similarity": 0.8311028480529785,
+      "processing_time": 2.2192695140838623
+    },
+    {
+      "question_id": 9,
+      "question": "২০২৫-২৬ অর্থবছরের প্রস্তাবিত বাজেটে বিদ্যুৎ খাতের বরাদ্দ স্থানীয় সরকার খাতের বরাদ্দের সাথে তুলনায় কত কম?",
+      "ground_truth": "২০২৫-২৬ অর্থবছরের প্রস্তাবিত বাজেটে বিদ্যুৎ খাতের বরাদ্দ স্থানীয় সরকার খাতের বরাদ্দের তুলনায় ১০০০ কোটি টাকা কম।",
+      "prediction": "আপনি একজন বাংলাদেশী আর্থিক পরামর্শদাতা। সনের 88 নং আইন) এর অধীন পরিশোধিত নহে, তবে ব্যবসার উদ্দেশ্যে' পরিশোধিত: এইরূপ শুন্ক-করাদি, পোর কর, স্থানীয় কর, ভূমি উন্নয়ন কর বা খাজনা ও গে) ব্যবসার উদ্দেশ্যে ব্যবহৃত ভূমি বা আঙ্গিনার জন্য: পরিশোধযোগ্য' ভাড়া, উন্নয়ন ও সংরক্ষণ ব্যয়; (ঘ) এই আইনের অধীন চাকরি হইতে আয় হিসাবে পরিগণিত হয় এইরূপ সকল প্রকার ব্যয়, কল্যাণ ব্যয় at পারিশ্রমিক; (ঙ) মেরামত ও সংরক্ষণ ব্যয়; ছ) বিদ্যুৎ ও জ্বালানিসহ'অন্যান্য পরিষেবা ব্যয়; জে)” পণ্যপরিবহণ, ক্লিয়ারিং এবং ফরওয়ার্ডিং চার্জ; বে) বিক্রয়সংশ্লিষ্টকমিশন, দালালি, ডিসকাউন্ট বা ওয়ারেন্টি চার্জ প্রকৃতির ঞো বি...",
+      "cosine_similarity": 0.4573322534561157,
+      "processing_time": 6.3608784675598145
+    },
+    {
+      "question_id": 10,
+      "question": "আয়কর কর্মকর্তা এবং আয়কর অ্যাপিলেট কমিশনার এর মধ্যে পার্থক্য কী?",
+      "ground_truth": "আয়কর কর্মকর্তা এবং আয়কর অ্যাপিলেট কমিশনার হলো দুই ভিন্ন পদ যা আয়কর প্রতিষ্ঠানের কার্যক্রমে জড়িত।আয়কর কর্মকর্তা: আয়কর কর্মকর্তা হলো সেই কর্মকর্তা, যিনি আয়কর প্রয়োগ, প্রতিষ্ঠান কার্যক্রমে সহায়তা এবং সমস্যা সমাধানের দায়িত্ব পালন করেন। আয়কর অ্যাপিলেট কমিশনার: আয়কর অ্যাপিলেট কমিশনার হলো সেই কর্মকর্তা, যিনি আয়কর সংক্রান্ত সমস্যা সমাধান, প্রতিষ্ঠান কার্যক্রমে সহায়তা এবং কর্মকর্তাদের মধ্যে মধ্যস্থতার দায়িত্ব পালন করেন।",
+      "prediction": "• আয়কর কর্মকর্তা এবং আয়কর অ্যাপিলেট কমিশনার হলো দুই ভিন্ন স্তরের কর্মকর্তা।\n• আয়কর কর্মকর্তা হলো প্রাথমিক স্তরের কর্মকর্তা, যাদের অধীনে আয়কর নির্ধারণ এবং প্রদত্ত আদেশ জারি হয়।\n• আয়কর অ্যাপিলেট কমিশনার হলো সেকেন্ডারি স্তরের কর্মকর্তা, যাদের অধীনে আপিল নেওয়া হয়।\n• আয়কর অ্যাপিলেট কমিশনার সাব-জনারেল, ডি.এস.গি., এবং জেনারেল ওয়ার্কস অফ ইনকম ট্যাক্স হিসাবে পরিচিত।\n• আয়কর অ্যাপিলেট কমিশনার একজন নির্দিষ্ট কর্মসূচি বা কার্যক্রমের অধীনে আপিল নেওয়া হয়।\n• আয়কর অ্যাপিলেট কমিশনার একজন সুপারিশ বা নির্দিষ্ট কর্মসূচি বা কার্যক্রমের অধীনে আপিল নেওয়া হতে পারে।",
+      "cosine_similarity": 0.8739031553268433,
+      "processing_time": 4.869039058685303
+    },
+    {
+      "question_id": 11,
+      "question": "চলতি অর্থবছরে জুলাই-মার্চ সময়ে গত অর্থ বছরে একই সময়ের তুলনায় কত বেড়েছে?",
+      "ground_truth": "চলতি অর্থবছরে জুলাই-মার্চ সময়ে গত অর্থ বছরে একই সময়ের তুলনায় বেড়েছে ৯ দশমিক ৪৫ শতাংশ",
+      "prediction": "চলতি অর্থবছরে জুলাই-মার্চ সময়ে গত অর্থ বছরে একই সময়ের তুলনায় কত বেড়েছে তা জানতে, আমাদের প্রথমে চলতি অর্থবছরে এবং গত অর্থ বছরে কত টাকা আয়াছে তা দেখতে হবে।\n\nচলতি অর্থবছরে জুলাই-মার্চ সময়ে আয় করা টাকা:\n\n• ক্ষুদ্রাক্ষেপ: CU'000 2054\n• বিক্রি থেকে অন্তর্ভুক্ত আয়: CU'000 2054 + CU'000 527 = CU'000 2581\n• মোট আয়: CU'000 2581\n\nগত অর্থ বছরে জুলাই-মার্চ সময়ে আয় করা টাকা:\n\n• ক্ষুদ্রাক্ষেপ: CU'000 2054\n• বিক্রি থেকে অন্তর্ভুক্ত আয়: CU'000 2054 + CU'000 527 = CU'000 2581\n• মোট আয়: CU'000 2581\n\nচলতি অর্থবছরে জুলাই-মার্চ সময়ে গত অর্থ বছরে একই সময়ের তুলনা আয় করা টাকা:",
+      "cosine_similarity": 0.6940703392028809,
+      "processing_time": 4.1441357135772705
+    },
+    {
+      "question_id": 12,
+      "question": "What is the duration of practical work experience required for the CA qualification?",
+      "ground_truth": "The duration of practical work experience required for the CA qualification is:, 3 years, 4 years (as an option)",
+      "prediction": "The duration of practical work experience required for the CA qualification is 4 years.",
+      "cosine_similarity": 0.9432775974273682,
+      "processing_time": 0.6726021766662598
+    },
+    {
+      "question_id": 13,
+      "question": "What is the signing date of the France wiht Bangladesh agreement,",
+      "ground_truth": "Signing date of the France, Bangladesh agreement is:09/03/1987, 21/89 (presumably a reference to the year 1989), 4/01/1989, 01/07/1989",
+      "prediction": "The signing date of the France-Bangladesh agreement is:\n\n• 09/03/1987",
+      "cosine_similarity": 0.8328105807304382,
+      "processing_time": 0.8581397533416748
+    },
+    {
+      "question_id": 14,
+      "question": "How has the method of submitting SBS returns changed over time?",
+      "ground_truth": "The method of submitting SBS returns has undergone changes over time. The SBS returns were used for collection of information/data from the banking sector in Bangladesh. Then the Statistics Department of the Bangladesh Bank published guidelines for the scheduled banks to fill in the returns properly and submit them to the Bangladesh Bank.",
+      "prediction": "The method of submitting SBS returns has undergone changes over time. Here are the key changes:\n\n• Earlier, the SBS returns were used solely for collecting information/data from the banking sector in Bangladesh.\n• The Statistics Department of the Bangladesh Bank revised and enlarged the SBS returns to meet the end of formulating monetary policy and determining economic activities trends.",
+      "cosine_similarity": 0.9313572645187378,
+      "processing_time": 1.3176753520965576
+    },
+    {
+      "question_id": 15,
+      "question": "What changes were made to Rule 8A of the Income Tax Rules since its introduction?",
+      "ground_truth": "Based on the provided context, there is no information about changes made to Rule 8A of the Income Tax Rules since its introduction. The context only mentions the requirements and formalities for landlords receiving monthly rent more than Tk. 25,000, as per Rule 8A of Income Tax Rules 1984. However, the context does mention the following changes or additions to the rule:, The landlord must maintain a bank account and deposit the entire monthly rent directly into it.",
+      "prediction": "According to the provided context, changes were made to Rule 8A of the Income Tax Rules since its introduction. The key changes are:\n\n• A new rule was introduced (New rule 8A by:4%, আর 6) which states that a person having ownership or possession of any property must maintain a bank account in a scheduled bank for depositing rent.\n• The previous requirement to maintain a register about tenants and house rent received from tenants has been removed, as it is now mentioned that the owner shall have 10: (a) Maintain bank account and deposit entire monthly rent directly to the:account.\n\nThese changes were introduced on August 18, 2014.",
+      "cosine_similarity": 0.84583580493927,
+      "processing_time": 1.3964872360229492
+    },
+    {
+      "question_id": 16,
+      "question": "Who is Deputy Commissioner of Taxes?",
+      "ground_truth": "\"Deputy Commissioner of Taxes\" means a person appointed to be a Deputy Commissioner of Taxes u/s 4, and includes a person appointed to be aTransfer Pricing Officer, Assistant Commissioner of Taxes, an Extra Assistant Commissioner ofTaxes and a Tax Recovery Officer",
+      "prediction": "A Bangladeshi financial advisor here!\n\nAccording to the given context, a Deputy Commissioner of Taxes is:\n\n• A person appointed as a Deputy Commissioner of Taxes under section 4.\n• Includes:\n • Transfer Pricing Officer\n • Assistant Commissioner of Taxes\n • Extra Assistant Commissioner of Taxes\n • Tax Recovery Officer",
+      "cosine_similarity": 0.8902626037597656,
+      "processing_time": 1.0663833618164062
+    },
+    {
+      "question_id": 17,
+      "question": "How did Bangladeshs VAT system change after the 2012 VAT Act?",
+      "ground_truth": "After the 2012 VAT Act, Bangladesh's VAT system sees significant changes. Like migration from 1991 VAT Act which is based account current to new system. The new system was designed to be more efficient and effective in managing account current balances. The VAT system now uses a prepaid vs postpaid system.",
+      "prediction": "The Bangladesh VAT system underwent changes after the 2012 VAT Act. Key changes include:\n\n• The standard VAT rate was reduced to 15%.\n• Certain items are exempt from VAT.\n• A truncated rate (short value addition) is applicable for many services, with a full rate of 15% for companies providing services under certain conditions.\n\nThese changes aim to simplify the VAT system and make it more efficient.",
+      "cosine_similarity": 0.7765616178512573,
+      "processing_time": 1.2579536437988281
+    },
+    {
+      "question_id": 18,
+      "question": "When was the amendment for rule 10(3) prospectus submission made?",
+      "ground_truth": "As a Bangladeshi financial advisor, I have reviewed the ATP study on XYZ Ltd. submitted to the tax authority. My position is as follows:, Ethical Threats:, , The use of TNMM method with PLI as profit level indicator may not accurately reflect the arm's length price of controlled transactions., The amendment from the issuing bank confirms that the port of loading is Chattogram, Bangladesh, but the unit price provided is consistent with the current market price available online, which may raise concerns about the accuracy of the transaction., Possible Actions:, , Request additional information from the applicant to verify the accuracy of the transaction, including the market price of the goods and the terms of the import LC., Conduct a thorough review of the ATP study to ensure that it meets the requirements of Rule 70(1) of the IT Rules, 1984., Consider seeking guidance from the tax authority or a professional organization to ensure compliance with the relevant rules and regulations., Recommendation:, , Request a Level 2 review of the transaction to ensure that it meets the requirements of Rule 10(3) prospectus submission and to verify the accuracy of the transaction. Please note that these actions are based solely on the information provided in the context and may require further investigation to ensure compliance with the relevant rules and regulations.",
+      "prediction": "As a Bangladeshi financial advisor, I can provide guidance on the amendment to Rule 10(3) of the IT Rules, 1984.\n\n• The amendment for Rule 10(3) prospectus submission was made on December 33, 1999 (আর, ও'নং ৩৩৬-আইন/৯৯).\n \nThis change is relevant to the context of prospectus submission and its relation to Rule 10(3) of the IT Rules.",
+      "cosine_similarity": 0.5619621276855469,
+      "processing_time": 1.123605728149414
+    },
+    {
+      "question_id": 19,
+      "question": "When The Income Tax Act, 2023 came into force ?",
+      "ground_truth": "The Income Tax Act, 2023 came into force on 27th June 2023.",
+      "prediction": "The Income Tax Act, 2023 came into force on June 22, 2023.",
+      "cosine_similarity": 0.9740785360336304,
+      "processing_time": 1.2710850238800049
+    },
+    {
+      "question_id": 20,
+      "question": "What changes occur in the knowledge of financial management principles as students progress from Certificate Level to Professional and Advanced Levels?",
+      "ground_truth": "As students progress from Certificate Level to Professional and Advanced Levels, the knowledge of financial management principles undergoes significant changes. Development of knowledge base: The knowledge base developed at Certificate Level is further developed in the Financial Management module. Recommendation of financing options: Students learn to recommend options for financing a business.",
+      "prediction": "As students progress from Certificate Level to Professional and Advanced Levels, their knowledge of financial management principles undergoes significant development. Here are the key changes:\n\n• **Certificate Level**: The foundation is laid, enabling students to recommend options for financing a project.\n• **Financial Management module (Advanced Level)**: The knowledge base is further developed to enable students to:\n • Analyze and make informed decisions about financial management",
+      "cosine_similarity": 0.9445123076438904,
+      "processing_time": 1.6780261993408203
+    },
+    {
+      "question_id": 21,
+      "question": "How did foreign direct investment (FDI) inflows to Bangladesh change after 2010?",
+      "ground_truth": "Foreign Direct Investment (FDI) inflows to Bangladesh have changed over the years. Here are some key points:, After 2010, FDI inflows to Bangladesh decreased., This decrease is likely due to the depreciation of the Eastern European country's currency, causing a reduction in the value of cash flows remitted back to Bangladesh., The depreciation of the Eastern European currency over a five, year period led to a decrease in the value of the investment project.",
+      "prediction": "Based on the context, I can provide the following answer:\n\nForeign direct investment (FDI) inflows to Bangladesh changed as follows after 2010:\n\n• The major objectives of Bangladesh's Double Taxation Agreement (DTAA) include:\n + Obtaining more effective relief from double taxation compared to unilateral measures\n + Creating a favorable climate for the inflow of FDI in Bangladesh\n\nUnfortunately, there is no information provided about the actual change in FDI inflows after 2010. The context only mentions the objectives of Bangladesh's DTAA and does not provide data on FDI inflows.",
+      "cosine_similarity": 0.7778822183609009,
+      "processing_time": 1.116063117980957
+    },
+    {
+      "question_id": 22,
+      "question": "আয়কর রিটার্ন জমা দেওয়ার শেষ সময় কবে?",
+      "ground_truth": "আয়কর রিটার্ন জমা দেওয়ার শেষ সময় হলো ২৪ মাসের বেশি নয়।",
+      "prediction": "• 31 জানুয়ারি",
+      "cosine_similarity": 0.36303412914276123,
+      "processing_time": 1.6577811241149902
+    },
+    {
+      "question_id": 23,
+      "question": "ন্যাশনাল বোর্ড অব রেভিনিউ অর্ডার কোন সালের?",
+      "ground_truth": "ন্যাশনাল বোর্ড অব রেভিনিউ অর্ডার ২০১২ সালের।",
+      "prediction": "২০১১",
+      "cosine_similarity": 0.4321154057979584,
+      "processing_time": 1.3182804584503174
+    },
+    {
+      "question_id": 24,
+      "question": "1984 থেকে 2023 পর্যন্ত \"আয়বর্ষ\" এর সংজ্ঞায় কী পরিবর্তন হয়েছে?",
+      "ground_truth": "আয়বর্ষের সংজ্ঞায় 1984 থেকে 2023 পর্যন্ত কোনো পরিবর্তন হয়নি।",
+      "prediction": "• 1984 থেকে 2023 পর্যন্ত \"আয়বর্ষ\" এর সংজ্ঞায় পরিবর্তন হয়েছে।\n\n• উপ-ধারা (১) এর অধীন কোনো আয়বর্ষের কর নির্ধারণের ক্ষেত্রে, যে আয়বর্ষে 'ব্যবসা (৩) কোনো অর্থবৎসরে কোনো ব্যবসা বন্ধ হইলে, তাহা ব্যবসা বন্ধ হইবার 15 (পনেরো) দিনের মধ্যে উপকর কমিশনারকে নোটিশপ্রদান'রূরিতে হইবে।\n\n• এছাড়া, আয়বর্ষ শেষের বাংলাদেশ গেজেট-এ নোটিশের সহিত উপকর কমিশনারকে আয়ের রিটার্ন দাখিল করিতে হইবে।\n\n• এছাড়া, উপ-ধারা (৩) এর অধীন আয়বর্ষের কর নির্ধারণের ক্ষেত্রে, যে আয়বর্ষে 'ব্যবসা (৩) কোনো অর্থবৎসরে কোনো ব্যবসা বন্ধ হইলে, তাহা ব্যবসা বন্ধ হইবার 15 (পনেরো) দিনের মধ্যে উপকর কমিশনারকে নোটিশপ্রদান'রূরিতে হইবে।",
+      "cosine_similarity": 0.610456645488739,
+      "processing_time": 6.479034185409546
+    },
+    {
+      "question_id": 25,
+      "question": "২০২৪-২৫ অর্থবছরের সংশোধিত বাজেটের তুলনায় ২০২৫-২৬ অর্থবছরের প্রস্তাবিত বাজেটে এনবিআর বহির্ভূত করের লক্ষ্যমাত্রা কত বৃদ্ধি পেয়েছে?",
+      "ground_truth": "২০২৪-২৫ অর্থবছরের সংশোধিত বাজেটের তুলনায় ২০২৫-২৬ অর্থবছরের প্রস্তাবিত বাজেটে এনবিআর বহির্ভূত করের লক্ষ্যমাত্রা ১০০০ কোটি টাকা বৃদ্ধি পেয়েছে।",
+      "prediction": "2024-25 অর্থবছরের সংশোধিত বাজেটের তুলনায় 2025-26 অর্থবছরের প্রস্তাবিত বাজেটে NBR বহির্ভূত করের লক্ষ্যমাত্রা ২৫% দ্বারা বৃদ্ধি পেয়েছে।",
+      "cosine_similarity": 0.9151028394699097,
+      "processing_time": 1.9310553073883057
+    },
+    {
+      "question_id": 26,
+      "question": "গত দুই দশকে বিদ্যুৎ খাতে বিনিয়োগ কীভাবে পরিবর্তিত হয়েছে?",
+      "ground_truth": "গত দুই দশকে বিদ্যুৎ খাতে বিনিয়োগ বাজারের প্রতিক্রিয়ার কারণে হ্রাস পেয়েছে, যদিও বিনিয়োগকারীদের জন্য বিভিন্ন প্রয়োজনীয় সুবিধা ও অধিকার রয়েছে।",
+      "prediction": "দুই দশকে বিদ্যুৎ খাতে বিনিয়োগ পরিবর্তিত হয়েছে।\n\n• স্থানীয় এলাকার উন্নয়নে বিদ্যুৎ খাতে বিনিয়োগ বৃদ্ধি পেয়েছে।\n\n• স্থানীয় উন্নয়ন কর্মসূচিতে বিদ্যুৎ খাতে বিনিয়োগ বৃদ্ধি পেয়েছে।\n\n• রাজশাহী এলাকা সম্পর্কে উন্নয়নে বিদ্যুৎ খাতে বিনিয়োগ বৃদ্ধি পেয়েছে।\n\n• সরকার এই উন্নয়নে বিদ্যুৎ খাতে বিনিয়োগ বৃদ্ধি পেয়েছে।\n\n• সরকার এই উন্নয়নে বিদ্যুৎ খাতে বিনিয়োগ বৃদ্ধি পেয়েছে।\n\n• সরকার এই উন্নয়নে বিদ্যুৎ খাতে বিনিয়োগ বৃদ্ধি পেয়েছে।\n\n• সরকার এই উন্নয়নে বিদ্যুৎ খাতে বিনিয়োগ বৃদ্ধি পেয়েছে।\n\n• সরকার এই উন্নয়নে বিদ্যুৎ খাতে বিনিয়োগ বৃদ্ধি পেয়েছে।",
+      "cosine_similarity": 0.7100347280502319,
+      "processing_time": 6.611451625823975
+    },
+    {
+      "question_id": 27,
+      "question": "\"ভ্যালু অ্যাডেড ট্যাক্স আইন\" কোন সালের?",
+      "ground_truth": "ভ্যালু অ্যাডেড ট্যাক্স আইন ২০১২ সালের।",
+      "prediction": "আপিল আয়কর 'কর্তৃপক্ষ' কোনো কর নির্ধারণীতে করের পরিমাণ বা জরিমানার অর্থের পরিমাণ বৃদ্ধি অথবা কর প্রত্যার্পনের ক্ষেত্রে প্রদেয় অর্থের পরিমাণ বৃদ্ধি বা হাস রুরিতে পারিবেন না, যদি না আপিলরারীকে এইরূপ বৃদ্ধি বা হাসের কারণ দর্শানোর যুক্তিসংগত বাংলাদেশ গেজেট, অতিরিক্ত, জুন LS, 2023 8303 হইবে",
+      "cosine_similarity": 0.4665946364402771,
+      "processing_time": 3.0459487438201904
+    },
+    {
+      "question_id": 28,
+      "question": "গত পাঁচ বছরে ব্যাংক খাতে খেলাপি ঋণের হার কীভাবে পরিবর্তিত হয়েছে?",
+      "ground_truth": "গত পাঁচ বছরে ব্যাংক খাতে খেলাপি ঋণের হার ধীরে ধীরে হ্রাস পেয়েছে: ২০১৮-১৯ সালে ১০.৫%, ২০১৯-২০ সালে ৯.৫%, ২০২০-২১ সালে ৮.৫%, ২০২১-২২ সালে ৭.৫%, এবং ২০২২-২৩ সালে ৬.৫%।",
+      "prediction": "প্রশ্নের উত্তর দিতে, আমাকে গত পাঁচ বছরে ব্যাংক খাতে খেলাপি ঋণের হার সম্পর্কে জানতে হবে।\n\nগত পাঁচ বছরে, ব্যাংক খাতে খেলাপি ঋণের হার অনেক দৃঢ় এবং স্থিতিশীল ছিল। যাইহোক, গত কয়েক মাসে থেকে, খেলাপি ঋণের হার ধীরে ধীরে কমে চলা শুরু হয়েছে।\n\nব্যাংক খাতে খেলাপি ঋণের হার সম্পর্কে আমাদের কিছু তথ্য রয়েছে:\n\n• 2022-23 শিল্প ব্যবসা ও উদ্যোগ অনুমোদন আইন, 2017 (সংশোধিত) এর অধীনে, খেলাপি ঋণের হার 5% ছিল।\n• 2022-23 ব্যবসা ও উদ্যোগ অনুমোদন আইন, 2017 (সংশোধিত) এর অধীনে, খেলাপি ঋণের হার 4.5% ছিল।\n• 2022-23 ব্যবসা ও উদ্যোগ অনুমোদন আইন, 2017 (সংশোধিত) এর অধীনে, খেলাপি ঋণের হার 4% ছিল।",
+      "cosine_similarity": 0.849997341632843,
+      "processing_time": 6.446190118789673
+    },
+    {
+      "question_id": 29,
+      "question": "২০২৩-২৪ অর্থবছরের হিসাবের তুলনায় ২০২৪-২৫ অর্থবছরের সংশোধিত বাজেটে রাজস্ব আয় কত বৃদ্ধি পেয়েছে?",
+      "ground_truth": "২০২৪-২৫ অর্থবছরের সংশোধিত বাজেটে রাজস্ব আয় ২০২৩-২৪ অর্থবছরের হিসাবের তুলনায় ১২.৫% বৃদ্ধি পেয়েছে।",
+      "prediction": "2023-24 অর্থবছরের সংশোধিত বাজেটে রাজস্ব আয় 38.10% বৃদ্ধি পেয়েছে।",
+      "cosine_similarity": 0.9036036729812622,
+      "processing_time": 1.6871168613433838
+    },
+    {
+      "question_id": 30,
+      "question": "বাজেটে জুলাই গণঅভ্যুত্থান-পরবর্তী অর্থনীতির পুনরুদ্ধারের কথা উল্লেখ করা হয়েছে কেন?",
+      "ground_truth": "বাজেটে জুলাই গণঅভ্যুত্থান-পরবর্তী অর্থনীতির পুনরুদ্ধারের কথা উল্লেখ করা হয়েছে কারণ সেই সময়ে বাংলাদেশের অর্থনীতি ব্যাঘাতমুখী ছিল।",
+      "prediction": "• জুলাই গণঅভ্যুত্থান-পরবর্তী অর্থনীতির পুনরুদ্ধারের কথা উল্লেখ করা হয়েছে কেন? \n• বাংলাদেশের অর্থনীতি সম্পর্কিত জুলাই গণঅভ্যুত্থান-পরবর্তী অর্থনীতির পুনরুদ্ধারের কথা উল্লেখ করা হয়েছে কারণ ১৯৭৫ সালের জুলাই গণঅভ্যুত্থানের পর, বাংলাদেশ একটি উন্নত অর্থনীতিতে রূপান্তরিত হয়েছে।",
+      "cosine_similarity": 0.782107949256897,
+      "processing_time": 3.1483194828033447
+    },
+    {
+      "question_id": 31,
+      "question": "জাতীয় সংসদ ভবনের নকশা কে করেছেন?",
+      "ground_truth": "জাতীয় সংসদ ভবনের নকশা করেছেন লুই আই. খান।",
+      "prediction": "আপনি জাতীয় সংসদ ভবনের নকশা করেছেন।",
+      "cosine_similarity": 0.7686240673065186,
+      "processing_time": 1.4227213859558105
+    }
+  ]
+}

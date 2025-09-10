@@ -1,0 +1,133 @@
+{
+  "evaluation_info": {
+    "timestamp": "2025-09-09T23:26:10.005606",
+    "model": "Vanilla RAG (VanillaRAGSystem)",
+    "domain": "Comparative_Financial",
+    "domain_file": "Comparative_Financial.json",
+    "total_questions": 12,
+    "successful_responses": 12,
+    "device_used": "cuda",
+    "gpu_available": true,
+    "evaluation_type": "cosine_similarity"
+  },
+  "cosine_similarity_metrics": {
+    "mean_similarity": 0.7771619210640589,
+    "median_similarity": 0.8360791206359863,
+    "std_similarity": 0.15777080857507336,
+    "min_similarity": 0.4215523600578308,
+    "max_similarity": 0.9041939973831177,
+    "total_questions": 12,
+    "similarities": [
+      0.9041939973831177,
+      0.7834050059318542,
+      0.8965187668800354,
+      0.8936180472373962,
+      0.7179497480392456,
+      0.8968712091445923,
+      0.750582754611969,
+      0.8228979110717773,
+      0.5158258676528931,
+      0.4215523600578308,
+      0.8492603302001953,
+      0.8732670545578003
+    ]
+  },
+  "detailed_results": [
+    {
+      "question_id": 0,
+      "question": "How does the tax rate for publicly traded companies compare to non-listed companies?",
+      "ground_truth": "The tax rate for publicly traded companies is lower than that of non listed companies. Publicly traded companies: 20% corporate tax rate and for non listed companies: 27.5% corporate tax rate. ",
+      "prediction": "The tax rate for publicly traded companies is lower compared to non-listed companies. While a non-listed company's income is taxed at 25%, a publicly listed company's income from non-tobacco business is taxed at 20%.",
+      "cosine_similarity": 0.9041939973831177,
+      "processing_time": 3.35300874710083
+    },
+    {
+      "question_id": 1,
+      "question": "How does the rate for mobile operators not listed compare to those converting with 10% shares?",
+      "ground_truth": "The rate for mobile operators not listed is 45% while those converting themselves into a publicly traded company by transferring at least 10% shares through stock exchanges have a rate of 40%.",
+      "prediction": "The tax rate for non-listed mobile phone operator companies is 45%.",
+      "cosine_similarity": 0.7834050059318542,
+      "processing_time": 0.6191351413726807
+    },
+    {
+      "question_id": 2,
+      "question": "How does the treatment of share transfers for non-residents compare to capital gains exemption for power companies?",
+      "ground_truth": "For non resident individuals the treatment of share transfers is different from the capital gains exemption for power companies. For example Capital Gains Tax : Non, resident individuals are taxed on capital gains at the usual rate applicable to their total income, including capital gains. The rate is 15% on the amount of capital gains.  Also forCapital Dut : There is no mention of capital duty for non, resident individuals.",
+      "prediction": "The treatment of share transfers for non-residents is different from the capital gains exemption for power companies. Non-resident individuals are exempt from capital gain tax on gain from sale of stocks and shares of listed companies provided they enjoy the same benefit in their home country, while for non-residents, transfer of share value is not taxed at a lower rate but rather taxed as per the normal income tax rates as it is considered an income.",
+      "cosine_similarity": 0.8965187668800354,
+      "processing_time": 1.2240486145019531
+    },
+    {
+      "question_id": 3,
+      "question": "How does the definition of \"property\" compare to \"share in a company\"?",
+      "ground_truth": "The definition of \"property\" in the notice is broader than the definition of \"share in a company\". Main differences \"Property\" includes- Movable property, Immovable property, Shares, Debentures, Interest in any company.",
+      "prediction": "The definition of \"property\" is broader than that of \"share in a company\". The term \"property\" includes movable or immovable property, shares, debentures, or interest in any company, or any actionable claim. On the other hand, a \"share in a company\" specifically refers to stock, debenture stock, debentures, and bonds.",
+      "cosine_similarity": 0.8936180472373962,
+      "processing_time": 1.149059772491455
+    },
+    {
+      "question_id": 4,
+      "question": "How does fixed income term compare to money market.",
+      "ground_truth": "Fixed Income Term: A fixed income term is suitable for companies that can afford to repay a loan earlier than they can, resulting in a need to re, borrow at a higher interest rate.Money Market:, A money market is preferred by companies that only need to borrow when necessary, allowing them to pay for borrowings only when needed. Main differences are fixed income term is suitable for companies with uncertain cash flows. Money market is suitable for companies with predictable cash flows.",
+      "prediction": "The fixed income term in a forward contract or money market hedge (MMH) is similar. In both cases, the outcome is fixed, and they produce similar results. However, an MMH is slightly more favorable due to its characteristics. \n\nA forward contract and an MMH have some similarities but also differences. A future represents a commitment to buy or sell a particular instrument at a stipulated price on a specific future date.",
+      "cosine_similarity": 0.7179497480392456,
+      "processing_time": 1.1597514152526855
+    },
+    {
+      "question_id": 5,
+      "question": "How does the knowledge progression in financial management compare from Certificate Level to Professional Level?",
+      "ground_truth": "The knowledge progression in Financial Management from Certificate Level to Professional Level is as follows-  At Certificate Level, the aim is to enable you to recommend options for financing a business, recognize and manage links and make appropriate investment decisions.Also the knowledge base is developed further to enable you to apply technical knowledge, analytical techniques and professional skills to resolve compliance and business issues related to corporate reporting and audit services.",
+      "prediction": "The knowledge progression in financial management compares as follows:\n\n- From Certificate Level to Advanced/Professional Level, there is a development and expansion of the knowledge base.\n\n- At Professional Level, the focus shifts from theoretical knowledge to practical application of skills in areas such as investment appraisal.",
+      "cosine_similarity": 0.8968712091445923,
+      "processing_time": 0.9182498455047607
+    },
+    {
+      "question_id": 6,
+      "question": "Compare S.R.O. for original rules to amendment S.R.O.s.",
+      "ground_truth": "The original S.R.O. for the Income Tax Rules, 1984, to the amendment S.R.O.s:, Original S.R.O. (1985) also short title is Income Tax Rules, 1984. It is  Issued byNational Board of Revenue. It's Powers conferred by: Section 185 of the Income Tax Ordinance, 1984 (XXXVI of 1984), Sub, section (4). ",
+      "prediction": "The original rules for Income Tax Ordinance, 1984 were given in S.R.O. No. 268 dated 02-10-2013. The new sub-rules (laaaaaa) & (laaaa) were introduced by S.R.O No. 151, dated 28/08/1995, replacing the original rules from 1%.",
+      "cosine_similarity": 0.750582754611969,
+      "processing_time": 1.1693274974822998
+    },
+    {
+      "question_id": 7,
+      "question": "How does treatment charges in Form A(1) compare to fee in Form A(2)?",
+      "ground_truth": "Comparison between treatment charges in Form A(1) and fee in Form A(2) is treatment charges in Form A(1) are related to the \"Nature of Treatment\" (a) Consultation, (b) Surgical treatment, and (c) Injection, etc and fee in Form A(2) is related to the \"Name, Brief Amount of fee, remuneration, etc.\" of the practitioner or professional. There is no direct comparison between the two because they are related to different aspects of the medical treatment.",
+      "prediction": "Treatment charges in Form A(1) are higher than fee in Form A(2). In Form A(1), the treatment charge for consultation is Rs 100. While in form A (2), the consultancy fees is Rs 75.",
+      "cosine_similarity": 0.8228979110717773,
+      "processing_time": 0.8879716396331787
+    },
+    {
+      "question_id": 8,
+      "question": "“করদাতা” এবং “করদায়ক” এর মধ্যে পার্থক্য কী?",
+      "ground_truth": "করদাতা হল সেই ব্যক্তি যার উপর কর আরোপিত হয়েছে বা যিনি কর প্রদান করেছেন, আর করদায়ক হল সেই ব্যক্তি যার উপর কর আরোপিত হয়নি বা যিনি কর প্রদান করেননি।",
+      "prediction": "(1) 'মোট' আয় হিসেবে কেবল কর্তন নহে, এর অপ্রচলিত 'উপাদান গণনা করিতে হইবে | 9 \"residents\" includes a former resident; (10) \"non-resident\" means an individual who is not a resident; and includes also a deceased person: Provided that, for the purposes of this Act, no person shall be considered to have ceased to be a resident by reason only that he has ceased to reside in Bangladesh or has gone out of Bangladesh for the purpose of employment.",
+      "cosine_similarity": 0.5158258676528931,
+      "processing_time": 2.8250949382781982
+    },
+    {
+      "question_id": 9,
+      "question": "২০২৫-২৬ অর্থবছরের প্রস্তাবিত বাজেটে বিদ্যুৎ খাতের বরাদ্দ স্থানীয় সরকার খাতের বরাদ্দের সাথে তুলনায় কত কম?",
+      "ground_truth": "২০২৫-২৬ অর্থবছরের প্রস্তাবিত বাজেটে বিদ্যুৎ খাতের বরাদ্দ স্থানীয় সরকার খাতের বরাদ্দের তুলনায় ১০০০ কোটি টাকা কম।",
+      "prediction": "The correct answer is:\n\n\"10% (দশ-শতাংশ)\" \n\nThis refers to the 10% rate at which a Forward Agent Commission will be deducted in case of delayed payment or default on payments.",
+      "cosine_similarity": 0.4215523600578308,
+      "processing_time": 1.8446495532989502
+    },
+    {
+      "question_id": 10,
+      "question": "“আয়কর কর্মকর্তা” এবং “আয়কর অ্যাপিলেট কমিশনার” এর মধ্যে পার্থক্য কী?",
+      "ground_truth": "আয়কর কর্মকর্তা এবং আয়কর অ্যাপিলেট কমিশনার হলো দুই ভিন্ন পদ যা আয়কর প্রতিষ্ঠানের কার্যক্রমে জড়িত।আয়কর কর্মকর্তা: আয়কর কর্মকর্তা হলো সেই কর্মকর্তা, যিনি আয়কর প্রয়োগ, প্রতিষ্ঠান কার্যক্রমে সহায়তা এবং সমস্যা সমাধানের দায়িত্ব পালন করেন।\n আয়কর অ্যাপিলেট কমিশনার: আয়কর অ্যাপিলেট কমিশনার হলো সেই কর্মকর্তা, যিনি আয়কর সংক্রান্ত সমস্যা সমাধান, প্রতিষ্ঠান কার্যক্রমে সহায়তা এবং কর্মকর্তাদের মধ্যে মধ্যস্থতার দায়িত্ব পালন করেন।",
+      "prediction": "\"আয়কর অ্যাপিলেট কমিশনার\" এবং \"আয়কর কর্মকর্তা\" এর মধ্যে পার্থক্য হলো- \n\n  • আয়কর অ্যাপিলেট কমিশনারগণ তাদের নির্ধারিত সময়কালে আয়কর বিরোধ নিষ্পত্তি করেন।",
+      "cosine_similarity": 0.8492603302001953,
+      "processing_time": 2.6523079872131348
+    },
+    {
+      "question_id": 11,
+      "question": "চলতি অর্থবছরে জুলাই-মার্চ সময়ে গত অর্থ বছরে একই সময়ের তুলনায় কত বেড়েছে? ",
+      "ground_truth": "চলতি অর্থবছরে জুলাই-মার্চ সময়ে গত অর্থ বছরে একই সময়ের তুলনায় বেড়েছে ৯ দশমিক ৪৫ শতাংশ ",
+      "prediction": "জুলাই-মার্চ সময়ের মধ্যে গত অর্থবছরে একই সময়ের তুলনায় 10% বেড়েছে।",
+      "cosine_similarity": 0.8732670545578003,
+      "processing_time": 1.1646888256072998
+    }
+  ]
+}

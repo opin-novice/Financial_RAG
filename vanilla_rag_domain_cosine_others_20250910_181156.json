@@ -1,0 +1,124 @@
+{
+  "evaluation_info": {
+    "timestamp": "2025-09-10T18:11:56.884571",
+    "model": "Vanilla RAG (VanillaRAGSystem)",
+    "domain": "others",
+    "domain_file": "others.json",
+    "total_questions": 11,
+    "successful_responses": 11,
+    "device_used": "cuda",
+    "gpu_available": true,
+    "evaluation_type": "cosine_similarity"
+  },
+  "cosine_similarity_metrics": {
+    "mean_similarity": 0.5927650088613684,
+    "median_similarity": 0.6362266540527344,
+    "std_similarity": 0.17612241247162605,
+    "min_similarity": 0.3306125998497009,
+    "max_similarity": 0.8874568939208984,
+    "total_questions": 11,
+    "similarities": [
+      0.48631003499031067,
+      0.7146214842796326,
+      0.6399409174919128,
+      0.7144649028778076,
+      0.6362266540527344,
+      0.3675761818885803,
+      0.6314576268196106,
+      0.8874568939208984,
+      0.7210825681686401,
+      0.3906652331352234,
+      0.3306125998497009
+    ]
+  },
+  "detailed_results": [
+    {
+      "question_id": 0,
+      "question": "What does NBR represent?",
+      "ground_truth": "The National Board of Revenue (NBR) which is Highest executive tax authority in Bangladesh. A statutory body with the power to manage, control, and supervise the income tax department. The authority to make necessary rules concerning income tax matters.",
+      "prediction": "National Board of Revenue",
+      "cosine_similarity": 0.48631003499031067,
+      "processing_time": 2.8482284545898438
+    },
+    {
+      "question_id": 1,
+      "question": "What is BRPD means?",
+      "ground_truth": "BRPD means Banking Regulation and Policy Department",
+      "prediction": "Banking Regulation and Policy Department.",
+      "cosine_similarity": 0.7146214842796326,
+      "processing_time": 0.501227855682373
+    },
+    {
+      "question_id": 2,
+      "question": "What is BB means ?",
+      "ground_truth": "BB stands for Bangladesh Bank. which is the central bank of Bangladesh.",
+      "prediction": "Bangladesh Bank",
+      "cosine_similarity": 0.6399409174919128,
+      "processing_time": 0.46605896949768066
+    },
+    {
+      "question_id": 3,
+      "question": "JICA means what ?",
+      "ground_truth": "JICA stands for Japan International Co, operation Agency.",
+      "prediction": "Japan International Co-operation Agency.",
+      "cosine_similarity": 0.7144649028778076,
+      "processing_time": 0.46619558334350586
+    },
+    {
+      "question_id": 4,
+      "question": "What does SME means ?",
+      "ground_truth": "SME stands for Small and Medium Enterprises. It is a category of businesses that are typically defined as having a smaller size compared to larger corporations.",
+      "prediction": "Small and Medium Enterprise.",
+      "cosine_similarity": 0.6362266540527344,
+      "processing_time": 0.468489408493042
+    },
+    {
+      "question_id": 5,
+      "question": "What does RR means?",
+      "ground_truth": "RR stands for Residual Risk",
+      "prediction": "The answer is Beta (B).",
+      "cosine_similarity": 0.3675761818885803,
+      "processing_time": 0.46848344802856445
+    },
+    {
+      "question_id": 6,
+      "question": "What act is for co-operative societies?",
+      "ground_truth": "The act related to co, operative societies is- The Companies Act, 1994 This act includes the co, operative society as a type of entity that is registered with the Companies Act.",
+      "prediction": "The Cooperative Society Act, 2001.",
+      "cosine_similarity": 0.6314576268196106,
+      "processing_time": 0.50750732421875
+    },
+    {
+      "question_id": 7,
+      "question": "What productions are listed for progressive taxation?",
+      "ground_truth": "The productions listed for progressive taxation are: textile,machinery,tyre manufacturing industry,tissue grafting etc any other category of industrial undertaking as specified by the Government.",
+      "prediction": "The production listed for progressive taxation are the following:\n\na. Manufacturing of goods such as textile machinery, tissue grafting, tyre manufacturing industry, and other categories of industrial undertakings specified by the Government.\nb. Physical infrastructure such as deep sea port, elevated expressway, export processing zone, flyover, gas pipeline, Hi-tech park, Information and Communication Technology (ICT) village or software technology zone, Information Technology (IT) park, large water treatment plant and supply through pipeline.\n\nHowever, for progressive taxation, the production listed are those that are eligible for tax holiday under section 460.",
+      "cosine_similarity": 0.8874568939208984,
+      "processing_time": 1.4660594463348389
+    },
+    {
+      "question_id": 8,
+      "question": "ADP এর পূর্ণরূপ কী?",
+      "ground_truth": "ADP এর পূর্ণরূপ হলো Annual Development Programme।",
+      "prediction": "ADP এর পূর্ণরূপ Adversarial Procedure।",
+      "cosine_similarity": 0.7210825681686401,
+      "processing_time": 0.7000124454498291
+    },
+    {
+      "question_id": 9,
+      "question": "মূসক এর পূর্ণরূপ কী?",
+      "ground_truth": "মূসক এর পূর্ণরূপ হলো মূল্য সংযোজন কর।",
+      "prediction": "চা, ধারা ৯০০-এর অধীন নিযুক্ত মূসক পরামর্শকের। (৬) ইলেকট্রনিক গ্রেড, প্রাইভেট টেলিফোন ও এসডি নিযুক্ত মূসক অবাধ ডিলার; (গ) আন্তর্জাতিক দাপ্তরে চালনা ও শ্রেণী ২, ৩, ৫ অথবা ৮-এর অধীন যে কোনো সিটি হুইলের জন্য পার্শ্বগাছ; (d) আন্তর্জাতিক দাপ্তরে চালনা ৩-এর অধীন সিটি হুইলের জন্য নিষিপ্ত; (e) আন্তর্জাতিক দাপ্তরে চালনা ৫-এর অধীন সিটি হুইল, মাংগরি, শ্রেণী 1-ও 2-এর অধীন পার্ক দাবানা, আন্তর্জাতিক দাপ্তরে চালনা 8-এর অধীন যে কোনো সিটি হুইল; (f) আন্তর্জাতিক দাপ্তরে চালনা 2-এর অধীন মোটরবাইক, আন্তর্জাতিক দাপ্তরে চালনা 3-ও 5-এর অধীন সিটি হুইল; (g) শ্রেণী 2, 3, 4, 6, 7-এর পাষ্ট ও 5-ও 8-এর অধীন মোটরবাইক; (h) আন্তর্জাতিক দাপ্তরে চালনা 2-এর অধীন যে কোনো মোটরবাইক; (i) শ্রেণী 3, 4, 5, 6, 7, 8, 9-ও 10-এর অধীন সিটি হুইল, মাংগরি; (j) শ্রেণী 3-এর পাষ্ট যে কোনো বাইসাইকেল; (k) আন্তর্জাতিক দাপ্তরে চালনা 2, 3-এর অধীন যে কোনো মোটরবাইক; (l) আন্তর্জাতিক দাপ্তরে চালনা 2-এর অধীন যে কোনো মোটরবাইক; (m) আন্তর্জাতিক দাপ্তরে চালনা 2, 3-ও 5-এর অধীন সিটি হুইল; (n) শ্রেণী 1, 2, 4, 5, 6, 7, 8, 9-ও 10-এর অধীন সিটি হুইল; (o) আন্তর্জাতিক দাপ্তরে চালনা 2-এর অধীন যে কোনো মোটরবাইক; (p) শ্রেণী 5, 6, 7-ও 10-এর অধীন সিটি হুইল;",
+      "cosine_similarity": 0.3906652331352234,
+      "processing_time": 12.168895959854126
+    },
+    {
+      "question_id": 10,
+      "question": "অধ্যাদেশের প্রকাশক কে?",
+      "ground_truth": "অধ্যাদেশের প্রকাশক হলো বাংলাদেশ গেজেট।",
+      "prediction": "২ (দুই) বৎসর।",
+      "cosine_similarity": 0.3306125998497009,
+      "processing_time": 1.4647066593170166
+    }
+  ]
+}

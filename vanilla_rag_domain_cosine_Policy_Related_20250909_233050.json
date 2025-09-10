@@ -1,0 +1,196 @@
+{
+  "evaluation_info": {
+    "timestamp": "2025-09-09T23:30:50.331093",
+    "model": "Vanilla RAG (VanillaRAGSystem)",
+    "domain": "Policy_Related",
+    "domain_file": "Policy_Related.json",
+    "total_questions": 19,
+    "successful_responses": 19,
+    "device_used": "cuda",
+    "gpu_available": true,
+    "evaluation_type": "cosine_similarity"
+  },
+  "cosine_similarity_metrics": {
+    "mean_similarity": 0.6384418324420327,
+    "median_similarity": 0.6450830101966858,
+    "std_similarity": 0.19299887158664714,
+    "min_similarity": 0.2731567323207855,
+    "max_similarity": 0.9316080808639526,
+    "total_questions": 19,
+    "similarities": [
+      0.39400583505630493,
+      0.8833614587783813,
+      0.6980600357055664,
+      0.9063482284545898,
+      0.6158567667007446,
+      0.8663638234138489,
+      0.9316080808639526,
+      0.4304945170879364,
+      0.8220973014831543,
+      0.6106693148612976,
+      0.6450830101966858,
+      0.45612841844558716,
+      0.7508177757263184,
+      0.6123949885368347,
+      0.4374884366989136,
+      0.669603705406189,
+      0.6788275241851807,
+      0.4480288624763489,
+      0.2731567323207855
+    ]
+  },
+  "detailed_results": [
+    {
+      "question_id": 0,
+      "question": "What policy provides rebate for non-listed companies listing through IPO?",
+      "ground_truth": "Rebate for listed companies listing through IPO is: non listed companies, including branch companies other than banks, insurance companies, merchant banks, jute, textile, garment industries, mobile phone operator companies and cigarette, Zarda, bidi, gul, or any other tobacco product. This are eligible for a rebate of 10% in the year of listing if they list at least 20% of their paid, up capital through IPO.",
+      "prediction": "Section 44(2) of the Income-tax Ordinance, 1984.",
+      "cosine_similarity": 0.39400583505630493,
+      "processing_time": 2.948357105255127
+    },
+    {
+      "question_id": 1,
+      "question": "Who should submit Income Tax Return?",
+      "ground_truth": "To submit Income Tax Return a individuals with a total income exceeding Tk. 2,50,000/, (excluding female taxpayers, senior male taxpayers of 65 years and above, retarded taxpayers, and war, wounded gazetted freedom fighters). For female taxpayers with a total income exceeding Tk. 3,00,000/, Retarded taxpayers with a total income exceeding Tk. 3,75,000/,",
+      "prediction": "According to the given text, the following individuals should submit an Income Tax Return:\n\n1. Individuals whose total income exceeds Tk 2,50,000/-\n\t* Male taxpayers other than senior male taxpayers (65 years and above)\n\t* Female taxpayers\n\t* Retarded taxpayers\n\t* War wounded gazetted freedom fighters\n\n2. Companies: The return for company taxpayers must be submitted by the fifteenth day of July next following the income year or, where the fifteenth day of July falls before the expiry of six months from the end of the income year, before the expiry of such six months.\n\n3. Other Taxpayers (excluding companies): The return for other taxpayers must be submitted by the Thirtieth day of September next following the income year.\n\nIt is also mentioned that if the date is extended, then the return should be submitted within the extended date.",
+      "cosine_similarity": 0.8833614587783813,
+      "processing_time": 2.042947292327881
+    },
+    {
+      "question_id": 2,
+      "question": "What is written in Section 67 of the Bangladesh Tax Income Tax Act 2023?",
+      "ground_truth": "According to Section 67 of the Bangladesh Tax Income Tax Act 2023 is the provision of Section 67 shall apply in special cases like computing \"income from other sources\" in accordance with the provisions of Chapter Eight.",
+      "prediction": "Section 67 of the Bangladesh Income Tax Act, 2023 is not mentioned in the given text. The text only mentions Section 81, which deals with tax holiday schemes, and Section 78, which provides for tax rebate on certain investments. It also mentions other sections such as Sections 6, 21, and Part 1 of Schedule Six. However, there is no mention of Section 67.",
+      "cosine_similarity": 0.6980600357055664,
+      "processing_time": 1.2589459419250488
+    },
+    {
+      "question_id": 3,
+      "question": "What is the policy on practical work experience for CA students?",
+      "ground_truth": "The policy on practical work experience for CA students is as follows- practical work experience is a part of a training agreement with an ICAB Member. Students need to complete articleship for a period of 3, 4 years. The knowledge, skills, and experience gained during this period are invaluable and provide hands, on experience. Also the articleship agreement is designed to fit with the students practical experience, allowing them to progress through the qualification.",
+      "prediction": "The policy on practical work experience for CA students is that it must be done as part of a training agreement with an ICAB Member in practice authorised to train students, and typically lasts for 3-4 years.",
+      "cosine_similarity": 0.9063482284545898,
+      "processing_time": 0.8119673728942871
+    },
+    {
+      "question_id": 4,
+      "question": "What types of liabilities are covered under Section 2.1 of the SBS-1 Return?",
+      "ground_truth": "The types of liabilities covered under Section 2.1 of the SBS, 1. All the return are:Short, term Foreign Liabilities, Bilateral Trade Liabilities (code 17601), Barter and Special Trade Arrangement (STA) transactions, Foreign currencies to be reported in Table B",
+      "prediction": "Contingent liabilities as per contra 19000 and Other liabilities except deposits, money payable at call, and REPO.",
+      "cosine_similarity": 0.6158567667007446,
+      "processing_time": 0.6724305152893066
+    },
+    {
+      "question_id": 5,
+      "question": "What policy restricts offsetting foreign sourced losses?",
+      "ground_truth": "The policy that restricts offsetting foreign sourced losses is:, Foreign sourced losses of a Bangladesh entity cannot be offset against the Bangladesh profits of that entity. This means that losses incurred from foreign sources cannot be used to reduce the profits of the same entity in Bangladesh.",
+      "prediction": "The policy that restricts offsetting foreign-sourced losses is the \"Withholding Tax\" rule. This rule prohibits Bangladesh entities from offsetting foreign-sourced losses against their domestic profits. Additionally, it also restricts the set-off of any other type of losses (e.g., capital losses) against capital gains, allowing them to be carried forward for only up to six years.",
+      "cosine_similarity": 0.8663638234138489,
+      "processing_time": 1.0857365131378174
+    },
+    {
+      "question_id": 6,
+      "question": "What is the policy for non-medical professionals on reduced fees",
+      "ground_truth": "The policy for non medical professionals on reduced fees is as follows: for legal practitioners the fees at a reduced rate are charged or no fees are charged at all due to indigent circumstances of the client or any other cause, which should be recorded in the remarks column of the Case Register in Form A(2).",
+      "prediction": "The policy for non-medical professionals on reduced fees is as follows:\n\n* Reduced fees are charged or no fees are charged at all in cases of indigent circumstances of the patient or his guardian.\n* The particulars of such cases must be recorded in the remarks column of the Case Register in Form A(1)(3).\n* This policy does not apply to companies who enjoy tax exemption or pay tax at reduced rates, including banks, insurance companies, and other similar entities.\n* Non-medical professionals, such as legal practitioners, accountants, auditors, architects, and engineers, are subject to this policy.",
+      "cosine_similarity": 0.9316080808639526,
+      "processing_time": 1.5835063457489014
+    },
+    {
+      "question_id": 7,
+      "question": "What rule is there for Collection of tax from importers?",
+      "ground_truth": " The purposes of making a collection of tax under section 53B of the Ordinance the Director general Bureau is responsible. In the case of deductions made under any other section except section 86 a certificate as per schedule 3 of the Rules for Tax Deducted at Source, 2023 shall be provided.",
+      "prediction": "Part I, Rule 17.",
+      "cosine_similarity": 0.4304945170879364,
+      "processing_time": 0.8977227210998535
+    },
+    {
+      "question_id": 8,
+      "question": "What is the maximum penalty for tax evasion under the Income Tax Ordinance, 1984?",
+      "ground_truth": "The maximum penalty for tax evasion under the Income Tax Ordinance, 1984, is:, Imprisonment for a term not exceeding 7 years, Fine for an amount not exceeding double the amount involved in the crime, Either of these penalties alone or in combination",
+      "prediction": "The maximum penalty for tax evasion under the Income Tax Ordinance, 1984 is Tk. 20,000 (Twenty Thousand Taka) as per Section 51(2) of the ordinance and can be imposed by the Deputy Commissioner of Taxes in case a person uses a fake Taxpayer's Identification Number (TIN).",
+      "cosine_similarity": 0.8220973014831543,
+      "processing_time": 1.2937817573547363
+    },
+    {
+      "question_id": 9,
+      "question": "What is contains to give effect to the various proposals in the annual budget covering the areas of direct and indirect taxes.",
+      "ground_truth": "The Finance Act, 2023, contains the following: Tax rates, Amendments to existing laws relating to government tax or non tax revenue. And insertion of new clauses/sub, sections/sections/schedules in existing laws. Deletion of old clauses/sub, sections/sections/schedules in existing laws.",
+      "prediction": "The annual budget covering areas of direct and indirect taxes.",
+      "cosine_similarity": 0.6106693148612976,
+      "processing_time": 0.6317586898803711
+    },
+    {
+      "question_id": 10,
+      "question": "What is the Extending power of NBR officials?",
+      "ground_truth": "The extending power of NBR officials is as follows:, To declare any foreign un, incorporated association as a company for the purposes of the Act., To delegate powers of any income tax authority to another income tax authority., To determine and redetermine the area of income tax authority.To transfer power and jurisdictions of one income tax authority to another income tax authority.",
+      "prediction": "To make necessary rules concerning income tax matters.",
+      "cosine_similarity": 0.6450830101966858,
+      "processing_time": 1.1636135578155518
+    },
+    {
+      "question_id": 11,
+      "question": "What policy exempts capital gains from sale of shares by investing power generation companies?",
+      "ground_truth": "For Power Sector, the policy that exempts income from tax is the private sector power generation policy of Bangladesh, which is applicable if the company signs a contract with the Government within 30 June, 2020.",
+      "prediction": "Transfer of capital asset of a firm to a new company: section 61(3) When capital gains arise from the transfer of a capital asset of a firm to a new company registered under the Companies Act, 1994 and the whole amount of capital gain is invested in the Equity of the said company by the partners of the firm, then the capital gain shall not be charged to tax in the year of transfer.",
+      "cosine_similarity": 0.45612841844558716,
+      "processing_time": 1.4849517345428467
+    },
+    {
+      "question_id": 12,
+      "question": "রপ্তানি বৃদ্ধির জন্য কী ধরনের নীতিগত সহায়তা দেওয়া হয়?",
+      "ground_truth": "রপ্তানি বৃদ্ধির জন্য নীতিগত সহায়তা হিসেবে আমদানি ও রপ্তানি প্রচারণা, রপ্তানি বাণিজ্য উন্নয়ন এবং রপ্তানি প্রতিষ্ঠানগুলোর জন্য সহায়তা প্রদান করা হয়।\n",
+      "prediction": "রপ্তানি বৃদ্ধির জন্য গুরুত্বপূর্ণ নীতিগত সহায়তা হল:\n\n1. কোম্পানির আর্থিক ভারসাম্য বজায় রাখতে এটিডিজি-এর গ্যারান্টিসহ ব্যাংক ঋণ প্রদান।\n\n2. NCM-এর মাধ্যমে গৃহীত লোনের জন্য ECGD গ্যারান্টি।\n\n3. অর্থায়ন সংক্রান্ত বিভিন্ন শীম-উদ্যোগে আহুতি দেওয়া।\n\n4. অর্থায়ন সংক্রান্ত বিভিন্ন শীম-উদ্যোগে আহুতি দেওয়া।\n\n5. বিদেশী অর্থায়ন সংক্রান্ত প্রশিক্ষণ-মেলা, ছুটি-ভ্রমণের ব্যয় এড়ানো।\n\n6. সমাজতান্ত্রিক উন্নয়ন প্রোগ্রাম-এ লভ্য সুবিধা শেষ করতে সহায়তা।\n\n7. আন্তর্জাতিক প্রশিক্ষণ এডিটি-উৎসর্গীকৃত অর্থায়নে সহায়তা।\n\n8. বিদেশী মুদ্রায় টেলি-বিল, ও এক্সপোর্ট-ফ্যাক্টরিং।",
+      "cosine_similarity": 0.7508177757263184,
+      "processing_time": 6.187607526779175
+    },
+    {
+      "question_id": 13,
+      "question": "বাজেটে মূল্যস্ফীতি নিয়ন্ত্রণের জন্য কী নীতি গ্রহণ করা হয়েছে?",
+      "ground_truth": "উপকর কমিশনার তাহার নিকট প্রাপ্য তথ্য বা দলিলাদি অনুসারে বাজেটে মূল্যস্ফীতি নিয়ন্ত্রণের জন্য উপ, ধারা (১) এ উল্লিখিত সর্বাপেক্ষ নীতি গ্রহণ করা হয়েছে।",
+      "prediction": "বাজেট পরিকল্পনা মূল্য স্ফীতি নিয়ন্ত্রণের অঙ্গিকার দেখাচ্ছে।",
+      "cosine_similarity": 0.6123949885368347,
+      "processing_time": 2.0692391395568848
+    },
+    {
+      "question_id": 14,
+      "question": "আয়কর অধ্যাদেশে করদাতার পলিসি কী?",
+      "ground_truth": "করদাতার পলিসি হলো কর পরিশোধের সময় ও পদ্ধতি নির্বাচন করার প্রক্রিয়া, যা করদাতার স্বার্থ ও প্রয়োজনের উপর নির্ভর করে।",
+      "prediction": "এই প্রশ্নের উত্তর হলো ১. প্রথম সমন্বয়-কাল (ফিডারেট) এর অর্থ হচ্ছে ২০১৭-২০১৮ পদ্ধতি ও ২০১৬-২০১৭ শিক্ষা অর্থ, যারা এই সমন্বয়-কালের জন্য প্রতিটি গ্রাহকের দুই ধরনের রিপোর্ট প্রদান করবেন।",
+      "cosine_similarity": 0.4374884366989136,
+      "processing_time": 3.6221303939819336
+    },
+    {
+      "question_id": 15,
+      "question": "বাংলাদেশি কোম্পানি কি? ",
+      "ground_truth": "এর অর্থ কম্পানি আইন, ১৯৯৪ (১৯৯৪ সালের ১৮ নং আইন) এর অধীন গঠিত ও নিবন্ধিত কোন কম্পানি, যার বাংলাদেশে প্রধান কার্যালয় অবস্থিত।",
+      "prediction": "একটি বাংলাদেশী কোম্পানি হচ্ছে সেই সকল কোম্পানি, যা বিএনডাব্লুডি আইন 1994-এর অধীনে গঠিত ও নিবন্ধিত হয়।",
+      "cosine_similarity": 0.669603705406189,
+      "processing_time": 2.765209674835205
+    },
+    {
+      "question_id": 16,
+      "question": "\"বিল অব এক্সপোর্ট\" দাখিলের নীতি কী?",
+      "ground_truth": "বিল অব এক্সপোর্ট দাখিলের নীতি হলো বিনিয়োগকারী বিনিয়োগের প্রসঙ্গ এবং সুযোগ সম্পর্কে সঠিক ও স্পষ্ট তথ্য প্রদান করবে।",
+      "prediction": "বিল অব এক্সপোর্ট দাখিলের নীতি 15 দিনের মধ্যে হবে, আন্তর্জাতিক উত্পাদনের সংশ্লেষণ, অগ্রসরণ এবং নির্মাণের বোর্ড (BOI) থেকে পেতে।",
+      "cosine_similarity": 0.6788275241851807,
+      "processing_time": 3.097907781600952
+    },
+    {
+      "question_id": 17,
+      "question": "আয়কর নীতিতে কর রিবেট কাদের জন্য প্রযোজ্য?",
+      "ground_truth": "আয়কর নীতিতে কর রিবেট প্রযোজ্য সেই ব্যক্তি বা প্রতিষ্ঠানের জন্য, যারা তাদের হিসাব, দলিলাদি, ইলেক্ট্রনিক রেকর্ড এবং অন্যান্য প্রয়োজনীয় তথ্য পূর্ণাঙ্গভাবে প্রদান ও রেকর্ডে প্রবেশ করাতে সক্ষম।",
+      "prediction": " বাংলাদেশের বাহিরে, বলিয়া গণ্য; (র) উক্ত বৎসরে বাংলাদেশে উক্ত অনিবাসী ব্যক্তি বা তাহার পক্ষে গৃহীত 'বা গৃহীত হইয়াছে বলিয়া গণ্য; অথবা (দ) উক্ত আরাল বাংলাদেশের বাহিরে উক্ত অনিবাসী ব্যক্তি বা তাহার পক্ষে গৃহীত 'রা গৃহীত হইয়াছে বলিয়া গণ্য; (ফ) উক্ত আরাল প্রাপ্তি বা উপচিত, অথবা নীমিত হইয়াছে বলিয়া গণ্য; (ঁ) উক্ত আরাল প্রাপ্তি বা নিমিত হইয়াছে বলিয়া গণ্য; অথবা (ঃ) উক্ত আরাল সীমার ওপর, বা এর নিচে উক্ত দ্বীপে বা এ ধরনের অন্যান্য দ্বীপে, আর যেসব জমি বা ইমারত (immovable property) উক্ত সীমা ও এর নিচে, গৃহীত বা প্রাপ্তি হয়েছে অথবা দেওয়া হইয়াছে, বলিয়া গণ্য; (ঃ) উক্ত আরাল সীমার নিচে প্রাপ্ত বা দেওয়া হইয়াছে জন্মগত, অর্থাৎ (g) উক্ত আরাল সীমা নিচে এবং দেশের ভিতরের কোনো জয়ের সীমার উপর ও প্রাপ্ত অথবা দেওয়া হইয়াছে জন্মগত, কিন্তু (h) উক্ত আরাল সীমার নিচে এবং দেশের ভিতরের জয়ের সীমা ও প্রাপ্ত অথবা দেওয়া হইয়াছে কিন্তু, 27 উক্ত জমির সন আর এমো প্রাপ্ত বা দেওয়া হইয়াছে না বলিয়া গণ্য; (i) 28 উক্ত আরাল সীমার নিচে, এবং দেশের ভিতরের জয়ের সীমা ও প্রাপ্ত 'অথবা দেওয়া হইয়াছে, কিন্তু (j) 29 উক্ত আরাল সীমার নিচে এবং দেশের ভিতরের জয়ের সীমা ও প্রাপ্ত অথবা দেওয়া হইয়াছে, কিন্তু (k) 30 উক্ত জমির সন আর এমো প্রাপ্ত বা দেওয়া হইয়াছে না বলিয়া গণ্য; ২৭ (l) 31 উক্ত আরাল সীমার ওপর, অথবা, (m) এর নিচে (n) উক্ত দ্বীপে বা ইত্যাদি আর এধরনের অন্যান্য দ্বীপে উঠিত (accrued) আয় হইয়া থাকে; (o) 32 উক্ত আরাল সীমা ও এর নিচে, প্রাপ্ত বা দেওয়া হইয়াছে (p) 33 উক্ত জমির সন আর এমো প্রাপ্ত অথবা দেওয়া হইয়াছে না, বলিয়া গণ্য; (q) 34 উক্ত আরাল সীমা, এর ওপর অথবা এর নিচে প্রাপ্ত বা দেওয়া হইয়াছে; (r) 35 উক্ত আরাল সীমা এবং এর নিচে প্রাপ্ত অথবা দেওয়া হইয়াছে, কিন্তু (s) 36 উক্ত জমির সন আর এমো প্রাপ্ত বা দেওয়া হইয়াছে না, বলিয়া গণ্য; (t) 37 38 উক্ত আরাল সীমার ওপর অথবা, (u) 39 এর নিচে প্রাপ্ত বা দেওয়া হইয়াছে; (v) 40 উক্ত জমির সন আর এমো, প্রাপ্ত অথবা দেওয়া হইয়াছে না বলিয়া গণ্য; ২৭ (w) 41 উক্ত আরাল সীমা, ওপর অথবা (x) 42 এর নিচে প্রাপ্ত বা (y) 43 দেওয়া হইয়াছে; (z) 44 উক্ত জমির সন আর এমো, প্রাপ্ত অথবা দেওয়া হইয়াছে না বলিয়া গণ্য; (aa) 45 উক্ত আরাল সীমা, এর ওপর অথবা, (bb) 46 এর নিচে প্রাপ্ত বা (cc) 47 দেওয়া হইয়াছে; (dd) 48 49 উক্ত জমির সন আর এমো, প্রাপ্ত অথবা দেওয়া হইয়াছে না বলিয়া গণ্য; (ee) 50 51 উক্ত আরাল সীমা, এর ওপর অথবা, (ff) 52 এর নিচে প্রাপ্ত বা (gg) 53 দেওয়া হইয়াছে; (hh) 54 উক্ত জমির সন আর এমো, প্রাপ্ত অথবা দেওয়া হইয়াছে না বলিয়া গণ্য; (ii) 55 উক্ত আরাল সীমার এবং এর ওপর, অথবা দেশের ভিতরের জয়ের সীমার উপর, 56 57 প্রাপ্ত বা দেওয়া হইয়াছে; (kk) 58 এখনো কিন্তু (ll) 59 উক্ত জমির সন আর এমো, প্রাপ্ত বা দেওয়া হইয়াছে না বলিয়া গণ্য; (mm) 60 উক্ত আরাল সীমার এবং এর ওপর, অথবা দেশের ভিতরের জয়ের সীমার 61 62 উপর প্রাপ্ত বা (nn) 63 দেওয়া হইয়াছে; (oo) 64 এখনো, কিন্তু (pp) 65 উক্ত জমির সন আর এমো প্রাপ্ত অথবা দেওয়া হইয়াছে না, বলিয়া গণ্য; (qq) 66 উক্ত আরাল সীমার এবং এর ওপর, অথবা দেশের ভিতরের জয়ের 67 68 সীমার উপর প্রাপ্ত বা (rr) 69 দেওয়া হইয়াছে; (ss) 70 এখনো, কিন্তু (tt) 71 উক্ত জমির সন আর এমো প্রাপ্ত অথবা দেওয়া হইয়াছে না, বলিয়া গণ্য; (uu) 72 উক্ত আরাল সীমার এবং এর ওপর অথবা (v) দেশের ভিতরের জয়ের সীমার 73 74 উপর, প্রাপ্ত বা (ww) 75 দেওয়া হইয়াছে; (xx) 76 এখনো, কিন্তু (yy) 77 উক্ত জমির সন আর এমো, প্রাপ্ত বা দেওয়া হইয়াছে না বলিয়া গণ্য; (zz) 78 79 80 ১৮৭২-১৯৫৩, প্রাঙ্ক্ষিত সুন্দরবনে উঠিত আয় হইয়া থাকে; (aaa) 81 82 83 84 এখনো, অধিকাংশ স্পর্শল দ্বীপে, বিনামুল্য হইয়া থাকে; (bbb) 85 আঞ্চলিক এজেন্সির গোষ্ঠী 'B' পর্যন্ত, উঠিত আয় হইয়া থাকে; (ccc) 86 বাংলাদেশের সীমানা অতিরিক্ত, উঠিত আয় হইয়া থাকে; (ddd) 87 এখনো, চুয়ালিশ বিনা মূল্য সীমার পরে, উঠিত আয় হইয়া থাকে; ১৭ (ee) 88 চুয়ালিশ বিনা মূল্য সীমার ওপর, 89 90 উঠিত আয় হইয়া থাকে; (fff) 91 এখনো চুয়ালিশ বিনা মূল্য সীমার, 92 ওপর, উঠিত আয় হইয়া থাকে; (ggg) 93 চুয়ালিশ বিনা মূল্য সীমার ওপর, 94 উঠিত আয় হইয়া থাকে; (hhh) 95 এখনো, চুয়ালিশ বিনা মূল্য সীমার, 96 ওপর, উঠিত আয় হইয়া থাকে; (iii) 97 98 এখনো, চুয়ালিশ বিনা মূল্য সীমার, 99 ওপর, উঠিত আয় হইয়া থাকে; (jjj) 100 101 102 এখনো চুয়ালিশ বিনা মূল্য সীমার, 103 104 105 106 ওপর, উঠিত আয় হইয়া থাকে; (kkk) 107 108 109 এখনো, চুয়ালিশ বিনা মূল্য সীমার 110 111 112 ওপর, উঠিত আয় হইয়া থাকে; (lll) 113 114 এখনো, চুয়ালিশ বিনা মূল্য সীমার 115 116 117 118 119 ওপর, উঠিত আয় হইয়া থাকে; (mmm) 120 121 122 123 এখনো, চুয়ালিশ বিনা মূল্য সীমার 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 উঠিত আয় হইয়া থাকে; (nnn) 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 269 270 271 272 273 274 275 276 277 278 279 280 281 282 283 284 285 286 287 288 289 290 291 292 293 294 295 296 297 298 299 উঠিত আয় হইয়া থাকে; (ooo) 300 এর পরে, স্বীকৃতি দিন।",
+      "cosine_similarity": 0.4480288624763489,
+      "processing_time": 47.96134376525879
+    },
+    {
+      "question_id": 18,
+      "question": "বাজেটে নির্বাচন ব্যবস্থার সংস্কারের জন্য কী কমিশন গঠন করা হয়েছে?",
+      "ground_truth": "বাজেটে নির্বাচন ব্যবস্থার সংস্কারের জন্য কোম্পানি আইন সংশোধন কমিশন গঠন করা হয়েছে।",
+      "prediction": "কোন দায়িত্ব গ্রহণ না করে।",
+      "cosine_similarity": 0.2731567323207855,
+      "processing_time": 3.097141981124878
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "evaluation_info": {
+    "timestamp": "2025-09-10T14:30:51.943956",
+    "model": "Vanilla RAG (VanillaRAGSystem)",
+    "domain": "out_of_context",
+    "domain_file": "out_of_context.json",
+    "total_questions": 7,
+    "successful_responses": 7,
+    "device_used": "cuda",
+    "gpu_available": true,
+    "evaluation_type": "cosine_similarity"
+  },
+  "cosine_similarity_metrics": {
+    "mean_similarity": 0.4003081406865801,
+    "median_similarity": 0.39376071095466614,
+    "std_similarity": 0.041046363092804676,
+    "min_similarity": 0.35531046986579895,
+    "max_similarity": 0.46649715304374695,
+    "total_questions": 7,
+    "similarities": [
+      0.39376071095466614,
+      0.42752671241760254,
+      0.35531046986579895,
+      0.46649715304374695,
+      0.36996692419052124,
+      0.42563101649284363,
+      0.36346399784088135
+    ]
+  },
+  "detailed_results": [
+    {
+      "question_id": 0,
+      "question": "What is the ratio of government debt to GDP in Bangladesh?",
+      "ground_truth": "I do not know ",
+      "prediction": "The information provided does not contain the answer to the question about the ratio of government debt to GDP in Bangladesh. The text discusses various economic issues and statistics in Bangladesh, such as tax collection, tax-to-GDP ratio, and average tax rate, but it does not provide specific data on government debt to GDP ratio.",
+      "cosine_similarity": 0.39376071095466614,
+      "processing_time": 3.331585645675659
+    },
+    {
+      "question_id": 1,
+      "question": "In what percentange Education budget increased by in FY25",
+      "ground_truth": "I do not know ",
+      "prediction": "the past will happen in the future is known as a \"moving average\" or \"trend\" forecast.",
+      "cosine_similarity": 0.42752671241760254,
+      "processing_time": 0.5828869342803955
+    },
+    {
+      "question_id": 2,
+      "question": "What was the Government per capita actual expenditure on primary education averaged?",
+      "ground_truth": "I do not know ",
+      "prediction": "i) Total taxable income= Tk. 11,00,000 ii) Investment tax rebate =Tk. 10,000 iii) Tax to be paid = Tk. 80,400",
+      "cosine_similarity": 0.35531046986579895,
+      "processing_time": 0.7943551540374756
+    },
+    {
+      "question_id": 3,
+      "question": "What is national bird of Kenya ?",
+      "ground_truth": "I do not know ",
+      "prediction": "Lammergeier.",
+      "cosine_similarity": 0.46649715304374695,
+      "processing_time": 1.033966302871704
+    },
+    {
+      "question_id": 4,
+      "question": "What is Zakat in Islam ?",
+      "ground_truth": "I do not know ",
+      "prediction": "Zakat in Islam is a mandatory charity that every Muslim who has wealth above a certain threshold must pay. It is one of the Five Pillars of Islam and is intended to purify the soul, free the donor from worldly attachments, and help those in need. Zakat is typically calculated as 2.5% of a person's excess wealth (after deducting basic necessities) and can be paid in various forms, such as cash or kind. The money collected through zakat is then distributed among eight categories of recipients, including the poor, needy, travelers, and those who are in debt.",
+      "cosine_similarity": 0.36996692419052124,
+      "processing_time": 1.3746540546417236
+    },
+    {
+      "question_id": 5,
+      "question": "বাংলাদেশের সংসদে এমপি সদস্য সংখ্যা কত ?",
+      "ground_truth": " আমি এই তথ্য জানি না",
+      "prediction": "৮৭ জন।",
+      "cosine_similarity": 0.42563101649284363,
+      "processing_time": 1.337533712387085
+    },
+    {
+      "question_id": 6,
+      "question": "২০২৫-২৬ অর্থবছরের বাজেটে বিদেশী ঋণের শতকরা পরিমাণ কত?",
+      "ground_truth": " আমি এই তথ্য জানি না",
+      "prediction": "২০২৫-২৬ অর্থবছরের বাজেটে বিদেশী ঋণের শতকরা পরিমাণ 35.6%",
+      "cosine_similarity": 0.36346399784088135,
+      "processing_time": 1.0316457748413086
+    }
+  ]
+}

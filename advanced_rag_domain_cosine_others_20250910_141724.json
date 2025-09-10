@@ -1,0 +1,124 @@
+{
+  "evaluation_info": {
+    "timestamp": "2025-09-10T14:17:24.624296",
+    "model": "Advanced RAG (CoreRAGSystem)",
+    "domain": "others",
+    "domain_file": "others.json",
+    "total_questions": 11,
+    "successful_responses": 11,
+    "device_used": "cuda",
+    "gpu_available": true,
+    "evaluation_type": "cosine_similarity"
+  },
+  "cosine_similarity_metrics": {
+    "mean_similarity": 0.7300202900713141,
+    "median_similarity": 0.7634609937667847,
+    "std_similarity": 0.163249883453998,
+    "min_similarity": 0.35516953468322754,
+    "max_similarity": 0.936432957649231,
+    "total_questions": 11,
+    "similarities": [
+      0.936432957649231,
+      0.7686767578125,
+      0.9263824224472046,
+      0.775899350643158,
+      0.8428018093109131,
+      0.5797697305679321,
+      0.7030708193778992,
+      0.7634609937667847,
+      0.35516953468322754,
+      0.6696634292602539,
+      0.7088953852653503
+    ]
+  },
+  "detailed_results": [
+    {
+      "question_id": 0,
+      "question": "What does NBR represent?",
+      "ground_truth": "The National Board of Revenue (NBR) which is Highest executive tax authority in Bangladesh. A statutory body with the power to manage, control, and supervise the income tax department. The authority to make necessary rules concerning income tax matters.",
+      "prediction": "The National Board of Revenue (NBR) represents the highest executive tax authority in Bangladesh. Here are some key facts about NBR:\n\n• It is a statutory body with the highest executive authority.\n• It makes necessary rules relating to income tax, VAT, and customs duty.\n• It has 15 classes of income tax authorities, ranging from NBR tax to non-NBR tax.\n• Tax revenue accounts for 85% of government revenue in Bangladesh.\n• NBR is empowered to make or amend rules concerning income tax matters.",
+      "cosine_similarity": 0.936432957649231,
+      "processing_time": 7.827641010284424
+    },
+    {
+      "question_id": 1,
+      "question": "What is BRPD means?",
+      "ground_truth": "BRPD means Banking Regulation and Policy Department",
+      "prediction": "BRPD stands for Bangladesh Rural Development Board.",
+      "cosine_similarity": 0.7686767578125,
+      "processing_time": 0.46328139305114746
+    },
+    {
+      "question_id": 2,
+      "question": "What is BB means ?",
+      "ground_truth": "BB stands for Bangladesh Bank. which is the central bank of Bangladesh.",
+      "prediction": "BB stands for Bangladesh Bank.",
+      "cosine_similarity": 0.9263824224472046,
+      "processing_time": 0.4305148124694824
+    },
+    {
+      "question_id": 3,
+      "question": "JICA means what ?",
+      "ground_truth": "JICA stands for Japan International Co, operation Agency.",
+      "prediction": "JICA stands for Japan International Co-operation Agency. \n\n• It is an organization that provides financial assistance to developing countries, including Bangladesh.\n• In the context of Bangladeshi finance, JICA may be involved in various projects and initiatives related to development and infrastructure.\n\nThat's all I can provide based on the given context!",
+      "cosine_similarity": 0.775899350643158,
+      "processing_time": 0.8425257205963135
+    },
+    {
+      "question_id": 4,
+      "question": "What does SME means ?",
+      "ground_truth": "SME stands for Small and Medium Enterprises. It is a category of businesses that are typically defined as having a smaller size compared to larger corporations.",
+      "prediction": "SME stands for Small and Medium-sized Enterprise.\n\nHere are some key characteristics of an SME:\n\n• Value of Fixed Asset: Tk 50,00 lac to Tk 10,00 crore (excluding Land & Building)\n• Number of Employees: Less than a certain number (not specified in the context)",
+      "cosine_similarity": 0.8428018093109131,
+      "processing_time": 0.8149251937866211
+    },
+    {
+      "question_id": 5,
+      "question": "What does RR means?",
+      "ground_truth": "RR stands for Residual Risk",
+      "prediction": "Based on the provided context, I can tell you that:\n\nRR is an abbreviation used in the extracted text. Unfortunately, its meaning is not explicitly mentioned in the given text.\n\nHowever, considering the context of credit scores and financial matters, it's possible that RR might stand for something related to credit reporting or scoring systems.",
+      "cosine_similarity": 0.5797697305679321,
+      "processing_time": 0.7558090686798096
+    },
+    {
+      "question_id": 6,
+      "question": "What act is for co-operative societies?",
+      "ground_truth": "The act related to co, operative societies is- The Companies Act, 1994 This act includes the co, operative society as a type of entity that is registered with the Companies Act.",
+      "prediction": "The Act for Co-operative Societies is the Cooperative Society Act, 2001. Here are some key details:\n\n• The Act applies to Association of Persons registered under it.\n• It covers income from agricultural activities, cottage industries, and other specific sectors (e.g., poultry feed, cattle farming, dairy farming).\n• Income up to Tk 1,000,000 is taxed at 8%, while income above Tk 2,000,000 is taxed at 10%.",
+      "cosine_similarity": 0.7030708193778992,
+      "processing_time": 1.0050499439239502
+    },
+    {
+      "question_id": 7,
+      "question": "What productions are listed for progressive taxation?",
+      "ground_truth": "The productions listed for progressive taxation are: textile,machinery,tyre manufacturing industry,tissue grafting etc any other category of industrial undertaking as specified by the Government.",
+      "prediction": "Based on the provided context, the productions listed for progressive taxation are:\n\n• Pay (as mentioned in the extracted text \"Income tax is imposed on the basis of pay\")",
+      "cosine_similarity": 0.7634609937667847,
+      "processing_time": 0.6581873893737793
+    },
+    {
+      "question_id": 8,
+      "question": "ADP এর পূর্ণরূপ কী?",
+      "ground_truth": "ADP এর পূর্ণরূপ হলো Annual Development Programme।",
+      "prediction": "• আইন ও বিধির অধীনে সরুল কার্যক্রম\n• নিবন্ধন ১৫৮২৪\n• দাখিলপত্র A",
+      "cosine_similarity": 0.35516953468322754,
+      "processing_time": 1.7458720207214355
+    },
+    {
+      "question_id": 9,
+      "question": "মূসক এর পূর্ণরূপ কী?",
+      "ground_truth": "মূসক এর পূর্ণরূপ হলো মূল্য সংযোজন কর।",
+      "prediction": "আইসিএমএবি প্রেক্ষিতে মূসক এর পূর্ণরূপ হলো:\n\n• নিয়োগ লাভ করিতে চাহিলে\n• বা অন্য কোনো আইনজীবী",
+      "cosine_similarity": 0.6696634292602539,
+      "processing_time": 1.6710810661315918
+    },
+    {
+      "question_id": 10,
+      "question": "অধ্যাদেশের প্রকাশক কে?",
+      "ground_truth": "অধ্যাদেশের প্রকাশক হলো বাংলাদেশ গেজেট।",
+      "prediction": "অধ্যাদেশের প্রকাশক হলো \"oe D>\"।",
+      "cosine_similarity": 0.7088953852653503,
+      "processing_time": 0.581737756729126
+    }
+  ]
+}

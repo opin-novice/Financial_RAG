@@ -1,0 +1,133 @@
+{
+  "evaluation_info": {
+    "timestamp": "2025-09-10T12:11:11.511132",
+    "model": "Advanced RAG (CoreRAGSystem)",
+    "domain": "Comparative_Financial",
+    "domain_file": "Comparative_Financial.json",
+    "total_questions": 12,
+    "successful_responses": 12,
+    "device_used": "cuda",
+    "gpu_available": true,
+    "evaluation_type": "cosine_similarity"
+  },
+  "cosine_similarity_metrics": {
+    "mean_similarity": 0.8345774908860525,
+    "median_similarity": 0.8630420565605164,
+    "std_similarity": 0.08839730352027828,
+    "min_similarity": 0.6616948843002319,
+    "max_similarity": 0.9205080270767212,
+    "total_questions": 12,
+    "similarities": [
+      0.9205080270767212,
+      0.9126109480857849,
+      0.8247621059417725,
+      0.9089754819869995,
+      0.6616948843002319,
+      0.9140952825546265,
+      0.7400474548339844,
+      0.9064700603485107,
+      0.7902379631996155,
+      0.9013220071792603,
+      0.7895506620407104,
+      0.7446550130844116
+    ]
+  },
+  "detailed_results": [
+    {
+      "question_id": 0,
+      "question": "How does the tax rate for publicly traded companies compare to non-listed companies?",
+      "ground_truth": "The tax rate for publicly traded companies is lower than that of non listed companies. Publicly traded companies: 20% corporate tax rate and for non listed companies: 27.5% corporate tax rate. ",
+      "prediction": "The tax rate for publicly traded companies is lower than that of non-listed companies. Here are the relevant tax rates:\n\n* Publicly traded company:\n + 20% corporate tax on business income\n + 25% regular rate of tax if the new line of business is considered as non-tobacco business\n* Non-listed company:\n + 27.5% corporate tax on business income\n\nNote that there are some exceptions and additional rates, such as:\n\n* Publicly traded companies with a minimum paid-up capital of Tk 4,000,000 must be...",
+      "cosine_similarity": 0.9205080270767212,
+      "processing_time": 14.805388450622559
+    },
+    {
+      "question_id": 1,
+      "question": "How does the rate for mobile operators not listed compare to those converting with 10% shares?",
+      "ground_truth": "The rate for mobile operators not listed is 45% while those converting themselves into a publicly traded company by transferring at least 10% shares through stock exchanges have a rate of 40%.",
+      "prediction": "The tax rate for mobile operators not listed is 45%, whereas those converting with at least 10% shares through stock exchanges have a lower rate of 40%. The difference in rates is due to the listing status and the amount of shares transferred.",
+      "cosine_similarity": 0.9126109480857849,
+      "processing_time": 1.1959421634674072
+    },
+    {
+      "question_id": 2,
+      "question": "How does the treatment of share transfers for non-residents compare to capital gains exemption for power companies?",
+      "ground_truth": "For non resident individuals the treatment of share transfers is different from the capital gains exemption for power companies. For example Capital Gains Tax : Non, resident individuals are taxed on capital gains at the usual rate applicable to their total income, including capital gains. The rate is 15% on the amount of capital gains.  Also forCapital Dut : There is no mention of capital duty for non, resident individuals.",
+      "prediction": "As a Bangladeshi financial advisor, I can provide you with the following comparison between the treatment of share transfers for non-residents and capital gains exemption for power companies:\n\n**Similarities:**\n\n• Both are exempt from capital gain tax.\n• Non-resident individuals are also exempt if they enjoy the same benefit in their home country.\n\n**Differences:**",
+      "cosine_similarity": 0.8247621059417725,
+      "processing_time": 1.679074764251709
+    },
+    {
+      "question_id": 3,
+      "question": "How does the definition of \"property\" compare to \"share in a company\"?",
+      "ground_truth": "The definition of \"property\" in the notice is broader than the definition of \"share in a company\". Main differences \"Property\" includes- Movable property, Immovable property, Shares, Debentures, Interest in any company.",
+      "prediction": "The definition of \"property\" and \"share in a company\" are related but distinct concepts.\n\nHere's how they compare:\n\n• Both include movable or immovable property, such as:\n • Shares\n • Debentures\n • Interest in any company\n• Actionable claims\n\nHowever, the key difference lies in their scope:\n\n• \"Property\" is a broader term that includes all types of movable and immovable assets.",
+      "cosine_similarity": 0.9089754819869995,
+      "processing_time": 1.441476821899414
+    },
+    {
+      "question_id": 4,
+      "question": "How does fixed income term compare to money market.",
+      "ground_truth": "Fixed Income Term: A fixed income term is suitable for companies that can afford to repay a loan earlier than they can, resulting in a need to re, borrow at a higher interest rate.Money Market:, A money market is preferred by companies that only need to borrow when necessary, allowing them to pay for borrowings only when needed. Main differences are fixed income term is suitable for companies with uncertain cash flows. Money market is suitable for companies with predictable cash flows.",
+      "prediction": "Based on the context, here's a concise answer:\n\nThe money market hedge (MMH) and forward contract produce similar results in terms of fixed outcome. However, MMH is considered a better option due to its very marginal advantage over the forward contract.\n\nHere are some key differences between MMH and forward contract:\n\n• **Fixed outcome**: Both MMH and forward contract provide a fixed outcome.\n• **Similar results**: They produce similar results in terms of fixed outcome.",
+      "cosine_similarity": 0.6616948843002319,
+      "processing_time": 1.3102664947509766
+    },
+    {
+      "question_id": 5,
+      "question": "How does the knowledge progression in financial management compare from Certificate Level to Professional Level?",
+      "ground_truth": "The knowledge progression in Financial Management from Certificate Level to Professional Level is as follows-  At Certificate Level, the aim is to enable you to recommend options for financing a business, recognize and manage links and make appropriate investment decisions.Also the knowledge base is developed further to enable you to apply technical knowledge, analytical techniques and professional skills to resolve compliance and business issues related to corporate reporting and audit services.",
+      "prediction": "The knowledge progression in financial management from Certificate Level to Professional Level is as follows:\n\n• At Certificate Level, the aim is to enable you to recommend options for financing a business, recognize links between finance and other aspects of business, and make appropriate investment decisions.\n• The knowledge base at Certificate Level is developed further in the Financial Management module, which focuses on enabling you to progress to Advanced Level.\n\nAt Professional Level, the next seven modules build upon the skills from knowledge level into application level in the area of:\n• Investment appraisal\n• Relative merits and demerits\n• Discounted cash flow (DCF) techniques\n\nThis progression ensures that once qualified, all ICAB Chartered Accountants have a consistent level of knowledge, skills, and experience.",
+      "cosine_similarity": 0.9140952825546265,
+      "processing_time": 1.433006763458252
+    },
+    {
+      "question_id": 6,
+      "question": "Compare S.R.O. for original rules to amendment S.R.O.s.",
+      "ground_truth": "The original S.R.O. for the Income Tax Rules, 1984, to the amendment S.R.O.s:, Original S.R.O. (1985) also short title is Income Tax Rules, 1984. It is  Issued byNational Board of Revenue. It's Powers conferred by: Section 185 of the Income Tax Ordinance, 1984 (XXXVI of 1984), Sub, section (4). ",
+      "prediction": "To compare SROs for original rules to amendment SROs:\n\n**Original Rules (SROs):**\n\n• Issued by NBR under Section 343 of the Income Tax Act, 2023\n• Empower NBR to make subordinate laws (rules)\n• Govern the tax system in Bangladesh\n\n**Amendment SROs:**\n\n• Issued by NBR under Section 76(1) of the Income Tax Act, 2023\n• Empowered to issue notifications via government gazette for exemptions\n• Allow for changes or modifications to existing rules",
+      "cosine_similarity": 0.7400474548339844,
+      "processing_time": 1.0846214294433594
+    },
+    {
+      "question_id": 7,
+      "question": "How does treatment charges in Form A(1) compare to fee in Form A(2)?",
+      "ground_truth": "Comparison between treatment charges in Form A(1) and fee in Form A(2) is treatment charges in Form A(1) are related to the \"Nature of Treatment\" (a) Consultation, (b) Surgical treatment, and (c) Injection, etc and fee in Form A(2) is related to the \"Name, Brief Amount of fee, remuneration, etc.\" of the practitioner or professional. There is no direct comparison between the two because they are related to different aspects of the medical treatment.",
+      "prediction": "Based on the provided context, here's a concise comparison between treatment charges in Form A(1) and fee in Form A(2):\n\n• Treatment charges in Form A(1) include:\n • Consultation fees\n • Surgical treatment fees\n • Injection fees\n\n• Fee in Form A(2) includes additional information about:\n • Nursing or maternity home charges (if applicable)\n • Room, diet, and lodging charges\n • Other fees charged from the patient",
+      "cosine_similarity": 0.9064700603485107,
+      "processing_time": 1.0222833156585693
+    },
+    {
+      "question_id": 8,
+      "question": "“করদাতা” এবং “করদায়ক” এর মধ্যে পার্থক্য কী?",
+      "ground_truth": "করদাতা হল সেই ব্যক্তি যার উপর কর আরোপিত হয়েছে বা যিনি কর প্রদান করেছেন, আর করদায়ক হল সেই ব্যক্তি যার উপর কর আরোপিত হয়নি বা যিনি কর প্রদান করেননি।",
+      "prediction": "• করদাতা: একজন ব্যক্তি যিনি আইনের প্রয়োগের অধীনে আমদানি, রপ্তানি বা বিনিয়োগের কাজ করেন।\n• করদায়ক: একজন ব্যক্তি যিনি আইনের প্রয়োগের অধীনে আমদানি, রপ্তানি বা বিনিয়োগের কাজ করেন এবং সেই কাজের ফলে উৎপন্ন আয় থেকে কর দিতে বাধ্য হন।",
+      "cosine_similarity": 0.7902379631996155,
+      "processing_time": 2.535975933074951
+    },
+    {
+      "question_id": 9,
+      "question": "২০২৫-২৬ অর্থবছরের প্রস্তাবিত বাজেটে বিদ্যুৎ খাতের বরাদ্দ স্থানীয় সরকার খাতের বরাদ্দের সাথে তুলনায় কত কম?",
+      "ground_truth": "২০২৫-২৬ অর্থবছরের প্রস্তাবিত বাজেটে বিদ্যুৎ খাতের বরাদ্দ স্থানীয় সরকার খাতের বরাদ্দের তুলনায় ১০০০ কোটি টাকা কম।",
+      "prediction": "প্রশ্নে দেওয়া তথ্য অনুসারে, 2025-26 অর্থবছরের প্রস্তাবিত বাজেটে বিদ্যুৎ খাতের বরাদ্দ হল ২৫.৩%। এই বরাদ্দকে স্থানীয় সরকার খাতের বরাদ্দের সাথে তুলনা করলে, আমরা দেখতে পাই যে বিদ্যুৎ খাতের বরাদ্দ ২৫.৩% এবং স্থানীয় সরকার খাতের বরাদ্দ ১৪.৮%। অতএব, বিদ্যুৎ খাতের বরাদ্দ স্থানীয় সরকার খাতের বরাদ্ডের চেয়ে 10.5% কম।",
+      "cosine_similarity": 0.9013220071792603,
+      "processing_time": 3.306196689605713
+    },
+    {
+      "question_id": 10,
+      "question": "“আয়কর কর্মকর্তা” এবং “আয়কর অ্যাপিলেট কমিশনার” এর মধ্যে পার্থক্য কী?",
+      "ground_truth": "আয়কর কর্মকর্তা এবং আয়কর অ্যাপিলেট কমিশনার হলো দুই ভিন্ন পদ যা আয়কর প্রতিষ্ঠানের কার্যক্রমে জড়িত।আয়কর কর্মকর্তা: আয়কর কর্মকর্তা হলো সেই কর্মকর্তা, যিনি আয়কর প্রয়োগ, প্রতিষ্ঠান কার্যক্রমে সহায়তা এবং সমস্যা সমাধানের দায়িত্ব পালন করেন।\n আয়কর অ্যাপিলেট কমিশনার: আয়কর অ্যাপিলেট কমিশনার হলো সেই কর্মকর্তা, যিনি আয়কর সংক্রান্ত সমস্যা সমাধান, প্রতিষ্ঠান কার্যক্রমে সহায়তা এবং কর্মকর্তাদের মধ্যে মধ্যস্থতার দায়িত্ব পালন করেন।",
+      "prediction": "আপিলের অধিকার সংরক্ষণ করিবেন ৮৩০২ বাংলাদেশ গেজেট, অতিরিক্ত, FILS, ২০২৩ (8) \n\n• আপিল কর্মকর্তা: এই বস্তুটি আয়কর অ্যাপিলেট কমিশনারের দ্বারা নিয়োগ করা হয়।\n• আপিল অ্যাপিলেট কমিশনার: এই বস্তুটি আয়কর কর্মকর্তা দ্বারা নিয়োগ করা হয়।",
+      "cosine_similarity": 0.7895506620407104,
+      "processing_time": 2.568671464920044
+    },
+    {
+      "question_id": 11,
+      "question": "চলতি অর্থবছরে জুলাই-মার্চ সময়ে গত অর্থ বছরে একই সময়ের তুলনায় কত বেড়েছে? ",
+      "ground_truth": "চলতি অর্থবছরে জুলাই-মার্চ সময়ে গত অর্থ বছরে একই সময়ের তুলনায় বেড়েছে ৯ দশমিক ৪৫ শতাংশ ",
+      "prediction": "চলতি অর্থবছরে জুলাই-মার্চ সময়ে গত অর্থ বছরে একই সময়ের তুলনায় কত বেড়েছে তা দেখতে, আমাদের প্রথমে চলতি অর্থবছরে এবং গত অর্থ বছরে জুলাই-মার্চ সময়ের ক্ষেত্রে আয় ও খরচের পার্থক্য গণনা করতে হবে।\n\nজুলাই-মার্চ সময়ে আয়:\n\n• খরচ: 4,401 + 5,281 + 6,337 = 15,919\n• আয়: 2054 + 2054 + 2054 = 6162\n\nজুলাই-মার্চ সময়ে খরচ এবং আয়ের পার্থক্য:\n\n15,919 - 6162 = 11,757\n\nজুলাই-মার্চ সময়ে গত অর্থ বছরে একই সময়ের তুলনা:\n\n• খরচ: 2,671 + 3,205 + 3,847 = 9,723",
+      "cosine_similarity": 0.7446550130844116,
+      "processing_time": 4.184234380722046
+    }
+  ]
+}

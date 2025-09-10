@@ -1,0 +1,133 @@
+{
+  "evaluation_info": {
+    "timestamp": "2025-09-10T14:26:32.644589",
+    "model": "Vanilla RAG (VanillaRAGSystem)",
+    "domain": "Comparative_Financial",
+    "domain_file": "Comparative_Financial.json",
+    "total_questions": 12,
+    "successful_responses": 12,
+    "device_used": "cuda",
+    "gpu_available": true,
+    "evaluation_type": "cosine_similarity"
+  },
+  "cosine_similarity_metrics": {
+    "mean_similarity": 0.7464510127902031,
+    "median_similarity": 0.8182580173015594,
+    "std_similarity": 0.17794763350117235,
+    "min_similarity": 0.3727216422557831,
+    "max_similarity": 0.9324800372123718,
+    "total_questions": 12,
+    "similarities": [
+      0.8637325763702393,
+      0.7950177192687988,
+      0.7995993494987488,
+      0.8437318801879883,
+      0.8536519408226013,
+      0.8794536590576172,
+      0.7014795541763306,
+      0.8369166851043701,
+      0.4382283091545105,
+      0.3727216422557831,
+      0.9324800372123718,
+      0.6403988003730774
+    ]
+  },
+  "detailed_results": [
+    {
+      "question_id": 0,
+      "question": "How does the tax rate for publicly traded companies compare to non-listed companies?",
+      "ground_truth": "The tax rate for publicly traded companies is lower than that of non listed companies. Publicly traded companies: 20% corporate tax rate and for non listed companies: 27.5% corporate tax rate. ",
+      "prediction": "The tax rate for publicly traded companies is generally lower compared to non-listed companies. For example:\n\n* Publicly listed mobile phone operator companies have a tax rate of 40%.\n* Non-publicly traded mobile phone operator companies have a tax rate of 45%.\n\nSimilarly, publicly listed companies can benefit from a 10% rebate on total tax if they transfer at least 20% shares of their paid-up capital through an Initial Public Offering (IPO).",
+      "cosine_similarity": 0.8637325763702393,
+      "processing_time": 6.683378219604492
+    },
+    {
+      "question_id": 1,
+      "question": "How does the rate for mobile operators not listed compare to those converting with 10% shares?",
+      "ground_truth": "The rate for mobile operators not listed is 45% while those converting themselves into a publicly traded company by transferring at least 10% shares through stock exchanges have a rate of 40%.",
+      "prediction": "The rate for mobile operators not listed is 45%.",
+      "cosine_similarity": 0.7950177192687988,
+      "processing_time": 0.5592217445373535
+    },
+    {
+      "question_id": 2,
+      "question": "How does the treatment of share transfers for non-residents compare to capital gains exemption for power companies?",
+      "ground_truth": "For non resident individuals the treatment of share transfers is different from the capital gains exemption for power companies. For example Capital Gains Tax : Non, resident individuals are taxed on capital gains at the usual rate applicable to their total income, including capital gains. The rate is 15% on the amount of capital gains.  Also forCapital Dut : There is no mention of capital duty for non, resident individuals.",
+      "prediction": "Capital gains exemption for power companies does not exist. Share transfers for non-residents are exempt as per section 119 if they enjoy a similar benefit in their home country.",
+      "cosine_similarity": 0.7995993494987488,
+      "processing_time": 0.7783777713775635
+    },
+    {
+      "question_id": 3,
+      "question": "How does the definition of \"property\" compare to \"share in a company\"?",
+      "ground_truth": "The definition of \"property\" in the notice is broader than the definition of \"share in a company\". Main differences \"Property\" includes- Movable property, Immovable property, Shares, Debentures, Interest in any company.",
+      "prediction": "\"Property\" includes \"share in a company\", but \"share in a company\" does not include \"property\". In other words, property is a broader term that encompasses shares in a company, but shares in a company are not necessarily property.",
+      "cosine_similarity": 0.8437318801879883,
+      "processing_time": 0.846085786819458
+    },
+    {
+      "question_id": 4,
+      "question": "How does fixed income term compare to money market.",
+      "ground_truth": "Fixed Income Term: A fixed income term is suitable for companies that can afford to repay a loan earlier than they can, resulting in a need to re, borrow at a higher interest rate.Money Market:, A money market is preferred by companies that only need to borrow when necessary, allowing them to pay for borrowings only when needed. Main differences are fixed income term is suitable for companies with uncertain cash flows. Money market is suitable for companies with predictable cash flows.",
+      "prediction": "The main difference between fixed income term and money market instruments lies in their characteristics, maturities, and features.\n\nFixed Income Term:\n\n* Typically refers to debt securities with a fixed maturity date\n* Provides a return in the form of interest payments or principal repayment\n* Offers a relatively stable source of income for investors\n* Can be invested in various types of fixed-income products, such as bonds, debentures, or asset-backed securities\n\nMoney Market Instruments:\n\n* Typically refer to short-term debt securities with maturities ranging from a few days to one year\n* Provide liquidity and return in the form of interest payments\n* Are often used for short-term funding needs or cash management purposes\n* Examples include commercial paper, treasury bills, or certificates of deposit (CDs)\n\nIn summary, fixed income term refers to longer-term debt securities with a fixed maturity date, while money market instruments are shorter-term debt securities with maturities ranging from a few days to one year.",
+      "cosine_similarity": 0.8536519408226013,
+      "processing_time": 1.9940297603607178
+    },
+    {
+      "question_id": 5,
+      "question": "How does the knowledge progression in financial management compare from Certificate Level to Professional Level?",
+      "ground_truth": "The knowledge progression in Financial Management from Certificate Level to Professional Level is as follows-  At Certificate Level, the aim is to enable you to recommend options for financing a business, recognize and manage links and make appropriate investment decisions.Also the knowledge base is developed further to enable you to apply technical knowledge, analytical techniques and professional skills to resolve compliance and business issues related to corporate reporting and audit services.",
+      "prediction": "At Certificate Level, the focus is on developing a foundation in financial management principles. At Professional Level, the emphasis shifts to applying those principles in practice through the use of specific techniques and methods, such as investment appraisal. This progression reflects an increase in complexity and depth, enabling students to recommend options for financing businesses from a capital perspective and to discuss both financial and non-financial issues related to investments.",
+      "cosine_similarity": 0.8794536590576172,
+      "processing_time": 1.0658304691314697
+    },
+    {
+      "question_id": 6,
+      "question": "Compare S.R.O. for original rules to amendment S.R.O.s.",
+      "ground_truth": "The original S.R.O. for the Income Tax Rules, 1984, to the amendment S.R.O.s:, Original S.R.O. (1985) also short title is Income Tax Rules, 1984. It is  Issued byNational Board of Revenue. It's Powers conferred by: Section 185 of the Income Tax Ordinance, 1984 (XXXVI of 1984), Sub, section (4). ",
+      "prediction": "The given table contains the differences between S.R.O. for original rules and amendment S.R.O.s, specifically focusing on tax-related matters under the Income-Tax Ordinance, 1984 in Bangladesh. Here's a breakdown of the key points from the table:\n\n1.  Tax Deduction or Payment: The original S.R.O. (Serial No. 26) introduced new sub-rules (laaaa and laaaaa) for deductions or payments made 'in advance/with return'. Amendment S.R.O.s modified these rules.\n\n2. Adjustment of Tax Refund: Serial Number 1 of the original S.R.O. specified the process for tax refunds. Amendment S.R.O.s adjusted this, with changes in both serial numbers 12 and 13 over time.\n\n3. Differences Between Original and Amended Rules:\n   - For taxpayers who are subject to 'normal' tax rates (as opposed to self-employed or salaried individuals), there were adjustments in the rules regarding deductions or payments 'in advance/with return'. Amendment S.R.O.s (Serial No. 151) introduced these changes.\n   - There was also a modification in the way taxes are adjusted for refunds, with a change from 1% to another rate at serial number 10, indicating an amendment.\n\n4. Tax Deduction Rate: The original rules specified deductions or payments 'in advance/with return', while amendments made adjustments, including changing the rate from 1% at some point (as seen in serial numbers 9 and 10).\n\n5. Amendment S.R.O.s for Specific Provisions: There were several amendment S.R.O.s that refined existing law on tax matters. These included updates to rules related to salaried taxpayers, changes in rates or percentages for deductions, and adjustments in the process for tax refunds.\n\n6. Legal Basis for Amendments: The amendments were made under various S.R.O. numbers, with specific dates mentioned for each amendment, indicating when these changes took effect.",
+      "cosine_similarity": 0.7014795541763306,
+      "processing_time": 3.6307785511016846
+    },
+    {
+      "question_id": 7,
+      "question": "How does treatment charges in Form A(1) compare to fee in Form A(2)?",
+      "ground_truth": "Comparison between treatment charges in Form A(1) and fee in Form A(2) is treatment charges in Form A(1) are related to the \"Nature of Treatment\" (a) Consultation, (b) Surgical treatment, and (c) Injection, etc and fee in Form A(2) is related to the \"Name, Brief Amount of fee, remuneration, etc.\" of the practitioner or professional. There is no direct comparison between the two because they are related to different aspects of the medical treatment.",
+      "prediction": "In Form A(1), treatment charges are shown. In Form A(2) fee is mentioned.",
+      "cosine_similarity": 0.8369166851043701,
+      "processing_time": 0.6209449768066406
+    },
+    {
+      "question_id": 8,
+      "question": "“করদাতা” এবং “করদায়ক” এর মধ্যে পার্থক্য কী?",
+      "ground_truth": "করদাতা হল সেই ব্যক্তি যার উপর কর আরোপিত হয়েছে বা যিনি কর প্রদান করেছেন, আর করদায়ক হল সেই ব্যক্তি যার উপর কর আরোপিত হয়নি বা যিনি কর প্রদান করেননি।",
+      "prediction": "      1. সাইড লেন্থ; (2) বিচ্ছুরণ (Dispersion); (3) নির্ভরযোগ্যতা (Reliability); (4) কার্যকারিতা (Efficiency); (5) দক্ষতা (Productivity); বেশিরভাগ মানে।",
+      "cosine_similarity": 0.4382283091545105,
+      "processing_time": 2.2698607444763184
+    },
+    {
+      "question_id": 9,
+      "question": "২০২৫-২৬ অর্থবছরের প্রস্তাবিত বাজেটে বিদ্যুৎ খাতের বরাদ্দ স্থানীয় সরকার খাতের বরাদ্দের সাথে তুলনায় কত কম?",
+      "ground_truth": "২০২৫-২৬ অর্থবছরের প্রস্তাবিত বাজেটে বিদ্যুৎ খাতের বরাদ্দ স্থানীয় সরকার খাতের বরাদ্দের তুলনায় ১০০০ কোটি টাকা কম।",
+      "prediction": "আমি প্রশ্নটি সম্পর্কে জানি না। এইচয়ন হতে দিন",
+      "cosine_similarity": 0.3727216422557831,
+      "processing_time": 1.800873041152954
+    },
+    {
+      "question_id": 10,
+      "question": "“আয়কর কর্মকর্তা” এবং “আয়কর অ্যাপিলেট কমিশনার” এর মধ্যে পার্থক্য কী?",
+      "ground_truth": "আয়কর কর্মকর্তা এবং আয়কর অ্যাপিলেট কমিশনার হলো দুই ভিন্ন পদ যা আয়কর প্রতিষ্ঠানের কার্যক্রমে জড়িত।আয়কর কর্মকর্তা: আয়কর কর্মকর্তা হলো সেই কর্মকর্তা, যিনি আয়কর প্রয়োগ, প্রতিষ্ঠান কার্যক্রমে সহায়তা এবং সমস্যা সমাধানের দায়িত্ব পালন করেন।\n আয়কর অ্যাপিলেট কমিশনার: আয়কর অ্যাপিলেট কমিশনার হলো সেই কর্মকর্তা, যিনি আয়কর সংক্রান্ত সমস্যা সমাধান, প্রতিষ্ঠান কার্যক্রমে সহায়তা এবং কর্মকর্তাদের মধ্যে মধ্যস্থতার দায়িত্ব পালন করেন।",
+      "prediction": "উত্তর আছে : \"আয়কর কর্মকর্তা\" এবং \"আয়কর অ্যাপিলেট কমিশনার\" এর মধ্যে পার্থক্য হলো- আয়কর কর্মকর্তা বিভিন্ন দায়িত্ব পালন করে, যেগুলো আর্থিক সহযোগী মূল্যের উপর ভিত্তি করে। বার্ষিক আয়ের অনুসারে এই দায়িত্ব গ্রহণ করে, যার উপায় হোক না কেন। আয়কর অ্যাপিলেট কমিশনার এগুলোর জন্য বিচার হিসেবে দায়িত্ব গ্রহণ করে।",
+      "cosine_similarity": 0.9324800372123718,
+      "processing_time": 4.043479681015015
+    },
+    {
+      "question_id": 11,
+      "question": "চলতি অর্থবছরে জুলাই-মার্চ সময়ে গত অর্থ বছরে একই সময়ের তুলনায় কত বেড়েছে? ",
+      "ground_truth": "চলতি অর্থবছরে জুলাই-মার্চ সময়ে গত অর্থ বছরে একই সময়ের তুলনায় বেড়েছে ৯ দশমিক ৪৫ শতাংশ ",
+      "prediction": "আপনি যে সূত্রটি ব্যবহার করেছেন না তা দিয়েই উত্তর।\n\nচুলাই-মার্চ সময়ে, গত অর্থবছরের একই সময়ের তুলনায় 1% পরিবর্তন।",
+      "cosine_similarity": 0.6403988003730774,
+      "processing_time": 1.582723617553711
+    }
+  ]
+}

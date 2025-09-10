@@ -1,0 +1,124 @@
+{
+  "evaluation_info": {
+    "timestamp": "2025-09-09T23:27:51.032345",
+    "model": "Vanilla RAG (VanillaRAGSystem)",
+    "domain": "others",
+    "domain_file": "others.json",
+    "total_questions": 11,
+    "successful_responses": 11,
+    "device_used": "cuda",
+    "gpu_available": true,
+    "evaluation_type": "cosine_similarity"
+  },
+  "cosine_similarity_metrics": {
+    "mean_similarity": 0.6683119156143882,
+    "median_similarity": 0.6706949472427368,
+    "std_similarity": 0.17431674724511287,
+    "min_similarity": 0.2699030339717865,
+    "max_similarity": 0.9066327810287476,
+    "total_questions": 11,
+    "similarities": [
+      0.64427649974823,
+      0.705532431602478,
+      0.716408908367157,
+      0.7144649028778076,
+      0.9066327810287476,
+      0.670157790184021,
+      0.6706949472427368,
+      0.895240306854248,
+      0.664185643196106,
+      0.4939338266849518,
+      0.2699030339717865
+    ]
+  },
+  "detailed_results": [
+    {
+      "question_id": 0,
+      "question": "What does NBR represent?",
+      "ground_truth": "The National Board of Revenue (NBR) which is Highest executive tax authority in Bangladesh. A statutory body with the power to manage, control, and supervise the income tax department. The authority to make necessary rules concerning income tax matters.",
+      "prediction": "National Board of Revenue.",
+      "cosine_similarity": 0.64427649974823,
+      "processing_time": 2.8819828033447266
+    },
+    {
+      "question_id": 1,
+      "question": "What is BRPD means?",
+      "ground_truth": "BRPD means Banking Regulation and Policy Department",
+      "prediction": "Banking Regulation & Policy Department.",
+      "cosine_similarity": 0.705532431602478,
+      "processing_time": 0.5126299858093262
+    },
+    {
+      "question_id": 2,
+      "question": "What is BB means ?",
+      "ground_truth": "BB stands for Bangladesh Bank. which is the central bank of Bangladesh.",
+      "prediction": "Bangladesh Bank.",
+      "cosine_similarity": 0.716408908367157,
+      "processing_time": 0.4707643985748291
+    },
+    {
+      "question_id": 3,
+      "question": "JICA means what ?",
+      "ground_truth": "JICA stands for Japan International Co, operation Agency.",
+      "prediction": "Japan International Co-operation Agency.",
+      "cosine_similarity": 0.7144649028778076,
+      "processing_time": 0.4514577388763428
+    },
+    {
+      "question_id": 4,
+      "question": "What does SME means ?",
+      "ground_truth": "SME stands for Small and Medium Enterprises. It is a category of businesses that are typically defined as having a smaller size compared to larger corporations.",
+      "prediction": "SME means Small and Medium Enterprises.",
+      "cosine_similarity": 0.9066327810287476,
+      "processing_time": 0.4922308921813965
+    },
+    {
+      "question_id": 5,
+      "question": "What does RR means?",
+      "ground_truth": "RR stands for Residual Risk",
+      "prediction": "The answer is \"Beta\" or \"Required Rate of Return\". In finance, RR stands for \"Required Rate of Return\", which is the minimum rate of return that an investor expects to earn from an investment. However, considering the context and equations mentioned in the passage, it seems more likely that RR stands for Beta (β), which is a measure of systematic risk or volatility of an investment relative to the overall market.",
+      "cosine_similarity": 0.670157790184021,
+      "processing_time": 1.060209035873413
+    },
+    {
+      "question_id": 6,
+      "question": "What act is for co-operative societies?",
+      "ground_truth": "The act related to co, operative societies is- The Companies Act, 1994 This act includes the co, operative society as a type of entity that is registered with the Companies Act.",
+      "prediction": "The Co-operative Society Act 2001.",
+      "cosine_similarity": 0.6706949472427368,
+      "processing_time": 0.5237245559692383
+    },
+    {
+      "question_id": 7,
+      "question": "What productions are listed for progressive taxation?",
+      "ground_truth": "The productions listed for progressive taxation are: textile,machinery,tyre manufacturing industry,tissue grafting etc any other category of industrial undertaking as specified by the Government.",
+      "prediction": "The following productions are listed for progressive taxation:\n\n* Manufacturing of computer hardware\n* Textile machinery\n* Tyre manufacturing industry",
+      "cosine_similarity": 0.895240306854248,
+      "processing_time": 0.690868616104126
+    },
+    {
+      "question_id": 8,
+      "question": "ADP এর পূর্ণরূপ কী?",
+      "ground_truth": "ADP এর পূর্ণরূপ হলো Annual Development Programme।",
+      "prediction": "এডিপির পূর্ণরূপ হল \"আন্তর্জাতিক ফাইন্যান্স (International Finance) এবং ভারতের আর্থিক উদ্যোগ\"।",
+      "cosine_similarity": 0.664185643196106,
+      "processing_time": 1.1971964836120605
+    },
+    {
+      "question_id": 9,
+      "question": "মূসক এর পূর্ণরূপ কী?",
+      "ground_truth": "মূসক এর পূর্ণরূপ হলো মূল্য সংযোজন কর।",
+      "prediction": "আজি দেখা যাচ্ছে নূন্যত্র মূসকের প্রক্রিয়া |",
+      "cosine_similarity": 0.4939338266849518,
+      "processing_time": 1.7727959156036377
+    },
+    {
+      "question_id": 10,
+      "question": "অধ্যাদেশের প্রকাশক কে?",
+      "ground_truth": "অধ্যাদেশের প্রকাশক হলো বাংলাদেশ গেজেট।",
+      "prediction": "২ (দুই) বৎসর",
+      "cosine_similarity": 0.2699030339717865,
+      "processing_time": 1.4502754211425781
+    }
+  ]
+}

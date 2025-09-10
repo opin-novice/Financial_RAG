@@ -1,0 +1,205 @@
+{
+  "evaluation_info": {
+    "timestamp": "2025-09-10T16:38:27.883826",
+    "model": "Advanced RAG (CoreRAGSystem)",
+    "domain": "Statistical_Question",
+    "domain_file": "Statistical_Question.json",
+    "total_questions": 20,
+    "successful_responses": 20,
+    "device_used": "cuda",
+    "gpu_available": true,
+    "evaluation_type": "cosine_similarity"
+  },
+  "cosine_similarity_metrics": {
+    "mean_similarity": 0.7437906831502914,
+    "median_similarity": 0.7473924160003662,
+    "std_similarity": 0.0949491299768166,
+    "min_similarity": 0.5634537935256958,
+    "max_similarity": 0.9174025058746338,
+    "total_questions": 20,
+    "similarities": [
+      0.6205147504806519,
+      0.6160504817962646,
+      0.6470997333526611,
+      0.6662830114364624,
+      0.9174025058746338,
+      0.7303462028503418,
+      0.8834638595581055,
+      0.8114087581634521,
+      0.8175514340400696,
+      0.7157052755355835,
+      0.5634537935256958,
+      0.728748083114624,
+      0.833929181098938,
+      0.8194323778152466,
+      0.7763006687164307,
+      0.7661272287368774,
+      0.7485989332199097,
+      0.8213605880737305,
+      0.6458508968353271,
+      0.7461858987808228
+    ]
+  },
+  "detailed_results": [
+    {
+      "question_id": 0,
+      "question": "Disregarding financial institutions, what is the page number for Corporate Income Tax section?",
+      "ground_truth": "Corporate Income Tax: the service value will be considered as income from business for MNC and will be taxed at 27.5% or 30% on income from business after deducting allowable business expenditure. MNC can adjust withholding tax deduction at source with its corporate tax payable at year end. ",
+      "prediction": "✔ The section for Corporate Income Tax can be found on page numbers:\n• 32\n• 393 (withholding tax on dividend)\n• 397 (local entity repatriating dividend to foreign company)\n• 178, 13-13 (corporate tax holiday for certain industries)\n\nNote: These page numbers do not pertain to financial institutions.",
+      "cosine_similarity": 0.6205147504806519,
+      "processing_time": 25.021100282669067
+    },
+    {
+      "question_id": 1,
+      "question": "Without linking to residence, what is the basis of taxation for corporations?",
+      "ground_truth": "Income tax is levied on income not on capital receipts. Different tax rates are applicable for different types of assessee and classes of income. The distinction between capital and revenue receipts is difficult to determine., Residential status is not a factor in determining tax for corporations",
+      "prediction": "● The basis of taxation for corporations in Bangladesh is their taxable income.\n● Both Bangladeshi resident and non-resident corporations are subject to tax on their taxable income.\n● Tax losses can be carried forward for a maximum period of six years, but cannot be carried back.\n● Unabsorbed tax depreciation can be carried forward indefinitely.\n● Foreign sourced losses cannot be utilized by Bangladeshi companies.",
+      "cosine_similarity": 0.6160504817962646,
+      "processing_time": 31.601289749145508
+    },
+    {
+      "question_id": 2,
+      "question": "Disregarding rebates, what is the rate for WASA and similar authorities?",
+      "ground_truth": "Based on the provided context, the tax rates for WASA and similar authorities are:, For non, listed financial institutions: 40.0%, For merchant banks: 37.5%, For cigarette/tobacco manufacturers: 45.0%, For mobile operators (non, listed): 45.0% Note that these rates are applicable for the Assessment year 2023, 24.",
+      "prediction": "• The rate for WASA and similar authorities, disregarding rebates, is Tk 1,000 per month as part of each residential tenant's rent.",
+      "cosine_similarity": 0.6470997333526611,
+      "processing_time": 8.698278903961182
+    },
+    {
+      "question_id": 3,
+      "question": "What is the maximum repayment tenure for a car loan in Bangladesh?",
+      "ground_truth": "Maximum loan limit for education loans, which is:  Maximum Tk.5.00 lac for studies in Bangladesh, Maximum Tk.20.00 lac for studies abroad",
+      "prediction": "• The maximum repayment tenure for a car loan in Bangladesh is usually between 1 to 5 years.\n• This information is based on various financial institutions in Bangladesh mentioned in the provided context.\n• Please note that specific terms and conditions may vary between different banks and financial organizations.\n• It's recommended to check the official documentation or websites of the specific bank or financial institution for the most accurate and up-to-date information regarding their car loan repayment tenures.",
+      "cosine_similarity": 0.6662830114364624,
+      "processing_time": 26.63744044303894
+    },
+    {
+      "question_id": 4,
+      "question": "In the fiscal year 2023-24 revenue collections from Value Added Tax (VAT) have been estimated at around what?",
+      "ground_truth": "The revenue collections from Value Added Tax (VAT) in the fiscal year 2023, 24 are estimated to be around Tk. 1,63,837 crore. Here's a breakdown of the estimated revenue collections:, Value Added Tax (VAT): Tk. 1,63,837 crore (38.10% of total tax), Income Tax: Tk. 1,53,260 crore (35.64%), Import & other duty: Not specified, Land revenue, non, judicial stamp, motor vehicles tax, registration fees, narcotics and liquor duty: Not specified",
+      "prediction": "• In the fiscal year 2023-24, revenue collections from Value Added Tax (VAT) have been estimated at around Tk 1,63,837 crore.",
+      "cosine_similarity": 0.9174025058746338,
+      "processing_time": 13.855934619903564
+    },
+    {
+      "question_id": 5,
+      "question": "What percentage rebate do non-listed companies get upon listing 20% capital through IPO?",
+      "ground_truth": "According to the provided context, non, listed companies that list at least 20% of their paid, up capital through IPO will receive a rebate of 10% in the year of listing.",
+      "prediction": "• If a non-listed company transfers minimum of 20% shares of its paid-up capital through IPO (Initial Public Offering), it would get a 10% rebate on total tax in the year of transfer.\n• This incentive is applicable to all types of companies, including mobile phone operator companies and cigarette manufacturing companies.\n• The rebate is only available for Bangladeshi residents or non-residents.",
+      "cosine_similarity": 0.7303462028503418,
+      "processing_time": 36.7192268371582
+    },
+    {
+      "question_id": 6,
+      "question": "What is the tax rate percentage for knit wear exporters with green certification?",
+      "ground_truth": "Based on the provided context, the tax rate percentage for knit wear exporters with green certification is:, 10% (for income up to Tk 2,000,000), 8% (for income between Tk 2,000,000 and Tk 10,000,000), 0.60% (for export goods except knit wear and local goods) Note that these rates are applicable to knit wear exporters with green certification, as mentioned in the context.",
+      "prediction": "• Based on the provided context, the tax rate percentage for knit wear exporters with green certification is not explicitly mentioned.\n• However, there is a mention of a 60% tax rate for total Zone-4 knit-wear and export proceeds, but it doesn't specify if this is applicable to those with green certification.\n• Therefore, further information is needed to provide an accurate answer regarding the tax rate for knit wear exporters with green certification.",
+      "cosine_similarity": 0.8834638595581055,
+      "processing_time": 23.22076416015625
+    },
+    {
+      "question_id": 7,
+      "question": "What is the total number of pages in the document named edu_loan_3?",
+      "ground_truth": " The document \"edu_loan_3\" has 3 pages.",
+      "prediction": "• Based on the provided context, it appears that the OCR extraction was done on a single page document named \"edu\\_loan\\_3\".\n• Therefore, I would assume that the total number of pages in the document \"edu\\_loan\\_3\" is one.",
+      "cosine_similarity": 0.8114087581634521,
+      "processing_time": 13.155540466308594
+    },
+    {
+      "question_id": 8,
+      "question": "What is the application fee for registering a mutual fund?",
+      "ground_truth": "The application fee for registering a mutual fund is Tk. 500/, per year, which needs to be paid and a copy of the receipt attached with the ADR (Alternative Dispute Resolution) application.",
+      "prediction": "• The application fee for registering a mutual fund is determined by the guidelines mentioned in the text.\n• According to these guidelines, a form 'K' must be submitted to the commission along with the registration application.\n• A \"five-part fee\" of Tk. Las lakh (approximately) is required for each form, which should be paid through a bank draft or pay order before the registration process begins.",
+      "cosine_similarity": 0.8175514340400696,
+      "processing_time": 30.419039487838745
+    },
+    {
+      "question_id": 9,
+      "question": "What changes have been made to the corporate tax incentives for green industries in Bangladesh?",
+      "ground_truth": "Corporate tax incentives for green industries in Bangladesh:  The corporate tax holiday for agro based industries has been extended to ten years for industries engaged in.  Processing locally grown fruits and vegetables, producing milk and dairy products, Producing baby food entirely from locally grown agricultural products",
+      "prediction": "• There is no specific mention of changes to corporate tax incentives for green industries in Bangladesh in the provided context.\n• The context discusses tax exemptions for selective IT hardware, agro-based industries, and other notified categories of industries.\n• However, there are no updates or revisions mentioned regarding green industries' tax incentives.",
+      "cosine_similarity": 0.7157052755355835,
+      "processing_time": 19.985527276992798
+    },
+    {
+      "question_id": 10,
+      "question": "What percentage budget deficit has been projected 2026 at GDP? ",
+      "ground_truth": "Budget deficit has been projected at 3.6% of GDP",
+      "prediction": "• To compute simple interest on a deficit amount of tax, you can use the 75% test.\n• This means that 75% of the surplus amount is used to calculate the interest on the deficit.\n• In this case, the actuarial surplus is Tk 13,00,000 (10,00,000 + 3,00,000).\n• However, after adjustments, the adjusted surplus is Tk 11,50,000.\n• To calculate the budget deficit projected for 2026 as a percentage of GDP, we would need more information, such as the projected GDP and the amount of the deficit.",
+      "cosine_similarity": 0.5634537935256958,
+      "processing_time": 42.433011531829834
+    },
+    {
+      "question_id": 11,
+      "question": "The effective tax for a publicly listed tobacco company decreased by what percentage points in 2024",
+      "ground_truth": " The effective tax rate for a publicly listed tobacco company decreased by 22.5 percentage points in 2024. This is because the tax rate for listed companies is 37.5% and the tax rate for non listed companies is 40%. Since the tobacco company is listed, the effective tax rate is 37.5%.",
+      "prediction": "• If the new product stream is categorized as non-tobacco, a publicly listed company will be subject to a regular tax rate of 25%.\n• The principal business of tobacco companies is to manufacture and sell tobacco products.\n• There is a perception risk that the tax authority may impose a tax rate of 47.5% on the overall income generated from each product stream if both product lines are operated under the tobacco business umbrella.",
+      "cosine_similarity": 0.728748083114624,
+      "processing_time": 45.10916209220886
+    },
+    {
+      "question_id": 12,
+      "question": "কত  টাকা পর্যন্ত কার লোন দিচ্ছে ইস্টার্ন ব্যাংক ?",
+      "ground_truth": "ইস্টার্ন ব্যাংক সাড়ে ৩ লক্ষ টাকা থেকে শুরু করে ৬০ লক্ষ টাকা পর্যন্ত কার লোন দিচ্ছে।  ",
+      "prediction": "ইস্টার্ন ব্যাংক ৪০ লাখ টাকা পর্যন্ত কার লোন দেয়। এর জন্য ২৫ বছরের ওপরে ব্যক্তি ২৫ বছরের ওপরে যে কোন কারণ উদ্দেশ্যে ভর্তি করা হয়, সেই কারণ ব্যবহার করে এই ব্যাংকের কার লোন পাওয়া যোগ্যতা অর্জিত হবে। মাসিক আয় চাকুরীজীবীদের জন্য ৩০-৪০০০০ টাকা, ব্যবসায়ীদের জন্য ৫০-৭৫০০০ টাকা, বাড়ি/জমি/ফ্ল্যাট বন্ধক রাখলে ৫০০০০ টাকা হতে হবে।",
+      "cosine_similarity": 0.833929181098938,
+      "processing_time": 105.89601945877075
+    },
+    {
+      "question_id": 13,
+      "question": "২০২৫-২৬ অর্থবছরের বাজেটে বিদ্যুৎ খাতে বরাদ্দের শতকরা পরিমাণ কত?",
+      "ground_truth": "২০২৫-২৬ অর্থবছরের বাজেটে বিদ্যুৎ খাতে বরাদ্দের শতকরা পরিমাণ ২৫%।",
+      "prediction": "উত্তর: বাজেটে বিদ্যুৎ খাতে বরাদ্দের শতকরা পরিমাণ ২৫%.\n\n Argument:\n\n• বাংলাদেশ বিদ্যুৎ উন্নয়ন বোর্ড বা বিদ্যুৎ, বিতরণে নিযোজিত কর্মচারী বা ব্যক্তি বিদ্যুৎ খাতে বরাদ্দের হার ৬% প্রাপককে করতে পারে।\n• এই হার ৬% হারে করতে বাণিজ্যিক প্রদান বা জমার সময়, প্রদেয় মোট অর্থের ১৫% (পনেরো শতাংশ) হারে করতে হবে।\n• ২০২৫-২৬ অর্থবছরের বাজেটে বিদ্যুৎ খাতে বরাদ্দের শতকরা পরিমাণ ২৫% হবে।",
+      "cosine_similarity": 0.8194323778152466,
+      "processing_time": 105.59141492843628
+    },
+    {
+      "question_id": 14,
+      "question": "\"টার্নওভার ট্যাক্স চালানপত্র\" এর উপ-ধারা সংখ্যা কত?",
+      "ground_truth": "টার্নওভার ট্যাক্স চালানপত্রের উপ-ধারা সংখ্যা হলো উপ-ধারা (২)।",
+      "prediction": "টার্নওভার চালানপত্রের উপ-ধারা সংখ্যা দু'টি (2) থেকে বেশী হতে পারে না, এই দু'টি হল 10A এবং 16.",
+      "cosine_similarity": 0.7763006687164307,
+      "processing_time": 31.973817110061646
+    },
+    {
+      "question_id": 15,
+      "question": "ব্র্যাক ব্যাংক কার লোনে কত ইন্টারেস্ট দেয় ?",
+      "ground_truth": "ব্র্যাক ব্যাংক কার লোনে ৮.৫০% ইন্টারেস্ট দেয়",
+      "prediction": "ব্র্যাক ব্যাংক আপনি কার লোনে ১৩ ৪9%-১৫ 9% ইন্টারেস্ট দেয়। (অনুযায়ী বাংলাদেশ ব্যাংক এর নির্ধারিত হার)",
+      "cosine_similarity": 0.7661272287368774,
+      "processing_time": 37.21994495391846
+    },
+    {
+      "question_id": 16,
+      "question": "বাংলাদেশের জিডিপি প্রবৃদ্ধি হার কত শতাংশ ছিল ২০২৪ সালে?",
+      "ground_truth": "আমি সেই তথ্য জানি না যে বাংলাদেশের জিডিপি প্রবৃদ্ধি হার ২০২৪ সালে কত শতাংশ ছিল।",
+      "prediction": "বাংলাদেশের জিডিপি প্রবৃদ্ধি হার 2024 সালে ৮.63% ছিল (খ) উক্ত ধারার অনুযায়ী পরিশোধকৃত হইতে বেরিয়ে চলেছে।\n\n• জিডিপি প্রবৃদ্ধি হার 2024 সালে বাংলাদেশের ক্ষেত্রে ৮.63% ছিল।\n• এই তথ্যটি উল্লিখিত হইতে পরিষ্কার ও সংক্ষিপ্ত ভাবে জানা যাচ্ছে।\n• অতিরিক্ত বা ভুল তথ্য যোগ করা হয়নি।\n• সরল এবং বোধগম্য ভাষা ব্যবহার করা হয়েছে।",
+      "cosine_similarity": 0.7485989332199097,
+      "processing_time": 89.67519235610962
+    },
+    {
+      "question_id": 17,
+      "question": "২০২৩-২০২৪ অর্থবছরের প্রাক্কলন অনুযায়ী বাংলাদেশের জিডিপি'তে কুটির, ক্ষুদ্র ও মাঝারি শিল্পের অবদান কত? ",
+      "ground_truth": "২০২৩-২০২৪ অর্থবছরের প্রাক্কলন অনুযায়ী বাংলাদেশের জিডিপি'তে কুটির, ক্ষুদ্র ও মাঝারি শিল্পের অবদান প্রায় ১১.৮৯ শতাংশ ",
+      "prediction": "২০২৩-২০২৪ অর্থবছরে বাংলাদেশের জিডিপি তে কুটির, ক্ষুদ্র ও মাঝারি শিল্পের অবদান 38.10% হবে। এই ফিскаল বছরে VAT থেকে টাকা collection হবে আর 35.64% হবে income tax থেকে।\n\n• National Budget 2023-24 analysis করে জানা গেছে, revenue collections from Value Added Tax (VAT) হবে Tk 1,63,837 crore (38.10% of total tax)।\n• Income tax থেকে টাকা collection হবে Tk 1,53,260 crore (35.64%)।\n\nNotably, the contribution from small, cottage and medium industries is not explicitly mentioned in the provided information.",
+      "cosine_similarity": 0.8213605880737305,
+      "processing_time": 74.83394598960876
+    },
+    {
+      "question_id": 18,
+      "question": "\"মুসক আইন\" এর ধারা নং কত?",
+      "ground_truth": "মুসক আইনের ধারা নং হলো ১৩৭।",
+      "prediction": "প্রশ্ন: \"মুসক আইন\" এর ধারা নং কত?\n\nউত্তর: বিষেষ কোন ধারা নম্বর সংকীর্তন নেই। \"মুসক আইন\" এটি একটি শব্দমালা বা গ্লোসেরি ছিল, যা বিভিন্ন আইন ও আইন paragraphs ব্যক্ত করে। তাই একটি конкреট ধারা নম্বর সংকীর্তন করা অসম্ভব।",
+      "cosine_similarity": 0.6458508968353271,
+      "processing_time": 62.55121994018555
+    },
+    {
+      "question_id": 19,
+      "question": "দেশে ক্ষুদ্র ও মাঝারি শিল্পের অবদান জিডিপির কত শতাংশ?",
+      "ground_truth": "দেশে ক্ষুদ্র ও মাঝারি শিল্পের অবদান জিডিপির ২৫ শতাংশ।",
+      "prediction": "ক্ষুদ্র ও মাঝারি শিল্পের জন্য বাংলাদেশে জিডিপি ৮৫% এর কতশতাংশ থাকবে। এই সুবিধাটি প্রধানমন্ত্রী বিভাগের paragraph 24 বernel দ্বারা সিদ্ধ করা হয়েছে, এটি শুরুতে ৫০% এর জিডিপি প্রদান করে, ফলেingly দ্বিতীয় বর্ষে ৩০% এবং শেষ ৩য় বর্ষে বাقী রেমেইনিং ২০%। একটি ব্যক্তিগত বা কোম্পানি ক্ষুদ্র ও মাঝারি শিল্পে ব্যবসা করলে এই সুবিধা ব্যবহার করতে পারে।",
+      "cosine_similarity": 0.7461858987808228,
+      "processing_time": 95.07834267616272
+    }
+  ]
+}
