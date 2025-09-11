@@ -57,13 +57,14 @@ def extract_text_from_response(response):
 def get_advanced_rag_responses(questions: List[Dict], temperature: float) -> List[Dict]:
     """Get responses from Advanced RAG system with specified temperature"""
     try:
-        from main2 import CoreRAGSystem as AdvancedRAGSystem
-        print("✅ Advanced RAG system imported successfully")
-        
-        # Temporarily modify the temperature in the config
+        # Modify temperature BEFORE importing and initializing
         import main2
         original_temp = main2.OLLAMA_TEMPERATURE
         main2.OLLAMA_TEMPERATURE = temperature
+        
+        # Now import and initialize after temperature is set
+        from main2 import CoreRAGSystem as AdvancedRAGSystem
+        print("✅ Advanced RAG system imported successfully")
         
         # Initialize Advanced RAG
         rag_system = AdvancedRAGSystem()

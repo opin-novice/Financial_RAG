@@ -31,9 +31,9 @@ Version: 2.1 - Telegram Bot Edition
 TELEGRAM_BOT_TOKEN = "7596897324:AAG3TsT18amwRF2nRBcr1JS6NdGs96Ie-D0"  # ⚠️ REPLACE WITH YOUR ACTUAL TOKEN!
 
 # Ollama Configuration
-OLLAMA_MODEL = "mixtral:8x7b"
+OLLAMA_MODEL = "llama3.1:8b"
 OLLAMA_BASE_URL = "http://localhost:11434"
-OLLAMA_TEMPERATURE = 0.1      # Controls randomness (0.0 = deterministic, 1.0 = very creative)
+OLLAMA_TEMPERATURE = 0.1   # Controls randomness (0.0 = deterministic, 1.0 = very creative)
 OLLAMA_TOP_P = 0.9             # Nucleus sampling (0.1 = focused, 1.0 = diverse)
 OLLAMA_NUM_PREDICT = 1024    # Maximum tokens to generate (reduced for very concise answers)
 OLLAMA_REPEAT_PENALTY = 1.1  # Penalize repetition (1.0 = no penalty, >1.0 = less repetition)

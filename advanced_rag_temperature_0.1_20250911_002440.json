@@ -1,0 +1,1354 @@
+{
+  "evaluation_info": {
+    "timestamp": "2025-09-11T00:24:40.446385",
+    "model": "Advanced RAG (CoreRAGSystem)",
+    "temperature": 0.1,
+    "total_questions": 133,
+    "successful_responses": 133,
+    "device_used": "cuda",
+    "gpu_available": true,
+    "evaluation_type": "cosine_similarity_temperature"
+  },
+  "cosine_similarity_metrics": {
+    "mean_similarity": 0.7587301966391111,
+    "median_similarity": 0.8126088380813599,
+    "std_similarity": 0.1816890014326406,
+    "min_similarity": 0.3076755702495575,
+    "max_similarity": 0.9890838861465454,
+    "total_questions": 133,
+    "similarities": [
+      0.9761751890182495,
+      0.940775454044342,
+      0.9338746666908264,
+      0.7226704359054565,
+      0.9545589089393616,
+      0.9707385897636414,
+      0.9525833129882812,
+      0.9317636489868164,
+      0.9565045833587646,
+      0.472400963306427,
+      0.8102500438690186,
+      0.846685528755188,
+      0.9084711670875549,
+      0.9601985216140747,
+      0.8708531260490417,
+      0.8310321569442749,
+      0.9305227398872375,
+      0.9220722317695618,
+      0.8848316073417664,
+      0.9581127166748047,
+      0.8126088380813599,
+      0.9051689505577087,
+      0.9593421220779419,
+      0.9890838861465454,
+      0.8921676278114319,
+      0.8650566339492798,
+      0.8498296737670898,
+      0.9432775974273682,
+      0.8328105807304382,
+      0.8347176909446716,
+      0.8441628217697144,
+      0.8902626037597656,
+      0.7897971272468567,
+      0.5619621276855469,
+      0.9740785360336304,
+      0.9500266313552856,
+      0.7944305539131165,
+      0.7922402024269104,
+      0.4046870768070221,
+      0.8732820749282837,
+      0.6250039935112,
+      0.6756494045257568,
+      0.5457788109779358,
+      0.8884778022766113,
+      0.9342461824417114,
+      0.7878342270851135,
+      0.8687620162963867,
+      0.765066921710968,
+      0.8367732763290405,
+      0.8150743842124939,
+      0.3076755702495575,
+      0.35409003496170044,
+      0.3782317638397217,
+      0.6488372087478638,
+      0.6695171594619751,
+      0.8092460632324219,
+      0.8241602182388306,
+      0.9647836685180664,
+      0.8261628150939941,
+      0.9165199995040894,
+      0.9772251844406128,
+      0.8666141033172607,
+      0.5710923671722412,
+      0.9417543411254883,
+      0.862684965133667,
+      0.8454784750938416,
+      0.8701580762863159,
+      0.9533681273460388,
+      0.9142853617668152,
+      0.8218269348144531,
+      0.898218035697937,
+      0.6611565947532654,
+      0.9798329472541809,
+      0.7365803718566895,
+      0.9064700603485107,
+      0.9515690207481384,
+      0.7686767578125,
+      0.9263824224472046,
+      0.8098785877227783,
+      0.8384444117546082,
+      0.5599610805511475,
+      0.7120468616485596,
+      0.743711531162262,
+      0.4122755527496338,
+      0.3643673360347748,
+      0.6417855620384216,
+      0.8092285990715027,
+      0.7487448453903198,
+      0.8261327743530273,
+      0.7874364852905273,
+      0.7083326578140259,
+      0.637718677520752,
+      0.7527748346328735,
+      0.8258146047592163,
+      0.7833314538002014,
+      0.7446799278259277,
+      0.7866559624671936,
+      0.4589298367500305,
+      0.5569610595703125,
+      0.636177659034729,
+      0.9031869769096375,
+      0.36303412914276123,
+      0.4321154057979584,
+      0.6384782791137695,
+      0.9411247968673706,
+      0.7695624828338623,
+      0.4171684980392456,
+      0.825941801071167,
+      0.9036036729812622,
+      0.8401542901992798,
+      0.7686240673065186,
+      0.860171914100647,
+      0.8626201748847961,
+      0.33692920207977295,
+      0.39909040927886963,
+      0.7696212530136108,
+      0.7808177471160889,
+      0.5023126006126404,
+      0.9461813569068909,
+      0.8082319498062134,
+      0.5621011257171631,
+      0.5682848691940308,
+      0.5448721051216125,
+      0.752312421798706,
+      0.48388463258743286,
+      0.5276471972465515,
+      0.827926516532898,
+      0.4573322534561157,
+      0.5829380750656128,
+      0.38957199454307556,
+      0.39794790744781494,
+      0.5037057399749756,
+      0.7088953852653503
+    ]
+  },
+  "detailed_results": [
+    {
+      "question_id": 0,
+      "question": "What is the short title of the rules made under section 185 of the Income Tax Ordinance, 1984?",
+      "ground_truth": "The short title of the rules made under section 185 of the Income Tax Ordinance, 1984 is:, Income Tax Rules, 1984",
+      "prediction": "The short title of the rules made under section 185 of the Income Tax Ordinance, 1984 is:\n\n• The Income Tax Rules, 1984",
+      "cosine_similarity": 0.9761751890182495,
+      "processing_time": 5.92605996131897,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 1,
+      "question": "What is oreign Exchange Risk Mitigation?",
+      "ground_truth": "Foreign Exchange Risk Mitigation is a strategy used by companies to minimize the risk of exchange rate fluctuations affecting their financial transactions.Some methods are like Invoicing in domestic currency: An exporter can invoice his foreign customer in his domestic currency or an importer can arrange with his foreign supplier to be invoiced in his domestic currency.",
+      "prediction": "Foreign Exchange Risk Mitigation is a method to reduce the risk of exchange rate fluctuations when dealing with international transactions.\n\nHere are some ways to mitigate foreign exchange risk:\n\n• Invoicing in domestic currency (for exporters) or arranging for foreign supplier/in importer to be invoiced in domestic currency\n• Using a single currency for all transactions between two parties\n\nThis approach helps reduce exchange risk, but only one party can take advantage of this method.",
+      "cosine_similarity": 0.940775454044342,
+      "processing_time": 0.882530927658081,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 2,
+      "question": "What are the types of investment qualified for the tax rebate?",
+      "ground_truth": "The types of investment qualified for the tax rebate are: Life insurance whose premium up to 10% of the face value and Contribution to Provident Fund, as per the Provident Fund Act, 1925, Self contribution and employer's contribution to a General Provident Fund (GPF), Employee's contribution to a benevolent fund or group insurance scheme",
+      "prediction": "The types of investment qualified for the tax rebate are:\n\n• Life insurance-premium up to 10% of the face value\n• Contribution to Provident Fund",
+      "cosine_similarity": 0.9338746666908264,
+      "processing_time": 0.9509387016296387,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 3,
+      "question": "What are the standard rate of the VAT ?",
+      "ground_truth": "The standard VAT rates are 1% on turnover up to Taka 5,00,00,000, 0.5% on turnover Taka 2,50,00,000, 30% on interest income, 20% on dividend income, 15% on capital gain, 27.5% on avail (not fulfilled), 0.60% on alternative minimum tax on gross receipts",
+      "prediction": "The standard rate of VAT in Bangladesh is 15%. \n\nHere are some additional details:\n\n• There is also a truncated rate (short value addition) applicable for many services.\n• Input rebate is applicable for companies providing services under the full rate of 15% as per VAT Act 1991.",
+      "cosine_similarity": 0.7226704359054565,
+      "processing_time": 0.8709022998809814,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 4,
+      "question": "What is VAT Assessment?",
+      "ground_truth": "VAT Assessment is the process of determining the value of goods and services for Value Added Tax (VAT) purposes. Few VAT Assessment are aaluation : Determining the value of goods and services for VAT purposes. Preparation of value Declaration : Preparing the value declaration form for major industries, manufacturers, commercial traders, and service renderers. Use of Fair Market Price: Using the fair market price for value determination.",
+      "prediction": "VAT Assessment refers to the process of determining the value of goods and services subject to Value Added Tax (VAT). The following are key aspects of VAT Assessment:\n\n• **Valuation**: Determining the value of goods and services for VAT purposes.\n• **Preparation of value Declaration**: Preparing a declaration for major industries, including the use of Fair Market Price (FMP) for value determination.",
+      "cosine_similarity": 0.9545589089393616,
+      "processing_time": 1.5572314262390137,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 5,
+      "question": "Who are the Income Tax Authorities?",
+      "ground_truth": "The Income Tax Authorities in Bangladesh are: The National Board of Revenue, Chief Commissioner of Taxes, Directors, General of Inspection (Taxes), Commissioner of Taxes (Appeals), Commissioner of Taxes (Large Taxpayer Unit), Director General (Training), Director General, Central Intelligence Cell, Commissioners of Taxes, Additional Commissioners of Taxes (Appeal/Inspecting), Joint Commissioners of Taxes (Appeal/Inspecting), Deputy Commissioners of Taxes, Tax Recovery Officers",
+      "prediction": "The income tax authorities in Bangladesh are:\n\n• The National Board of Revenue\n• Chief Commissioner of Taxes\n• Directors-General of Inspection (Taxes)\n• Commissioner of Taxes (Appeals)\n• Commissioner of Taxes (Large Taxpayer Unit)\n• Director General (Training)\n• Director General, Central Intelligence Cell\n• Commissioners of Taxes\n• Additional Commissioners of Taxes (Appeal/Inspecting)\n• Joint Commissioners of Taxes (Appeal/Inspecting)\n• Deputy Commissioners of Taxes\n• Tax:recovery officers",
+      "cosine_similarity": 0.9707385897636414,
+      "processing_time": 1.3575539588928223,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 6,
+      "question": "What does financial strategy concern in the strategic planning process?",
+      "ground_truth": "Financial strategy in the strategic planning process concerns the financial implications of the business strategy. The financial implications of the business strategy, How the business will achieve its objectives, The long, term direction of the business, The financial aspects of setting objectives and dealing with stakeholders In other words, financial strategy is concerned with the financial aspects of the business strategy, which is part of the overall strategic planning process.",
+      "prediction": "Financial strategy concerns the financial aspects of the strategic planning process. Here are the key points:\n\n• It is concerned with the long-term direction of the business.\n• It deals with how the business will achieve its objectives.\n• It is related to the business strategy, as the financial strategy is influenced by the chosen business strategy.",
+      "cosine_similarity": 0.9525833129882812,
+      "processing_time": 1.0658133029937744,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 7,
+      "question": "What is income tax return ?",
+      "ground_truth": "Income tax return is a mandatory submission of financial information to the income tax authority. The return must include:  Declaration and authentication, Production of accounts and documents, Statement of assets and liabilities, Income statement, Statement of individual regarding particulars of lifestyle. And also information about income from different heads and net tax liability The return is essential for assessing tax liability and disclosing relevant information to the income tax authority.",
+      "prediction": "Income tax return refers to the obligatory responsibility of every assessee to submit a report to the income tax authority, disclosing relevant information about their income, assets, liabilities, and expenditure. The key elements of an income tax return include:\n\n• Production of accounts and documents\n• Statements of assets and liabilities\n• Income statement\n• Statement of individual regarding particulars of life style",
+      "cosine_similarity": 0.9317636489868164,
+      "processing_time": 1.3103387355804443,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 8,
+      "question": "Under rule 8(4), what auxiliary register must be maintained if a separate nursing or maternity home is maintained by a medical practitioner?",
+      "ground_truth": "Under Rule 8(4), a medical practitioner who maintains a separate nursing or maternity home must maintain an auxiliary register showing the following particulars: Name and address of the patient, Nature of the treatment, Room (diet and/or lodging) charges. Other fees charged from the patient, if any This auxiliary register must be maintained in the remarks column of the Case Register in Form A(2).",
+      "prediction": "To maintain accounts under rule 8(4), a medical practitioner who has a separate nursing or maternity home must keep an auxiliary register. The particulars to be recorded in this register are:\n\n• Name and address of the patient\n• Nature of treatment\n• Room (diet and/or lodging) charges\n• Other fees charged from him, if any",
+      "cosine_similarity": 0.9565045833587646,
+      "processing_time": 1.1729111671447754,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 9,
+      "question": "What is the minimum salary required for a personal loan in Bangladesh?",
+      "ground_truth": "The tax rates range from 7.5% to 25% for different income brackets. There is an initial exemption limit for certain individuals, such as women, senior citizens, and physically challenged persons.",
+      "prediction": "To answer your question about the minimum salary required for a personal loan in Bangladesh:\n\nIn Bangladesh, there is no specific minimum salary requirement for a personal loan. However, lenders typically consider the borrower's income stability and creditworthiness when approving personal loans.\n\nHere are some general guidelines on income requirements for personal loans in Bangladesh:",
+      "cosine_similarity": 0.472400963306427,
+      "processing_time": 1.5401341915130615,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 10,
+      "question": "What does the manual state about the inter-relationships between financial decisions, using a retailing company as an example?",
+      "ground_truth": "Relationships between financial decisions can be seen in the following example, a retailing company makes a strategic decision to widen its markets, which requires new assets (e.g. new stores). The new assets trigger a demand for capital, leading to a new, issue of debt. The ongoing implementation of the strategy causes a need for financing decisions, such as managing cash flow and risk.",
+      "prediction": "The manual states that there are inter-relationships between financial decisions. Here are some key points:\n\n• A company's chosen business strategy determines investment decisions.\n• Investment decisions, in turn, affect credit decisions.\n• Financial risks such as currency and interest rate changes require risk reduction or hedging strategies.\n\nUsing a retailing company as an example, the manual highlights that there is an inter-relationship between these financial decisions.",
+      "cosine_similarity": 0.8102500438690186,
+      "processing_time": 1.0790092945098877,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 11,
+      "question": "Is online banking safe in Bangladesh?",
+      "ground_truth": "Online banking in Bangladesh is not entirely safe due to the sone reasons: cheque related frauds are the most commonly experienced fraud incidences in Bangladesh and online banking may be vulnerable to similar types of fraud. Banks are identified as the most vulnerable sector of Money Laundering and Terrorist Financing (ML&TF) in Bangladesh which increases the risk of financial crimes.",
+      "prediction": "Online banking safety in Bangladesh is a concern. Here are some key points to consider:\n\n• Mobile Banking systems can be abused to launder money, similar to bank accounts.\n• A person can easily set up multiple accounts under their own or false names and transfer money between them to evade investigation.\n• This misuse of mobile financial services is a criminal activity that can occur in Bangladesh.\n\nWhile online banking offers many benefits, such as increased access to formal financial services, it also poses risks.",
+      "cosine_similarity": 0.846685528755188,
+      "processing_time": 0.9740557670593262,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 12,
+      "question": "What types of investment qualified for the tax rebate?",
+      "ground_truth": "The Types of investment qualified for the tax rebate are: Life insurance, premium up to 10% of the face value and Contribution to Provident Fund, as per the Provident Fund Act, 1925, Self, contribution and employer's contribution to a Registered Pension Fund (RPF)",
+      "prediction": "Based on the provided context, the following types of investment qualify for tax rebate:\n\n• Life insurance premium up to 10% of the face value\n• Contribution to Provident Fund\n• Purchase of shares and debentures\n• Savings certificate\n• DPS (Dividend Paying Stock)\n• Insurance premium\n• Provident fund",
+      "cosine_similarity": 0.9084711670875549,
+      "processing_time": 1.1560111045837402,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 13,
+      "question": "What is the threshold amount for maintaining a bank account under rule 8A?",
+      "ground_truth": "The threshold amount for maintaining a bank account under rule 8A is:, Taka 25,000/, (twenty five thousand) per month This is the amount above which a person having ownership or possession of a house property must maintain a bank account to deposit rent and any advance received.",
+      "prediction": "The threshold amount for maintaining a bank account under rule 8A is:\n\n• Taka 25,000/- (twenty five thousand)\n\nThis means that if an individual receives any sum or aggregate of sums exceeding this amount from their house property, they are required to maintain a bank account.",
+      "cosine_similarity": 0.9601985216140747,
+      "processing_time": 1.092275857925415,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 14,
+      "question": "Do car owners pay annual taxes in Bangladesh?",
+      "ground_truth": "Car owners in Bangladesh pay annual taxes. Motor vehicles tax is a type of non, NBR tax. It is one of the nomenclatures of non, NBR tax, which is not subject to withholding tax in Bangladesh. The entity does not have a payroll structure ratio, but this information is not relevant to the question of car owners paying annual taxes.",
+      "prediction": "Yes, car owners in Bangladesh pay annual taxes. Here's how:\n\n• Motor vehicle tax is an indirect tax imposed on vehicles.\n• It is a direct tax on the owner of the vehicle.\n\nThis tax is part of the overall tax structure in Bangladesh, which includes both direct and indirect taxes. The motor vehicle tax contributes to the country's revenue collection activities, accounting for 85% of government revenue in the national budget.",
+      "cosine_similarity": 0.8708531260490417,
+      "processing_time": 1.025738000869751,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 15,
+      "question": "What is an example of how financing decisions can impact a firm's existence?",
+      "ground_truth": "A firm that heavily borrows money may face financial difficulties if its cash flows fall to a level insufficient to make interest payments on debt. This can lead to bankruptcy. High debt levels can put a firm at risk of financial distress.  Insufficient cash flows can make it difficult for a firm to meet its debt obligations., This can ultimately impact a firm's existence.",
+      "prediction": "A financing decision that can impact a firm's existence is:\n\n• Heavy borrowing during recession, which can lead to bankruptcy if cash flows are insufficient to make interest payments on debt.\n\nThis type of situation highlights the importance of having sufficient equity finance to support the firm's operations.",
+      "cosine_similarity": 0.8310321569442749,
+      "processing_time": 0.8268623352050781,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 16,
+      "question": "Which Bangladeshi city hosts the Dhaka Stock Exchange (DSE)?",
+      "ground_truth": "The Dhaka Stock Exchange (DSE) is hosted in Dhaka, Bangladesh.",
+      "prediction": "The Dhaka Stock Exchange (DSE) is hosted in the city of Dhaka. Here are some key details:\n\n• The DSE is one of the national stock markets in Bangladesh.\n• It is located in Dhaka, which is also the capital city of Bangladesh.\n• The DSE acts as a primary source of new funds for Bangladeshi companies through share issuances.\n\nIn summary, Dhaka hosts the Dhaka Stock Exchange (DSE).",
+      "cosine_similarity": 0.9305227398872375,
+      "processing_time": 1.0503830909729004,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 17,
+      "question": "Are mutual funds available in the Dhaka Stock Exchange?",
+      "ground_truth": "Mutual funds are available in the Dhaka Stock Exchange. The Dhaka Stock Exchange (DSE) is a primary source of new funds, including through new, share issuances., There is no specific mention of mutual funds in the provided context, but it can be inferred that they are available as part of the DSE's offerings.",
+      "prediction": "Yes, mutual funds are available in the Dhaka Stock Exchange.\n\nHere's how:\n\n• The Dhaka Stock Exchange (DSE) is a platform where firms can access funds.\n• It includes second-hand securities such as shares.\n• New-share issuances also take place on this exchange.",
+      "cosine_similarity": 0.9220722317695618,
+      "processing_time": 0.9658663272857666,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 18,
+      "question": "What does the term \"Money Market Instrument\" include according to the definitions?",
+      "ground_truth": "Money Market Instrument includes- commercial paper, asset, backed securities, money market instruments. Other similar instruments traded in the financial markets.",
+      "prediction": "According to the context, a Money Market Instrument includes:\n\n• Treasury 8119\n• Bonds\n• Debentures\n• Notes\n• Negotiable Certificates of Deposit\n• Commercial paper\n• Asset-backed securities\n• Money market instruments\n• Other similar instruments traded in the financial markets.",
+      "cosine_similarity": 0.8848316073417664,
+      "processing_time": 0.8924777507781982,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 19,
+      "question": "Who is the General Manager of the Editorial Committee for the fifth edition of the guidelines?",
+      "ground_truth": "The General Manager of the Editorial Committee for the fifth edition of the guidelines is: Md. Nur, un, Nabi",
+      "prediction": "The General Manager of the Editorial Committee for the fifth edition of the guidelines is:\n\n• Md Nur-un-Nabi",
+      "cosine_similarity": 0.9581127166748047,
+      "processing_time": 0.8224849700927734,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 20,
+      "question": "How I can return my income tax?",
+      "ground_truth": "To return income tax one need tofollow these steps. For company taxpayers, file return by July 15th of the following year or by September 30th if the 15th of July falls before the end of the six month period. For other taxpayers, file your return by September 30th of the following year unless an extension is granted. If one make any TDS (Tax deduction at source) on payment. He need to submit file a separate return of withholding tax by October 15th, January 15th, April 15th, or July 15th.",
+      "prediction": "To return your income tax, follow these steps:\n\n• Fill out the application form for refund of income tax (Form LT: Manual, Part 11) according to the prescribed procedure.\n• Declare your total income computed in accordance with the provisions of the Income Tax Ordinance, 1984, during the income year ending on a specific date.\n• State the total amount of income-tax paid or 'treated as paid under sections 150.\n• Request a refund of the specified amount.",
+      "cosine_similarity": 0.8126088380813599,
+      "processing_time": 1.4713289737701416,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 21,
+      "question": "What is the full form of NBR in Bangladesh financial system?",
+      "ground_truth": "The full form of NBR in Bangladesh's financial system is National Board of Revenue",
+      "prediction": "The full form of NBR in Bangladesh financial system is:\n\n• National Board of Revenue",
+      "cosine_similarity": 0.9051689505577087,
+      "processing_time": 0.9178900718688965,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 22,
+      "question": "What are risk management decisions concerned with?",
+      "ground_truth": "Risk management decisions are concerned with how a business manages risk in relation to- investment decisions, financing decisions, liquidity, currency and credit decisions. These decisions aim to reduce or hedge against risks and uncertainties. Such as currency and interest rate changes to ensure the firm's financial stability.",
+      "prediction": "Risk management decisions are concerned with how a business manages risk in relation to:\n\n• Investment decisions\n• Financing decisions\n• Liquidity\n• Currency and credit decisions\n\nThese decisions aim to minimize risks and uncertainties, ensuring the company's financial stability and making informed choices for shareholders.",
+      "cosine_similarity": 0.9593421220779419,
+      "processing_time": 0.8793678283691406,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 23,
+      "question": "What is the corporate income tax rate for publicly traded companies in Bangladesh, excluding banks, insurance, and specific industries?",
+      "ground_truth": "The corporate income tax rate for publicly traded companies in Bangladesh, excluding banks, insurance, and specific industries, is 25%.",
+      "prediction": "The corporate income tax rate for publicly traded companies in Bangladesh, excluding banks, insurance, and specific industries, is:\n\n• 25%",
+      "cosine_similarity": 0.9890838861465454,
+      "processing_time": 1.0019524097442627,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 24,
+      "question": "What is the tax rate for cigarette, zarda, bidi, gul, or any other tobacco product manufacturing companies?",
+      "ground_truth": "The tax rate for cigarette, zarda, bidi, gul, or any other tobacco product manufacturing companies is 3% of their gross receipts.",
+      "prediction": "The tax rate for cigarette, zarda, bidi, gul, or any other tobacco product manufacturing companies is:\n\n• 45% of their gross receipts (irrespective of listing status)\n• Surcharge in addition to above tax is applicable on business income\n• For mobile phone operator companies that convert themselves into a publicly traded company by transfer of at least 10% shares through stock exchanges, the rate is 40%",
+      "cosine_similarity": 0.8921676278114319,
+      "processing_time": 1.389737844467163,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 25,
+      "question": "What is the opportunity cost?",
+      "ground_truth": "The opportunity cost is the value of the next best alternative that is forgone when a decision is made. In this case, the opportunity cost is the value of the alternative use of Material X., The opportunity cost of Material X is the sales proceeds forgone if it is not used in the project., The opportunity cost is the value of the alternative use of Material X, which is:, Selling 500 kg of Material X for 3,000 CU, Purchasing 1,000 kg of Material X for 4,000 CU",
+      "prediction": "The opportunity cost is the value of the next best alternative forgone. In this case, it refers to the cash flow that would have been earned if a unit of resource (e.g., machine) was used on another project instead of its current use.\n\nHere are some key points to consider:\n\n• Opportunity cost is the value of the next best alternative forgone.\n• It is the cash flow that would have been earned if a unit of resource was used on another project.\n• Examples of opportunity costs include:",
+      "cosine_similarity": 0.8650566339492798,
+      "processing_time": 1.2075858116149902,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 26,
+      "question": "Do banks in Bangladesh offer retirement savings schemes?",
+      "ground_truth": "Banks in Bangladesh offer retirement savings schemes. The approved banks in Bangladesh for retirement savings schemes are many. Like South East Bank Limited, Dhaka Bank Limited, Al, Arafah Islami Bank Limited, Social Islami Bank Limited, Dutch, Bangla Bank Limited, Mercantile Bank Limited, Standard Bank Limited, One Bank Limited, Exim Bank Limited",
+      "prediction": "Yes, banks in Bangladesh offer retirement savings schemes. Here are some details:\n\n• Some banks in Bangladesh offer a 'Deposit Pension Scheme' (DPS) to help individuals save for their retirement.\n• Another option is the 'Bangladesh Shilpa Bank' (BSB), which offers a 'Retirement Savings Scheme'.\n \nNote: The information provided is based on the context and may not be exhaustive.",
+      "cosine_similarity": 0.8498296737670898,
+      "processing_time": 0.9926128387451172,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 27,
+      "question": "What is the duration of practical work experience required for the CA qualification?",
+      "ground_truth": "The duration of practical work experience required for the CA qualification is:, 3 years, 4 years (as an option)",
+      "prediction": "The duration of practical work experience required for the CA qualification is 4 years.",
+      "cosine_similarity": 0.9432775974273682,
+      "processing_time": 0.6628937721252441,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 28,
+      "question": "What is the signing date of the France wiht Bangladesh agreement,",
+      "ground_truth": "Signing date of the France, Bangladesh agreement is:09/03/1987, 21/89 (presumably a reference to the year 1989), 4/01/1989, 01/07/1989",
+      "prediction": "The signing date of the France-Bangladesh agreement is:\n\n• 09/03/1987",
+      "cosine_similarity": 0.8328105807304382,
+      "processing_time": 0.8496799468994141,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 29,
+      "question": "How has the method of submitting SBS returns changed over time?",
+      "ground_truth": "The method of submitting SBS returns has undergone changes over time. The SBS returns were used for collection of information/data from the banking sector in Bangladesh. Then the Statistics Department of the Bangladesh Bank published guidelines for the scheduled banks to fill in the returns properly and submit them to the Bangladesh Bank.",
+      "prediction": "The method of submitting SBS returns has undergone changes over time. Here are the key developments:\n\n• Initially, bank officials filled in \"SBS-2\" and \"SBS-3 Reporting Forms\" manually.\n• Later, a secure internet environment was introduced to facilitate timely and accurate submission through the web portal of Bangladesh Bank.\n• The RIT (Reporting Instruction Template) for SBS-1 return has also been provided to enable banks to submit returns accurately.\n\nThese changes aim to improve the efficiency and accuracy of data collection from the banking sector in Bangladesh.",
+      "cosine_similarity": 0.8347176909446716,
+      "processing_time": 1.1962432861328125,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 30,
+      "question": "What changes were made to Rule 8A of the Income Tax Rules since its introduction?",
+      "ground_truth": "Based on the provided context, there is no information about changes made to Rule 8A of the Income Tax Rules since its introduction. The context only mentions the requirements and formalities for landlords receiving monthly rent more than Tk. 25,000, as per Rule 8A of Income Tax Rules 1984. However, the context does mention the following changes or additions to the rule:, The landlord must maintain a bank account and deposit the entire monthly rent directly into it.",
+      "prediction": "Since its introduction, Rule 8A of the Income Tax Rules has undergone some changes. Here are the key modifications:\n\n• New rule 8A was introduced by a new provision (4%) in the Income Tax Act, 2023.\n• The original rule 8A was replaced by this new provision on a specific date: 18/08/2014.\n• The main change is that the owner of house property now has to maintain a bank account and deposit entire monthly rent directly into it, regardless of whether the rent is received in cash or not.\n\nThese changes aim to ensure compliance with tax regulations for landlords receiving rent exceeding Tk 25,000.",
+      "cosine_similarity": 0.8441628217697144,
+      "processing_time": 1.366943120956421,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 31,
+      "question": "Who is Deputy Commissioner of Taxes?",
+      "ground_truth": "\"Deputy Commissioner of Taxes\" means a person appointed to be a Deputy Commissioner of Taxes u/s 4, and includes a person appointed to be aTransfer Pricing Officer, Assistant Commissioner of Taxes, an Extra Assistant Commissioner ofTaxes and a Tax Recovery Officer",
+      "prediction": "A Bangladeshi financial advisor here!\n\nAccording to the given context, a Deputy Commissioner of Taxes is:\n\n• A person appointed as a Deputy Commissioner of Taxes under section 4.\n• Includes:\n • Transfer Pricing Officer\n • Assistant Commissioner of Taxes\n • Extra Assistant Commissioner of Taxes\n • Tax Recovery Officer",
+      "cosine_similarity": 0.8902626037597656,
+      "processing_time": 1.0548503398895264,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 32,
+      "question": "How did Bangladeshs VAT system change after the 2012 VAT Act?",
+      "ground_truth": "After the 2012 VAT Act, Bangladesh's VAT system sees significant changes. Like migration from 1991 VAT Act which is based account current to new system. The new system was designed to be more efficient and effective in managing account current balances. The VAT system now uses a prepaid vs postpaid system.",
+      "prediction": "The Bangladeshi VAT system underwent changes after the 2012 VAT Act. Key changes include:\n\n• The standard VAT rate was reduced to 15%.\n• A truncated rate (short value addition) was introduced for certain services, applicable at a full rate of 15% as per the VAT Act 1991.\n• Input rebate is applicable for companies providing services under the full rate of 15%.\n\nThese changes aim to simplify and streamline the VAT system in Bangladesh.",
+      "cosine_similarity": 0.7897971272468567,
+      "processing_time": 1.3143672943115234,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 33,
+      "question": "When was the amendment for rule 10(3) prospectus submission made?",
+      "ground_truth": "As a Bangladeshi financial advisor, I have reviewed the ATP study on XYZ Ltd. submitted to the tax authority. My position is as follows:, Ethical Threats:, , The use of TNMM method with PLI as profit level indicator may not accurately reflect the arm's length price of controlled transactions., The amendment from the issuing bank confirms that the port of loading is Chattogram, Bangladesh, but the unit price provided is consistent with the current market price available online, which may raise concerns about the accuracy of the transaction., Possible Actions:, , Request additional information from the applicant to verify the accuracy of the transaction, including the market price of the goods and the terms of the import LC., Conduct a thorough review of the ATP study to ensure that it meets the requirements of Rule 70(1) of the IT Rules, 1984., Consider seeking guidance from the tax authority or a professional organization to ensure compliance with the relevant rules and regulations., Recommendation:, , Request a Level 2 review of the transaction to ensure that it meets the requirements of Rule 10(3) prospectus submission and to verify the accuracy of the transaction. Please note that these actions are based solely on the information provided in the context and may require further investigation to ensure compliance with the relevant rules and regulations.",
+      "prediction": "As a Bangladeshi financial advisor, I can provide guidance on the amendment to Rule 10(3) of the IT Rules, 1984.\n\n• The amendment for Rule 10(3) prospectus submission was made on December 33, 1999 (আর, ও'নং ৩৩৬-আইন/৯৯).\n \nThis change is relevant to the context of prospectus submission and its relation to Rule 10(3) of the IT Rules.",
+      "cosine_similarity": 0.5619621276855469,
+      "processing_time": 1.1250123977661133,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 34,
+      "question": "When The Income Tax Act, 2023 came into force ?",
+      "ground_truth": "The Income Tax Act, 2023 came into force on 27th June 2023.",
+      "prediction": "The Income Tax Act, 2023 came into force on June 22, 2023.",
+      "cosine_similarity": 0.9740785360336304,
+      "processing_time": 1.2599539756774902,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 35,
+      "question": "What changes occur in the knowledge of financial management principles as students progress from Certificate Level to Professional and Advanced Levels?",
+      "ground_truth": "As students progress from Certificate Level to Professional and Advanced Levels, the knowledge of financial management principles undergoes significant changes.  Development of knowledge base: The knowledge base developed at Certificate Level is further developed in the Financial Management module. Recommendation of financing options: Students learn to recommend options for financing a business.",
+      "prediction": "As students progress from Certificate Level to Professional and Advanced Levels, their knowledge of financial management principles undergoes significant development. Here are the key changes:\n\n• **Certificate Level**: The foundation is laid, enabling students to recommend options for financing a project.\n• **Financial Management module**: The knowledge base is further developed, aiming to enable students to:\n • Recommend options for financing\n • Understand taxation and compliance",
+      "cosine_similarity": 0.9500266313552856,
+      "processing_time": 1.6449744701385498,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 36,
+      "question": "How did foreign direct investment (FDI) inflows to Bangladesh change after 2010?",
+      "ground_truth": "Foreign Direct Investment (FDI) inflows to Bangladesh have changed over the years. Here are some key points:, After 2010, FDI inflows to Bangladesh decreased., This decrease is likely due to the depreciation of the Eastern European country's currency, causing a reduction in the value of cash flows remitted back to Bangladesh., The depreciation of the Eastern European currency over a five, year period led to a decrease in the value of the investment project.",
+      "prediction": "Based on the context, I can provide the following answer:\n\nForeign direct investment (FDI) inflows to Bangladesh changed as follows after 2010:\n\n• The major objectives of the Bangladesh Double Taxation Agreement (DTAA) include:\n • Obtaining more effective relief from double taxation compared to unilateral measures\n • Creating a favorable climate for the inflow of FDI in Bangladesh\n\nUnfortunately, the context does not provide specific information on the change in FDI inflows after 2010. However, it can be inferred that the objectives of the DTAA aim to attract more foreign investment to Bangladesh, which may have led to an increase in FDI inflows over time.",
+      "cosine_similarity": 0.7944305539131165,
+      "processing_time": 1.1966862678527832,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 37,
+      "question": "Without considering recovery, what is a \"certificate\" in the rules in Bangladeshi tax return?",
+      "ground_truth": "\"certificate\" refers to:, A tax clearance certificate. An exemption certificate These certificates are issued by the DCT (Directorate of Customs and Taxation) to individuals.",
+      "prediction": "In the context of Bangladeshi tax return rules, a \"certificate\" refers to:\n\n• A tax clearance certificate\n• An exemption certificate\n• A certificate for recovery of arrears of tax\n\nThese certificates are issued by the National Board of Revenue (NBR) and are required for certain individuals leaving Bangladesh or traveling abroad.",
+      "cosine_similarity": 0.7922402024269104,
+      "processing_time": 1.2554998397827148,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 38,
+      "question": "Isolated from corporate tax, what entity produced the document in conjunction?",
+      "ground_truth": "Withholding Tax, Corporate Tax Implication, and DTAA Implication for each option.",
+      "prediction": "Based on the context, I can answer that:\n\nThe document was produced by M&M's, an independent accountant.\n\nHere are some key points to note:\n\n• The article was published in 1958.\n• It argued that there is no optimal capital structure.\n• A correction was made in 1963 to allow for corporate taxes.\n• The debate regarding the effects of gearing on the weighted average cost of capital is empirical and inconclusive.",
+      "cosine_similarity": 0.4046870768070221,
+      "processing_time": 1.0384025573730469,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 39,
+      "question": "Without context of recovery, what is \"defaulter\"?",
+      "ground_truth": "A \"defaulter\" in this context refers to an individual who has failed to pay their tax arrears. Has not responded to a notice of demand for payment.",
+      "prediction": "There is no definition of \"defaulter\" in the provided context. The term \"defaulter\" is not mentioned at all.\n\nHowever, based on general knowledge, a defaulter refers to someone who fails to pay their debts or obligations.",
+      "cosine_similarity": 0.8732820749282837,
+      "processing_time": 0.7676718235015869,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 40,
+      "question": "Disregarding financial institutions, what is the page number for Corporate Income Tax section?",
+      "ground_truth": "Corporate Income Tax: the service value will be considered as income from business for MNC and will be taxed at 27.5% or 30% on income from business after deducting allowable business expenditure. MNC can adjust withholding tax deduction at source with its corporate tax payable at year end.",
+      "prediction": "The page number for Corporate Income Tax section is:\n\n• Page 32\n• Page 397\n• Page 393\n• Page 178\n• Page 13 (specifically, sections 13.1-13.12)\n\nThese pages cover various aspects of corporate income tax, including definitions, tax rates, exemptions, and more.",
+      "cosine_similarity": 0.6250039935112,
+      "processing_time": 1.3479371070861816,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 41,
+      "question": "Without linking to residence, what is the basis of taxation for corporations?",
+      "ground_truth": "Income tax is levied on income not on capital receipts. Different tax rates are applicable for different types of assessee and classes of income. The distinction between capital and revenue receipts is difficult to determine., Residential status is not a factor in determining tax for corporations",
+      "prediction": "The basis of taxation for corporations in Bangladesh is:\n\n• Bangladeshi resident corporations are subject to tax on their taxable income.\n• Non-resident corporations are also subject to tax on their taxable income.\n\nNote: This answer does not require linking to residence, as per the question.",
+      "cosine_similarity": 0.6756494045257568,
+      "processing_time": 0.9234230518341064,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 42,
+      "question": "Disregarding rebates, what is the rate for WASA and similar authorities?",
+      "ground_truth": "Based on the provided context, the tax rates for WASA and similar authorities are:, For non, listed financial institutions: 40.0%, For merchant banks: 37.5%, For cigarette/tobacco manufacturers: 45.0%, For mobile operators (non, listed): 45.0% Note that these rates are applicable for the Assessment year 2023, 24.",
+      "prediction": "Based on the given context, here's the answer:\n\nThe reasonable rent of the house is Tk 1,000,000. \n\nHere are the details about WASA and DESA bill:\n• Rent per flat: Tk 10,000\n• Additional amount for WASA and DESA bill: Tk 1,000",
+      "cosine_similarity": 0.5457788109779358,
+      "processing_time": 0.8072760105133057,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 43,
+      "question": "What is the maximum repayment tenure for a home loan in Bangladesh?",
+      "ground_truth": "The maximum repayment tenure for a home loan in Bangladesh is not explicitly mentioned in the provided context. However, the context does provide information on the maximum loan limit for education loans, which is:, Maximum Tk.5.00 lac for studies in Bangladesh, Maximum Tk.20.00 lac for studies abroad There is no mention of a home loan limit or repayment tenure in the provided context.",
+      "prediction": "The maximum repayment tenure for a home loan in Bangladesh is not explicitly mentioned in the provided context. However, it does mention that the AU Loan Limit has a minimum of 1 year and a maximum of 6 years with 3 months moratorium.\n\n• The context only provides information on student loans (AU Loans) and does not specify the repayment terms for home loans.\n• Therefore, the maximum repayment tenure for a home loan in Bangladesh cannot be determined from the provided context.",
+      "cosine_similarity": 0.8884778022766113,
+      "processing_time": 1.140881061553955,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 44,
+      "question": "In the fiscal year 2023-24 revenue collections from Value Added Tax (VAT) have been estimated at around what?",
+      "ground_truth": "The revenue collections from Value Added Tax (VAT) in the fiscal year 2023, 24 are estimated to be around Tk. 1,63,837 crore. Here's a breakdown of the estimated revenue collections:, Value Added Tax (VAT): Tk. 1,63,837 crore (38.10% of total tax), Income Tax: Tk. 1,53,260 crore (35.64%), Import & other duty: Not specified, Land revenue, non, judicial stamp, motor vehicles tax, registration fees, narcotics and liquor duty: Not specified",
+      "prediction": "The revenue collections from Value Added Tax (VAT) in the fiscal year 2023-24 are estimated at around Tk 1,63,837 crore.",
+      "cosine_similarity": 0.9342461824417114,
+      "processing_time": 1.1190412044525146,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 45,
+      "question": "What percentage rebate do non-listed companies get upon listing 20% capital through IPO?",
+      "ground_truth": "According to the provided context, non, listed companies that list at least 20% of their paid, up capital through IPO will receive a rebate of 10% in the year of listing.",
+      "prediction": "According to the provided context, non-listed companies that convert themselves into a publicly traded company by transfer of at least 10% shares through stock exchanges, of which maximum 5% may be through Pre-Initial Public Offering Placement, will receive a rebate of 20% in the year of listing.\n\n• Rebate rate: 20%\n• Eligibility: Non-listed companies that convert themselves into a publicly traded company by transfer of at least 10% shares through stock exchanges.",
+      "cosine_similarity": 0.7878342270851135,
+      "processing_time": 1.26651930809021,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 46,
+      "question": "What is the tax rate percentage for knit wear exporters with green certification?",
+      "ground_truth": "Based on the provided context, the tax rate percentage for knit wear exporters with green certification is:, 10% (for income up to Tk 2,000,000), 8% (for income between Tk 2,000,000 and Tk 10,000,000), 0.60% (for export goods except knit wear and local goods) Note that these rates are applicable to knit wear exporters with green certification, as mentioned in the context.",
+      "prediction": "The tax rate percentage for knit wear exporters with green certification is 8%. \n\nHere are the details:\n\n• This rate applies to Dhaka woven garments, terry towel, and jute goods.\n• It is applicable until 30 June 2016.\n• The rate also applies to frozen food and vegetables (leather goods) export proceeds.",
+      "cosine_similarity": 0.8687620162963867,
+      "processing_time": 0.9996955394744873,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 47,
+      "question": "What is the total number of pages in the document named edu_loan_3?",
+      "ground_truth": "The document \"edu_loan_3\" has 3 pages.",
+      "prediction": "Based on the provided context, I can only confirm that the document was extracted using image-based OCR methods. Unfortunately, there is no explicit mention of the total number of pages in the document.\n\nHowever, I can provide some general information about the document:\n\n• The document is named \"edu_loan_3\"\n• It was extracted from an original file\n• The extraction method used was image-based OCR (pypdfium2 + Tesseract)\n• The processing date was August 28, 2025",
+      "cosine_similarity": 0.765066921710968,
+      "processing_time": 1.0502960681915283,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 48,
+      "question": "What is the application fee for registering a mutual fund?",
+      "ground_truth": "The application fee for registering a mutual fund is Tk. 500/, per year, which needs to be paid and a copy of the receipt attached with the ADR (Alternative Dispute Resolution) application.",
+      "prediction": "The application fee for registering a mutual fund is:\n\n• ₹ 1 lakh (refundable)\n\nThis fee must be paid in the form of a \"pay-order\" or bank draft, as per the instructions. If the application is incomplete, it will not be considered valid.",
+      "cosine_similarity": 0.8367732763290405,
+      "processing_time": 1.280527114868164,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 49,
+      "question": "What changes have been made to the corporate tax incentives for green industries in Bangladesh?",
+      "ground_truth": "Corporate tax incentives for green industries in Bangladesh:  The corporate tax holiday for agro based industries has been extended to ten years for industries engaged in.  Processing locally grown fruits and vegetables, producing milk and dairy products, Producing baby food entirely from locally grown agricultural products",
+      "prediction": "Based on the provided context, here are the changes made to corporate tax incentives for green industries in Bangladesh:\n\n• Corporate tax holiday for IT hardware producers has been introduced (Section 78 of the Income Tax Ordinance).\n• Corporate tax holiday for agro-based industries has been extended (Section 78 of the Income Tax Ordinance).\n• A new corporate tax holiday has been introduced for producers of light engineering products (Section 78 of the Income Tax Ordinance).",
+      "cosine_similarity": 0.8150743842124939,
+      "processing_time": 1.422353982925415,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 50,
+      "question": "What is the ratio of government debt to GDP in Bangladesh?",
+      "ground_truth": "I do not know",
+      "prediction": "The question about the ratio of government debt to GDP in Bangladesh is not directly addressed in the provided context. However, I can provide some general information based on available data.\n\nAccording to the World Bank, as of 2022, Bangladesh's government debt-to-GDP ratio was around 34.4%. Here are some key points:\n\n• Government debt: The total government debt in Bangladesh is approximately BDT 5.3 trillion (around USD 65 billion) as of 2022.",
+      "cosine_similarity": 0.3076755702495575,
+      "processing_time": 1.5158562660217285,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 51,
+      "question": "In what percentange Education budget increased by in FY25",
+      "ground_truth": "I do not know",
+      "prediction": "There is no information about the Education budget increase in FY2025 in the provided context. The context only discusses the National Budget 2023-24, which does not mention any details about FY2025.\n\nHowever, I can provide some general information about the education sector in Bangladesh:\n\n• The education sector is an important area of focus for the government.\n• The budget for education is typically allocated separately from other sectors.",
+      "cosine_similarity": 0.35409003496170044,
+      "processing_time": 0.969520092010498,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 52,
+      "question": "What was the Government per capita actual expenditure on primary education averaged?",
+      "ground_truth": "I do not know",
+      "prediction": "Based on the provided context, there is no information about the government's per capita actual expenditure on primary education. The Directorate of Primary Education (112003) is mentioned as one of the directorates under the Food Ministry, but no specific data or expenditure figures are provided for this department.\n\nHowever, I can tell you that the total expenditure under the head Corporate Social Responsibility (CSR) is 20% of total income or Tk 12,00,00,000; or actual CSR whichever is lower.",
+      "cosine_similarity": 0.3782317638397217,
+      "processing_time": 1.2298197746276855,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 53,
+      "question": "What percentage budget deficit has been projected 2026 at GDP?",
+      "ground_truth": "Budget deficit has been projected at 3.6% of GDP",
+      "prediction": "To calculate the percentage budget deficit projected for 2026 at GDP, we need to follow these steps:\n\n• Start with the adjusted surplus of 11,50,000.\n• Add the deficit on earlier valuation of 3,00,000 to get a total of 14,50,000.\n• Subtract the income tax deducted at source of 3,00,000 to get a net amount of 11,50,000.\n• Calculate the reserve for borius as 75% of 10,00,000 x 60%, which is 4,50,000.",
+      "cosine_similarity": 0.6488372087478638,
+      "processing_time": 1.964738368988037,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 54,
+      "question": "The effective tax for a publicly listed tobacco company decreased by what percentage points in 2024",
+      "ground_truth": "The effective tax rate for a publicly listed tobacco company decreased by 22.5 percentage points in 2024. This is because the tax rate for listed companies is 37.5% and the tax rate for non listed companies is 40%. Since the tobacco company is listed, the effective tax rate is 37.5%.",
+      "prediction": "Based on the provided context, I can't determine how much the effective tax rate decreased by in 2024.",
+      "cosine_similarity": 0.6695171594619751,
+      "processing_time": 0.9805290699005127,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 55,
+      "question": "What policy provides rebate for non-listed companies listing through IPO?",
+      "ground_truth": "Rebate for listed companies listing through IPO is: non listed companies, including branch companies other than banks, insurance companies, merchant banks, jute, textile, garment industries, mobile phone operator companies and cigarette, Zarda, bidi, gul, or any other tobacco product. This are eligible for a rebate of 10% in the year of listing if they list at least 20% of their paid, up capital through IPO.",
+      "prediction": "The policy that provides rebate for non-listed companies listing through IPO is:\n\n• Section 44(2) of the Income Tax Act, which allows a 10% rebate on total tax in the year of transfer if a non-publicly traded company transfers at least 20% shares of its paid-up capital through IPO.\n\nNote: This rebate is only applicable for Resident/Non-Resident Bangladeshi investors.",
+      "cosine_similarity": 0.8092460632324219,
+      "processing_time": 1.0133705139160156,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 56,
+      "question": "Who should submit Income Tax Return?",
+      "ground_truth": "To submit Income Tax Return a individuals with a total income exceeding Tk. 2,50,000/, (excluding female taxpayers, senior male taxpayers of 65 years and above, retarded taxpayers, and war, wounded gazetted freedom fighters). For female taxpayers with a total income exceeding Tk. 3,00,000/, Retarded taxpayers with a total income exceeding Tk. 3,75,000/,",
+      "prediction": "Based on the provided context, the following individuals should submit Income Tax Return:\n\n• Individual assessee with total income exceeding Tk. 2,50,000/-\n• Company assessee by the 15th day of July next following the income year\n• Other taxpayers (unless the date is extended) by the 30th day of September next following the income year",
+      "cosine_similarity": 0.8241602182388306,
+      "processing_time": 1.2192442417144775,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 57,
+      "question": "What is written in Section 67 of the Bangladesh Tax Income Tax Act 2023?",
+      "ground_truth": "According to Section 67 of the Bangladesh Tax Income Tax Act 2023 is the provision of Section 67 shall apply in special cases like computing \"income from other sources\" in accordance with the provisions of Chapter Eight.",
+      "prediction": "Section 67 of the Bangladesh Tax Income Tax Act 2023 states that:\n\n• In special cases, the provision of section 66 shall apply in computing \"income from other sources\" in accordance with the provisions of Chapter Eight.\n\nThis means that section 67 provides an exception to the general rule for computing income from other sources.",
+      "cosine_similarity": 0.9647836685180664,
+      "processing_time": 1.2832317352294922,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 58,
+      "question": "What is the policy on practical work experience for CA students?",
+      "ground_truth": "The policy on practical work experience for CA students is as follows- practical work experience is a part of a training agreement with an ICAB Member. Students need to complete articleship for a period of 3, 4 years. The knowledge, skills, and experience gained during this period are invaluable and provide hands, on experience. Also the articleship agreement is designed to fit with the students practical experience, allowing them to progress through the qualification.",
+      "prediction": "As a Bangladeshi financial advisor with training experience under ICAB, I can tell you that:\n\nThe policy on practical work experience for CA students is as follows:\n• Practical work experience is done as part of a training agreement.\n• The training agreement is with an ICAB Member who is authorized to train students.\n• This hands-on experience helps students develop practical skills and make informed decisions.",
+      "cosine_similarity": 0.8261628150939941,
+      "processing_time": 0.8881404399871826,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 59,
+      "question": "What types of liabilities are covered under Section 2.1 of the SBS-1 Return?",
+      "ground_truth": "The types of liabilities covered under Section 2.1 of the SBS, 1. All the return are:Short, term Foreign Liabilities, Bilateral Trade Liabilities (code 17601), Barter and Special Trade Arrangement (STA) transactions, Foreign currencies to be reported in Table B",
+      "prediction": "According to Section 2.1 of the SBS-1 Return, the following types of liabilities are covered:\n\n• Contingent liabilities as per contra, including:\n • Bills\n • Bank guarantee\n • Liabilities concerning outstanding letters of credit (except those exported under deposit liabilities)\n• Foreign Liabilities, specifically:\n • Short-term Foreign Liabilities:\n • Bilateral Trade Liabilities (code 17601)\n • Barter and Special Trade Arrangement (STA) transactions (code 17601)",
+      "cosine_similarity": 0.9165199995040894,
+      "processing_time": 1.3763556480407715,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 60,
+      "question": "What policy restricts offsetting foreign sourced losses?",
+      "ground_truth": "The policy that restricts offsetting foreign sourced losses is:, Foreign sourced losses of a Bangladesh entity cannot be offset against the Bangladesh profits of that entity. This means that losses incurred from foreign sources cannot be used to reduce the profits of the same entity in Bangladesh.",
+      "prediction": "The policy that restricts offsetting foreign sourced losses is:\n\n• Foreign sourced losses of a Bangladesh entity cannot be offset against the Bangladesh profits of that entity.\n \nThis restriction applies to the tax laws in Bangladesh.",
+      "cosine_similarity": 0.9772251844406128,
+      "processing_time": 0.6757166385650635,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 61,
+      "question": "What is the policy for non-medical professionals on reduced fees",
+      "ground_truth": "The policy for non medical professionals on reduced fees is as follows: for legal practitioners the fees at a reduced rate are charged or no fees are charged at all due to indigent circumstances of the client or any other cause, which should be recorded in the remarks column of the Case Register in Form A(2).",
+      "prediction": "According to Part 11 Rule 8 concld, 8A of the Manual, reduced fees are charged in the following cases:\n\n• By a medical practitioner: recorded in the remarks column of Case Register in Form A(1) (3)\n• By a legal practitioner accountant, auditor, architect or engineer: recorded in the remarks column of Case Register in Form A(1) (3)\n\nNo specific information is provided about reduced fees for non-medical professionals.",
+      "cosine_similarity": 0.8666141033172607,
+      "processing_time": 1.1079738140106201,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 62,
+      "question": "What rule is there for Collection of tax from importers?",
+      "ground_truth": "The purposes of making a collection of tax under section 53B of the Ordinance the Director general Bureau is responsible. In the case of deductions made under any other section except section 86 a certificate as per schedule 3 of the Rules for Tax Deducted at Source, 2023 shall be provided.",
+      "prediction": "The rule for Collection of tax from importers is as follows:\n\n• The Commissioner of Customs or any appropriate officer shall collect tax in the following rate:\n • 5% on the value of imported goods (excluding goods mentioned in clause (b) and clause (c))\n • 2% on the value of imported goods\n\nNote: This rule applies to imports excluding certain items.",
+      "cosine_similarity": 0.5710923671722412,
+      "processing_time": 1.410726547241211,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 63,
+      "question": "What is the maximum penalty for tax evasion under the Income Tax Ordinance, 1984?",
+      "ground_truth": "The maximum penalty for tax evasion under the Income Tax Ordinance, 1984, is:, Imprisonment for a term not exceeding 7 years, Fine for an amount not exceeding double the amount involved in the crime, Either of these penalties alone or in combination",
+      "prediction": "The maximum penalty for tax evasion under the Income Tax Ordinance, 1984 is:\n\n• Tk 20,000\n• Imprisonment for a term which may extend up to 3 years, or both.\n\nNote that this penalty applies to cases where an individual uses a fake Taxpayer's Identification Number.",
+      "cosine_similarity": 0.9417543411254883,
+      "processing_time": 1.2177321910858154,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 64,
+      "question": "What is contains to give effect to the various proposals in the annual budget covering the areas of direct and indirect taxes.",
+      "ground_truth": "The Finance Act, 2023, contains the following: Tax rates, Amendments to existing laws relating to government tax or non tax revenue. And insertion of new clauses/sub, sections/sections/schedules in existing laws. Deletion of old clauses/sub, sections/sections/schedules in existing laws.",
+      "prediction": "The Ill Finance Act contains the following:\n\n• Tax rates\n• Amendments of the clause/sub-section/section/schedule in laws relating to government tax or non-tax revenue\n• Insertion of new clause/sub-section/section/schedule in the existing laws relating to government tax or non-tax revenue\n• Deletion of old clause/sub-section/section/schedule in the existing laws relating to government tax or non-tax revenue",
+      "cosine_similarity": 0.862684965133667,
+      "processing_time": 1.1851420402526855,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 65,
+      "question": "What is the Extending power of NBR officials?",
+      "ground_truth": "The extending power of NBR officials is as follows:, To declare any foreign un, incorporated association as a company for the purposes of the Act., To delegate powers of any income tax authority to another income tax authority., To determine and redetermine the area of income tax authority.To transfer power and jurisdictions of one income tax authority to another income tax authority.",
+      "prediction": "The extending power of NBR officials is as follows:\n\n• They can make necessary rules concerning income tax matters.\n• They can amend existing rules through notification in the official gazette.\n• They have flexibility to modify or change any rules.\n\nNote that these powers are within their authority and do not interfere with the judicial personnel's authority.",
+      "cosine_similarity": 0.8454784750938416,
+      "processing_time": 1.0430700778961182,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 66,
+      "question": "What policy exempts capital gains from sale of shares by investing power generation companies?",
+      "ground_truth": "For Power Sector, the policy that exempts income from tax is the private sector power generation policy of Bangladesh, which is applicable if the company signs a contract with the Government within 30 June, 2020.",
+      "prediction": "The private power generation company will enjoy full tax exemption for 15 years if they:\n\n• Sign a contract with the Government in accordance with the private sector power generation policy of Bangladesh within 30 June, 2020.\n• Started commercial production within 30 June, 2023.\n\nThis exemption is available under the Private Sector Power Generation Policy of Bangladesh.",
+      "cosine_similarity": 0.8701580762863159,
+      "processing_time": 1.2257513999938965,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 67,
+      "question": "How does the tax rate for publicly traded companies compare to non-listed companies?",
+      "ground_truth": "The tax rate for publicly traded companies is lower than that of non listed companies. Publicly traded companies: 20% corporate tax rate and for non listed companies: 27.5% corporate tax rate.",
+      "prediction": "The tax rate for publicly traded companies is lower than that of non-listed companies.\n\nHere are the relevant tax rates:\n\n* Publicly traded company:\n + 20% corporate tax on business income\n + 5% surcharge (total tax rate: 25%)\n* Non-listed company:\n + 27.5% corporate tax on business income\n\nNote that there is no specific mention of a higher tax rate for non-listed companies in the provided context.",
+      "cosine_similarity": 0.9533681273460388,
+      "processing_time": 1.1945996284484863,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 68,
+      "question": "How does the rate for mobile operators not listed compare to those converting with 10% shares?",
+      "ground_truth": "The rate for mobile operators not listed is 45% while those converting themselves into a publicly traded company by transferring at least 10% shares through stock exchanges have a rate of 40%.",
+      "prediction": "The rate for mobile operators not listed is 45%, while those converting with at least 10% shares through stock exchanges have a lower rate of 40%. The difference is 5%. \n\n• Mobile operators not listed: 45%\n• Mobile operators converting with at least 10% shares: 40%",
+      "cosine_similarity": 0.9142853617668152,
+      "processing_time": 1.2386534214019775,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 69,
+      "question": "How does the treatment of share transfers for non-residents compare to capital gains exemption for power companies?",
+      "ground_truth": "For non resident individuals the treatment of share transfers is different from the capital gains exemption for power companies. For example Capital Gains Tax : Non, resident individuals are taxed on capital gains at the usual rate applicable to their total income, including capital gains. The rate is 15% on the amount of capital gains.  Also forCapital Dut : There is no mention of capital duty for non, resident individuals.",
+      "prediction": "As a Bangladeshi financial advisor, I can provide you with the following comparison between the treatment of share transfers for non-residents and capital gains exemption for power companies:\n\n**Similarities:**\n\n• Both are exempt from tax under certain conditions.\n• Non-resident individuals are also exempt from capital gain tax on gain from sale of stocks and shares of listed companies, provided they enjoy the same benefit in their home country.\n\n**Differences:**",
+      "cosine_similarity": 0.8218269348144531,
+      "processing_time": 1.8999321460723877,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 70,
+      "question": "How does the definition of \"property\" compare to \"share in a company\"?",
+      "ground_truth": "The definition of \"property\" in the notice is broader than the definition of \"share in a company\". Main differences \"Property\" includes- Movable property, Immovable property, Shares, Debentures, Interest in any company.",
+      "prediction": "The definition of \"property\" and \"share in a company\" are related but distinct concepts.\n\nHere's how they compare:\n\n• \"Property\" is defined broadly to include:\n • Movable or immovable property\n • Shares, debentures, or interest in any company\n • Actionable claims\n\n• A \"share in a company\", on the other hand, specifically includes:\n • Stock\n • Debenture stock\n • Debentures\n • Bonds",
+      "cosine_similarity": 0.898218035697937,
+      "processing_time": 1.24837064743042,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 71,
+      "question": "How does fixed income term compare to money market.",
+      "ground_truth": "Fixed Income Term: A fixed income term is suitable for companies that can afford to repay a loan earlier than they can, resulting in a need to re, borrow at a higher interest rate.Money Market:, A money market is preferred by companies that only need to borrow when necessary, allowing them to pay for borrowings only when needed. Main differences are fixed income term is suitable for companies with uncertain cash flows. Money market is suitable for companies with predictable cash flows.",
+      "prediction": "Based on the context, here's a concise answer:\n\nThe money market hedge (MMH) and forward contract produce similar results in terms of fixed outcome. However, MMH is considered a better option due to its very marginal advantage.\n\nHere are some key differences between MMH and forward contract:\n\n• Both give a fixed outcome\n• MMH has a slight edge over forward contract",
+      "cosine_similarity": 0.6611565947532654,
+      "processing_time": 1.1381099224090576,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 72,
+      "question": "How does the knowledge progression in financial management compare from Certificate Level to Professional Level?",
+      "ground_truth": "The knowledge progression in Financial Management from Certificate Level to Professional Level is as follows-  At Certificate Level, the aim is to enable you to recommend options for financing a business, recognize and manage links and make appropriate investment decisions.Also the knowledge base is developed further to enable you to apply technical knowledge, analytical techniques and professional skills to resolve compliance and business issues related to corporate reporting and audit services.",
+      "prediction": "The knowledge progression in financial management from Certificate Level to Professional Level is as follows:\n\n• At Certificate Level, the aim is to enable you to recommend options for financing a business, recognize links between finance and other aspects of business, and make appropriate investment decisions.\n• The knowledge base developed at Certificate Level is further developed in the Financial Management module, which focuses on enabling you to:",
+      "cosine_similarity": 0.9798329472541809,
+      "processing_time": 1.6785624027252197,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 73,
+      "question": "Compare S.R.O. for original rules to amendment S.R.O.s.",
+      "ground_truth": "The original S.R.O. for the Income Tax Rules, 1984, to the amendment S.R.O.s:, Original S.R.O. (1985) also short title is Income Tax Rules, 1984. It is  Issued byNational Board of Revenue. It's Powers conferred by: Section 185 of the Income Tax Ordinance, 1984 (XXXVI of 1984), Sub, section (4).",
+      "prediction": "To compare SROs for original rules to amendment SROs:\n\n**Original Rules (SROs):**\n\n• Issued by NBR under Section 343 of the Income Tax Act, 2023\n• Empower NBR to make subordinate laws (rules)\n• Govern the tax system in Bangladesh\n\n**Amendment SROs:**\n\n• Issued by NBR under Section 76(1) of the Income Tax Act, 2023\n• Empowered to issue notifications via government gazette for exemptions from tax\n• Allow for changes or modifications to existing rules",
+      "cosine_similarity": 0.7365803718566895,
+      "processing_time": 1.080491304397583,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 74,
+      "question": "How does treatment charges in Form A(1) compare to fee in Form A(2)?",
+      "ground_truth": "Comparison between treatment charges in Form A(1) and fee in Form A(2) is treatment charges in Form A(1) are related to the \"Nature of Treatment\" (a) Consultation, (b) Surgical treatment, and (c) Injection, etc and fee in Form A(2) is related to the \"Name, Brief Amount of fee, remuneration, etc.\" of the practitioner or professional. There is no direct comparison between the two because they are related to different aspects of the medical treatment.",
+      "prediction": "Based on the provided context, here's a concise comparison between treatment charges in Form A(1) and fee in Form A(2):\n\n• Treatment charges in Form A(1) include:\n • Consultation fees\n • Surgical treatment fees\n • Injection fees\n\n• Fee in Form A(2) includes additional information about:\n • Nursing or maternity home charges (if applicable)\n • Room, diet, and lodging charges\n • Other fees charged from the patient",
+      "cosine_similarity": 0.9064700603485107,
+      "processing_time": 1.0095429420471191,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 75,
+      "question": "What does NBR represent?",
+      "ground_truth": "The National Board of Revenue (NBR) which is Highest executive tax authority in Bangladesh. A statutory body with the power to manage, control, and supervise the income tax department. The authority to make necessary rules concerning income tax matters.",
+      "prediction": "The National Board of Revenue (NBR) is a statutory body that represents the highest executive tax authority in Bangladesh. Here are some key points about NBR:\n\n• It has the power to make necessary rules relating to income tax matters.\n• It appoints required employees subject to organizational structure.\n• It issues forms, notifications, brochures, and guidelines for public access through its website.\n• It empowers itself to make or amend rules concerning income tax matters.",
+      "cosine_similarity": 0.9515690207481384,
+      "processing_time": 1.1444411277770996,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 76,
+      "question": "What is BRPD means?",
+      "ground_truth": "BRPD means Banking Regulation and Policy Department",
+      "prediction": "BRPD stands for Bangladesh Rural Development Board.",
+      "cosine_similarity": 0.7686767578125,
+      "processing_time": 0.4578886032104492,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 77,
+      "question": "What is BB means ?",
+      "ground_truth": "BB stands for Bangladesh Bank. which is the central bank of Bangladesh.",
+      "prediction": "BB stands for Bangladesh Bank.",
+      "cosine_similarity": 0.9263824224472046,
+      "processing_time": 0.4267730712890625,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 78,
+      "question": "JICA means what ?",
+      "ground_truth": "JICA stands for Japan International Co, operation Agency.",
+      "prediction": "JICA stands for Japan International Co-operation Agency. \n\n• It is an organization that provides financial assistance to developing countries, including Bangladesh.\n• In the context of Bangladeshi finance, JICA may be involved in various projects and initiatives related to economic development and infrastructure.",
+      "cosine_similarity": 0.8098785877227783,
+      "processing_time": 0.7855443954467773,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 79,
+      "question": "What does SME means ?",
+      "ground_truth": "SME stands for Small and Medium Enterprises. It is a category of businesses that are typically defined as having a smaller size compared to larger corporations.",
+      "prediction": "SME stands for Small and Medium-sized Enterprise.\n\nHere are some key characteristics of SMEs:\n\n• Value of Fixed Asset: Tk 50,000 lac to Tk 10,00,000 crore (excluding Land & Building)\n• Number of Employees: Less than a certain number (not specified in the context)",
+      "cosine_similarity": 0.8384444117546082,
+      "processing_time": 0.8154160976409912,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 80,
+      "question": "What does RR means?",
+      "ground_truth": "RR stands for Residual Risk",
+      "prediction": "Based on the provided context, I can tell you that:\n\nRR is likely an abbreviation used in the Bangladeshi financial sector. Unfortunately, the exact meaning of RR is not explicitly mentioned in the given text.\n\nHowever, considering the context of credit scores and banking, it's possible that RR could be related to a specific rating or score system used in Bangladesh.",
+      "cosine_similarity": 0.5599610805511475,
+      "processing_time": 0.7934517860412598,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 81,
+      "question": "What act is for co-operative societies?",
+      "ground_truth": "The act related to co, operative societies is- The Companies Act, 1994 This act includes the co, operative society as a type of entity that is registered with the Companies Act.",
+      "prediction": "The Act for cooperative societies is the Cooperative Society Act, 2001. Here are some key details:\n\n• The Act applies to associations of persons registered under it.\n• It covers income from agricultural activities, cottage industries, and other specific sectors.\n• Exemptions include:\n • Income from production of pelleted poultry feed\n • Production of pelleted feed for fish, shrimp, and cattle\n • Marketing of locally produced seeds",
+      "cosine_similarity": 0.7120468616485596,
+      "processing_time": 1.2311043739318848,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 82,
+      "question": "What productions are listed for progressive taxation?",
+      "ground_truth": "The productions listed for progressive taxation are: textile,machinery,tyre manufacturing industry,tissue grafting etc any other category of industrial undertaking as specified by the Government.",
+      "prediction": "Based on the provided context, the productions listed for progressive taxation are:\n\n• Pay (as mentioned in the sentence \"The more a‘taxpayer earns the more he should pay\")\n\nThis implies that income is taxed progressively based on the amount earned by the taxpayer.",
+      "cosine_similarity": 0.743711531162262,
+      "processing_time": 0.7379682064056396,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 83,
+      "question": "What is national bird of Kenya ?",
+      "ground_truth": "I do not know",
+      "prediction": "I'm afraid I don't have any information about the national bird of Kenya in the provided context. The context appears to be related to institutions, research institutes, and councils in Bangladesh.\n\nHowever, I can suggest that you may need to look for additional sources or information outside of this context to find the answer to your question.",
+      "cosine_similarity": 0.4122755527496338,
+      "processing_time": 0.9287021160125732,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 84,
+      "question": "What is Zakat in Islam ?",
+      "ground_truth": "I do not know",
+      "prediction": "Zakat in Islam refers to a form of charity given to those who are less fortunate. In the context of taxation, Zakat is considered as a donation to the Govt Zakat Fund.\n\nHere are some key points about Zakat:\n\n• It is paid by an assessee (individual or organization) as a form of charity.\n• The payment is made to the Zakat Fund established by or under the Zakat Fund Management Act, 2023.\n• The donation must be approved by the Social Welfare Department and the NBR.",
+      "cosine_similarity": 0.3643673360347748,
+      "processing_time": 0.9198040962219238,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 85,
+      "question": "আয়কর কি?",
+      "ground_truth": "আয়কর হলো নির্দিষ্ট আইনের অধীন আরোপযোগ্য যেকোনো উৎস থেকে উদ্ভূত আয় বা পরিমানের উপর কর আরোপ করা",
+      "prediction": "• আইনের প্রসঙ্গে\n• একটি নির্দিষ্ট ধরনের আয় থেকে",
+      "cosine_similarity": 0.6417855620384216,
+      "processing_time": 1.7537410259246826,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 86,
+      "question": "ভ্যালু অ্যাডেড ট্যাক্স এবং সম্পূরক শুল্ক বিধিমালা, ২০১৬-এর সংক্ষিপ্ত নাম কী?",
+      "ground_truth": "ভ্যালু অ্যাডেড ট্যাক্স এবং সম্পূরক শুল্ক বিধিমালা, ২০১৬, এর সংক্ষিপ্ত নাম হল 'মূল্য সংযোজন কর ও সম্পূরক শুল্ক বিধিমালা'",
+      "prediction": "ভ্যালু অ্যাডেড ট্যাক্স এবং সম্পূরক শুল্ক বিধিমালা, ২০১৬",
+      "cosine_similarity": 0.8092285990715027,
+      "processing_time": 1.9103739261627197,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 87,
+      "question": "\"করারোপিত লভ্যাংশ\" কি?",
+      "ground_truth": "করারোপিত লভ্যাংশ হলো কর আরোপযোগ্য হওয়ার সময় লভ্যাংশের উপর কর পরিশোধ করা হয়।",
+      "prediction": "• করারোপিত লভ্যাংশ হলো সেই লভ্যাংশ যা বাংলাদেশ গেজেট, অতিরিক্ত, FTL, ২০২৩ ৮১১৫ কোনো তহবিল, সঞ্চিতি বা Gye, at যে নামেই অভিহিত হওয়ার পরিবর্তে কোনো আয় থেকে স্থানান্তরিত হয়।",
+      "cosine_similarity": 0.7487448453903198,
+      "processing_time": 2.166940689086914,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 88,
+      "question": "বাংলাদেশে আয়কর রিটার্ন কী?",
+      "ground_truth": "বাংলাদেশে আয়কর রিটার্ন হলো করদাতার নির্দিষ্ট আয়ের হিসাব ও প্রাপ্য করের পরিমাণ উল্লেখ করে নির্ধারিত সময়ে দাখিল করা একটি বাধ্যতামূলক নথি।",
+      "prediction": "• আয়কর রিটার্ন হলো এমন অর্থের সংগ্রহ যা বাংলাদেশের কর আইন, ১৯৭৪ (সংশোধিত) অনুযায়ী এমন ব্যক্তি দ্বারা গঠিত হয় যেখানে সেই ব্যক্তির প্রত্যেক অনুষ্ঠানে আয় থাকে।",
+      "cosine_similarity": 0.8261327743530273,
+      "processing_time": 2.527808666229248,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 89,
+      "question": "“আয়কর কর্মকর্তা” বলতে কী বোঝায়?",
+      "ground_truth": "আয়কর কর্মকর্তা হলেন কর আপিল ট্রাইব্যুনালের একজন কর্মকর্তা, যিনি কর আপিলের সমাধানে জড়িত থাকেন।",
+      "prediction": "• আয়কর কর্মকর্তা হলেন সরকারি প্রধান বা অফিসার যারা আয়কর বিভাগের দায়িত্ব পালন করেন\n• তারা আয়কর নির্ধারণ, অফিস কাজ এবং মুদ্রাস্ফীতি প্রভৃতি বিষয়ে দায়িত্ব পালন করে\n• আয়কর কর্মকর্তা হলেন সরকারী অফিসার যারা আয়কর বিভাগের দায়িত্ব পালন করে",
+      "cosine_similarity": 0.7874364852905273,
+      "processing_time": 2.7454471588134766,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 90,
+      "question": "\"পরিবার সম্পর্কিত ব্যক্তি\" বলতে কোন শতাংশ শেয়ারের মালিকানা বোঝানো হয়?",
+      "ground_truth": "পরিবার সম্পর্কিত ব্যক্তি বলতে প্রথম প্রজন্মের সদস্য বা পরিবারের সদস্যকে বোঝায়।",
+      "prediction": "\"পরিবার সম্পর্কিত ব্যক্তি\" বলতে 5% শতাংশ শেয়ারের মালিকানা বোঝানো হয়।",
+      "cosine_similarity": 0.7083326578140259,
+      "processing_time": 1.5008137226104736,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 91,
+      "question": "মিউচুয়াল ফান্ড কী?",
+      "ground_truth": "মিউচুয়াল ফান্ড হলো এক ধরনের বিনিয়োগ ফান্ড যার লক্ষ্য হলো স্বল্পমেয়াদী বিনিয়োগের জন্য অর্থ সংগ্রহ করা এবং সেই অর্থগুলো বিভিন্ন বিনিয়োগে বিনিয়োগ করা।",
+      "prediction": "• একটি নিশ্চিত সংখ্যায় অংশের মোট পরিমাণ\n• বিভিন্ন ধরনের আইনি দলিল, হিসাব ও রেকর্ড থেকে তথ্য উৎপন্ন হয়\n• এটি মিউচুয়াল ফান্ড সংস্থার অর্থের বিনিময়ে প্রদত্ত আইনি হক\n• এটি সুরক্ষা ও পরিচালনার জন্য ব্যবহৃত হয়",
+      "cosine_similarity": 0.637718677520752,
+      "processing_time": 2.753441333770752,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 92,
+      "question": "“আয়বর্ষ” এর সংজ্ঞা কী?",
+      "ground_truth": "আয়বর্ষ হলো সেই সময়কাল, যার মধ্যে কোনো ব্যবসায়িক বা আর্থিক কার্যক্রম সম্পাদিত হয় এবং সেই বছরের আর্থিক ফলাফল নির্ধারণ করা হয়।",
+      "prediction": "• আইনি প্রেক্ষাপটে \"আয়বর্ষ\" এর সংজ্ঞা হলো, একটি নির্দিষ্ট অনুমোদন প্রাপ্ত আয়ের বছর।\n\n• সংজ্ঞা অনুসারে, একটি নির্দিষ্ট অনুমোদন প্রাপ্ত আয়ের বছর হলো যা সংশ্লিষ্ট করদাতার \"মূলধনি'আয়\" শ্রেণির আয় হিসাবে গণ্য হয়।\n\n• একটি নির্দিষ্ট অনুমোদন প্রাপ্ত আয়ের বছর হলো যা সংশ্লিষ্ট করদাতার \"কৃষি হইতে আয়\" শ্রেণির পরিত্যক্ত, 'নিশ্চিহ্ন বা ধ্বংস হওয়ার কারণে কোনো বিমা; স্যাল্ভেজ বা ক্ষতিপূরণ হিসাবে প্রাপ্ত অর্থ নং ১ | বিমা, স্যালভেজ, at ক্ষতিপূরণ ক:খ এর সমপরিমাণ অর্থ উক্ত আয়বর্ষে বাবদ অর্থ যদি পরিসম্পদের | সংশ্লিষ্ট করদাতার \"মূলধনি আয়\" শ্রেণির আয় at এর সমপরিমাণ 'অর...",
+      "cosine_similarity": 0.7527748346328735,
+      "processing_time": 6.450485944747925,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 93,
+      "question": "বাংলাদেশ ব্যাংকের প্রধান কাজ কী?",
+      "ground_truth": "বাংলাদেশ ব্যাংকের প্রধান কাজ হলো দেশের অর্থনীতিতে স্থিতিশীলতা ও উন্নয়ন বজায় রাখা। এটি দেশের একমাত্র কেন্দ্রিয় ব্যাংক হিসেবে গুরুত্বপূর্ণ ভূমিকা পালন করে।",
+      "prediction": "বাংলাদেশ ব্যাংকের প্রধান কাজ হলো:\n\n• আইনি সম্পর্কিত কার্যক্রম পরিচালনা করা\n• ব্যাংকের অধীনে এমন সকল সংস্থার দিক নিশ্চিত করা যারা আর্থিক ব্যবস্থা পরিচালনা করে\n• অসুস্থ এবং নির্দোষ ব্যক্তিদের আইনি সহায়তা প্রদান করা\n• ব্যাংকের অর্থ ও মুদ্রা নিয়ন্ত্রণ করা",
+      "cosine_similarity": 0.8258146047592163,
+      "processing_time": 2.3546366691589355,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 94,
+      "question": "“আয়কর অ্যাপিলেট কমিশনার” বলতে কী বোঝায়?",
+      "ground_truth": "আয়কর অ্যাপিলেট কমিশনার হল আয়কর কমিশনারের একটি পদ, যা আয়কর অ্যাপিলেট কমিশনার হিসেবে দায়িত্ব পালন করে।",
+      "prediction": "• \"আপিল অ্যাপিলেট কমিশনার\" এর অর্থ হল আইনি বিচার সংক্রান্ত আপিল দায়ের কর্তৃপক্ষের উপকর কমিশনার।",
+      "cosine_similarity": 0.7833314538002014,
+      "processing_time": 1.6066436767578125,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 95,
+      "question": "“করযোগ্য আয়” বলতে কী বোঝায়?",
+      "ground_truth": "করযোগ্য আয় বলতে সেই আয় বোঝায় যা বৈদেশিক কর ক্রেডিটের অধীনে সমন্বয় অনুমোদনের সময় গণনা করা হয়। এতে চুক্তির অধীনে প্রাপ্ত লভ্যাংশের ক্ষেত্রে বাংলাদেশে করের বিপরীতে কোনো রেয়াত অনুমোদিত হলে বা প্রদেয় রেয়াতের পরিমাণ নির্ধারিত হলে, উপ-ধারা (১) অনুযায়ী সেই আয় বৃদ্ধিপ্রাপ্ত আয় হিসেবে বিবেচিত হয়।",
+      "prediction": "• করযোগ্য আয় বলতে সমস্ত আয় বোঝায় যা কর আরোপিত হয়, এই ধরনের আয় থেকে অন্যান্য উৎস থেকে বিচ্ছিন্ন করা হয়।",
+      "cosine_similarity": 0.7446799278259277,
+      "processing_time": 1.9893958568572998,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 96,
+      "question": "পোর্ট-ট্যাক্স রেবেট বা কর অব্যাহতি কত?",
+      "ground_truth": "পোর্ট-ট্যাক্স রেবেট বা কর অব্যাহতির পরিমাণ নির্দিষ্ট নীতি, আইন বা চুক্তির ওপর নির্ভর করে।",
+      "prediction": "পোর্ট-ট্যাক্স রেবেট বা কর অব্যাহতি 15,000।",
+      "cosine_similarity": 0.7866559624671936,
+      "processing_time": 1.2789642810821533,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 97,
+      "question": "\"বন্ডেড ওয়্যারহাউস\" এবং \"স্পেশাল বন্ডেড ওয়্যারহাউস\" কোন অধ্যায়ে উল্লেখিত?",
+      "ground_truth": "বন্ডেড ওয়্যারহাউস এবং স্পেশাল বন্ডেড ওয়্যারহাউস কর আইন বা কাস্টমস অধ্যায়ে উল্লেখিত।",
+      "prediction": "আইনের অধীন নিবন্ধিত বা তালিকাভুক্ত দুই জন ব্যক্তি যাহাদের মধ্যে একই মালিকানার শেয়ারের পরিমাণ ন্যুনতম ৫০ (পঞ্চাশ) @",
+      "cosine_similarity": 0.4589298367500305,
+      "processing_time": 1.8288166522979736,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 98,
+      "question": "\"বোর্ড\" বলতে কোন অর্ডারের অধীনে গঠিত বোর্ডকে বোঝানো হয়?",
+      "ground_truth": "বোর্ড বলতে 1972 সালের প্রেসিডেন্ট অর্ডার 76 অনুযায়ী গঠিত জাতীয় রাজস্ব বোর্ডকে বোঝানো হয়।",
+      "prediction": "• আইনি প্রসঙ্গে \"বোর্ড\" এর অর্থ হল এমন একটি বোর্ড যা নিজেই আইনি প্রসঙ্গে গঠিত হয়।\n\n• উদাহরণ স্বরূপ, কর্তৃপক্ষ এবং আপিল ট্রাইব্যুনালের সদস্যদের মধ্যে গঠিত বোর্ডকে \"বোর্ড\" হিসাবে উল্লেখ করা হয়।\n\n• এই প্রসঙ্গে, আইনি প্রসঙ্গে \"বোর্ড\" এর অর্থ হল একটি নিয়মিত ও নির্দিষ্ট আইনি প্রসঙ্গে গঠিত বোর্ড।",
+      "cosine_similarity": 0.5569610595703125,
+      "processing_time": 3.1595818996429443,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 99,
+      "question": "আয়কর আইন, ২০২৩ দ্বারা কর হার নির্ধারণ কেমন?",
+      "ground_truth": "আয়কর আইন, ২০২৩ দ্বারা কর হার নির্ধারণ কর কর্তৃপক্ষ দ্বারা নির্ধারণ করা হয়।",
+      "prediction": "• আয়কর আইন, ২০২৩ অতিরিক্ত প্রসঙ্গে বলা হয়েছে যে এটি মাঝারি ও উচ্চ আয়কর আইন।",
+      "cosine_similarity": 0.636177659034729,
+      "processing_time": 2.0968008041381836,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 100,
+      "question": "\"মুসক আইন\" বলতে কোন আইনকে বোঝানো হয়?",
+      "ground_truth": "মুসক আইন বলতে ধারা ১৩৭-এর অধীন রহিত মূল্য সংযোজন কর আইন, ১৯৯১-কে বোঝানো হয়।",
+      "prediction": "\"মুসক আইন\" বলতে ধারা ১৩৭ এর অধীন রহিত মূল্য সংযোজন'কর আইনকে বোঝানো হয়।",
+      "cosine_similarity": 0.9031869769096375,
+      "processing_time": 1.6502244472503662,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 101,
+      "question": "আয়কর রিটার্ন জমা দেওয়ার শেষ সময় কবে?",
+      "ground_truth": "আয়কর রিটার্ন জমা দেওয়ার শেষ সময় হলো ২৪ মাসের বেশি নয়।",
+      "prediction": "• 31 জানুয়ারি",
+      "cosine_similarity": 0.36303412914276123,
+      "processing_time": 1.6646475791931152,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 102,
+      "question": "ন্যাশনাল বোর্ড অব রেভিনিউ অর্ডার কোন সালের?",
+      "ground_truth": "ন্যাশনাল বোর্ড অব রেভিনিউ অর্ডার ২০১২ সালের।",
+      "prediction": "২০১১",
+      "cosine_similarity": 0.4321154057979584,
+      "processing_time": 1.3191108703613281,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 103,
+      "question": "1984 থেকে 2023 পর্যন্ত “আয়বর্ষ” এর সংজ্ঞায় কী পরিবর্তন হয়েছে?",
+      "ground_truth": "আয়বর্ষের সংজ্ঞায় 1984 থেকে 2023 পর্যন্ত কোনো পরিবর্তন হয়নি।",
+      "prediction": "• 1984 থেকে 2023 পর্যন্ত \"আয়বর্ষ\" এর সংজ্ঞায় পরিবর্তন হয়েছে, কারণ উপ-ধারা (৩) এর অধীন নোটিশ প্রদানে ব্যর্থতায় উপকর কমিশনার ব্যবসা বন্ধের পারেন, তবে এই জরিমানার GEE অব্যবহিত পূর্বের করবর্ষের করের অঙ্ক অপেক্ষা অধিক হইবে না",
+      "cosine_similarity": 0.6384782791137695,
+      "processing_time": 2.5331246852874756,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 104,
+      "question": "২০২৪-২৫ অর্থবছরের সংশোধিত বাজেটের তুলনায় ২০২৫-২৬ অর্থবছরের প্রস্তাবিত বাজেটে এনবিআর বহির্ভূত করের লক্ষ্যমাত্রা কত বৃদ্ধি পেয়েছে?",
+      "ground_truth": "২০২৪-২৫ অর্থবছরের সংশোধিত বাজেটের তুলনায় ২০২৫-২৬ অর্থবছরের প্রস্তাবিত বাজেটে এনবিআর বহির্ভূত করের লক্ষ্যমাত্রা ১০০০ কোটি টাকা বৃদ্ধি পেয়েছে।",
+      "prediction": "2024-25 অর্থবছরের সংশোধিত বাজেটের তুলনায় 2025-26 অর্থবছরের প্রস্তাবিত বাজেটে এনবিআর বহির্ভূত করের লক্ষ্যমাত্রা ২০% বৃদ্ধি পেয়েছে।\n\n• এনবিআর বহির্ভূত করের লক্ষ্যমাত্রা ২০৩৫-২৬ অর্থবছরের প্রস্তাবিত বাজেটে হলো টাকা ৪,৩০,০০০ কোটি।\n• 2024-25 অর্থবছরের সংশোধিত বাজেটে এনবিআর বহির্ভূত করের লক্ষ্যমাত্রা ছিল টাকা ৩,৭০,০০০ কোটি।\n• সুতরাং, 2024-25 অর্থবছরের সংশোধিত বাজেটের তুলনায় 2025-26 অর্থবছরের প্রস্তাবিত বাজেটে এনবিআর বহির্ভূত করের লক্ষ্যমাত্রা ২০% বৃদ্ধি পেয়েছে।",
+      "cosine_similarity": 0.9411247968673706,
+      "processing_time": 3.707315683364868,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 105,
+      "question": "গত দুই দশকে বিদ্যুৎ খাতে বিনিয়োগ কীভাবে পরিবর্তিত হয়েছে?",
+      "ground_truth": "গত দুই দশকে বিদ্যুৎ খাতে বিনিয়োগ বাজারের প্রতিক্রিয়ার কারণে হ্রাস পেয়েছে, যদিও বিনিয়োগকারীদের জন্য বিভিন্ন প্রয়োজনীয় সুবিধা ও অধিকার রয়েছে।",
+      "prediction": "প্রশ্নের উত্তর দিতে, আমাকে গত দুই দশকে বিদ্যুৎ খাতে বিনিয়োগের পরিবর্তন সম্পর্কে জানতে হবে।\n\nএই দুই দশকে, বিদ্যুৎ খাতে বিনিয়োগ অনেক পরিবর্তন সম্পর্কে হয়েছে।\n\n• এই দুই দশকে, বিদ্যুৎ খাতে বিনিয়োগ অনেক পরিবর্তন সম্পর্কে হয়েছে।",
+      "cosine_similarity": 0.7695624828338623,
+      "processing_time": 2.7771294116973877,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 106,
+      "question": "\"ভ্যালু অ্যাডেড ট্যাক্স আইন\" কোন সালের?",
+      "ground_truth": "ভ্যালু অ্যাডেড ট্যাক্স আইন ২০১২ সালের।",
+      "prediction": "• ২০২৩",
+      "cosine_similarity": 0.4171684980392456,
+      "processing_time": 1.4281411170959473,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 107,
+      "question": "গত পাঁচ বছরে ব্যাংক খাতে খেলাপি ঋণের হার কীভাবে পরিবর্তিত হয়েছে?",
+      "ground_truth": "গত পাঁচ বছরে ব্যাংক খাতে খেলাপি ঋণের হার ধীরে ধীরে হ্রাস পেয়েছে: ২০১৮-১৯ সালে ১০.৫%, ২০১৯-২০ সালে ৯.৫%, ২০২০-২১ সালে ৮.৫%, ২০২১-২২ সালে ৭.৫%, এবং ২০২২-২৩ সালে ৬.৫%।",
+      "prediction": "প্রশ্নের উত্তর দিতে, আমাকে গত পাঁচ বছরে ব্যাংক খাতে খেলাপি ঋণের হার সম্পর্কে জানতে হবে।\n\nগত পাঁচ বছরে, ব্যাংক খাতে খেলাপি ঋণের হার অনেক দৃঢ় এবং স্থিতিশীল ছিল। যাইহোক, গত কয়েক বছরে, খেলাপি ঋণের হার অনেক দ্রুত এবং স্থিতিশীলভাবে উঠেছে।\n\nগত পাঁচ বছরে, খেলাপি ঋণের হার অনেক দ্রুত এবং স্থিতিশীলভাবে উঠেছে। গত চার বছরে, খেলাপি ঋণের হার ১৫% এ ছিল। গত দুই বছরে, সেটা ২০% এ উঠেছে। এখন, খেলাপি ঋণের হার ২৫% এ আছে।\n\nতাই, গত পাঁচ বছরে, খেলাপি ঋণের হার অনেক দ্রুত এবং স্থিতিশীলভাবে উঠেছে।",
+      "cosine_similarity": 0.825941801071167,
+      "processing_time": 4.193912029266357,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 108,
+      "question": "২০২৩-২৪ অর্থবছরের হিসাবের তুলনায় ২০২৪-২৫ অর্থবছরের সংশোধিত বাজেটে রাজস্ব আয় কত বৃদ্ধি পেয়েছে?",
+      "ground_truth": "২০২৪-২৫ অর্থবছরের সংশোধিত বাজেটে রাজস্ব আয় ২০২৩-২৪ অর্থবছরের হিসাবের তুলনায় ১২.৫% বৃদ্ধি পেয়েছে।",
+      "prediction": "2023-24 অর্থবছরের সংশোধিত বাজেটে রাজস্ব আয় 38.10% বৃদ্ধি পেয়েছে।",
+      "cosine_similarity": 0.9036036729812622,
+      "processing_time": 1.6875333786010742,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 109,
+      "question": "বাজেটে জুলাই গণঅভ্যুত্থান-পরবর্তী অর্থনীতির পুনরুদ্ধারের কথা উল্লেখ করা হয়েছে কেন?",
+      "ground_truth": "বাজেটে জুলাই গণঅভ্যুত্থান-পরবর্তী অর্থনীতির পুনরুদ্ধারের কথা উল্লেখ করা হয়েছে কারণ সেই সময়ে বাংলাদেশের অর্থনীতি ব্যাঘাতমুখী ছিল।",
+      "prediction": "• জুলাই গণঅভ্যুত্থান-পরবর্তী অর্থনীতির পুনরুদ্ধারের কথা উল্লেখ করা হয়েছে কেন, তা হলো বাজেটে এই অর্থনীতির পুনরুদ্ধারের উদ্দেশ্য ছিল।",
+      "cosine_similarity": 0.8401542901992798,
+      "processing_time": 2.248067855834961,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 110,
+      "question": "জাতীয় সংসদ ভবনের নকশা কে করেছেন?",
+      "ground_truth": "জাতীয় সংসদ ভবনের নকশা করেছেন লুই আই. খান।",
+      "prediction": "আপনি জাতীয় সংসদ ভবনের নকশা করেছেন।",
+      "cosine_similarity": 0.7686240673065186,
+      "processing_time": 1.4105606079101562,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 111,
+      "question": "বাংলাদেশে কতজন করদাতা রিটার্ন জমা দিয়েছে ২০২৩ সালে?",
+      "ground_truth": "বাংলাদেশে ২০২৩ সালে কতজন করদাতা রিটার্ন জমা দিয়েছে, তা নিয়ে নির্দিষ্ট তথ্য পাওয়া যায়নি।",
+      "prediction": "প্রশ্নের উত্তর দিতে, আমাকে জানতে হবে যে ২০২৩ সালে কতজন করদাতা রিটার্ন জমা দিয়েছে। প্রশ্নে এই তথ্য উল্লেখ করা হয়নি, তাই আমাকে সরাসরি উত্তর দিতে পারব না।",
+      "cosine_similarity": 0.860171914100647,
+      "processing_time": 2.192314863204956,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 112,
+      "question": "২০২৫-২৬ অর্থবছরের বাজেটে বিদ্যুৎ খাতে বরাদ্দের শতকরা পরিমাণ কত?",
+      "ground_truth": "২০২৫-২৬ অর্থবছরের বাজেটে বিদ্যুৎ খাতে বরাদ্দের শতকরা পরিমাণ ২৫%।",
+      "prediction": "আপনি একজন বাংলাদেশী আর্থিক পরামর্শদাতা। প্রসঙ্গ ব্যবহার করে সংক্ষিপ্ত ও সঠিক উত্তর দিন।\n\n২০২৫-২৬ অর্থবছরের বাজেটে বিদ্যুৎ খাতে বরাদ্দের শতকরা পরিমাণ ১৫% (পনেরো শতাংশ)।",
+      "cosine_similarity": 0.8626201748847961,
+      "processing_time": 2.3987066745758057,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 113,
+      "question": "\"টার্নওভার ট্যাক্স চালানপত্র\" এর উপ-ধারা সংখ্যা কত?",
+      "ground_truth": "টার্নওভার ট্যাক্স চালানপত্রের উপ-ধারা সংখ্যা হলো উপ-ধারা (২)।",
+      "prediction": "(©)",
+      "cosine_similarity": 0.33692920207977295,
+      "processing_time": 1.4959158897399902,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 114,
+      "question": "২০২৫-২৬ অর্থবছরের বাজেটে বিদেশী ঋণের শতকরা পরিমাণ কত?",
+      "ground_truth": "আমি সেই তথ্য জানি না",
+      "prediction": "আপনি একজন বাংলাদেশী আর্থিক পরামর্শদাতা। প্রসঙ্গ ব্যবহার করে সংক্ষিপ্ত ও সঠিক উত্তর দিন।\n\n২০২৫-২৬ অর্থবছরের বাজেটে বিদেশী ঋণের শতকরা পরিমাণ হল ৩৯.১০%।",
+      "cosine_similarity": 0.39909040927886963,
+      "processing_time": 1.8563883304595947,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 115,
+      "question": "বাংলাদেশের জিডিপি প্রবৃদ্ধি হার কত শতাংশ ছিল ২০২৪ সালে?",
+      "ground_truth": "আমি সেই তথ্য জানি না যে বাংলাদেশের জিডিপি প্রবৃদ্ধি হার ২০২৪ সালে কত শতাংশ ছিল।",
+      "prediction": "আপনি জিডিপি প্রবৃদ্ধি হার খুঁজে পেতে চান? সমস্যা সমাধানের জন্য, আমাকে বাংলাদেশের জিডিপি প্রবৃদ্ধি হার 2024 সালের তথ্য খুঁজে বের করতে হবে।\n\nআমি এটা নিশ্চিত করতে পারি যে 2024 সালের জননগণ অধীনে বাংলাদেশের জিডিপি প্রবৃদ্ধি হার তথ্য আমাকে সরাসরি উপলব্ধ নয়।",
+      "cosine_similarity": 0.7696212530136108,
+      "processing_time": 2.637138605117798,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 116,
+      "question": "২০২৫-২৬ অর্থবছরের বাজেটে পেনশন খাতে বরাদ্দের শতকরা পরিমাণ কত?",
+      "ground_truth": "২০২৫-২৬ অর্থবছরের বাজেটে পেনশন খাতে বরাদ্দের শতকরা পরিমাণ প্রদানের জন্য আমার কাছে পর্যাপ্ত পরিমাণ তথ্য নেই।",
+      "prediction": "আপনি একজন বাংলাদেশী আর্থিক পরামর্শদাতা। প্রসঙ্গ ব্যবহার করে সঠিক উত্তর দিন।\n\n২০২৫-২৬ অর্থবছরের বাজেটে পেনশন খাতে বরাদ্দের শতকরা পরিমাণ ১.৫%।",
+      "cosine_similarity": 0.7808177471160889,
+      "processing_time": 2.295832872390747,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 117,
+      "question": "\"মুসক আইন\" এর ধারা নং কত?",
+      "ground_truth": "মুসক আইনের ধারা নং হলো ১৩৭।",
+      "prediction": "ধাঁরা ৭০",
+      "cosine_similarity": 0.5023126006126404,
+      "processing_time": 1.5850796699523926,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 118,
+      "question": "দেশে ক্ষুদ্র ও মাঝারি শিল্পের অবদান জিডিপির কত শতাংশ?",
+      "ground_truth": "দেশে ক্ষুদ্র ও মাঝারি শিল্পের অবদান জিডিপির ২৫ শতাংশ।",
+      "prediction": "দেশে ক্ষুদ্র ও মাঝারি শিল্পের অবদান জিডিপির শতাংশ 20%।",
+      "cosine_similarity": 0.9461813569068909,
+      "processing_time": 1.4585094451904297,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 119,
+      "question": "রপ্তানি বৃদ্ধির জন্য কী ধরনের নীতিগত সহায়তা দেওয়া হয়?",
+      "ground_truth": "রপ্তানি বৃদ্ধির জন্য নীতিগত সহায়তা হিসেবে আমদানি ও রপ্তানি প্রচারণা, রপ্তানি বাণিজ্য উন্নয়ন এবং রপ্তানি প্রতিষ্ঠানগুলোর জন্য সহায়তা প্রদান করা হয়।",
+      "prediction": "আপনি একজন বাংলাদেশী আর্থিক পরামর্শদাতা। রপ্তানি বৃদ্ধির জন্য নীতিগত সহায়তা হলেন:\n\n• কোনো চুক্তি বা সমঝোতার মাধ্যমে কোনো আসবাবপত্র, জিনিসপত্র এবং ভূমি ব্যবহারের জন্য প্রদান করা হয়\n• কোনো লিজ, ভোগ AS (tenancy) অথবা স্থান ব্যবহারের জন্য প্রদান করা হয়\n• কোনো ভবন ব্যবহারের জন্য প্রদান করা হয়",
+      "cosine_similarity": 0.8082319498062134,
+      "processing_time": 2.9343559741973877,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 120,
+      "question": "বাজেটে মূল্যস্ফীতি নিয়ন্ত্রণের জন্য কী নীতি গ্রহণ করা হয়েছে?",
+      "ground_truth": "উপকর কমিশনার তাহার নিকট প্রাপ্য তথ্য বা দলিলাদি অনুসারে বাজেটে মূল্যস্ফীতি নিয়ন্ত্রণের জন্য উপ, ধারা (১) এ উল্লিখিত সর্বাপেক্ষ নীতি গ্রহণ করা হয়েছে।",
+      "prediction": "• পরবর্তী ব্যবস্থা গ্রহণ করা হবে\n• মূল্য সংযোজন করক",
+      "cosine_similarity": 0.5621011257171631,
+      "processing_time": 1.725726842880249,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 121,
+      "question": "আয়কর অধ্যাদেশে করদাতার পলিসি কী?",
+      "ground_truth": "করদাতার পলিসি হলো কর পরিশোধের সময় ও পদ্ধতি নির্বাচন করার প্রক্রিয়া, যা করদাতার স্বার্থ ও প্রয়োজনের উপর নির্ভর করে।",
+      "prediction": "• আইনের প্রসঙ্গে নির্দিষ্ট শর্ত পূরণ করা হলে করদাতাকে অবশ্যই আয়কর নির্ধারণের জন্য উপকর কমিশনারের সুনির্দিষ্ট বিবরণ প্রদান করতে হবে\n• আইনের প্রসঙ্গে নির্দিষ্ট শর্ত পূরণ করা হলে করদাতাকে অবশ্যই আয়কর নির্ধারণের জন্য উপকর কমিশনারের সুনির্দিষ্ট বিবরণ প্রদান করতে হবে\n• আইনের প্রসঙ্গে নির্দিষ্ট শর্ত পূরণ করা হলে করদাতাকে অবশ্যই আয়কর নির্ধারণের জন্য উপকর কমিশনারের সুনির্দিষ্ট বিবরণ প্রদান করতে হবে\n• আইনের প্রসঙ্গে নির্দিষ্ট শর্ত পূরণ করা হলে করদাতাকে অবশ্যই আয়কর নির্ধারণের জন্য উপকর কমিশনারের সুনির্দিষ্ট বিবরণ প্রদান করতে হবে",
+      "cosine_similarity": 0.5682848691940308,
+      "processing_time": 6.738323211669922,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 122,
+      "question": "বাজেটে পুঁজিবাজারের সংস্কারের জন্য কী টাস্কফোর্স গঠন করা হয়েছে?",
+      "ground_truth": "বাজেটে পুঁজিবাজারের সংস্কারের জন্য কোনো টাস্কফোর্স গঠন করা হয়নি।",
+      "prediction": "• পুঁজিবাজারের সংস্কারের জন্য টাস্কফোর্স গঠন করা হয়েছে।\n• এই টাস্কফোর্সের মধ্যে রয়েছে: \n • বিনিয়োগ প্রতিষ্ঠান ও বিনিয়োগ কর্মসূচি পরিচালনা\n • আর্থিক উন্নয়ন এবং অর্থনৈতিক সহযোগিতা প্রচার\n • বিনিয়োগ ও উন্নয়নের জন্য অর্থায়ন সুবিধা",
+      "cosine_similarity": 0.5448721051216125,
+      "processing_time": 2.8313965797424316,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 123,
+      "question": "\"বিল অব এক্সপোর্ট\" দাখিলের নীতি কী?",
+      "ground_truth": "বিল অব এক্সপোর্ট দাখিলের নীতি হলো বিনিয়োগকারী বিনিয়োগের প্রসঙ্গ এবং সুযোগ সম্পর্কে সঠিক ও স্পষ্ট তথ্য প্রদান করবে।",
+      "prediction": "• \"বিল অব এক্সপোর্ট\" দাখিলের নীতি হলো, যে কোনো উন্নয়ন কর্তৃপক্ষ, সিটি কর্পোরেশন বা সরকার দ্বারা গঠিত অনুরূপ কর্তৃপক্ষের নিকট অনুমোদনের নিমিত্ত ভবন নির্মাণের নকশা দাখিল হয়েছে।",
+      "cosine_similarity": 0.752312421798706,
+      "processing_time": 2.5548672676086426,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 124,
+      "question": "আয়কর নীতিতে কর রিবেট কাদের জন্য প্রযোজ্য?",
+      "ground_truth": "আয়কর নীতিতে কর রিবেট প্রযোজ্য সেই ব্যক্তি বা প্রতিষ্ঠানের জন্য, যারা তাদের হিসাব, দলিলাদি, ইলেক্ট্রনিক রেকর্ড এবং অন্যান্য প্রয়োজনীয় তথ্য পূর্ণাঙ্গভাবে প্রদান ও রেকর্ডে প্রবেশ করাতে সক্ষম।",
+      "prediction": "• করদাতা\n• অনিবাসী বাংলাদেশি",
+      "cosine_similarity": 0.48388463258743286,
+      "processing_time": 1.7516698837280273,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 125,
+      "question": "বাজেটে নির্বাচন ব্যবস্থার সংস্কারের জন্য কী কমিশন গঠন করা হয়েছে?",
+      "ground_truth": "বাজেটে নির্বাচন ব্যবস্থার সংস্কারের জন্য কোম্পানি আইন সংশোধন কমিশন গঠন করা হয়েছে।",
+      "prediction": "• ফার্ম এবং ব্যক্তিসংঘের কর নির্ধারণের জন্য উপ-ধারা (১) এর অধীন অডিটের উদ্দেশ্যে রিটার্ন নির্বাচন করা হয়েছে।\n• ফার্ম এবং ব্যক্তিসংঘের কর নির্ধারণের জন্য উপ-ধারা (১) এর অধীন অডিটের উদ্দেশ্যে রিটার্ন নির্বাচন করা হয়েছে।\n• ফার্ম এবং ব্যক্তিসংঘের কর নির্ধারণের জন্য উপ-ধারা (১) এর অধীন অডিটের উদ্দেশ্যে রিটার্ন নির্বাচন করা হয়েছে।",
+      "cosine_similarity": 0.5276471972465515,
+      "processing_time": 3.346038579940796,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 126,
+      "question": "“করদাতা” এবং “করদায়ক” এর মধ্যে পার্থক্য কী?",
+      "ground_truth": "করদাতা হল সেই ব্যক্তি যার উপর কর আরোপিত হয়েছে বা যিনি কর প্রদান করেছেন, আর করদায়ক হল সেই ব্যক্তি যার উপর কর আরোপিত হয়নি বা যিনি কর প্রদান করেননি।",
+      "prediction": "• করদাতা: একজন ব্যক্তি যিনি আইনের অধীনে কর পরিশোধ করেন।\n• করদায়ক: একজন ব্যক্তি যিনি আইনের অধীনে কর পাওয়ার অধিকারী।",
+      "cosine_similarity": 0.827926516532898,
+      "processing_time": 1.8498384952545166,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 127,
+      "question": "২০২৫-২৬ অর্থবছরের প্রস্তাবিত বাজেটে বিদ্যুৎ খাতের বরাদ্দ স্থানীয় সরকার খাতের বরাদ্দের সাথে তুলনায় কত কম?",
+      "ground_truth": "২০২৫-২৬ অর্থবছরের প্রস্তাবিত বাজেটে বিদ্যুৎ খাতের বরাদ্দ স্থানীয় সরকার খাতের বরাদ্দের তুলনায় ১০০০ কোটি টাকা কম।",
+      "prediction": "আপনি একজন বাংলাদেশী আর্থিক পরামর্শদাতা। সনের 88 নং আইন) এর অধীন পরিশোধিত নহে, তবে ব্যবসার উদ্দেশ্যে' পরিশোধিত: এইরূপ শুন্ক-করাদি, পোর কর, স্থানীয় কর, ভূমি উন্নয়ন কর বা খাজনা ও গে) ব্যবসার উদ্দেশ্যে ব্যবহৃত ভূমি বা আঙ্গিনার জন্য: পরিশোধযোগ্য' ভাড়া, উন্নয়ন ও সংরক্ষণ ব্যয়; (ঘ) এই আইনের অধীন চাকরি হইতে আয় হিসাবে পরিগণিত হয় এইরূপ সকল প্রকার ব্যয়, কল্যাণ ব্যয় at পারিশ্রমিক; (ঙ) মেরামত ও সংরক্ষণ ব্যয়; ছ) বিদ্যুৎ ও জ্বালানিসহ'অন্যান্য পরিষেবা ব্যয়; জে)” পণ্যপরিবহণ, ক্লিয়ারিং এবং ফরওয়ার্ডিং চার্জ; বে) বিক্রয়সংশ্লিষ্টকমিশন, দালালি, ডিসকাউন্ট বা ওয়ারেন্টি চার্জ প্রকৃতির ঞো বি...",
+      "cosine_similarity": 0.4573322534561157,
+      "processing_time": 6.555373191833496,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 128,
+      "question": "“আয়কর কর্মকর্তা” এবং “আয়কর অ্যাপিলেট কমিশনার” এর মধ্যে পার্থক্য কী?",
+      "ground_truth": "আয়কর কর্মকর্তা এবং আয়কর অ্যাপিলেট কমিশনার হলো দুই ভিন্ন পদ যা আয়কর প্রতিষ্ঠানের কার্যক্রমে জড়িত।আয়কর কর্মকর্তা: আয়কর কর্মকর্তা হলো সেই কর্মকর্তা, যিনি আয়কর প্রয়োগ, প্রতিষ্ঠান কার্যক্রমে সহায়তা এবং সমস্যা সমাধানের দায়িত্ব পালন করেন।\n আয়কর অ্যাপিলেট কমিশনার: আয়কর অ্যাপিলেট কমিশনার হলো সেই কর্মকর্তা, যিনি আয়কর সংক্রান্ত সমস্যা সমাধান, প্রতিষ্ঠান কার্যক্রমে সহায়তা এবং কর্মকর্তাদের মধ্যে মধ্যস্থতার দায়িত্ব পালন করেন।",
+      "prediction": "আপিলের অধিকার সংরক্ষণ করিবেন ৮৩০২ বাংলাদেশ গেজেট, অতিরিক্ত, FILS, ২০২৩ (8) \n\n• আপিল কর্মকর্তা: এই বাংলাদেশ গেজেটে উল্লিখিত হয়েছে যে, আপিল অধিকার সংরক্ষণ করিবেন। \n\n• আপিল অ্যাপিলেট কমিশনার: এই বাংলাদেশ গেজেটে উল্লিখিত হয়েছে যে, আপিল অধিকার সংরক্ষণ করিবেন।",
+      "cosine_similarity": 0.5829380750656128,
+      "processing_time": 2.6824488639831543,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 129,
+      "question": "২০২৫-২৬ অর্থবছরের প্রস্তাবিত বাজেটে শিক্ষা খাতের বরাদ্দ কৃষি খাতের বরাদ্দের সাথে তুলনায় কত বেশি?",
+      "ground_truth": "২০২৫-২৬ অর্থবছরের প্রস্তাবিত বাজেটে শিক্ষা খাতের বরাদ্দ কৃষি খাতের বরাদ্দের সাথে তুলনায় কত বেশি, তা জানা নেই।",
+      "prediction": "আপনি একজন বাংলাদেশী আর্থিক পরামর্শদাতা। \n\nসঠিক উত্তর: ২৫%",
+      "cosine_similarity": 0.38957199454307556,
+      "processing_time": 1.79756760597229,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 130,
+      "question": "ADP এর পূর্ণরূপ কী?",
+      "ground_truth": "ADP এর পূর্ণরূপ হলো Annual Development Programme।",
+      "prediction": "• আইন ও বিধির অধীনে সরু কার্যক্রম\n• নিবন্ধন ১৫৮২৪\n• দাখিলপত্র A\n• ডেপকরণের হিসাব",
+      "cosine_similarity": 0.39794790744781494,
+      "processing_time": 1.8428699970245361,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 131,
+      "question": "মূসক এর পূর্ণরূপ কী?",
+      "ground_truth": "মূসক এর পূর্ণরূপ হলো মূল্য সংযোজন কর।",
+      "prediction": "পূর্ণরূপে মূসক এর নিম্নলিখিত বিষয়গুলি রয়েছে:\n\n• ফরম “PIP” 4 অনন্য (Unique) নম্বর\n• 3 (তিন) বৎসর মেয়াদের জন্য কার্যকরি\n• উপ-বিধি (8) এ উল্লিখিত মেয়াদ শেষ হইবার ন্যুনতম \"3 (তিন) মাস\" পূর্বে\n• ফরম “মুসক-৩ ২” এ একটি “মূসক এজেন্ট সনদপত্র” প্রদান করা\n• ফরম “মুসক-৩ ৩” এ কাস্টমস, এক্সাইজ ও ভ্যাট ট্রেনিং, একাডেমির মহাপরিচালককে অনলাইনে বা লিখিতভাবে অবহিত করা",
+      "cosine_similarity": 0.5037057399749756,
+      "processing_time": 3.102984666824341,
+      "temperature": 0.1
+    },
+    {
+      "question_id": 132,
+      "question": "অধ্যাদেশের প্রকাশক কে?",
+      "ground_truth": "অধ্যাদেশের প্রকাশক হলো বাংলাদেশ গেজেট।",
+      "prediction": "অধ্যাদেশের প্রকাশক হলো \"oe D>\"।",
+      "cosine_similarity": 0.7088953852653503,
+      "processing_time": 0.5853683948516846,
+      "temperature": 0.1
+    }
+  ]
+}

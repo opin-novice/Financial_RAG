@@ -3,7 +3,7 @@
 Domain-Based Advanced RAG Cosine Similarity Evaluation
 =====================================================
 Evaluates Advanced RAG system on specific domain QA pairs using cosine similarity
-Usage: python domain_advanced_rag_cosine_evaluation.py --domain_file "Comparative_Financial.json"
+Usage: python domain_advanced_rag_cosine_evaluation.py --domain_file "totalqapair.json"
 """
 
 import os
