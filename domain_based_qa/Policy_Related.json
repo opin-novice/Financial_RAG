@@ -1,9 +1,5 @@
 [
     {
-        "question": "What policy provides rebate for non-listed companies listing through IPO?",
-        "answer": "Rebate for listed companies listing through IPO is: non listed companies, including branch companies other than banks, insurance companies, merchant banks, jute, textile, garment industries, mobile phone operator companies and cigarette, Zarda, bidi, gul, or any other tobacco product. This are eligible for a rebate of 10% in the year of listing if they list at least 20% of their paid, up capital through IPO."
-    },
-    {
         "question": "Who should submit Income Tax Return?",
         "answer": "To submit Income Tax Return a individuals with a total income exceeding Tk. 2,50,000/, (excluding female taxpayers, senior male taxpayers of 65 years and above, retarded taxpayers, and war, wounded gazetted freedom fighters). For female taxpayers with a total income exceeding Tk. 3,00,000/, Retarded taxpayers with a total income exceeding Tk. 3,75,000/,"
     },
@@ -38,6 +34,10 @@
     {
         "question": "What is contains to give effect to the various proposals in the annual budget covering the areas of direct and indirect taxes.",
         "answer": "The Finance Act, 2023, contains the following: Tax rates, Amendments to existing laws relating to government tax or non tax revenue. And insertion of new clauses/sub, sections/sections/schedules in existing laws. Deletion of old clauses/sub, sections/sections/schedules in existing laws."
+    },
+    {
+        "question": "What policy provides rebate for non-listed companies listing through IPO?",
+        "answer": "Rebate for listed companies listing through IPO is: non listed companies, including branch companies other than banks, insurance companies, merchant banks, jute, textile, garment industries, mobile phone operator companies and cigarette, Zarda, bidi, gul, or any other tobacco product. This are eligible for a rebate of 10% in the year of listing if they list at least 20% of their paid, up capital through IPO."
     },
     {
         "question": "What is the Extending power of NBR officials?",

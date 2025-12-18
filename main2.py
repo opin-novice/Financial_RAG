@@ -31,7 +31,7 @@ Version: 2.1 - Telegram Bot Edition
 TELEGRAM_BOT_TOKEN = "7596897324:AAG3TsT18amwRF2nRBcr1JS6NdGs96Ie-D0"  # ⚠️ REPLACE WITH YOUR ACTUAL TOKEN!
 
 # Ollama Configuration
-OLLAMA_MODEL = "llama3.1:8b"
+OLLAMA_MODEL = "mixtral:8x7b"
 OLLAMA_BASE_URL = "http://localhost:11434"
 OLLAMA_TEMPERATURE = 0.1   # Controls randomness (0.0 = deterministic, 1.0 = very creative)
 OLLAMA_TOP_P = 0.9             # Nucleus sampling (0.1 = focused, 1.0 = diverse)
@@ -55,10 +55,10 @@ CROSS_ENCODER_BATCH_SIZE = 32
 # RRF Configuration
 RRF_K = 50  # RRF constant, typically between 10-100
 RRF_WEIGHTS = {
-    "chroma": 0.45,     # Boost semantic search (increased from 0.35)
-    "bm25": 0.35,      # Boost keyword search (increased from 0.25)
+    "chroma": 0.55,     # Boost semantic search (increased from 0.35)
+    "bm25": 0.30,      # Boost keyword search (increased from 0.25)
     "multilingual_e5": 0.0,   # Disabled due to resource constraints
-    "dirichlet": 0.2  # Language model weight
+    "dirichlet": 0.15  # Language model weight
 }
 
 # Multilingual E5 Configuration  
